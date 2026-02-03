@@ -1,14 +1,25 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PointHandler : MonoBehaviour, IPointerClickHandler
+public class PointHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
   public Outline Outline;
 
-  public void OnPointerClick(PointerEventData eventData) {
+  void Awake() {
     if (Outline != null) {
-      Outline.enabled = !Outline.enabled;
-      Debug.Log($"TargetScript toggled. Current state: {Outline.enabled}");
+      Outline.enabled = false;
+    }
+  }
+
+  public void OnPointerEnter(PointerEventData eventData) {
+    if (Outline != null) {
+      Outline.enabled = true;
+    }
+  }
+
+  public void OnPointerExit(PointerEventData eventData) {
+    if (Outline != null) {
+      Outline.enabled = false;
     }
   }
 }
