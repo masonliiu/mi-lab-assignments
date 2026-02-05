@@ -49,3 +49,7 @@ sysinfo.txt
 
 # Mac
 Thumbs.db
+
+# Build profiles and generated build files
+[Bb]uild[Pp]rofiles/
+*.blob
