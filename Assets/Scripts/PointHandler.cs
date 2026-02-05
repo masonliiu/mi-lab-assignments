@@ -7,7 +7,7 @@ public class PointHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 {
   public Outline Outline;
 
-  [Header("Meta XR / Oculus Interaction SDK")]
+  [Header("Meta XR")]
   [SerializeField] private RayInteractable _rayInteractable;
 
   private readonly HashSet<int> _hoveringPointerIds = new HashSet<int>();

@@ -9,12 +9,6 @@
 
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m75C3BB6863489AED0D5ED23A50FC2B78D83B0D4B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2B5E401043D3EF6EC0554C5045D2FA46F2A513E6 (void);
-extern void DepthProvider__ctor_m4353FAD90DB5CE70302EDA12291700C9217D6C39 (void);
-extern void DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported_m79A3A1546BD22015B833F4CBDBC7AFF4CADEB19D (void);
-extern void DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands_m61A78CC8A1D76AB66B90B750A05AF33410D86108 (void);
-extern void DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled_m9F5C449C27F805AA7E27314D582CF6A7A402C6CB (void);
-extern void DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture_m15CF823A751D21EF93E5C9C77B5D44927F8255B8 (void);
-extern void DepthProvider_GetFrameDesc_m282D632780D999C3E64F3884406D68DCA3A3B857 (void);
 extern void EnvironmentDepthManager_get_MaskMeshFilters_m97869EE18D51E20EE954B89C73E7DAE9EAA6DA4B (void);
 extern void EnvironmentDepthManager_set_MaskMeshFilters_m30E69B49ABCFB2DE4F378B6319A06C64931CB3B4 (void);
 extern void EnvironmentDepthManager_add_onDepthTextureUpdate_mCC9582C4F55323241A1575565EC0617BCC6C679B (void);
@@ -55,16 +49,10 @@ extern void EnvironmentDepthUtils_ComputeNdcToLinearDepthParameters_m4ED08BC1248
 extern void EnvironmentDepthUtils_CalculateReprojection_m5E3435EBDF139CCC6D1E006FF797311DF8ADF2E3 (void);
 extern void EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60 (void);
 extern void EnvironmentDepthUtils__cctor_m2DF5D2142435F391BB3D02EC4A0EFC82248879D5 (void);
-static Il2CppMethodPointer s_methodPointers[52] = 
+static Il2CppMethodPointer s_methodPointers[46] = 
 {
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m75C3BB6863489AED0D5ED23A50FC2B78D83B0D4B,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2B5E401043D3EF6EC0554C5045D2FA46F2A513E6,
-	DepthProvider__ctor_m4353FAD90DB5CE70302EDA12291700C9217D6C39,
-	DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported_m79A3A1546BD22015B833F4CBDBC7AFF4CADEB19D,
-	DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands_m61A78CC8A1D76AB66B90B750A05AF33410D86108,
-	DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled_m9F5C449C27F805AA7E27314D582CF6A7A402C6CB,
-	DepthProvider_Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture_m15CF823A751D21EF93E5C9C77B5D44927F8255B8,
-	DepthProvider_GetFrameDesc_m282D632780D999C3E64F3884406D68DCA3A3B857,
 	EnvironmentDepthManager_get_MaskMeshFilters_m97869EE18D51E20EE954B89C73E7DAE9EAA6DA4B,
 	EnvironmentDepthManager_set_MaskMeshFilters_m30E69B49ABCFB2DE4F378B6319A06C64931CB3B4,
 	EnvironmentDepthManager_add_onDepthTextureUpdate_mCC9582C4F55323241A1575565EC0617BCC6C679B,
@@ -110,66 +98,60 @@ static Il2CppMethodPointer s_methodPointers[52] =
 	EnvironmentDepthUtils_CalculateDepthCameraMatrices_mEAFC3CA26D1CB1BB8D595409083E1B6EB21E8F60,
 	EnvironmentDepthUtils__cctor_m2DF5D2142435F391BB3D02EC4A0EFC82248879D5,
 };
-static const int32_t s_InvokerIndices[52] = 
+static const int32_t s_InvokerIndices[46] = 
 {
-	32232,
-	19944,
-	15312,
-	19482,
-	15077,
-	6633,
-	4776,
-	29997,
-	19720,
-	15312,
-	15312,
-	15312,
-	32109,
-	32109,
-	32051,
-	19482,
-	15077,
-	19629,
-	15222,
-	19482,
-	15077,
-	19822,
-	15414,
-	19944,
-	19944,
-	19944,
-	19944,
-	19944,
-	19944,
-	30839,
-	15275,
-	19681,
-	15312,
-	27561,
-	19944,
-	32200,
-	3684,
-	2388,
-	19944,
+	32877,
+	20257,
+	20032,
+	15546,
+	15546,
+	15546,
+	32743,
+	32743,
+	32685,
+	19793,
+	15311,
+	19941,
+	15456,
+	19793,
+	15311,
+	20135,
+	15649,
+	20257,
+	20257,
+	20257,
+	20257,
+	20257,
+	20257,
+	31459,
+	15509,
+	19993,
+	15546,
+	28079,
+	20257,
+	32835,
+	3707,
+	2397,
+	20257,
 	-1,
 	-1,
 	-1,
 	-1,
-	19482,
-	15077,
-	6633,
-	4776,
-	19944,
-	27155,
-	30214,
-	25091,
-	32200,
+	19793,
+	15311,
+	6740,
+	4838,
+	20257,
+	27652,
+	30829,
+	25539,
+	32835,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Meta_XR_EnvironmentDepth_CodeGenModule;
 const Il2CppCodeGenModule g_Meta_XR_EnvironmentDepth_CodeGenModule = 
 {
 	"Meta.XR.EnvironmentDepth.dll",
-	52,
+	46,
 	s_methodPointers,
 	0,
 	NULL,
