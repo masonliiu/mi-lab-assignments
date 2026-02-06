@@ -11367,6 +11367,10 @@ struct Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7  : public MonoBehaviou
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___cursorDot;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___rayOrigin;
 	float ___backOffDistance;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___cursorDotLeft;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___rayOriginLeft;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___cursorDotRight;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___rayOriginRight;
 	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___boundaryCollider;
 	bool ___useBoundary;
 };
@@ -15726,9 +15730,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable16337[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable16342[1] = 
 {
 	static_cast<int32_t>(offsetof(XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_StaticFields, ___deviceLoaded)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable16344[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable16344[10] = 
 {
-	static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rigRoot)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___cursorDot)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rayOrigin)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___backOffDistance)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___boundaryCollider)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___useBoundary)),};
+	static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rigRoot)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___cursorDot)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rayOrigin)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___backOffDistance)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___cursorDotLeft)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rayOriginLeft)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___cursorDotRight)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___rayOriginRight)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___boundaryCollider)),static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___useBoundary)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable16345[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};

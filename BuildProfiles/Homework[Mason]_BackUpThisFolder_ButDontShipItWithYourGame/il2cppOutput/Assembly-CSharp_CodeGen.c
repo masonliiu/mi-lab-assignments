@@ -7,6 +7,7 @@
 
 
 
+extern void Movement_TryTeleport_m70EA07C8CA93A99B00848A68CFA93212FC7E9AA2 (void);
 extern void Movement_IsWithinBoundary_mDD7342EADA82F6A6EADA7E72B3BBEE8D8B888DD9 (void);
 extern void Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418 (void);
 extern void Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED (void);
@@ -47,8 +48,9 @@ extern void ResetRig_ResetToAnchor_mCB121CEAF3A6C0199803A9B8A6EBD92F36E8CBF2 (vo
 extern void ResetRig__ctor_mB3141EB91232487CA00CCC3639711FA82CC6659D (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[40] = 
+static Il2CppMethodPointer s_methodPointers[41] = 
 {
+	Movement_TryTeleport_m70EA07C8CA93A99B00848A68CFA93212FC7E9AA2,
 	Movement_IsWithinBoundary_mDD7342EADA82F6A6EADA7E72B3BBEE8D8B888DD9,
 	Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418,
 	Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED,
@@ -90,8 +92,9 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[40] = 
+static const int32_t s_InvokerIndices[41] = 
 {
+	8194,
 	11456,
 	20257,
 	20257,
@@ -137,7 +140,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	40,
+	41,
 	s_methodPointers,
 	0,
 	NULL,

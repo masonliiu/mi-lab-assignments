@@ -4,15 +4,24 @@ public class Movement : MonoBehaviour
 {
   public Transform rigRoot;
   public Transform cursorDot;
-  public Transform rayOrigin; 
+  public Transform rayOrigin;
+  public float backOffDistance = 0.2f;
+  [Header("Hand Tracking (Pinch to Teleport)")]
+  public OVRHand ovrHandLeft;
+  public OVRHand ovrHandRight;
+  [Header("Left Hand Teleportation")]
+  public Transform cursorDotLeft;
+  public Transform rayOriginLeft; 
   [Header("Right Hand Teleportation")]
   public Transform cursorDotRight;
   public Transform rayOriginRight;
-  public float backOffDistance = 0.2f;
   
   [Header("Boundary Settings")]
   public BoxCollider boundaryCollider;
   public bool useBoundary = true; 
+
+  bool _leftPinchLastFrame;
+  bool _rightPinchLastFrame;
 
   void TryTeleport(Transform cursor, Transform ray) {
     if (rigRoot == null || cursor == null) return;
@@ -43,18 +52,33 @@ public class Movement : MonoBehaviour
     Transform useCursor = null;
     Transform useRay = null;
 
-    //left hand and controller
-    if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || 
-        OVRInput.GetDown(OVRInput.Button.Four)) {
-      useCursor = cursorDot;
-      useRay = rayOrigin;
-      teleportRequested = true;
+    // left hand
+    if (ovrHandLeft != null) {
+      bool leftPinch = ovrHandLeft.GetFingerIsPinching(OVRHand.HandFinger.Index);
+      if (leftPinch && !_leftPinchLastFrame) {
+        useCursor = cursorDotLeft != null ? cursorDotLeft : cursorDot;
+        useRay = rayOriginLeft != null ? rayOriginLeft : rayOrigin;
+        teleportRequested = true;
+      }
+      _leftPinchLastFrame = leftPinch;
     }
-    //right hand
-    if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger)) {
-      useCursor = cursorDotRight != null ? cursorDotRight : cursorDot;
-      useRay = rayOriginRight != null ? rayOriginRight : rayOrigin;
-      teleportRequested = true;
+    // right hand
+    if (ovrHandRight != null) {
+      bool rightPinch = ovrHandRight.GetFingerIsPinching(OVRHand.HandFinger.Index);
+      if (rightPinch && !_rightPinchLastFrame) {
+        useCursor = cursorDotRight != null ? cursorDotRight : cursorDot;
+        useRay = rayOriginRight != null ? rayOriginRight : rayOrigin;
+        teleportRequested = true;
+      }
+      _rightPinchLastFrame = rightPinch;
+    }
+    // controller
+    if (!teleportRequested) {
+      if (OVRInput.GetDown(OVRInput.Button.Four)) {
+        useCursor = cursorDot;
+        useRay = rayOrigin;
+        teleportRequested = true;
+      }
     }
 
     if (teleportRequested && useCursor != null) {
