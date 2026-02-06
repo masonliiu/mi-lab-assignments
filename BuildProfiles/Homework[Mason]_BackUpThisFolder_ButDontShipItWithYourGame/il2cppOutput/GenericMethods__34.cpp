@@ -16299,7 +16299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:233>
 		RuntimeObject* L_0 = ___0_segments;
 		if (L_0)
 		{
@@ -16307,8 +16307,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:235>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:236>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m6D9C7B47EA708382838B264BA02EBB7576DFA155(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8E241A10F4936825F3F2EAF776F78642B71A2701)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5ECB0E5EF98789E045178D9D99F70EEB1A9B1BE3)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
@@ -16316,7 +16316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:239>
 		NullCheck((RuntimeObject*)(___0_segments));
 		bool L_2;
 		L_2 = InterfaceFuncInvoker0< bool >::Invoke(1, ICollection_1_tD8640BD3EEEC2043D69EE193D0BF9F8569B458D6_il2cpp_TypeInfo_var, (RuntimeObject*)(___0_segments));
@@ -16326,7 +16326,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:241>
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_3 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCFE008D756E1E4CF538F2DC093071EC771CFE97B)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, method);
@@ -16334,10 +16334,10 @@ IL_0018:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:243>
 		NullCheck((RuntimeObject*)(___0_segments));
 		InterfaceActionInvoker0::Invoke(3, ICollection_1_tD8640BD3EEEC2043D69EE193D0BF9F8569B458D6_il2cpp_TypeInfo_var, (RuntimeObject*)(___0_segments));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this, NULL);
@@ -16381,13 +16381,13 @@ IL_0086:
 
 IL_004d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 				RuntimeObject* L_9 = V_0;
 				NullCheck(L_9);
 				RuntimeObject* L_10;
 				L_10 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_9);
 				V_1 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_10, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:246>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:246>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_1;
 				NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_11);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -16398,7 +16398,7 @@ IL_004d_1:
 
 IL_006c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 				RuntimeObject* L_13 = V_0;
 				NullCheck(L_13);
 				bool L_14;
@@ -16420,7 +16420,7 @@ IL_006c_1:
 
 IL_0087:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:248>
 		return;
 	}
 }
@@ -16443,7 +16443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:233>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___0_segments : &___0_segments), SizeOf_T_t986C172362C2AD459AA2874F64BCE3115C949AF6);
 		bool L_1 = il2cpp_codegen_would_box_to_non_null(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), L_0);
 		if (L_1)
@@ -16452,8 +16452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:235>
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:236>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_2 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m6D9C7B47EA708382838B264BA02EBB7576DFA155(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8E241A10F4936825F3F2EAF776F78642B71A2701)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5ECB0E5EF98789E045178D9D99F70EEB1A9B1BE3)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, method);
@@ -16461,7 +16461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestructibleMeshComponent_GetDestructibl
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:239>
 		bool L_4;
 		L_4 = ConstrainedFuncInvoker0< bool >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 0), il2cpp_rgctx_method(method->rgctx_data, 1), L_3, (void*)(Il2CppFullySharedGenericAny*)(il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___0_segments : &___0_segments));
 		if (!L_4)
@@ -16470,7 +16470,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:241>
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_5 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCFE008D756E1E4CF538F2DC093071EC771CFE97B)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, method);
@@ -16478,9 +16478,9 @@ IL_0018:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:243>
 		ConstrainedActionInvoker0::Invoke(il2cpp_rgctx_data(method->rgctx_data, 0), il2cpp_rgctx_method(method->rgctx_data, 2), L_6, (void*)(Il2CppFullySharedGenericAny*)(il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___0_segments : &___0_segments));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this, NULL);
@@ -16524,13 +16524,13 @@ IL_0086:
 
 IL_004d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 				RuntimeObject* L_12 = V_0;
 				NullCheck(L_12);
 				RuntimeObject* L_13;
 				L_13 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_12);
 				V_1 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_13, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:246>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:246>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_1;
 				NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_14);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -16540,7 +16540,7 @@ IL_004d_1:
 
 IL_006c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:244>
+				//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:244>
 				RuntimeObject* L_17 = V_0;
 				NullCheck(L_17);
 				bool L_18;
@@ -16562,7 +16562,7 @@ IL_006c_1:
 
 IL_0087:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/DestructibleMeshComponent.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/DestructibleMeshComponent.cs:248>
 		return;
 	}
 }
@@ -16678,15 +16678,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DropDownGroup_TryGetChildComponent_TisRu
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:323>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
 		String_t* L_1 = ___1_childName;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = TransformExtensions_FindChildRecursive_mD25507C28E86B1AA9A8DC17A1B0285865B478BA6(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:324>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:325>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:326>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -16721,16 +16721,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DropDownGroup_TryGetChildComponent_TisRu
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:328>
 		return (bool)1;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:331>
 		RuntimeObject** L_11 = ___2_component;
 		il2cpp_codegen_initobj(L_11, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Objects/UISet/Scripts/DropDownGroup.cs:332>
 		return (bool)0;
 	}
 }

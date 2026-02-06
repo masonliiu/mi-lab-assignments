@@ -20471,22 +20471,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugManager_RegisterManager_TisRuntimeO
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:151>
 		RuntimeObject* L_0;
 		L_0 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:152>
 		RuntimeObject* L_1;
 		L_1 = DebugManager_get_UiPanel_m0DFF50CC6F3550559E78809FE1ADBFCC86819DAC_inline(__this, NULL);
 		InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* L_2 = __this->___InstanceCache;
 		NullCheck((RuntimeObject*)(V_0));
 		InterfaceActionInvoker2< RuntimeObject*, InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* >::Invoke(0, IDebugManager_tB48DE2017EB8184502A182C58EAB23A3F2FFB54E_il2cpp_TypeInfo_var, (RuntimeObject*)(V_0), L_1, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:153>
 		List_1_t515C763EDB17C92A736F1C36197BC4155438FD7D* L_3 = __this->___SubDebugManagers;
 		RuntimeObject* L_4 = V_0;
 		NullCheck(L_3);
 		List_1_Add_m89CAC331F05B96A05D29642F7B313ED2A73C83B8_inline(L_3, (RuntimeObject*)L_4, List_1_Add_m89CAC331F05B96A05D29642F7B313ED2A73C83B8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:154>
 		return;
 	}
 }
@@ -20505,21 +20505,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugManager_RegisterManager_TisIl2CppFu
 	Il2CppFullySharedGenericAny V_0 = alloca(SizeOf_TManagerType_t97EC87BA750A56EB7AAFFB7841DCA3197F68A7A8);
 	memset(V_0, 0, SizeOf_TManagerType_t97EC87BA750A56EB7AAFFB7841DCA3197F68A7A8);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:151>
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 0), NULL, (Il2CppFullySharedGenericAny*)L_0);
 		il2cpp_codegen_memcpy(V_0, L_0, SizeOf_TManagerType_t97EC87BA750A56EB7AAFFB7841DCA3197F68A7A8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:152>
 		RuntimeObject* L_1;
 		L_1 = DebugManager_get_UiPanel_m0DFF50CC6F3550559E78809FE1ADBFCC86819DAC_inline(__this, NULL);
 		InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* L_2 = __this->___InstanceCache;
 		ConstrainedActionInvoker2< RuntimeObject*, InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_3, (void*)(Il2CppFullySharedGenericAny*)V_0, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:153>
 		List_1_t515C763EDB17C92A736F1C36197BC4155438FD7D* L_4 = __this->___SubDebugManagers;
 		il2cpp_codegen_memcpy(L_5, V_0, SizeOf_TManagerType_t97EC87BA750A56EB7AAFFB7841DCA3197F68A7A8);
 		RuntimeObject* L_6 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 1), L_5);
 		NullCheck(L_4);
 		List_1_Add_m89CAC331F05B96A05D29642F7B313ED2A73C83B8_inline(L_4, (RuntimeObject*)L_6, List_1_Add_m89CAC331F05B96A05D29642F7B313ED2A73C83B8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:154>
 		return;
 	}
 }
@@ -23917,7 +23917,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BindingId_t8BBB6188CD126EACCA0781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DebugManager_get_UiPanel_m0DFF50CC6F3550559E78809FE1ADBFCC86819DAC_inline (DebugManager_tB497DAE8D9055CB6B970EBD98704022045F1E608* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/DebugManager.cs:61>
 		RuntimeObject* L_0 = __this->___U3CUiPanelU3Ek__BackingField;
 		return L_0;
 	}

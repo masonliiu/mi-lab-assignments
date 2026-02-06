@@ -12808,7 +12808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemScope_1__ctor_m6B34955619731AC90D52C
 {
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:226>
 		RuntimeObject** L_0 = ___0_item;
 		RuntimeObject* L_1;
 		L_1 = OVRObjectPool_Get_TisRuntimeObject_m4C4607A6D063CCEB8FFE7317FC0AC3A536AEFD1C(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -12833,7 +12833,7 @@ IL2CPP_EXTERN_C  void ItemScope_1__ctor_m6B34955619731AC90D52CFB20F31A2DB8CFF0B5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemScope_1_Dispose_m9AC806ADE804805D04BFB8793DD840BCCBB97E14_gshared (ItemScope_1_t2540E6B526A57033F37EB1456A807C2071EA6329* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:227>
 		RuntimeObject* L_0 = __this->____item;
 		OVRObjectPool_Return_TisRuntimeObject_m59E9AEA1458F1459886C344546AFF3482B15F519(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
 		return;
@@ -12858,7 +12858,7 @@ IL2CPP_EXTERN_C  void ItemScope_1_Dispose_m9AC806ADE804805D04BFB8793DD840BCCBB97
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ItemWithChildren_3_ComputeNumberOfChildren_mF213D0295D79BB7568AA1CB1C137FBA66C22D708_gshared (ItemWithChildren_3_tB1896E151768E4824AF507C6774618E5EA4AE6EC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		NullCheck(L_0);
@@ -12871,7 +12871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_MarkChildrenDirty_m13
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -12896,17 +12896,17 @@ FINALLY_002b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, (bool)1, NULL);
 			}
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -12926,7 +12926,7 @@ IL_0020_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
 		return;
 	}
 }
@@ -12937,7 +12937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearDirtyChildren_m7
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -12962,11 +12962,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_3);
 				bool L_4;
@@ -12977,7 +12977,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
 				RuntimeObject* L_5 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5, NULL);
@@ -12985,7 +12985,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_6)
@@ -13005,7 +13005,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
 		return;
 	}
 }
@@ -13018,7 +13018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ItemWithChildren_3_GetChild_m4
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13043,11 +13043,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_3);
 				RuntimeObject* L_4;
@@ -13061,7 +13061,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
 				RuntimeObject* L_7 = V_1;
 				V_2 = L_7;
 				goto IL_0051;
@@ -13069,7 +13069,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_8)
@@ -13089,7 +13089,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
 		il2cpp_codegen_initobj((&V_3), sizeof(RuntimeObject*));
 		RuntimeObject* L_9 = V_3;
 		return L_9;
@@ -13097,7 +13097,7 @@ IL_0047:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
 		RuntimeObject* L_10 = V_2;
 		return L_10;
 	}
@@ -13108,7 +13108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearChildren_m3AD79B
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13133,17 +13133,17 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, NULL);
 			}
 
 IL_001f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -13163,14 +13163,14 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = __this->____children;
 		NullCheck(L_4);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_ClearChildren_m1A937C787A847AD5FBC53D248ADBB2791B102419((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
 		return;
 	}
 }
@@ -13178,7 +13178,7 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_mBF42F80D7964F9BA6C02E357BD542E8DC34AD0A2_gshared (ItemWithChildren_3_tB1896E151768E4824AF507C6774618E5EA4AE6EC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(10, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -13188,22 +13188,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_mBF42F8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
 		ItemWithChildren_3_MarkChildrenDirty_m13CD1BBE7C427C387B0848E9B040A847820455AD(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
 		ItemWithChildren_3_BuildChildrenInternal_m211E0A2C04E783949262FAC68F08E21B1A0C8A50(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
 		ItemWithChildren_3_ClearDirtyChildren_m7475077815283D8653115A059FE143F10B249BDB(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
 		return;
 	}
 }
@@ -13215,7 +13215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -13225,19 +13225,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
 		RuntimeObject* L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_m4777E11A315E2D86783B839157739170AA4B5039(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
 		RuntimeObject* L_7 = V_3;
 		if (!L_7)
 		{
@@ -13245,35 +13245,35 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
 		RuntimeObject* L_8 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
 		goto IL_0067;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
 		RuntimeObject* L_9;
 		L_9 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->klass->rgctx_data, 20));
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
 		RuntimeObject* L_10 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
 		RuntimeObject* L_11 = V_3;
 		RuntimeObject* L_12 = V_2;
 		NullCheck((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_11);
 		Item_1_SetOwner_m3FC3EC9B0BE4E6B6C472B8577DF8C6D16E25886F((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 21));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_13 = __this->____children;
 		RuntimeObject* L_14 = V_3;
 		NullCheck(L_13);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_13, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
 		RuntimeObject* L_15 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15);
 		VirtualActionInvoker1< Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* >::Invoke(6, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -13287,7 +13287,7 @@ IL_0067:
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		int32_t L_17 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = V_0;
 		NullCheck(L_18);
@@ -13297,7 +13297,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
 		return;
 	}
 }
@@ -13308,7 +13308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -13318,14 +13318,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		RuntimeObject* L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_m4777E11A315E2D86783B839157739170AA4B5039(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
@@ -13335,7 +13335,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		return (bool)1;
 	}
 
@@ -13347,7 +13347,7 @@ IL_0023:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		int32_t L_8 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = V_0;
 		NullCheck(L_9);
@@ -13357,7 +13357,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
 		return (bool)0;
 	}
 }
@@ -13365,7 +13365,7 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m2BCDFA1568A3FA34CC5D0AF6B15667554F2BFDB0_gshared (ItemWithChildren_3_tB1896E151768E4824AF507C6774618E5EA4AE6EC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		__this->____children = L_0;
@@ -13386,7 +13386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m2BCDFA1568A3FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ItemWithChildren_3_ComputeNumberOfChildren_m7CA7DF3B0BFAAE95B22475E7A49DE4DA9ED8A3AA_gshared (ItemWithChildren_3_t8B0CF75D73B94F319B9D229C7AA3C2E4AFD42984* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_0;
 		L_0 = VirtualFuncInvoker0< SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* >::Invoke(18, __this);
 		NullCheck(L_0);
@@ -13399,7 +13399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_MarkChildrenDirty_m10
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13424,17 +13424,17 @@ FINALLY_002b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, (bool)1, NULL);
 			}
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -13454,7 +13454,7 @@ IL_0020_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
 		return;
 	}
 }
@@ -13465,7 +13465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearDirtyChildren_m2
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13490,11 +13490,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_3);
 				bool L_4;
@@ -13505,7 +13505,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
 				RuntimeObject* L_5 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5, NULL);
@@ -13513,7 +13513,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_6)
@@ -13533,7 +13533,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
 		return;
 	}
 }
@@ -13546,7 +13546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ItemWithChildren_3_GetChild_m1
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13571,11 +13571,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30*)L_3);
 				Scene_tA1DC762B79745EB5140F054C884855B922318356 L_4;
@@ -13589,7 +13589,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
 				RuntimeObject* L_7 = V_1;
 				V_2 = L_7;
 				goto IL_0051;
@@ -13597,7 +13597,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_8)
@@ -13617,7 +13617,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
 		il2cpp_codegen_initobj((&V_3), sizeof(RuntimeObject*));
 		RuntimeObject* L_9 = V_3;
 		return L_9;
@@ -13625,7 +13625,7 @@ IL_0047:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
 		RuntimeObject* L_10 = V_2;
 		return L_10;
 	}
@@ -13636,7 +13636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearChildren_m76E6FA
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13661,17 +13661,17 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, NULL);
 			}
 
 IL_001f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -13691,14 +13691,14 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = __this->____children;
 		NullCheck(L_4);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_ClearChildren_m1A937C787A847AD5FBC53D248ADBB2791B102419((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
 		return;
 	}
 }
@@ -13706,7 +13706,7 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m7ACE2DC5DB339A35778C84F8EF4E948975209AFF_gshared (ItemWithChildren_3_t8B0CF75D73B94F319B9D229C7AA3C2E4AFD42984* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(10, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -13716,22 +13716,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m7ACE2D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
 		ItemWithChildren_3_MarkChildrenDirty_m10CE7AB7BA8656D815626E3EF9A9A32C604A4ABB(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
 		ItemWithChildren_3_BuildChildrenInternal_mFD83945A5A447CAB0D5A253F74714CB6C1350C2F(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
 		ItemWithChildren_3_ClearDirtyChildren_m22926C024EFE68D69DBB111AE065A0825FC9F2D6(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
 		return;
 	}
 }
@@ -13744,7 +13744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 	memset((&V_2), 0, sizeof(V_2));
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_0;
 		L_0 = VirtualFuncInvoker0< SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -13754,19 +13754,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_m1D5370D701775E098DBB98EA7FAB71C2A85DD3D7(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
 		RuntimeObject* L_7 = V_3;
 		if (!L_7)
 		{
@@ -13774,35 +13774,35 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
 		RuntimeObject* L_8 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
 		goto IL_0067;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
 		RuntimeObject* L_9;
 		L_9 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->klass->rgctx_data, 20));
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
 		RuntimeObject* L_10 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
 		RuntimeObject* L_11 = V_3;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_12 = V_2;
 		NullCheck((Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30*)L_11);
 		Item_1_SetOwner_m63A26C2C92F122CD65087DCF5C74D91EE418B80C((Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30*)L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 21));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_13 = __this->____children;
 		RuntimeObject* L_14 = V_3;
 		NullCheck(L_13);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_13, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
 		RuntimeObject* L_15 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15);
 		VirtualActionInvoker1< Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* >::Invoke(6, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -13816,7 +13816,7 @@ IL_0067:
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		int32_t L_17 = V_1;
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_18 = V_0;
 		NullCheck(L_18);
@@ -13826,7 +13826,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
 		return;
 	}
 }
@@ -13838,7 +13838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_0;
 		L_0 = VirtualFuncInvoker0< SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -13848,14 +13848,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_m1D5370D701775E098DBB98EA7FAB71C2A85DD3D7(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
@@ -13865,7 +13865,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		return (bool)1;
 	}
 
@@ -13877,7 +13877,7 @@ IL_0023:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		int32_t L_8 = V_1;
 		SceneU5BU5D_tB245DDBED17C33D5CBBAE03B440D2B892756DF80* L_9 = V_0;
 		NullCheck(L_9);
@@ -13887,7 +13887,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
 		return (bool)0;
 	}
 }
@@ -13895,7 +13895,7 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m949784488D3324A0E10037A195E4239E7A89BE23_gshared (ItemWithChildren_3_t8B0CF75D73B94F319B9D229C7AA3C2E4AFD42984* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		__this->____children = L_0;
@@ -13916,7 +13916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m949784488D3324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ItemWithChildren_3_ComputeNumberOfChildren_m1F975B01C95D518D24C7A11E81806B70E485B19E_gshared (ItemWithChildren_3_t5EC6084FA306C7FD47199D6FE4F3ED974F95183C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		NullCheck(L_0);
@@ -13929,7 +13929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_MarkChildrenDirty_mB0
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -13954,17 +13954,17 @@ FINALLY_002b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, (bool)1, NULL);
 			}
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -13984,7 +13984,7 @@ IL_0020_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
 		return;
 	}
 }
@@ -13995,7 +13995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearDirtyChildren_m8
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14020,11 +14020,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_3);
 				bool L_4;
@@ -14035,7 +14035,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
 				RuntimeObject* L_5 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5, NULL);
@@ -14043,7 +14043,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_6)
@@ -14063,7 +14063,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
 		return;
 	}
 }
@@ -14076,7 +14076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ItemWithChildren_3_GetChild_mA
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14101,11 +14101,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_3);
 				RuntimeObject* L_4;
@@ -14119,7 +14119,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
 				RuntimeObject* L_7 = V_1;
 				V_2 = L_7;
 				goto IL_0051;
@@ -14127,7 +14127,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_8)
@@ -14147,7 +14147,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
 		il2cpp_codegen_initobj((&V_3), sizeof(RuntimeObject*));
 		RuntimeObject* L_9 = V_3;
 		return L_9;
@@ -14155,7 +14155,7 @@ IL_0047:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
 		RuntimeObject* L_10 = V_2;
 		return L_10;
 	}
@@ -14166,7 +14166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearChildren_mDC8FB4
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____children;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14191,17 +14191,17 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, NULL);
 			}
 
 IL_001f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -14221,14 +14221,14 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = __this->____children;
 		NullCheck(L_4);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_ClearChildren_m1A937C787A847AD5FBC53D248ADBB2791B102419((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
 		return;
 	}
 }
@@ -14236,7 +14236,7 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m28F59FBC215CDAF900344222E742F4AB456B0D50_gshared (ItemWithChildren_3_t5EC6084FA306C7FD47199D6FE4F3ED974F95183C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(10, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -14246,22 +14246,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m28F59F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
 		ItemWithChildren_3_MarkChildrenDirty_mB0C662D30EEF333FDEFBABF2A45B90841B0EE1B5(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
 		ItemWithChildren_3_BuildChildrenInternal_mF1BC67E7A399A81D343B8794CD49C7698674674E(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
 		ItemWithChildren_3_ClearDirtyChildren_m84DB0C3C19438A16BD4837BC1BE2A7ACA856EE4F(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
 		return;
 	}
 }
@@ -14273,7 +14273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -14283,19 +14283,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
 		RuntimeObject* L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_mAA85865DC9F65EE0CEC520BD421365F546A76EB6(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
 		RuntimeObject* L_7 = V_3;
 		if (!L_7)
 		{
@@ -14303,35 +14303,35 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
 		RuntimeObject* L_8 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
 		goto IL_0067;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
 		RuntimeObject* L_9;
 		L_9 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->klass->rgctx_data, 20));
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
 		RuntimeObject* L_10 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
 		RuntimeObject* L_11 = V_3;
 		RuntimeObject* L_12 = V_2;
 		NullCheck((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_11);
 		Item_1_SetOwner_m3FC3EC9B0BE4E6B6C472B8577DF8C6D16E25886F((Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37*)L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 21));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_13 = __this->____children;
 		RuntimeObject* L_14 = V_3;
 		NullCheck(L_13);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_13, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
 		RuntimeObject* L_15 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15);
 		VirtualActionInvoker1< Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* >::Invoke(6, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -14345,7 +14345,7 @@ IL_0067:
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		int32_t L_17 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = V_0;
 		NullCheck(L_18);
@@ -14355,7 +14355,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
 		return;
 	}
 }
@@ -14366,7 +14366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0;
 		L_0 = VirtualFuncInvoker0< ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -14376,14 +14376,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		RuntimeObject* L_5 = V_2;
 		RuntimeObject* L_6;
 		L_6 = ItemWithChildren_3_GetChild_mAA85865DC9F65EE0CEC520BD421365F546A76EB6(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
@@ -14393,7 +14393,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		return (bool)1;
 	}
 
@@ -14405,7 +14405,7 @@ IL_0023:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		int32_t L_8 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = V_0;
 		NullCheck(L_9);
@@ -14415,7 +14415,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
 		return (bool)0;
 	}
 }
@@ -14423,7 +14423,7 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_mCBDDC9A62ED6F61206F84AD8D9C5AD678CB5C63D_gshared (ItemWithChildren_3_t5EC6084FA306C7FD47199D6FE4F3ED974F95183C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		__this->____children = L_0;
@@ -14444,7 +14444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_mCBDDC9A62ED6F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ItemWithChildren_3_ComputeNumberOfChildren_mB8B92AC2F90F2E22A41625E4E6EEC92D7187522D_gshared (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:99>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_0;
 		L_0 = VirtualFuncInvoker0< __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* >::Invoke(18, __this);
 		NullCheck(L_0);
@@ -14457,7 +14457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_MarkChildrenDirty_mDD
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14482,17 +14482,17 @@ FINALLY_002b:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:105>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, (bool)1, NULL);
 			}
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:103>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -14512,7 +14512,7 @@ IL_0020_1:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:107>
 		return;
 	}
 }
@@ -14523,7 +14523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearDirtyChildren_mF
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14548,11 +14548,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:113>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_3);
 				bool L_4;
@@ -14563,7 +14563,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:115>
 				RuntimeObject* L_5 = V_1;
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_5, NULL);
@@ -14571,7 +14571,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:111>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_6)
@@ -14591,7 +14591,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:118>
 		return;
 	}
 }
@@ -14607,7 +14607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ItemWithChildren_3_GetChild_m4
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14632,11 +14632,11 @@ FINALLY_0039:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:124>
 				RuntimeObject* L_3 = V_1;
 				NullCheck((Item_1_t81240C76EA8885BBD9F2ACE9C9D3F57606AEBEF8*)L_3);
 				InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 12)), il2cpp_rgctx_method(method->klass->rgctx_data, 12), (Item_1_t81240C76EA8885BBD9F2ACE9C9D3F57606AEBEF8*)L_3, (Il2CppFullySharedGenericAny*)L_4);
@@ -14649,7 +14649,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:126>
 				RuntimeObject* L_7 = V_1;
 				V_2 = L_7;
 				goto IL_0051;
@@ -14657,7 +14657,7 @@ IL_000e_1:
 
 IL_002e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:122>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_8)
@@ -14677,7 +14677,7 @@ IL_002e_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:130>
 		il2cpp_codegen_initobj((&V_3), sizeof(RuntimeObject*));
 		RuntimeObject* L_9 = V_3;
 		return L_9;
@@ -14685,7 +14685,7 @@ IL_0047:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:131>
 		RuntimeObject* L_10 = V_2;
 		return L_10;
 	}
@@ -14696,7 +14696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_ClearChildren_mD83A79
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -14721,17 +14721,17 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:138>
 				NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2);
 				Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_2, NULL);
 			}
 
 IL_001f_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:136>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 				if (L_3)
@@ -14751,14 +14751,14 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:141>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_4);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:143>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_ClearChildren_m1A937C787A847AD5FBC53D248ADBB2791B102419((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:144>
 		return;
 	}
 }
@@ -14766,7 +14766,7 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m0A146760ECA8CAB495965D6A4E633E66B9C4AB68_gshared (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:148>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(10, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -14776,22 +14776,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildren_m0A1467
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:150>
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
 		Item_Clear_m6026DDA7199C78DDBF108D5526BFB7B62E396F28((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:151>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:154>
 		((  void (*) (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 16)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:156>
 		((  void (*) (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:158>
 		((  void (*) (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:159>
 		return;
 	}
 }
@@ -14808,7 +14808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 	memset(V_2, 0, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_0;
 		L_0 = VirtualFuncInvoker0< __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -14818,19 +14818,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3_BuildChildrenInternal
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		il2cpp_codegen_memcpy(L_4, (L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)), SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 		il2cpp_codegen_memcpy(V_2, L_4, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:167>
 		il2cpp_codegen_memcpy(L_5, V_2, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 		RuntimeObject* L_6;
 		L_6 = InvokerFuncInvoker1< RuntimeObject*, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)), il2cpp_rgctx_method(method->klass->rgctx_data, 19), __this, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13)) ? L_5: *(void**)L_5));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:168>
 		RuntimeObject* L_7 = V_3;
 		if (!L_7)
 		{
@@ -14838,35 +14838,35 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:170>
 		RuntimeObject* L_8 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_8, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:171>
 		goto IL_0067;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:174>
 		RuntimeObject* L_9;
 		L_9 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->klass->rgctx_data, 20));
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:175>
 		RuntimeObject* L_10 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10);
 		Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:176>
 		RuntimeObject* L_11 = V_3;
 		il2cpp_codegen_memcpy(L_12, V_2, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 		NullCheck((Item_1_t81240C76EA8885BBD9F2ACE9C9D3F57606AEBEF8*)L_11);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 21)), il2cpp_rgctx_method(method->klass->rgctx_data, 21), (Item_1_t81240C76EA8885BBD9F2ACE9C9D3F57606AEBEF8*)L_11, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13)) ? L_12: *(void**)L_12));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:177>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_13 = *(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		RuntimeObject* L_14 = V_3;
 		NullCheck(L_13);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_13, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:178>
 		RuntimeObject* L_15 = V_3;
 		NullCheck((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15);
 		VirtualActionInvoker1< Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* >::Invoke(6, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)L_15, (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this);
@@ -14880,7 +14880,7 @@ IL_0067:
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:165>
 		int32_t L_17 = V_1;
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_18 = V_0;
 		NullCheck(L_18);
@@ -14890,7 +14890,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:180>
 		return;
 	}
 }
@@ -14905,7 +14905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 	Il2CppFullySharedGenericAny V_2 = alloca(SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 	memset(V_2, 0, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_0;
 		L_0 = VirtualFuncInvoker0< __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* >::Invoke(18, __this);
 		V_0 = L_0;
@@ -14915,14 +14915,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ItemWithChildren_3_ComputeNeedsRefresh_m
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		il2cpp_codegen_memcpy(L_4, (L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)), SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 		il2cpp_codegen_memcpy(V_2, L_4, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		il2cpp_codegen_memcpy(L_5, V_2, SizeOf_ChildTargetType_t973CB3BD39129835FAEB27A0AEB64DE7CDB0C8DF);
 		RuntimeObject* L_6;
 		L_6 = InvokerFuncInvoker1< RuntimeObject*, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)), il2cpp_rgctx_method(method->klass->rgctx_data, 19), __this, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13)) ? L_5: *(void**)L_5));
@@ -14932,7 +14932,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:186>
 		return (bool)1;
 	}
 
@@ -14944,7 +14944,7 @@ IL_0023:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:184>
 		int32_t L_8 = V_1;
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_9 = V_0;
 		NullCheck(L_9);
@@ -14954,7 +14954,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:189>
 		return (bool)0;
 	}
 }
@@ -14962,7 +14962,7 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m9BABC3A6AC4378A140BEF4EBB0C06072113B0711_gshared (ItemWithChildren_3_t3EE311A4FE4A4565A950F9A8119B85C8E16E5BBE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:96>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		il2cpp_codegen_write_instance_field_data<List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0);
@@ -14982,7 +14982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemWithChildren_3__ctor_m9BABC3A6AC4378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_Owner_m2F51B89C346E898CF746D7BE601DB9DD835DF829_gshared (Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
 		RuntimeObject* L_0 = __this->____owner;
 		return L_0;
 	}
@@ -14991,7 +14991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_Owner_m2F51B89C346E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_TypedOwner_mDA3810B6E8394DD992CD4E16F5847B4982B33E51_gshared (Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
 		RuntimeObject* L_0 = __this->____owner;
 		return L_0;
 	}
@@ -15000,11 +15000,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_TypedOwner_mDA3810B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m3FC3EC9B0BE4E6B6C472B8577DF8C6D16E25886F_gshared (Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37* __this, RuntimeObject* ___0_owner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
 		RuntimeObject* L_0 = ___0_owner;
 		__this->____owner = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____owner), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
 		InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_1;
 		L_1 = VirtualFuncInvoker0< InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA >::Invoke(16, __this);
 		((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle = L_1;
@@ -15012,7 +15012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m3FC3EC9B0BE4E6B6C472B85
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle))->___U3CTypeU3Ek__BackingField), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
 		return;
 	}
 }
@@ -15036,7 +15036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1__ctor_m9C4EA7D06812D8F41E67F43517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_Owner_m216EDF196C677616255BEB05744506BD9AE8457F_gshared (Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0 = __this->____owner;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1), &L_1);
@@ -15047,7 +15047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_Owner_m216EDF196C67
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 Item_1_get_TypedOwner_m4635C264A982556BF8205A816554D08206058921_gshared (Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0 = __this->____owner;
 		return L_0;
 	}
@@ -15056,10 +15056,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B9223183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m63A26C2C92F122CD65087DCF5C74D91EE418B80C_gshared (Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_owner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0 = ___0_owner;
 		__this->____owner = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
 		InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_1;
 		L_1 = VirtualFuncInvoker0< InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA >::Invoke(16, __this);
 		((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle = L_1;
@@ -15067,7 +15067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m63A26C2C92F122CD65087DC
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle))->___U3CTypeU3Ek__BackingField), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
 		return;
 	}
 }
@@ -15093,7 +15093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_Owner_m7E0225E32F2D
 	const uint32_t SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:81>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 		RuntimeObject* L_1 = Box(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1), L_0);
 		return L_1;
@@ -15105,7 +15105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_get_TypedOwner_m41C4651A548134F6B
 	const uint32_t SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 		return;
@@ -15117,10 +15117,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m2A51B70D1DAF0A88F3A5FA5
 	const uint32_t SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:86>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_owner : &___0_owner), SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0, SizeOf_T_t007287F3A1122998BD972324F3B2DBD75177BD5C);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:87>
 		InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_1;
 		L_1 = VirtualFuncInvoker0< InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA >::Invoke(16, __this);
 		((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle = L_1;
@@ -15128,7 +15128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_1_SetOwner_m2A51B70D1DAF0A88F3A5FA5
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7*)__this)->____handle))->___U3CTypeU3Ek__BackingField), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:88>
 		return;
 	}
 }
@@ -23082,13 +23082,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_mC6356F599F4A3E220D52
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointInfo__ctor_m217F88F2B318FB3495F8D533C950A46E5CED7901_gshared (JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61* __this, int32_t ___0_sourceJointId, int32_t ___1_parentJointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:132>
 		int32_t L_0 = ___0_sourceJointId;
 		__this->___SourceJointId = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:133>
 		int32_t L_1 = ___1_parentJointId;
 		__this->___ParentJointId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:134>
 		return;
 	}
 }
@@ -23114,13 +23114,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointInfo__ctor_m4EBFD7943401A947321FAB4
 	const Il2CppFullySharedGenericStruct L_0 = alloca(SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:132>
 		il2cpp_codegen_memcpy(L_0, ___0_sourceJointId, SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0), L_0, SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:133>
 		il2cpp_codegen_memcpy(L_1, ___1_parentJointId, SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1), L_1, SizeOf_TSourceJointId_tFA564A76CCBC3CF3B2F0FB286903B50A667B24E3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:134>
 		return;
 	}
 }
@@ -33997,7 +33997,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Delegate_get_Targe
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Item_set_Dirty_m8BB265F3CBCE0395C1C4B73CA5A5CE79810D8E59_inline (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:41>
 		bool L_0 = ___0_value;
 		__this->___U3CDirtyU3Ek__BackingField = L_0;
 		return;
@@ -34007,7 +34007,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Item_set_Dirty_m8BB265F3CBCE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Item_get_Dirty_mE36455AAD5A24C1C7920BC258A25A3848E0564CD_inline (Item_t8FB06293B90EA7EFB12B01F043466C7F11BF5BE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:41>
 		bool L_0 = __this->___U3CDirtyU3Ek__BackingField;
 		return L_0;
 	}
@@ -34122,7 +34122,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Item_1_get_TypedOwner_mDA3810B6E8394DD992CD4E16F5847B4982B33E51_gshared_inline (Item_1_t76FD6D4A1994F004B99D2C54EA0BEC8E89B2AF37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
 		RuntimeObject* L_0 = __this->____owner;
 		return L_0;
 	}
@@ -34199,7 +34199,7 @@ IL_0034:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 Item_1_get_TypedOwner_m4635C264A982556BF8205A816554D08206058921_gshared_inline (Item_1_tB799DFE1896A86FA3056DB9F5C7631C1DBD21E30* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Hierarchy/Item.cs:82>
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0 = __this->____owner;
 		return L_0;
 	}

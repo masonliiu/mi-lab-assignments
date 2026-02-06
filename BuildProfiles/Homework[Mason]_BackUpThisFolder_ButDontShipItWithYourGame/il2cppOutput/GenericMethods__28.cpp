@@ -45431,12 +45431,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertAspect_TisRuntimeObjec
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:79>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_component;
 		NullCheck((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:80>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_2 = ___0_component;
 		NullCheck((RuntimeObject*)L_2);
 		Type_t* L_3;
@@ -45444,11 +45444,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertAspect_TisRuntimeObjec
 		NullCheck((MemberInfo_t*)L_3);
 		String_t* L_4;
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:81>
 		String_t* L_5 = ___2_aspectLocation;
 		String_t* L_6;
 		L_6 = AssertUtils_Nicify_mFDE60FB9904251430CDAA26B5952BA5CF06CBF05(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:82>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
@@ -45456,7 +45456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertAspect_TisRuntimeObjec
 		NullCheck((MemberInfo_t*)L_8);
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:88>
 		return;
 	}
 }
@@ -45465,12 +45465,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionField_TisIl2
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:144>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_component;
 		NullCheck((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:145>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_2 = ___0_component;
 		NullCheck((RuntimeObject*)L_2);
 		Type_t* L_3;
@@ -45478,11 +45478,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionField_TisIl2
 		NullCheck((MemberInfo_t*)L_3);
 		String_t* L_4;
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:146>
 		String_t* L_5 = ___2_variableName;
 		String_t* L_6;
 		L_6 = AssertUtils_Nicify_mFDE60FB9904251430CDAA26B5952BA5CF06CBF05(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:147>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
@@ -45490,7 +45490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionField_TisIl2
 		NullCheck((MemberInfo_t*)L_8);
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:155>
 		return;
 	}
 }
@@ -45508,12 +45508,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionItems_TisIl2
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:178>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_component;
 		NullCheck((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:179>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_2 = ___0_component;
 		NullCheck((RuntimeObject*)L_2);
 		Type_t* L_3;
@@ -45521,11 +45521,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionItems_TisIl2
 		NullCheck((MemberInfo_t*)L_3);
 		String_t* L_4;
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:180>
 		String_t* L_5 = ___2_variableName;
 		String_t* L_6;
 		L_6 = AssertUtils_Nicify_mFDE60FB9904251430CDAA26B5952BA5CF06CBF05(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:181>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
@@ -45533,9 +45533,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertCollectionItems_TisIl2
 		NullCheck((MemberInfo_t*)L_8);
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:183>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:184>
 		RuntimeObject* L_10 = ___1_value;
 		NullCheck(L_10);
 		RuntimeObject* L_11;
@@ -45575,18 +45575,18 @@ IL_0053:
 
 IL_0035_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:184>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:184>
 				RuntimeObject* L_14 = V_1;
 				NullCheck(L_14);
 				InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 3), L_14, (Il2CppFullySharedGenericAny*)L_15);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:190>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:190>
 				int32_t L_16 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 			}
 
 IL_0040_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:184>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:184>
 				RuntimeObject* L_17 = V_1;
 				NullCheck((RuntimeObject*)L_17);
 				bool L_18;
@@ -45608,7 +45608,7 @@ IL_0040_1:
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:192>
 		return;
 	}
 }
@@ -45617,12 +45617,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertField_TisRuntimeObject
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:111>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_component;
 		NullCheck((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0);
 		String_t* L_1;
 		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:112>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_2 = ___0_component;
 		NullCheck((RuntimeObject*)L_2);
 		Type_t* L_3;
@@ -45630,11 +45630,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertField_TisRuntimeObject
 		NullCheck((MemberInfo_t*)L_3);
 		String_t* L_4;
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:113>
 		String_t* L_5 = ___2_variableName;
 		String_t* L_6;
 		L_6 = AssertUtils_Nicify_mFDE60FB9904251430CDAA26B5952BA5CF06CBF05(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:114>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_8;
@@ -45642,7 +45642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertUtils_AssertField_TisRuntimeObject
 		NullCheck((MemberInfo_t*)L_8);
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/AssertUtils.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/AssertUtils.cs:120>
 		return;
 	}
 }

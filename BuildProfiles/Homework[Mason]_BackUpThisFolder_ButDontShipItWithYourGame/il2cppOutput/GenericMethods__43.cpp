@@ -10044,7 +10044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerComponent_Create_Ti
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:278>
 		RuntimeObject* L_0 = ___0_primitive;
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -10055,7 +10055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerComponent_Create_Ti
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = PoolManagerComponent_Create_m4B83F24FB7EBEF0572E97FB21912ABA0E38BD2E4(__this, L_1, L_2, L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:279>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -10091,7 +10091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerComponent_Create_Ti
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:262>
 		RuntimeObject* L_0 = ___0_primitive;
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -10103,7 +10103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerComponent_Create_Ti
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = PoolManagerComponent_Create_mC3A04900F7CD8CFE8C2B6A2AA967DB34318ABC03(__this, L_1, L_2, L_3, L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerComponent.cs:263>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -10133,7 +10133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerSingleton_Create_Ti
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerSingleton.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerSingleton.cs:102>
 		PoolManagerComponent_tD97346D3C0934DDFE06AF775AE2C8E7CDD8B590C* L_0 = __this->____poolManagerComponent;
 		RuntimeObject* L_1 = ___0_primitive;
 		MRUKAnchor_tBBC5F46E6ABD1A2B886624BE450FB9309914F50A* L_2 = ___1_anchor;
@@ -10150,7 +10150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoolManagerSingleton_Create_Ti
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/PoolManagerSingleton.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/PoolManagerSingleton.cs:87>
 		PoolManagerComponent_tD97346D3C0934DDFE06AF775AE2C8E7CDD8B590C* L_0 = __this->____poolManagerComponent;
 		RuntimeObject* L_1 = ___0_primitive;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_position;

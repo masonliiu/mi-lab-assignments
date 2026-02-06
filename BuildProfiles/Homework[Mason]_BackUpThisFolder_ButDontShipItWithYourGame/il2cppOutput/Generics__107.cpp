@@ -29526,7 +29526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mD6A0A262DE436585AABEE
 {
 	List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083** L_0 = ___0_list;
 		List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t0886E5D46C79EB24804DFE785921AC9A00FED515_m6740231EEF274892BAFB14FAB7D98B6D8ECF72E7(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29552,7 +29552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mF0593E4D3128BB9386B7C
 {
 	List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083* L_2;
@@ -29578,7 +29578,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mF0593E4D3128BB9386B7C9AB131A0918316E3A1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m51C9298C14347E41A410CDB977AF07B68656905A_gshared (ListScope_1_t5A99C3AE73ECFFC9E06E6EE2B873C25DC7ACF988* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t3207F896A05D5C2B436C2D01F00BCEC991E40083_m3A2907563B342B97A52F94D3A87B9F6964475AC8(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29604,7 +29604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m4A66F7EC1F91F0506B7FD
 {
 	List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C** L_0 = ___0_list;
 		List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t8C3C5F77E97AFB41B92EC69C24882DEE92A86E9F_mBC02779D64C9B6772977A9E4F0A74F3ED2F40B33(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29630,7 +29630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m90292BD9BEFC6F0350DBC
 {
 	List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C* L_2;
@@ -29656,7 +29656,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m90292BD9BEFC6F0350DBC7CEED4C86091A69605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m348A2D57388C1090597176AB9CF851A01DAA3CDE_gshared (ListScope_1_t124F41B1F59F7E9DC61478888992B16A20C22658* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t0348D92C101E5ED067C3F70509B8A3FB882E6F8C_mB2B9D1AEEEC7FE8A820EE5F9696534C4C33EB47D(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29682,7 +29682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m078414DE71AA441AF5806
 {
 	List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61** L_0 = ___0_list;
 		List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t1EDA6C082F76BEE1245BA20E8F6B2C4F5DB80D31_mCF8255D6ED15AE47B8F30517142510F383F4D4B7(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29708,7 +29708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mCC91B0CBDFD65F9E44D50
 {
 	List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61* L_2;
@@ -29734,7 +29734,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mCC91B0CBDFD65F9E44D50BD8CEA216FF6FBA2AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m37EB8E24A310B4760E7828AB5D813847A0D853CB_gshared (ListScope_1_t100A58782B8ED8A9DF03CC9FE226B75876A5DE24* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t9D0A4527FE4940D299F3A96F0F877362F1F2EA61_m03514004D09B11F027178050E61C54DF243B7627(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29760,7 +29760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m705DA73BCBE8A2DFC477A
 {
 	List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA** L_0 = ___0_list;
 		List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t08EE7157BE5FD0F302BF6E26958D70B790D6238B_m8C630F9681906BCDCE041695485A353EFF3E011D(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29786,7 +29786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mF35DBFE277C243D784133
 {
 	List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA* L_2;
@@ -29812,7 +29812,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mF35DBFE277C243D784133039762F09C04F1FC52
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m6D35D7F541CC5CF5713A2BA4AED740CEEADE34C5_gshared (ListScope_1_tAFA90A75FDAADEED29D9077A176E89E88542CA4E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t24D6284128C7DFDA506D10A74D3668CF984E8DAA_m71B3EBA942AF0201BB017DD0E5B79420DEA15C86(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29838,7 +29838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mC3676AAEEC6B9A1170DD5
 {
 	List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A** L_0 = ___0_list;
 		List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_tC3C8FFB8BFF6F7B87C37F1EA01927656DC1623DB_mE3E0F26683E02F54C3730E82F3899D7362540B69(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29864,7 +29864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m61FAC7F59D9AA61EA27CB
 {
 	List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A* L_2;
@@ -29890,7 +29890,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m61FAC7F59D9AA61EA27CB08E9CDC5996CFFAADA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m76BA77F5077FAD72B3E9A108BD8428206F989D77_gshared (ListScope_1_t36F4C38C1A82E0F406B03BBD1476570F402C73C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t13F408AE1C368A72AC1BCE4BBE88D168A937EA6A_m4118688D597D5E5FFD38E59F51ABBCE703AFF077(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29916,7 +29916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m3752ACE30A3BBF017A2CF
 {
 	List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A** L_0 = ___0_list;
 		List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9_m134F2B3BEDF5B8C2C8BF991D47B005D092B76B75(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -29942,7 +29942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mEB19F3306684B592CBABF
 {
 	List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_2;
@@ -29968,7 +29968,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mEB19F3306684B592CBABFD1A5C12B5581B4C930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_mDF50A6DF14BD0C57F4457EA0DF8045495148AE36_gshared (ListScope_1_t17BE0ABCDDE6E5095799888EAA406DB56350BC41* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t7D0C2B83CF548701A27AE4DB708CDA852886409A_mAE128DFC3D68561C418FACB1C03E99C279A6EE2E(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -29994,7 +29994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mF42AC4F1AEEB2AB646A46
 {
 	List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E** L_0 = ___0_list;
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t7D6DD029D05718977D4569BA1CCC7E341B848C29_m5F1608FEB78DB95E2ED54D0692004883D892BBE4(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30020,7 +30020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mFCE91BB2742A2EE864BD2
 {
 	List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E* L_2;
@@ -30046,7 +30046,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mFCE91BB2742A2EE864BD215AB02BD9740375E76
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m28C6125FB7EBCE417B0946001E0A6DDFF1ECA29B_gshared (ListScope_1_t1AA871C6CF5B434CBB3716175C94336C94501911* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t9A8530F83BF40B2D12ED5ACFBB295E1E0DD7521E_m30174613970D24313E5D2C230C25E840EBC978B6(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30072,7 +30072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m69745B4DC4A44BCA87FA2
 {
 	List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9** L_0 = ___0_list;
 		List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_tD95805799307F688305061F3B1C7C000D165A02F_mFBC0D69D735ABE79D8FE3D5827A428EED66E07F4(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30098,7 +30098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m0C8F2F3BC2CC6AE8ECD35
 {
 	List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9* L_2;
@@ -30124,7 +30124,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m0C8F2F3BC2CC6AE8ECD359372E5107364044179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m4086E973AD6F74208AA3AB7BF9D7C4DE7A8F3C07_gshared (ListScope_1_tE415E87F240A484C58FFA193FA377FA2257B77F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t80474A6FA7F478B01551DF7CB190A1C0C3A04EA9_mF9224914902363879A27A685F4CE130CB9B4F2A9(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30150,7 +30150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mCE80142809B9680CC9DD5
 {
 	List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724** L_0 = ___0_list;
 		List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t003E5D0FEDE751D213594F21DBEB8E3169305FE9_mF138E9F0523FD116F910B341E05038B36C7D5A09(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30176,7 +30176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m1D59181A4DDDA23EC972A
 {
 	List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724* L_2;
@@ -30202,7 +30202,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m1D59181A4DDDA23EC972AA7A3CC91EDF0BBF371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m78B00664E3F93179551C530233B2CD757BB3DE05_gshared (ListScope_1_t676A97F478B39EF1B83185D4534D6566625377D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t82334B2D08CA97FA2545EEB7E1627401A1BA0724_m359C6B73AB19D9D348FCF24D093B8F27F1F7BC8F(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30228,7 +30228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m76FA98C95BF8986753402
 {
 	List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2** L_0 = ___0_list;
 		List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_t3D3407ACB2498675C0BA86EA95A0555717E8569B_m41701F26FDC3AC746428541323ED2EBFC19B5006(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30254,7 +30254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m66FDE2FC6EDC78EFD397D
 {
 	List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2* L_2;
@@ -30280,7 +30280,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m66FDE2FC6EDC78EFD397D67E7F3C8E8A7ED3060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m7A0E0A4807486627E016A411130ED630C3E0A910_gshared (ListScope_1_t95B9CC99DB3EFE06D032CBFFAAB4B1D62EFBAD48* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t5FDD1D27738EF938F42FB7514920F8029427C1D2_m45BA5E581E6AA58B11FFB560E6907843903F4D32(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30306,7 +30306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m250D32CF368180B288477
 {
 	List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61** L_0 = ___0_list;
 		List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61* L_1;
 		L_1 = OVRObjectPool_List_TisOVRTask_1_tE5E511D9B31D4731BA35B4BBAA7646CB5EB10C64_m8415B72B1CBBC76AE3A39AA2F066954465443020(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30332,7 +30332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m7195F9F0875D363CDF900
 {
 	List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61* L_2;
@@ -30358,7 +30358,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m7195F9F0875D363CDF900F7D6800A9A4A388C21
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_mC6A1E9A59A02303CC6B480F45C61B751224A7AEC_gshared (ListScope_1_tB6C5573E2834BDAA83EBAA2DEC55B1294C731CED* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_tAEEBD1F4EFA22B1295EE1A2072A8644A5917EA61_m54D985FC642CFA7C551B335E7D59A4F04480F562(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30384,7 +30384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mB8F29AEA58777CEEBA5CD
 {
 	List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A** L_0 = ___0_list;
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_1;
 		L_1 = OVRObjectPool_List_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mBF2504A93425C7D7744AE80B0374AF590C958175(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30410,7 +30410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m3CC88DC593FA09E487F1B
 {
 	List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_2;
@@ -30436,7 +30436,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m3CC88DC593FA09E487F1B696D6E1D48493DFE9D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m03DC673BEDDE8A62D6B0F51559390DD31733E258_gshared (ListScope_1_t85E87B2647D8663B48EA243AE0408C10FA04D6BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t01207CE5982A7640E56B1F9F672A06F96B09367A_mE1686D442A9FA5CEA3D8BAFEE76486076557B30D(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30462,7 +30462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m3D8A618508F5CBA771517
 {
 	List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15** L_0 = ___0_list;
 		List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_1;
 		L_1 = OVRObjectPool_List_TisGuid_t_mA43BB817C2047AEE27EA3F53CF47CF403E8F00A5(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30488,7 +30488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mEE287312BE85377ECDDDD
 {
 	List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_2;
@@ -30514,7 +30514,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mEE287312BE85377ECDDDD1F55BE8EC36971914C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m6346F4E7B87CEEE5698C3A5590B09AA267833CAC_gshared (ListScope_1_tC87E55A874F01426E0499190FD8E58AF968DCDB1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_tCADB61FF5C88BAE9F3ADDA6F46BB3C39491B1C15_m38C9A8F944DC903FD2FDCE872DFC8128E7099A75(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30540,7 +30540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mF1544FBC5C65EDB081E4C
 {
 	List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576** L_0 = ___0_list;
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* L_1;
 		L_1 = OVRObjectPool_List_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m1E393040CF09D21BEFFBAF17C4141C8E0D5D326A(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30566,7 +30566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mC2BD1CBA0C13D68B21A19
 {
 	List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* L_2;
@@ -30592,7 +30592,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mC2BD1CBA0C13D68B21A191579C29AADAD86DD25
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m9279E6619C1760BCFCA7079CDE8BA3A2668176AF_gshared (ListScope_1_t847ECECE68ED7E12A998B04DF1A1989851B88892* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576_m7AF7CC87D0D0EBA4C5B1C04F46B9EA1570AF9AB1(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30618,7 +30618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mBD9D1AD2B7E65663CA39F
 {
 	List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310** L_0 = ___0_list;
 		List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_1;
 		L_1 = OVRObjectPool_List_TisOVRAnchor_tC6603E0C1628ACAA50D8CCDCC267BFD246F5A061_mBFF3EB81BA0D502B2E9A054C80C7FE6C76C54ADC(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30644,7 +30644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mC7B75291A2AD9E946D9ED
 {
 	List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_2;
@@ -30670,7 +30670,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mC7B75291A2AD9E946D9ED5BC0135F7A6A8BE0E5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m1027474814C534936217E3820D24E847E34F3915_gshared (ListScope_1_t36F14838A4D4B88E04B719566785E5A5FC8C5C56* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t57EA5F2BB613ED1B7739D0485D861F4F3EE78310_mEFA765E2283833A80C8383CD56A2DADF45B57F1B(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30696,7 +30696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m3B80762AC75C842D913F9
 {
 	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D** L_0 = ___0_list;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1;
 		L_1 = OVRObjectPool_List_TisRuntimeObject_m13C4DE84DC65F69DB9CFB675D0048630E16D613B(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30722,7 +30722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m4AC18C60DE7F7877A7D73
 {
 	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2;
@@ -30748,7 +30748,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m4AC18C60DE7F7877A7D7386FB4C6ED8E966E3AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m80816C30F9008AF8C7AC35B42049F782FC61D95C_gshared (ListScope_1_t69003E10340B8281CBA524922B64F372FA9222E8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_mFBD1EF6353144802674910DFDE39EA0DD8D81ACC(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30774,7 +30774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mD82D85B6BD8615BB1C905
 {
 	List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A** L_0 = ___0_list;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_1;
 		L_1 = ((  List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30800,7 +30800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_mE11A196AAB18B126A135F
 {
 	List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_2;
@@ -30826,7 +30826,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_mE11A196AAB18B126A135FDB90D54C6289B5FCAD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m2052867377718F45CECE525A3FD502269CFCCD38_gshared (ListScope_1_t79886822E24054B21750FAB6F5F0F80392E07223* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_0 = __this->____list;
 		((  void (*) (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30852,7 +30852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m99FC08F11288D843DC7FB
 {
 	List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160** L_0 = ___0_list;
 		List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160* L_1;
 		L_1 = OVRObjectPool_List_TisMetrics_t865BF0741490865117A79705F58784742D6F02B8_m8B2F3121D1D7EB8B88710A5CC5901D49CF71E498(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30878,7 +30878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m95B5D6F990C3B0FB5C4F0
 {
 	List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160* L_2;
@@ -30904,7 +30904,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m95B5D6F990C3B0FB5C4F0C329A22501291F569E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m8A32E7034185D91B9C6AD12AA98F628A8B70A267_gshared (ListScope_1_tC95E21F58AC3E79C151B42E79BC474E0766C5741* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_t9E5BCF6D9FEEC9DB4D4DED585C86CB51EDEC8160_mFA3F2ED84D2571E454852F85CB9740939E8EF538(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
@@ -30930,7 +30930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m94DF7070DE26C5F5F10AD
 {
 	List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:169>
 		List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF** L_0 = ___0_list;
 		List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF* L_1;
 		L_1 = OVRObjectPool_List_TisUnboundAnchor_tB94D982DC1C3B6FF028AD53B3D1CEFF5EFBAAF71_m7E4C4402496E63E2BB97038CAD90641C0BACD838(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -30956,7 +30956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1__ctor_m60243E401AA3A2CF4B2D3
 {
 	List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:170>
 		List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF** L_0 = ___1_list;
 		RuntimeObject* L_1 = ___0_source;
 		List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF* L_2;
@@ -30982,7 +30982,7 @@ IL2CPP_EXTERN_C  void ListScope_1__ctor_m60243E401AA3A2CF4B2D3814CB0E16E8C0D7AD4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListScope_1_Dispose_m532D8A480D27A41BBE3E89502801BBE66446A24E_gshared (ListScope_1_t33E0E8CFB1A26B2AE17CDCCECD6392700086794B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:171>
 		List_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF* L_0 = __this->____list;
 		OVRObjectPool_Return_TisList_1_tFB3B8D8B7BE5503ECBA1D7F8AC630424F1211AFF_m5076B97B963C674732A05735FC84284618A17C3A(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;

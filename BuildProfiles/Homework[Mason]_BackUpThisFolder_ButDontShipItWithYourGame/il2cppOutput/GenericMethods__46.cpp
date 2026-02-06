@@ -16200,16 +16200,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF
 	MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
 		String_t* L_0 = ___0_base64;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
 		L_1 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
 		L_2 = SerializationUtils_Decompress_mB03E34E14763CC760B60055D592067E6968688B8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_3, NULL);
 		V_1 = L_3;
@@ -16241,31 +16241,31 @@ IL_004d:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
 			RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 			Type_t* L_7;
 			L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_8 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 			DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_8, L_7, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = V_0;
 			NullCheck(L_11);
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9);
 			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9, L_10, 0, ((int32_t)(((RuntimeArray*)L_11)->max_length)));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12);
 			int64_t L_13;
 			L_13 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12, ((int64_t)0), (int32_t)0);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_14 = V_1;
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8);
 			RuntimeObject* L_15;
 			L_15 = VirtualFuncInvoker1< RuntimeObject*, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(18, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_14);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
 			V_2 = ((*(MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF*)UnBox(L_15, il2cpp_rgctx_data(method->rgctx_data, 1))));
 			goto IL_004e;
 		}
@@ -16277,7 +16277,7 @@ IL_004d:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
 		MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_16 = V_2;
 		return L_16;
 	}
@@ -16301,16 +16301,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializationUtils_DeserializeFromString
 	Il2CppFullySharedGenericAny V_2 = alloca(SizeOf_T_t8AB62AEE992405399489F106AE6EA96DC296B1D3);
 	memset(V_2, 0, SizeOf_T_t8AB62AEE992405399489F106AE6EA96DC296B1D3);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
 		String_t* L_0 = ___0_base64;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
 		L_1 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
 		L_2 = SerializationUtils_Decompress_mB03E34E14763CC760B60055D592067E6968688B8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_3, NULL);
 		V_1 = L_3;
@@ -16342,31 +16342,31 @@ IL_004d:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
 			RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 			Type_t* L_7;
 			L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_8 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 			DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_8, L_7, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = V_0;
 			NullCheck(L_11);
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9);
 			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9, L_10, 0, ((int32_t)(((RuntimeArray*)L_11)->max_length)));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12);
 			int64_t L_13;
 			L_13 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12, ((int64_t)0), (int32_t)0);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_14 = V_1;
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8);
 			RuntimeObject* L_15;
 			L_15 = VirtualFuncInvoker1< RuntimeObject*, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(18, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_14);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
 			void* L_17 = UnBox_Any(L_15, il2cpp_rgctx_data(method->rgctx_data, 1), L_16);
 			il2cpp_codegen_memcpy(V_2, (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_17)), SizeOf_T_t8AB62AEE992405399489F106AE6EA96DC296B1D3);
 			goto IL_004e;
@@ -16379,7 +16379,7 @@ IL_004d:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
 		il2cpp_codegen_memcpy(L_18, V_2, SizeOf_T_t8AB62AEE992405399489F106AE6EA96DC296B1D3);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_18, SizeOf_T_t8AB62AEE992405399489F106AE6EA96DC296B1D3);
 		return;
@@ -16401,16 +16401,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpaceSharingInfo_t8859D951A4E8EDABABD21B97822
 	SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:61>
 		String_t* L_0 = ___0_base64;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
 		L_1 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:62>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
 		L_2 = SerializationUtils_Decompress_mB03E34E14763CC760B60055D592067E6968688B8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:63>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_3 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_3, NULL);
 		V_1 = L_3;
@@ -16442,31 +16442,31 @@ IL_004d:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:65>
 			RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 			Type_t* L_7;
 			L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_8 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 			DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_8, L_7, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:66>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = V_0;
 			NullCheck(L_11);
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9);
 			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9, L_10, 0, ((int32_t)(((RuntimeArray*)L_11)->max_length)));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:67>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck((Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12);
 			int64_t L_13;
 			L_13 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_12, ((int64_t)0), (int32_t)0);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:68>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_14 = V_1;
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8);
 			RuntimeObject* L_15;
 			L_15 = VirtualFuncInvoker1< RuntimeObject*, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(18, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_14);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:69>
 			V_2 = ((*(SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7*)UnBox(L_15, il2cpp_rgctx_data(method->rgctx_data, 1))));
 			goto IL_004e;
 		}
@@ -16478,7 +16478,7 @@ IL_004d:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:71>
 		SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7 L_16 = V_2;
 		return L_16;
 	}
@@ -16498,13 +16498,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SerializationUtils_SerializeToStrin
 	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
 		goto IL_000a;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_2;
@@ -16512,7 +16512,7 @@ IL_000a:
 		DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_3 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 		DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_3, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_4 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_4, NULL);
 		V_1 = L_4;
@@ -16544,7 +16544,7 @@ IL_0049:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_7 = V_0;
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_8 = V_1;
 			MatchInfo_tE2A17D7E4A41F9DE0C81C75856518FA1EF8320FF L_9 = ___0_obj;
@@ -16552,14 +16552,14 @@ IL_0049:
 			RuntimeObject* L_11 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), &L_10);
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_7);
 			VirtualActionInvoker2< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(7, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_7, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_8, L_11);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck(L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
 			L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
 			L_14 = SerializationUtils_Compress_m77D6F74F93447CED5DBD9ECFC113217B1509BBD2(L_13, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
 			il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 			String_t* L_15;
 			L_15 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_14, NULL);
@@ -16574,7 +16574,7 @@ IL_0049:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
 		String_t* L_16 = V_2;
 		return L_16;
 	}
@@ -16597,7 +16597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SerializationUtils_SerializeToStrin
 	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___0_obj : &___0_obj), SizeOf_T_tE907CF515A36CF1E9DDD55182B3A1162F8AA7FF5);
 		bool L_1 = il2cpp_codegen_would_box_to_non_null(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), L_0);
 		if (L_1)
@@ -16606,13 +16606,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SerializationUtils_SerializeToStrin
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:49>
 		return (String_t*)NULL;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_3;
@@ -16620,7 +16620,7 @@ IL_000a:
 		DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_4 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 		DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_4, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_5 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_5, NULL);
 		V_1 = L_5;
@@ -16652,21 +16652,21 @@ IL_0049:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_8 = V_0;
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_9 = V_1;
 			il2cpp_codegen_memcpy(L_10, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___0_obj : &___0_obj), SizeOf_T_tE907CF515A36CF1E9DDD55182B3A1162F8AA7FF5);
 			RuntimeObject* L_11 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), L_10);
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8);
 			VirtualActionInvoker2< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(7, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_8, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_9, L_11);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck(L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
 			L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
 			L_14 = SerializationUtils_Compress_m77D6F74F93447CED5DBD9ECFC113217B1509BBD2(L_13, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
 			il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 			String_t* L_15;
 			L_15 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_14, NULL);
@@ -16681,7 +16681,7 @@ IL_0049:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
 		String_t* L_16 = V_2;
 		return L_16;
 	}
@@ -16701,13 +16701,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SerializationUtils_SerializeToStrin
 	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:48>
 		goto IL_000a;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:50>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_2;
@@ -16715,7 +16715,7 @@ IL_000a:
 		DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_3 = (DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B*)il2cpp_codegen_object_new(DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B_il2cpp_TypeInfo_var);
 		DataContractSerializer__ctor_m086212F43527656CFCA87E346B8BEBE1678F57EB(L_3, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:51>
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_4 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_4, NULL);
 		V_1 = L_4;
@@ -16747,7 +16747,7 @@ IL_0049:
 		});
 		try
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:53>
 			DataContractSerializer_tFE4D36FC22F629197CBDE3246558C4261E9A691B* L_7 = V_0;
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_8 = V_1;
 			SpaceSharingInfo_t8859D951A4E8EDABABD21B97822F283E66EF9AE7 L_9 = ___0_obj;
@@ -16755,14 +16755,14 @@ IL_0049:
 			RuntimeObject* L_11 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), &L_10);
 			NullCheck((XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_7);
 			VirtualActionInvoker2< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*, RuntimeObject* >::Invoke(7, (XmlObjectSerializer_t745A7714E2CB281BB6E4687FFB5E8C0E5783B03F*)L_7, (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE*)L_8, L_11);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:54>
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 			NullCheck(L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
 			L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
 			L_14 = SerializationUtils_Compress_m77D6F74F93447CED5DBD9ECFC113217B1509BBD2(L_13, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:55>
 			il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 			String_t* L_15;
 			L_15 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_14, NULL);
@@ -16777,7 +16777,7 @@ IL_0049:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/CustomMatchmaking/CustomMatchmakingUtils.cs:57>
 		String_t* L_16 = V_2;
 		return L_16;
 	}
@@ -26783,7 +26783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Style_Default_TisRuntimeObject
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:47>
 		String_t* L_0;
 		L_0 = Style_Path_TisRuntimeObject_m2DF5DDC36315D5A47360DA1B3FFB0CF1977CCA95(il2cpp_rgctx_method(method->rgctx_data, 0));
 		String_t* L_1;
@@ -26802,18 +26802,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Style_Instantiate_TisRuntimeOb
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:67>
 		String_t* L_0 = ___0_name;
 		RuntimeObject* L_1;
 		L_1 = Style_Load_TisRuntimeObject_mE5BF3C38D661A66FECFEDF35EB51237FEFE0A08F(L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		RuntimeObject* L_2;
 		L_2 = Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:68>
 		RuntimeObject* L_3 = L_2;
 		NullCheck(L_3);
 		((Style_t1ACF71D8CE624B6C200BFE88DC68A0BE85086ADA*)L_3)->____instantiated = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:69>
 		return L_3;
 	}
 }
@@ -26824,7 +26824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Style_Load_TisRuntimeObject_mE
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:56>
 		String_t* L_0;
 		L_0 = Style_Path_TisRuntimeObject_m2DF5DDC36315D5A47360DA1B3FFB0CF1977CCA95(il2cpp_rgctx_method(method->rgctx_data, 0));
 		String_t* L_1 = ___0_name;
@@ -26861,7 +26861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Style_Path_TisRuntimeObject_m2DF5DD
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Styles/Style.cs:40>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;

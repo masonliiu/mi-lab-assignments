@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.all": "83.0.3",
+    "com.meta.xr.sdk.all": "83.0.4",
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.cloud.gltfast": "6.16.0",
     "com.unity.collab-proxy": "2.10.2",

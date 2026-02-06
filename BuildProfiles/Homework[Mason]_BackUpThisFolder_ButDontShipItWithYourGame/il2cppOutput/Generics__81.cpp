@@ -18217,7 +18217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastAction_3__ctor_m88968D64E361C41759CB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Mode_m5377A80B6E853B919C886629DE27B03B6CB2D271_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:48>
 		int32_t L_0 = __this->____mode;
 		return L_0;
 	}
@@ -18226,10 +18226,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Mode_m5377A80
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Mode_mAC8A3A5F298AA537A31029B04543C9B49CA0A2DC_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
 		int32_t L_0 = ___0_value;
 		__this->____mode = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
 		return;
 	}
 }
@@ -18237,7 +18237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Mode_mAC8A3A5F29
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Feature_m3B1B1012F28E9D3BFBB2CC3B339F0576C0217237_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:54>
 		int32_t L_0 = __this->____feature;
 		return L_0;
 	}
@@ -18246,10 +18246,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Feature_m3B1B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Feature_m370108205C6F96C11193933DF142E0E904E6B58F_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
 		int32_t L_0 = ___0_value;
 		__this->____feature = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
 		return;
 	}
 }
@@ -18257,7 +18257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Feature_m3701082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FeatureConfigBase_1_get_State_m533DD304A6B62476FB41BA6B20B0E9C2EE21FEF6_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:60>
 		String_t* L_0 = __this->____state;
 		return L_0;
 	}
@@ -18266,11 +18266,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FeatureConfigBase_1_get_State_m533D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_State_mD14B9F7758914BA9B3C8C6C5B252DC4C94D6D3EA_gshared (FeatureConfigBase_1_tCAEF03CDC0739E6F5EB1362CF700218DC4C8BB10* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
 		String_t* L_0 = ___0_value;
 		__this->____state = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____state), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
 		return;
 	}
 }
@@ -18294,7 +18294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1__ctor_m56B638A65F6C2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Mode_mCFCEAFF43611B001C30D89B0476E7A617C59E1D6_gshared (FeatureConfigBase_1_t497E2C0789DD5F3B74074BB6C9F90CAB99190AA7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:48>
 		int32_t L_0 = *(int32_t*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		return L_0;
 	}
@@ -18303,10 +18303,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureConfigBase_1_get_Mode_mCFCEAFF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Mode_mDAD304ED6D634AF5A076FAAF7DE7E082B73546EB_gshared (FeatureConfigBase_1_t497E2C0789DD5F3B74074BB6C9F90CAB99190AA7* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_write_instance_field_data<int32_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:49>
 		return;
 	}
 }
@@ -18316,7 +18316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_get_Feature_mE7A42F5
 	const uint32_t SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:54>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1)), SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
 		return;
@@ -18328,10 +18328,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Feature_mA827777
 	const uint32_t SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_value : &___0_value), SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), L_0, SizeOf_TFeature_tFD57846B9638C5AB7C4C00D529227597A2479876);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:55>
 		return;
 	}
 }
@@ -18339,7 +18339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_Feature_mA827777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FeatureConfigBase_1_get_State_mC0E0A64B2F74484257950F24C7750A1ADCD000AF_gshared (FeatureConfigBase_1_t497E2C0789DD5F3B74074BB6C9F90CAB99190AA7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:60>
 		String_t* L_0 = *(String_t**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2));
 		return L_0;
 	}
@@ -18348,10 +18348,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FeatureConfigBase_1_get_State_mC0E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1_set_State_m89838DB63B7691237FA3D8FD55F19D11E9501B58_gshared (FeatureConfigBase_1_t497E2C0789DD5F3B74074BB6C9F90CAB99190AA7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_write_instance_field_data<String_t*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2), L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:61>
 		return;
 	}
 }
@@ -18375,7 +18375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureConfigBase_1__ctor_m7E5175FECE58C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_get_LastUpdatedFrameId_m566D56FDC79BCA6810BD3DA74AA6DF349C94A054_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
 		int32_t L_0 = __this->___U3CLastUpdatedFrameIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -18384,7 +18384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_get_LastUpdate
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_set_LastUpdatedFrameId_mBB10DEBB1E93CFCD8D34AA75BD94558187ADB47A_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
 		int32_t L_0 = ___0_value;
 		__this->___U3CLastUpdatedFrameIdU3Ek__BackingField = L_0;
 		return;
@@ -18394,7 +18394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_set_LastUpdatedFr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_EnumToInt_mC9E7C62AC23BDFB6193D1141BB0135C22E6630B0_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:103>
 		Func_2_t16F469F6A9BC1DA8D6E1B32B0D2D7F7983D5FBC4* L_0 = __this->____featureToInt;
 		int32_t L_1 = ___0_value;
 		NullCheck(L_0);
@@ -18407,23 +18407,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_EnumToInt_mC9E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__ctor_mB8E31CFAC791321EAC06DE78FC0A9DB9BBEB98DD_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, Func_2_t1701954EED656DD6F6834236F62770B4C185EAAB* ___0_valueReader, Func_2_t16F469F6A9BC1DA8D6E1B32B0D2D7F7983D5FBC4* ___1_featureToInt, Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___2_timeProvider, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:119>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:121>
 		Func_2_t1701954EED656DD6F6834236F62770B4C185EAAB* L_0 = ___0_valueReader;
 		__this->____valueReader = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____valueReader), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:122>
 		Func_2_t16F469F6A9BC1DA8D6E1B32B0D2D7F7983D5FBC4* L_1 = ___1_featureToInt;
 		__this->____featureToInt = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToInt), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:123>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_2 = ___2_timeProvider;
 		__this->____timeProvider = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeProvider), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:124>
 		return;
 	}
 }
@@ -18431,11 +18431,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__ctor_mB8E31CFAC7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeThresholds_m4B96486CC69733175DE5199EF23D8DA296E39E7C_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, RuntimeObject* ___0_featureThresholds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:132>
 		RuntimeObject* L_0 = ___0_featureThresholds;
 		__this->____featureThresholds = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureThresholds), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:133>
 		RuntimeObject* L_1 = ___0_featureThresholds;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -18444,9 +18444,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeThresho
 		L_3 = FeatureStateProvider_2_ValidateFeatureThresholds_mD499931B72EAF176C04C3DFB8BDAB912D60E3DD5(__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		__this->____featureToThresholds = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToThresholds), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:135>
 		FeatureStateProvider_2_InitializeStates_m2BE208E664B41F26E90EA2412B3BB48BAE4A8E04(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:136>
 		return;
 	}
 }
@@ -18468,8 +18468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IFeatureStateThresholds_2U5BU5D_t62D08E11D9A8
 	RuntimeObject* V_5 = NULL;
 	int32_t V_6 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:142>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 11)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -18480,7 +18480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IFeatureStateThresholds_2U5BU5D_t62D08E11D9A8
 		NullCheck(L_2);
 		IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_3 = (IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D*)(IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 12), (uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 		RuntimeObject* L_4 = ___0_featureStateThresholdsList;
 		NullCheck((RuntimeObject*)L_4);
 		RuntimeObject* L_5;
@@ -18520,13 +18520,13 @@ IL_0084:
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				RuntimeObject* L_9;
 				L_9 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 15), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:145>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:145>
 				RuntimeObject* L_10 = V_2;
 				NullCheck(L_10);
 				int32_t L_11;
@@ -18534,21 +18534,21 @@ IL_0020_1:
 				int32_t L_12;
 				L_12 = FeatureStateProvider_2_EnumToInt_mC9E7C62AC23BDFB6193D1141BB0135C22E6630B0(__this, L_11, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 				V_3 = L_12;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:146>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:146>
 				IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_13 = V_0;
 				int32_t L_14 = V_3;
 				RuntimeObject* L_15 = V_2;
 				NullCheck(L_13);
 				ArrayElementTypeCheck (L_13, L_15);
 				(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (RuntimeObject*)L_15);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				V_4 = 0;
 				goto IL_0062_1;
 			}
 
 IL_003d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:151>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:151>
 				RuntimeObject* L_16 = V_2;
 				NullCheck(L_16);
 				RuntimeObject* L_17;
@@ -18558,8 +18558,8 @@ IL_003d_1:
 				RuntimeObject* L_19;
 				L_19 = InterfaceFuncInvoker1< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_17, L_18);
 				V_5 = L_19;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:152>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:153>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:152>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:153>
 				RuntimeObject* L_20 = V_5;
 				NullCheck(L_20);
 				float L_21;
@@ -18568,14 +18568,14 @@ IL_003d_1:
 				NullCheck(L_22);
 				float L_23;
 				L_23 = InterfaceFuncInvoker0< float >::Invoke(1, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_22);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				int32_t L_24 = V_4;
 				V_4 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 			}
 
 IL_0062_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				int32_t L_25 = V_4;
 				RuntimeObject* L_26 = V_2;
 				NullCheck(L_26);
@@ -18592,7 +18592,7 @@ IL_0062_1:
 
 IL_0071_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 				RuntimeObject* L_29 = V_1;
 				NullCheck((RuntimeObject*)L_29);
 				bool L_30;
@@ -18614,27 +18614,27 @@ IL_0071_1:
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		V_6 = 0;
 		goto IL_0095;
 	}
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:163>
 		IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_31 = V_0;
 		int32_t L_32 = V_6;
 		NullCheck(L_31);
 		int32_t L_33 = L_32;
 		RuntimeObject* L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		int32_t L_35 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_0095:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		int32_t L_36 = V_6;
 		IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_37 = V_0;
 		NullCheck(L_37);
@@ -18644,7 +18644,7 @@ IL_0095:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:170>
 		IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_38 = V_0;
 		return L_38;
 	}
@@ -18657,14 +18657,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeStates_
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:176>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 29));
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_0 = ((FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		NullCheck(L_0);
 		FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3* L_1 = (FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3*)(FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 30), (uint32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
 		__this->____featureToCurrentState = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToCurrentState), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_2 = ((FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		V_0 = L_2;
 		V_1 = 0;
@@ -18673,31 +18673,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeStates_
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		int32_t L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:179>
 		int32_t L_7 = V_2;
 		int32_t L_8;
 		L_8 = FeatureStateProvider_2_EnumToInt_mC9E7C62AC23BDFB6193D1141BB0135C22E6630B0(__this, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:182>
 		FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3* L_9 = __this->____featureToCurrentState;
 		int32_t L_10 = V_3;
 		NullCheck(L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:183>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_11 = ((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)));
 		RuntimeObject** L_12 = (RuntimeObject**)(&L_11->___State);
 		il2cpp_codegen_initobj(L_12, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:184>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_13 = L_11;
 		RuntimeObject** L_14 = (RuntimeObject**)(&L_13->___DesiredState);
 		il2cpp_codegen_initobj(L_14, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:185>
 		L_13->___DesiredStateEntryTime = (0.0);
 		int32_t L_15 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_15, 1));
@@ -18705,7 +18705,7 @@ IL_001c:
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		int32_t L_16 = V_1;
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_17 = V_0;
 		NullCheck(L_17);
@@ -18715,7 +18715,7 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:187>
 		return;
 	}
 }
@@ -18723,7 +18723,7 @@ IL_0062:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject** FeatureStateProvider_2_GetFeatureThresholds_mDF36CEFB46FB30FA395CA89A03F7F66DFD8CA2AD_gshared (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, int32_t ___0_feature, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:192>
 		IFeatureStateThresholds_2U5BU5D_t62D08E11D9A83A44DBC21117ABBB237873B50D3D* L_0 = __this->____featureToThresholds;
 		int32_t L_1 = ___0_feature;
 		int32_t L_2;
@@ -18749,14 +18749,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeatureStateProvider_2_GetCurr
 	RuntimeObject* V_3 = NULL;
 	float V_4 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:204>
 		FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3* L_0 = __this->____featureToCurrentState;
 		int32_t L_1 = ___0_feature;
 		int32_t L_2;
 		L_2 = FeatureStateProvider_2_EnumToInt_mC9E7C62AC23BDFB6193D1141BB0135C22E6630B0(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		NullCheck(L_0);
 		V_0 = ((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:205>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_3 = V_0;
 		int32_t L_4 = L_3->___LastUpdatedFrameId;
 		int32_t L_5;
@@ -18767,7 +18767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeatureStateProvider_2_GetCurr
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:207>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_6 = V_0;
 		RuntimeObject* L_7 = L_6->___State;
 		return L_7;
@@ -18775,14 +18775,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeatureStateProvider_2_GetCurr
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:211>
 		Func_2_t1701954EED656DD6F6834236F62770B4C185EAAB* L_8 = __this->____valueReader;
 		int32_t L_9 = ___0_feature;
 		NullCheck(L_8);
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_10;
 		L_10 = Func_2_Invoke_mE61230314FF6AAFB22B00297FF67462AF15560B7_inline(L_8, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 36));
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:212>
 		bool L_11;
 		L_11 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&V_1), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
 		if (L_11)
@@ -18791,7 +18791,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:214>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_12 = V_0;
 		RuntimeObject* L_13 = L_12->___State;
 		return L_13;
@@ -18799,12 +18799,12 @@ IL_0028:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:218>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_14 = V_0;
 		int32_t L_15;
 		L_15 = FeatureStateProvider_2_get_LastUpdatedFrameId_m566D56FDC79BCA6810BD3DA74AA6DF349C94A054_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 35));
 		L_14->___LastUpdatedFrameId = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:221>
 		int32_t L_16 = ___0_feature;
 		RuntimeObject** L_17;
 		L_17 = FeatureStateProvider_2_GetFeatureThresholds_mDF36CEFB46FB30FA395CA89A03F7F66DFD8CA2AD(__this, L_16, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
@@ -18813,7 +18813,7 @@ IL_0045:
 		RuntimeObject* L_19;
 		L_19 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, il2cpp_rgctx_data(method->klass->rgctx_data, 17), L_18);
 		V_2 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:224>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_20 = V_0;
 		bool L_21 = L_20->___HasCurrentState;
 		if (L_21)
@@ -18822,7 +18822,7 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:226>
 		float L_22;
 		L_22 = Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA((&V_1), Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		RuntimeObject* L_23 = V_2;
@@ -18834,8 +18834,8 @@ IL_0045:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:230>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:231>
 		float L_25;
 		L_25 = Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA((&V_1), Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		RuntimeObject* L_26 = V_2;
@@ -18848,7 +18848,7 @@ IL_0078:
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:235>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_30 = V_0;
 		RuntimeObject* L_31 = L_30->___State;
 		NullCheck((RuntimeObject*)(V_3));
@@ -18860,7 +18860,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:237>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_33 = V_0;
 		RuntimeObject* L_34 = L_33->___State;
 		return L_34;
@@ -18868,13 +18868,13 @@ IL_008d:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:241>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_35 = __this->____timeProvider;
 		NullCheck(L_35);
 		float L_36;
 		L_36 = Func_1_Invoke_m6EC66204056853EDE42F634FECB2D7D4685B54B0_inline(L_35, NULL);
 		V_4 = L_36;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:242>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_37 = V_0;
 		RuntimeObject* L_38 = L_37->___DesiredState;
 		NullCheck((RuntimeObject*)(V_3));
@@ -18886,11 +18886,11 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:244>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_40 = V_0;
 		float L_41 = V_4;
 		L_40->___DesiredStateEntryTime = ((double)L_41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:245>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_42 = V_0;
 		RuntimeObject* L_43 = V_3;
 		L_42->___DesiredState = L_43;
@@ -18899,7 +18899,7 @@ IL_00a9:
 
 IL_00db:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:250>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_44 = V_0;
 		double L_45 = L_44->___DesiredStateEntryTime;
 		RuntimeObject* L_46 = __this->____featureThresholds;
@@ -18913,10 +18913,10 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:252>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_49 = V_0;
 		L_49->___HasCurrentState = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:253>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_50 = V_0;
 		RuntimeObject* L_51 = V_3;
 		L_50->___State = L_51;
@@ -18925,7 +18925,7 @@ IL_00db:
 
 IL_0100:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:255>
 		FeatureStateSnapshot_t65DAC62C7EB77BFD52547582336425F53097F9D3* L_52 = V_0;
 		RuntimeObject* L_53 = L_52->___State;
 		return L_53;
@@ -18938,25 +18938,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeatureStateProvider_2_ReadDes
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:263>
 		RuntimeObject* L_0 = ___2_previousState;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		V_1 = 0;
 		goto IL_005c;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:266>
 		RuntimeObject* L_1 = ___1_featureStateThresholds;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		RuntimeObject* L_3;
 		L_3 = InterfaceFuncInvoker1< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_1, L_2);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:267>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:268>
 		RuntimeObject* L_4 = V_2;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -18981,7 +18981,7 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:271>
 		RuntimeObject* L_10 = V_2;
 		NullCheck(L_10);
 		RuntimeObject* L_11;
@@ -18991,8 +18991,8 @@ IL_0006:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:273>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:274>
 		RuntimeObject* L_12 = V_2;
 		NullCheck(L_12);
 		RuntimeObject* L_13;
@@ -19017,7 +19017,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:277>
 		RuntimeObject* L_18 = V_2;
 		NullCheck(L_18);
 		RuntimeObject* L_19;
@@ -19027,14 +19027,14 @@ IL_0033:
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		int32_t L_20 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		int32_t L_21 = V_1;
 		RuntimeObject* L_22 = ___1_featureStateThresholds;
 		NullCheck((RuntimeObject*)L_22);
@@ -19046,7 +19046,7 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:281>
 		RuntimeObject* L_24 = ___2_previousState;
 		return L_24;
 	}
@@ -19058,23 +19058,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeatureStateProvider_2_ReadDes
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:288>
 		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		V_1 = 0;
 		goto IL_0031;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:291>
 		RuntimeObject* L_0 = ___1_featureStateThresholds;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
 		L_2 = InterfaceFuncInvoker1< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_0, L_1);
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:292>
 		float L_3 = ___0_value;
 		RuntimeObject* L_4 = V_2;
 		NullCheck(L_4);
@@ -19086,32 +19086,32 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:294>
 		RuntimeObject* L_6 = V_2;
 		NullCheck(L_6);
 		RuntimeObject* L_7;
 		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_6);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:295>
 		goto IL_003a;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:298>
 		RuntimeObject* L_8 = V_2;
 		NullCheck(L_8);
 		RuntimeObject* L_9;
 		L_9 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_8);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		int32_t L_11 = V_1;
 		RuntimeObject* L_12 = ___1_featureStateThresholds;
 		NullCheck((RuntimeObject*)L_12);
@@ -19125,7 +19125,7 @@ IL_0031:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:301>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:301>
 		RuntimeObject* L_14 = V_0;
 		return L_14;
 	}
@@ -19135,19 +19135,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_ReadTouchedFeatur
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:308>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:312>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:313>
 		FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3* L_0 = __this->____featureToCurrentState;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:314>
 		int32_t L_2 = ((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1)))->___LastUpdatedFrameId;
 		if (!L_2)
 		{
@@ -19155,7 +19155,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:322>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 29));
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_3 = ((FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		int32_t L_4 = V_0;
@@ -19168,14 +19168,14 @@ IL_0004:
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:310>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:309>
 		int32_t L_9 = V_0;
 		FeatureStateSnapshotU5BU5D_t10509CD4163B630874F613E892C64C686A626DF3* L_10 = __this->____featureToCurrentState;
 		NullCheck(L_10);
@@ -19185,7 +19185,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:324>
 		return;
 	}
 }
@@ -19193,7 +19193,7 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__cctor_m2C01F4079DFB5A109BF3830A61FAC321C09A5A5D_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:105>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 11)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -19218,7 +19218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__cctor_m2C01F4079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_get_LastUpdatedFrameId_m45FBB9AC3556EA47EB9610AE0AEEA638E3E9D336_gshared (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
 		int32_t L_0 = __this->___U3CLastUpdatedFrameIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -19227,7 +19227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_get_LastUpdate
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_set_LastUpdatedFrameId_mEF0026340B74DD51C16828DAC2B8678FE9B95988_gshared (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
 		int32_t L_0 = ___0_value;
 		__this->___U3CLastUpdatedFrameIdU3Ek__BackingField = L_0;
 		return;
@@ -19239,7 +19239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_EnumToInt_mCC0
 	const uint32_t SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:103>
 		Func_2_tECC0CFC575314169268AC4D7DE437B7DD3A62962* L_0 = __this->____featureToInt;
 		il2cpp_codegen_memcpy(L_1, ___0_value, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		NullCheck(L_0);
@@ -19252,23 +19252,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_EnumToInt_mCC0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__ctor_m5550A9FC94C994C9AAE35E21DBB7F7AB14AF4932_gshared (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289* __this, Func_2_tD1D2B2D72561B91B39DA22AA562AD1E29DEB0C71* ___0_valueReader, Func_2_tECC0CFC575314169268AC4D7DE437B7DD3A62962* ___1_featureToInt, Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ___2_timeProvider, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:117>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:118>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:119>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:121>
 		Func_2_tD1D2B2D72561B91B39DA22AA562AD1E29DEB0C71* L_0 = ___0_valueReader;
 		__this->____valueReader = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____valueReader), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:122>
 		Func_2_tECC0CFC575314169268AC4D7DE437B7DD3A62962* L_1 = ___1_featureToInt;
 		__this->____featureToInt = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToInt), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:123>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_2 = ___2_timeProvider;
 		__this->____timeProvider = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeProvider), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:124>
 		return;
 	}
 }
@@ -19276,11 +19276,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__ctor_m5550A9FC94
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeThresholds_m668AE17662D900157886F8ED50DAB143EC1C343B_gshared (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289* __this, RuntimeObject* ___0_featureThresholds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:132>
 		RuntimeObject* L_0 = ___0_featureThresholds;
 		__this->____featureThresholds = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureThresholds), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:133>
 		RuntimeObject* L_1 = ___0_featureThresholds;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -19289,9 +19289,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeThresho
 		L_3 = ((  IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* (*) (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		__this->____featureToThresholds = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToThresholds), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:135>
 		((  void (*) (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:136>
 		return;
 	}
 }
@@ -19315,8 +19315,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IFeatureStateThresholds_2U5BU5D_tEACF4DD61A68
 	RuntimeObject* V_5 = NULL;
 	int32_t V_6 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:141>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:142>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 11)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -19327,7 +19327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IFeatureStateThresholds_2U5BU5D_tEACF4DD61A68
 		NullCheck(L_2);
 		IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_3 = (IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C*)(IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 12), (uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 		RuntimeObject* L_4 = ___0_featureStateThresholdsList;
 		NullCheck((RuntimeObject*)L_4);
 		RuntimeObject* L_5;
@@ -19367,34 +19367,34 @@ IL_0084:
 
 IL_0020_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				RuntimeObject* L_9;
 				L_9 = InterfaceFuncInvoker0Invoker< RuntimeObject* >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 15), L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:145>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:145>
 				RuntimeObject* L_10 = V_2;
 				NullCheck(L_10);
 				InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericStruct* >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 17), L_10, (Il2CppFullySharedGenericStruct*)L_11);
 				int32_t L_12;
 				L_12 = InvokerFuncInvoker1< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)), il2cpp_rgctx_method(method->klass->rgctx_data, 19), __this, L_11);
 				V_3 = L_12;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:146>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:146>
 				IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_13 = V_0;
 				int32_t L_14 = V_3;
 				RuntimeObject* L_15 = V_2;
 				NullCheck(L_13);
 				ArrayElementTypeCheck (L_13, L_15);
 				(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (RuntimeObject*)L_15);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				V_4 = 0;
 				goto IL_0062_1;
 			}
 
 IL_003d_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:151>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:151>
 				RuntimeObject* L_16 = V_2;
 				NullCheck(L_16);
 				RuntimeObject* L_17;
@@ -19404,8 +19404,8 @@ IL_003d_1:
 				RuntimeObject* L_19;
 				L_19 = InterfaceFuncInvoker1Invoker< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_17, L_18);
 				V_5 = L_19;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:152>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:153>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:152>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:153>
 				RuntimeObject* L_20 = V_5;
 				NullCheck(L_20);
 				float L_21;
@@ -19414,14 +19414,14 @@ IL_003d_1:
 				NullCheck(L_22);
 				float L_23;
 				L_23 = InterfaceFuncInvoker0< float >::Invoke(1, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_22);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				int32_t L_24 = V_4;
 				V_4 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 			}
 
 IL_0062_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:149>
 				int32_t L_25 = V_4;
 				RuntimeObject* L_26 = V_2;
 				NullCheck(L_26);
@@ -19438,7 +19438,7 @@ IL_0062_1:
 
 IL_0071_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:143>
 				RuntimeObject* L_29 = V_1;
 				NullCheck((RuntimeObject*)L_29);
 				bool L_30;
@@ -19460,27 +19460,27 @@ IL_0071_1:
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		V_6 = 0;
 		goto IL_0095;
 	}
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:163>
 		IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_31 = V_0;
 		int32_t L_32 = V_6;
 		NullCheck(L_31);
 		int32_t L_33 = L_32;
 		RuntimeObject* L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		int32_t L_35 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_0095:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:161>
 		int32_t L_36 = V_6;
 		IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_37 = V_0;
 		NullCheck(L_37);
@@ -19490,7 +19490,7 @@ IL_0095:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:170>
 		IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_38 = V_0;
 		return L_38;
 	}
@@ -19508,14 +19508,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeStates_
 	memset(V_2, 0, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:176>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 29));
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_0 = ((FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		NullCheck(L_0);
 		FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007* L_1 = (FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007*)(FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 30), (uint32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
 		__this->____featureToCurrentState = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____featureToCurrentState), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_2 = ((FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		V_0 = L_2;
 		V_1 = 0;
@@ -19524,29 +19524,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_InitializeStates_
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		il2cpp_codegen_memcpy(L_6, (L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)), SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		il2cpp_codegen_memcpy(V_2, L_6, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:179>
 		il2cpp_codegen_memcpy(L_7, V_2, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		int32_t L_8;
 		L_8 = InvokerFuncInvoker1< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)), il2cpp_rgctx_method(method->klass->rgctx_data, 19), __this, L_7);
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:182>
 		FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007* L_9 = __this->____featureToCurrentState;
 		int32_t L_10 = V_3;
 		NullCheck(L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:183>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_11 = ((FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F*)(L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)));
 		il2cpp_codegen_initobj((((Il2CppFullySharedGenericAny*)il2cpp_codegen_get_instance_field_data_pointer(L_11, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)))), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:184>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_12 = L_11;
 		il2cpp_codegen_initobj((((Il2CppFullySharedGenericAny*)il2cpp_codegen_get_instance_field_data_pointer(L_12, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),2)))), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:185>
 		il2cpp_codegen_write_instance_field_data<double>(L_12, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),4), (0.0));
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
@@ -19554,7 +19554,7 @@ IL_001c:
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:177>
 		int32_t L_14 = V_1;
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_15 = V_0;
 		NullCheck(L_15);
@@ -19564,7 +19564,7 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:187>
 		return;
 	}
 }
@@ -19574,7 +19574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject** FeatureStateProvider_2_GetFea
 	const uint32_t SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:192>
 		IFeatureStateThresholds_2U5BU5D_tEACF4DD61A6883B054E426D2D5AEDF7B21C5B52C* L_0 = __this->____featureToThresholds;
 		il2cpp_codegen_memcpy(L_1, ___0_feature, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		int32_t L_2;
@@ -19619,14 +19619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_GetCurrentFeature
 	memset(V_3, 0, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 	float V_4 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:204>
 		FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007* L_0 = __this->____featureToCurrentState;
 		il2cpp_codegen_memcpy(L_1, ___0_feature, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		int32_t L_2;
 		L_2 = InvokerFuncInvoker1< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)), il2cpp_rgctx_method(method->klass->rgctx_data, 19), __this, L_1);
 		NullCheck(L_0);
 		V_0 = ((FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F*)(L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:205>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_3 = V_0;
 		int32_t L_4 = *(int32_t*)il2cpp_codegen_get_instance_field_data_pointer(L_3, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),3));
 		int32_t L_5;
@@ -19637,7 +19637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_GetCurrentFeature
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:207>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_6 = V_0;
 		il2cpp_codegen_memcpy(L_7, il2cpp_codegen_get_instance_field_data_pointer(L_6, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_7, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19646,14 +19646,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_GetCurrentFeature
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:211>
 		Func_2_tD1D2B2D72561B91B39DA22AA562AD1E29DEB0C71* L_8 = __this->____valueReader;
 		il2cpp_codegen_memcpy(L_9, ___0_feature, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		NullCheck(L_8);
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_10;
 		L_10 = InvokerFuncInvoker1< Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 36)), il2cpp_rgctx_method(method->klass->rgctx_data, 36), L_8, L_9);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:212>
 		bool L_11;
 		L_11 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&V_1), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
 		if (L_11)
@@ -19662,7 +19662,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:214>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_12 = V_0;
 		il2cpp_codegen_memcpy(L_13, il2cpp_codegen_get_instance_field_data_pointer(L_12, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_13, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19671,12 +19671,12 @@ IL_0028:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:218>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_14 = V_0;
 		int32_t L_15;
 		L_15 = ((  int32_t (*) (FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 35)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 35));
 		il2cpp_codegen_write_instance_field_data<int32_t>(L_14, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),3), L_15);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:221>
 		il2cpp_codegen_memcpy(L_16, ___0_feature, SizeOf_TFeature_tB43A1DD2F56C83BDA5FF0B7EC92898CAB0344174);
 		RuntimeObject** L_17;
 		L_17 = InvokerFuncInvoker1< RuntimeObject**, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 37)), il2cpp_rgctx_method(method->klass->rgctx_data, 37), __this, L_16);
@@ -19685,7 +19685,7 @@ IL_0045:
 		RuntimeObject* L_19;
 		L_19 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, il2cpp_rgctx_data(method->klass->rgctx_data, 17), L_18);
 		V_2 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:224>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_20 = V_0;
 		bool L_21 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(L_20, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),0));
 		if (L_21)
@@ -19694,7 +19694,7 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:226>
 		float L_22;
 		L_22 = Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA((&V_1), Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		RuntimeObject* L_23 = V_2;
@@ -19705,8 +19705,8 @@ IL_0045:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:230>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:231>
 		float L_25;
 		L_25 = Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA((&V_1), Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		RuntimeObject* L_26 = V_2;
@@ -19718,7 +19718,7 @@ IL_0078:
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:235>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_30 = V_0;
 		il2cpp_codegen_memcpy(L_31, il2cpp_codegen_get_instance_field_data_pointer(L_30, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		bool L_33;
@@ -19729,7 +19729,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:237>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_34 = V_0;
 		il2cpp_codegen_memcpy(L_35, il2cpp_codegen_get_instance_field_data_pointer(L_34, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_35, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19738,13 +19738,13 @@ IL_008d:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:241>
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_36 = __this->____timeProvider;
 		NullCheck(L_36);
 		float L_37;
 		L_37 = Func_1_Invoke_m6EC66204056853EDE42F634FECB2D7D4685B54B0_inline(L_36, NULL);
 		V_4 = L_37;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:242>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_38 = V_0;
 		il2cpp_codegen_memcpy(L_39, il2cpp_codegen_get_instance_field_data_pointer(L_38, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),2)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		bool L_41;
@@ -19755,11 +19755,11 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:244>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_42 = V_0;
 		float L_43 = V_4;
 		il2cpp_codegen_write_instance_field_data<double>(L_42, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),4), ((double)L_43));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:245>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:245>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_44 = V_0;
 		il2cpp_codegen_memcpy(L_45, V_3, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_write_instance_field_data(L_44, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),2), L_45, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19767,7 +19767,7 @@ IL_00a9:
 
 IL_00db:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:250>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_46 = V_0;
 		double L_47 = *(double*)il2cpp_codegen_get_instance_field_data_pointer(L_46, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),4));
 		RuntimeObject* L_48 = __this->____featureThresholds;
@@ -19781,10 +19781,10 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:252>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_51 = V_0;
 		il2cpp_codegen_write_instance_field_data<bool>(L_51, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),0), (bool)1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:253>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_52 = V_0;
 		il2cpp_codegen_memcpy(L_53, V_3, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_write_instance_field_data(L_52, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1), L_53, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19792,7 +19792,7 @@ IL_00db:
 
 IL_0100:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:255>
 		FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F* L_54 = V_0;
 		il2cpp_codegen_memcpy(L_55, il2cpp_codegen_get_instance_field_data_pointer(L_54, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),1)), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_55, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
@@ -19816,25 +19816,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_ReadDesiredState_
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:263>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 33)) ? ___2_previousState : &___2_previousState), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(V_0, L_0, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		V_1 = 0;
 		goto IL_005c;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:266>
 		RuntimeObject* L_1 = ___1_featureStateThresholds;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		RuntimeObject* L_3;
 		L_3 = InterfaceFuncInvoker1Invoker< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_1, L_2);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:267>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:268>
 		RuntimeObject* L_4 = V_2;
 		NullCheck(L_4);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(2, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_4, (Il2CppFullySharedGenericAny*)L_5);
@@ -19857,7 +19857,7 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:271>
 		RuntimeObject* L_11 = V_2;
 		NullCheck(L_11);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_11, (Il2CppFullySharedGenericAny*)L_12);
@@ -19867,8 +19867,8 @@ IL_0006:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:273>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:274>
 		RuntimeObject* L_13 = V_2;
 		NullCheck(L_13);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_13, (Il2CppFullySharedGenericAny*)L_14);
@@ -19891,7 +19891,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:277>
 		RuntimeObject* L_20 = V_2;
 		NullCheck(L_20);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(2, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_20, (Il2CppFullySharedGenericAny*)L_21);
@@ -19901,14 +19901,14 @@ IL_0033:
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		int32_t L_22 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:264>
 		int32_t L_23 = V_1;
 		RuntimeObject* L_24 = ___1_featureStateThresholds;
 		NullCheck((RuntimeObject*)L_24);
@@ -19920,7 +19920,7 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:281>
 		il2cpp_codegen_memcpy(L_26, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 33)) ? ___2_previousState : &___2_previousState), SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_26, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		return;
@@ -19938,23 +19938,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_ReadDesiredState_
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:288>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_0, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		V_1 = 0;
 		goto IL_0031;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:291>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:291>
 		RuntimeObject* L_0 = ___1_featureStateThresholds;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
 		L_2 = InterfaceFuncInvoker1Invoker< RuntimeObject*, int32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 21), L_0, L_1);
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:292>
 		float L_3 = ___0_value;
 		RuntimeObject* L_4 = V_2;
 		NullCheck(L_4);
@@ -19966,30 +19966,30 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:294>
 		RuntimeObject* L_6 = V_2;
 		NullCheck(L_6);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(2, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_6, (Il2CppFullySharedGenericAny*)L_7);
 		il2cpp_codegen_memcpy(V_0, L_7, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:295>
 		goto IL_003a;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:298>
 		RuntimeObject* L_8 = V_2;
 		NullCheck(L_8);
 		InterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 23), L_8, (Il2CppFullySharedGenericAny*)L_9);
 		il2cpp_codegen_memcpy(V_0, L_9, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:289>
 		int32_t L_11 = V_1;
 		RuntimeObject* L_12 = ___1_featureStateThresholds;
 		NullCheck((RuntimeObject*)L_12);
@@ -20003,7 +20003,7 @@ IL_0031:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:301>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:301>
 		il2cpp_codegen_memcpy(L_14, V_0, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_14, SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 		return;
@@ -20018,19 +20018,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2_ReadTouchedFeatur
 	const Il2CppFullySharedGenericAny L_7 = alloca(SizeOf_TFeatureState_t33275A8677E7888DF4F077B8B6053FC8C2423E41);
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:308>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:312>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:313>
 		FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007* L_0 = __this->____featureToCurrentState;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:314>
 		int32_t L_2 = *(int32_t*)il2cpp_codegen_get_instance_field_data_pointer(((FeatureStateSnapshot_t2C3D2ADC697D726F4081859CE51DA5FA40343A9F*)(L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1))), il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 32),3));
 		if (!L_2)
 		{
@@ -20038,7 +20038,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:322>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 29));
 		__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* L_3 = ((FeatureStateProvider_2_tA5737BAA69D1C947777BEB36F14B3EA01EC1B289_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 29)))->___FeatureEnumValues;
 		int32_t L_4 = V_0;
@@ -20050,14 +20050,14 @@ IL_0004:
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:310>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:309>
 		int32_t L_9 = V_0;
 		FeatureStateSnapshotU5BU5D_tB163A20245B7781BDF6C73A80AB5715101253007* L_10 = __this->____featureToCurrentState;
 		NullCheck(L_10);
@@ -20067,7 +20067,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:324>
 		return;
 	}
 }
@@ -20075,7 +20075,7 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureStateProvider_2__cctor_m26FAAD2008E399645ADE44CF3D350672832B68A0_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:105>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 11)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -38058,7 +38058,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m2F5EF7EE15
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FeatureStateProvider_2_get_LastUpdatedFrameId_m566D56FDC79BCA6810BD3DA74AA6DF349C94A054_gshared_inline (FeatureStateProvider_2_t6CBCDA4B07CD203417E614526422E01599D1CD64* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/FeatureStateProvider.cs:81>
 		int32_t L_0 = __this->___U3CLastUpdatedFrameIdU3Ek__BackingField;
 		return L_0;
 	}

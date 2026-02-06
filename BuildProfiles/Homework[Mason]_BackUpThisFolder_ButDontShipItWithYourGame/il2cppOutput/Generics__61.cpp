@@ -29773,24 +29773,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m3C5A93E89644311B7B520C
 	HashSet_1_t69B3138379C60F0B2D0D83966D6FF40BF4B4256C* V_2 = NULL;
 	Queue_1_t03972BAF1B65E498DBC547EFF79E67F22DB323BF* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:114>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_0 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		il2cpp_codegen_initobj(L_0, sizeof(Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:115>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_1 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		il2cpp_codegen_initobj(L_1, sizeof(Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:116>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		il2cpp_codegen_initobj(L_2, sizeof(Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:117>
 		__this->____enumerator = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____enumerator), (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:118>
 		__this->____readOnlyList = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____readOnlyList), (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:119>
 		__this->____listIndex = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:120>
 		__this->____listCount = 0;
 		RuntimeObject* L_3 = ___0_enumerable;
 		if (!L_3)
@@ -29840,87 +29840,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m3C5A93E89644311B7B520C
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:125>
 		__this->____type = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:126>
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:128>
 		List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284* L_12 = V_0;
 		NullCheck(L_12);
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344 L_13;
 		L_13 = List_1_GetEnumerator_mE7467078A2D1DAE11A0859CE92A2AA53324A9788(L_12, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		__this->____listEnumerator = L_13;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____listEnumerator))->____list), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:129>
 		__this->____type = (int32_t)2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:130>
 		return;
 	}
 
 IL_0089:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:132>
 		RuntimeObject* L_14 = V_1;
 		__this->____readOnlyList = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____readOnlyList), (void*)L_14);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:133>
 		RuntimeObject* L_15 = V_1;
 		NullCheck((RuntimeObject*)L_15);
 		int32_t L_16;
 		L_16 = InterfaceFuncInvoker0< int32_t >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12), (RuntimeObject*)L_15);
 		__this->____listCount = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:134>
 		__this->____type = (int32_t)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:135>
 		return;
 	}
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:137>
 		HashSet_1_t69B3138379C60F0B2D0D83966D6FF40BF4B4256C* L_17 = V_2;
 		NullCheck(L_17);
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC L_18;
 		L_18 = HashSet_1_GetEnumerator_m71DB2D9A0333DB3369C6E27C428D1479764004D4(L_17, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		__this->____setEnumerator = L_18;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____setEnumerator))->____set), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:138>
 		__this->____type = (int32_t)3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:139>
 		return;
 	}
 
 IL_00b8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:141>
 		Queue_1_t03972BAF1B65E498DBC547EFF79E67F22DB323BF* L_19 = V_3;
 		NullCheck(L_19);
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005 L_20;
 		L_20 = Queue_1_GetEnumerator_m08ABAC2FB94E3A5F4F66436AC6F3845425CAB58B(L_19, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		__this->____queueEnumerator = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____queueEnumerator))->____q), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:142>
 		__this->____type = (int32_t)4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:143>
 		return;
 	}
 
 IL_00cc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:145>
 		RuntimeObject* L_21 = ___0_enumerable;
 		NullCheck(L_21);
 		RuntimeObject* L_22;
 		L_22 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6), L_21);
 		__this->____enumerator = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____enumerator), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:146>
 		__this->____type = (int32_t)5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:149>
 		return;
 	}
 }
@@ -29943,16 +29943,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m7D1068A952F1EF78495
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:153>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:154>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:155>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:156>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:157>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:162>
 		int32_t L_0 = __this->____type;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -29990,14 +29990,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m7D1068A952F1EF78495
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:155>
 		V_0 = (bool)0;
 		goto IL_0087;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:156>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		bool L_3;
 		L_3 = Enumerator_MoveNext_mFE0F62205805D9E257F701E9C79967C7604F71BB(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
@@ -30007,7 +30007,7 @@ IL_002b:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:157>
 		bool L_4;
 		L_4 = Enumerator_MoveNextReadOnlyList_m45B781B3ED390FE4CE48C3E9A5ECBB21BBD7D736(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		V_0 = L_4;
@@ -30016,7 +30016,7 @@ IL_0039:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:158>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_5 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		bool L_6;
 		L_6 = Enumerator_MoveNext_mFA51C33525EADB63DC73E468E53EB55E8ED1AA10(L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
@@ -30026,7 +30026,7 @@ IL_0042:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:159>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_7 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		bool L_8;
 		L_8 = Enumerator_MoveNext_m713574D739DC253BFD04A22FCBB1ECBC418C062F(L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23));
@@ -30036,7 +30036,7 @@ IL_0050:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:160>
 		RuntimeObject* L_9 = __this->____enumerator;
 		NullCheck((RuntimeObject*)L_9);
 		bool L_10;
@@ -30047,7 +30047,7 @@ IL_005e:
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:161>
 		int32_t L_11 = __this->____type;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 10), &L_12);
@@ -30078,9 +30078,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextReadOnlyList_m45B781B
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:166>
 		Enumerator_ValidateAndThrow_m180592B76301B11D6400B25E8D28526F8EEAF399_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:167>
 		int32_t L_0 = __this->____listIndex;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		int32_t L_1 = V_0;
@@ -30110,7 +30110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Reset_m0E9E45814CE45FE740673C
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:173>
 		int32_t L_0 = __this->____type;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -30144,17 +30144,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Reset_m0E9E45814CE45FE740673C
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:176>
 		Enumerator_ValidateAndThrow_m180592B76301B11D6400B25E8D28526F8EEAF399_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 25));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:177>
 		__this->____listIndex = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:178>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:184>
 		RuntimeObject* L_2 = __this->____enumerator;
 		NullCheck((RuntimeObject*)L_2);
 		InterfaceActionInvoker0::Invoke(2, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_2);
@@ -30162,7 +30162,7 @@ IL_0032:
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:187>
 		return;
 	}
 }
@@ -30180,15 +30180,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Enumerator_get_Current_m7D670BB6808B
 	int32_t V_1 = 0;
 	uint64_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:193>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:194>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:195>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:196>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:197>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:198>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:199>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:200>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:201>
 		int32_t L_0 = __this->____type;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -30222,7 +30222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Enumerator_get_Current_m7D670BB6808B
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:195>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		uint64_t L_3;
 		L_3 = Enumerator_get_Current_m6E2C7BE910184450449F139484D6C095E46E522E_inline(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26));
@@ -30232,7 +30232,7 @@ IL_0025:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:196>
 		RuntimeObject* L_4 = __this->____readOnlyList;
 		int32_t L_5 = __this->____listIndex;
 		NullCheck(L_4);
@@ -30244,7 +30244,7 @@ IL_0033:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:197>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_7 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		uint64_t L_8;
 		L_8 = Enumerator_get_Current_m6D6A80C33FAD4B68D656C2356DEB1AA585AEF100_inline(L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29));
@@ -30254,7 +30254,7 @@ IL_0047:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:198>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_9 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		uint64_t L_10;
 		L_10 = Enumerator_get_Current_m3C54CE3B6682A5BA9F8DCBEE058927C68AE14379(L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 30));
@@ -30264,7 +30264,7 @@ IL_0055:
 
 IL_0063:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:199>
 		RuntimeObject* L_11 = __this->____enumerator;
 		NullCheck(L_11);
 		uint64_t L_12;
@@ -30275,7 +30275,7 @@ IL_0063:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:200>
 		int32_t L_13 = __this->____type;
 		int32_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 10), &L_14);
@@ -30305,7 +30305,7 @@ IL2CPP_EXTERN_C  uint64_t Enumerator_get_Current_m7D670BB6808B4E0CA6FAD893FEA192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m190ECC68C033452F03BBE8C6DFDB1A6599A2A4DC_gshared (Enumerator_tC06AAF57FC5DCD858F961AD32EAB3F68F037AFD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:205>
 		uint64_t L_0;
 		L_0 = Enumerator_get_Current_m7D670BB6808B4E0CA6FAD893FEA1923FC373EA2C_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32));
 		uint64_t L_1 = L_0;
@@ -30333,7 +30333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m948B9C93815043535AEC
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:210>
 		int32_t L_0 = __this->____type;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -30367,34 +30367,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m948B9C93815043535AEC
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:213>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		Enumerator_Dispose_m609EECEE108D3DAF2B136EF7882F48BA39819C92(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 33));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:214>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:218>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_3 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		Enumerator_Dispose_m85002A2327014F1C4F0417EF8B60AC2E266F84BD(L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 34));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:219>
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:221>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_4 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		Enumerator_Dispose_m54FA5F6FFD972AED492672F1119CCBCC68DC8613(L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 35));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:222>
 		return;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:224>
 		RuntimeObject* L_5 = __this->____enumerator;
 		NullCheck((RuntimeObject*)L_5);
 		InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_5);
@@ -30402,7 +30402,7 @@ IL_0048:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:227>
 		return;
 	}
 }
@@ -30417,7 +30417,7 @@ IL2CPP_EXTERN_C  void Enumerator_Dispose_m948B9C93815043535AECFE6925CC07963B01A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_m180592B76301B11D6400B25E8D28526F8EEAF399_gshared (Enumerator_tC06AAF57FC5DCD858F961AD32EAB3F68F037AFD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:233>
 		int32_t L_0 = __this->____listCount;
 		RuntimeObject* L_1 = __this->____readOnlyList;
 		NullCheck((RuntimeObject*)L_1);
@@ -30429,7 +30429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_m180592B7630
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:234>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5DD22E17A9ECEF43BAC405EE3DB8A102255331DE)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, method);
@@ -30437,7 +30437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_m180592B7630
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:235>
 		return;
 	}
 }
@@ -35089,16 +35089,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m7D1068A
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:153>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:154>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:155>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:156>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:157>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:162>
 		int32_t L_0 = __this->____type;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -35136,14 +35136,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m7D1068A
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:155>
 		V_0 = (bool)0;
 		goto IL_0087;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:156>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		bool L_3;
 		L_3 = Enumerator_MoveNext_mFE0F62205805D9E257F701E9C79967C7604F71BB(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
@@ -35153,7 +35153,7 @@ IL_002b:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:157>
 		bool L_4;
 		L_4 = Enumerator_MoveNextReadOnlyList_m45B781B3ED390FE4CE48C3E9A5ECBB21BBD7D736(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		V_0 = L_4;
@@ -35162,7 +35162,7 @@ IL_0039:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:158>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_5 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		bool L_6;
 		L_6 = Enumerator_MoveNext_mFA51C33525EADB63DC73E468E53EB55E8ED1AA10(L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
@@ -35172,7 +35172,7 @@ IL_0042:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:159>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_7 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		bool L_8;
 		L_8 = Enumerator_MoveNext_m713574D739DC253BFD04A22FCBB1ECBC418C062F(L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23));
@@ -35182,7 +35182,7 @@ IL_0050:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:160>
 		RuntimeObject* L_9 = __this->____enumerator;
 		NullCheck((RuntimeObject*)L_9);
 		bool L_10;
@@ -35193,7 +35193,7 @@ IL_005e:
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:161>
 		int32_t L_11 = __this->____type;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 10), &L_12);
@@ -35214,7 +35214,7 @@ IL_0087:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_m180592B76301B11D6400B25E8D28526F8EEAF399_gshared_inline (Enumerator_tC06AAF57FC5DCD858F961AD32EAB3F68F037AFD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:233>
 		int32_t L_0 = __this->____listCount;
 		RuntimeObject* L_1 = __this->____readOnlyList;
 		NullCheck((RuntimeObject*)L_1);
@@ -35226,7 +35226,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:234>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5DD22E17A9ECEF43BAC405EE3DB8A102255331DE)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, method);
@@ -35234,7 +35234,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Enumerator_ValidateAndThrow_
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:235>
 		return;
 	}
 }
@@ -35245,15 +35245,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t Enumerator_get_Current_m
 	int32_t V_1 = 0;
 	uint64_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:193>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:194>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:195>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:196>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:197>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:198>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:199>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:200>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:201>
 		int32_t L_0 = __this->____type;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
@@ -35287,7 +35287,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t Enumerator_get_Current_m
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:195>
 		Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344* L_2 = (Enumerator_t70A8D395D3DE5F360B445F6583EA858859FFB344*)(&__this->____listEnumerator);
 		uint64_t L_3;
 		L_3 = Enumerator_get_Current_m6E2C7BE910184450449F139484D6C095E46E522E_inline(L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26));
@@ -35297,7 +35297,7 @@ IL_0025:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:196>
 		RuntimeObject* L_4 = __this->____readOnlyList;
 		int32_t L_5 = __this->____listIndex;
 		NullCheck(L_4);
@@ -35309,7 +35309,7 @@ IL_0033:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:197>
 		Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC* L_7 = (Enumerator_t1BD5EAC17E707DFC9C05151D77D6E6DC9166D1EC*)(&__this->____setEnumerator);
 		uint64_t L_8;
 		L_8 = Enumerator_get_Current_m6D6A80C33FAD4B68D656C2356DEB1AA585AEF100_inline(L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 29));
@@ -35319,7 +35319,7 @@ IL_0047:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:198>
 		Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005* L_9 = (Enumerator_tF867D11BA433587AEF42D1129E057E0194CE8005*)(&__this->____queueEnumerator);
 		uint64_t L_10;
 		L_10 = Enumerator_get_Current_m3C54CE3B6682A5BA9F8DCBEE058927C68AE14379(L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 30));
@@ -35329,7 +35329,7 @@ IL_0055:
 
 IL_0063:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:199>
 		RuntimeObject* L_11 = __this->____enumerator;
 		NullCheck(L_11);
 		uint64_t L_12;
@@ -35340,7 +35340,7 @@ IL_0063:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVREnumerable.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVREnumerable.cs:200>
 		int32_t L_13 = __this->____type;
 		int32_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 10), &L_14);

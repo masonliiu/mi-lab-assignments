@@ -17352,7 +17352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tuple_4_System_Runtime_CompilerServic
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_mB6B1BAA5627E9E0D5C7E7194AB1C3987974701F8_gshared (Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
 		Func_4_t6B552DD029418AAC69B05335C9089B9B37E0C343* L_0 = ((Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___InverseLerp;
 		bool L_1 = __this->____min;
 		bool L_2 = __this->____max;
@@ -17370,7 +17370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_mB6B1BAA5627E9E0D5C7E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1_set_Tween_m3AD22CFDB28F7C64B3FAA1527821D1EF17B32047_gshared (Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = __this->____setter;
 		Func_4_t6A859C6EE14C8D76A55D1500E9B04BC21C5194D3* L_1 = ((Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___Lerp;
 		bool L_2 = __this->____min;
@@ -17397,7 +17397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m57B7D2DA0E36E66B1F1B20136
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
 		U3CU3Ec__DisplayClass10_0_t3C71DAC3CCBABA648EBD63546F02346D4402B4E9* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -17408,7 +17408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m57B7D2DA0E36E66B1F1B20136
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
 		Func_2_t49E998685259ADE759F9329BF66F20DE8667006E* L_8 = ((Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_9 = ___2_attribute;
 		NullCheck(L_9);
@@ -17417,7 +17417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m57B7D2DA0E36E66B1F1B20136
 		bool L_11;
 		L_11 = Func_2_Invoke_m1FE6F2A4EC23CC595897C55AE7B0BDA8969044D7_inline(L_8, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____min = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
 		Func_2_t49E998685259ADE759F9329BF66F20DE8667006E* L_12 = ((Tweak_1_t16C50EEF219B75A7CE4BFC21A45B2F1191A302BE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_13 = ___2_attribute;
 		NullCheck(L_13);
@@ -17426,19 +17426,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m57B7D2DA0E36E66B1F1B20136
 		bool L_15;
 		L_15 = Func_2_Invoke_m1FE6F2A4EC23CC595897C55AE7B0BDA8969044D7_inline(L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____max = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
 		U3CU3Ec__DisplayClass10_0_t3C71DAC3CCBABA648EBD63546F02346D4402B4E9* L_16 = V_0;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_17 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_17, (RuntimeObject*)L_16, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 15)), il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		__this->____getter = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
 		U3CU3Ec__DisplayClass10_0_t3C71DAC3CCBABA648EBD63546F02346D4402B4E9* L_18 = V_0;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_19 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_19, (RuntimeObject*)L_18, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 		__this->____setter = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____setter), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
 		return;
 	}
 }
@@ -17454,7 +17454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m57B7D2DA0E36E66B1F1B20136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_m453664993C70AFE2A02033673D98859F1130DAF8_gshared (Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
 		Func_4_t14DFDA9E85C76FDE067B3F2999C8107AFA671A64* L_0 = ((Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___InverseLerp;
 		int32_t L_1 = __this->____min;
 		int32_t L_2 = __this->____max;
@@ -17472,7 +17472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_m453664993C70AFE2A020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1_set_Tween_mAACD97CF56280FEDAA1D32D2B001F7DCBF2300C2_gshared (Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_0 = __this->____setter;
 		Func_4_t6DC62F76192ECD13986365A34FAD950A35AF225F* L_1 = ((Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___Lerp;
 		int32_t L_2 = __this->____min;
@@ -17499,7 +17499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m864DF6AF63817468A4C591D41
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
 		U3CU3Ec__DisplayClass10_0_t503DE6300A6287D86927FFE63DB1B6B76C46A0D5* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -17510,7 +17510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m864DF6AF63817468A4C591D41
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
 		Func_2_t5506E89391C8473FC9A730F023737B9AA2F59EA9* L_8 = ((Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_9 = ___2_attribute;
 		NullCheck(L_9);
@@ -17519,7 +17519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m864DF6AF63817468A4C591D41
 		int32_t L_11;
 		L_11 = Func_2_Invoke_m5F59DB7D65A544574E0D53BFB58E1475EC5D704F_inline(L_8, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____min = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
 		Func_2_t5506E89391C8473FC9A730F023737B9AA2F59EA9* L_12 = ((Tweak_1_tC28659AB7E0129514103A094E59AB0B5D0979306_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_13 = ___2_attribute;
 		NullCheck(L_13);
@@ -17528,19 +17528,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m864DF6AF63817468A4C591D41
 		int32_t L_15;
 		L_15 = Func_2_Invoke_m5F59DB7D65A544574E0D53BFB58E1475EC5D704F_inline(L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____max = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
 		U3CU3Ec__DisplayClass10_0_t503DE6300A6287D86927FFE63DB1B6B76C46A0D5* L_16 = V_0;
 		Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* L_17 = (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
 		Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1(L_17, (RuntimeObject*)L_16, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 15)), il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		__this->____getter = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
 		U3CU3Ec__DisplayClass10_0_t503DE6300A6287D86927FFE63DB1B6B76C46A0D5* L_18 = V_0;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_19 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		Action_1__ctor_m1BA854F3F4319EA4A4294DDFDA21C395B8D0FF87(L_19, (RuntimeObject*)L_18, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 		__this->____setter = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____setter), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
 		return;
 	}
 }
@@ -17556,7 +17556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_m864DF6AF63817468A4C591D41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_m7437A58556ADA94954918CA8E96B72C5BCB7B089_gshared (Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
 		Func_4_t28BFDA9BC4AB12540F2BE70B4FC23CD6FF5EB6F4* L_0 = ((Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___InverseLerp;
 		float L_1 = __this->____min;
 		float L_2 = __this->____max;
@@ -17574,7 +17574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_m7437A58556ADA9495491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1_set_Tween_mB89DE86993FDF097E8E9CBA9A9CB6844979370E5_gshared (Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = __this->____setter;
 		Func_4_t28BFDA9BC4AB12540F2BE70B4FC23CD6FF5EB6F4* L_1 = ((Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___Lerp;
 		float L_2 = __this->____min;
@@ -17601,7 +17601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mF683A8CD6E0294476BC3581C0
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
 		U3CU3Ec__DisplayClass10_0_t8BCDD27C2EEE99ABE0FFC9EB7DCC6137A321A2DE* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -17612,7 +17612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mF683A8CD6E0294476BC3581C0
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
 		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_8 = ((Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_9 = ___2_attribute;
 		NullCheck(L_9);
@@ -17621,7 +17621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mF683A8CD6E0294476BC3581C0
 		float L_11;
 		L_11 = Func_2_Invoke_m5728ECFB038CFC6FEF889DC2D566EEF49D0E24B9_inline(L_8, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____min = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
 		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_12 = ((Tweak_1_t1087E2982CC0C10E5E00C12F5211E1E0AFBD749C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_13 = ___2_attribute;
 		NullCheck(L_13);
@@ -17630,19 +17630,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mF683A8CD6E0294476BC3581C0
 		float L_15;
 		L_15 = Func_2_Invoke_m5728ECFB038CFC6FEF889DC2D566EEF49D0E24B9_inline(L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		__this->____max = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
 		U3CU3Ec__DisplayClass10_0_t8BCDD27C2EEE99ABE0FFC9EB7DCC6137A321A2DE* L_16 = V_0;
 		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_17 = (Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
 		Func_1__ctor_m94E0C712F86101E026834DA318C3FFF46DE49C71(L_17, (RuntimeObject*)L_16, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 15)), il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		__this->____getter = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getter), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
 		U3CU3Ec__DisplayClass10_0_t8BCDD27C2EEE99ABE0FFC9EB7DCC6137A321A2DE* L_18 = V_0;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_19 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_19, (RuntimeObject*)L_18, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 		__this->____setter = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____setter), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
 		return;
 	}
 }
@@ -17662,7 +17662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tweak_1_get_Tween_m16562ED259A127760D30
 	const Il2CppFullySharedGenericAny L_2 = alloca(SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
 	const Il2CppFullySharedGenericAny L_4 = alloca(SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:187>
 		Func_4_t2541034AEE4404468532C27DBC715DF62BDAE7F3* L_0 = ((Tweak_1_t2634F39F5E3B3C0C215C1E8A18FFF142CD61F1D1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___InverseLerp;
 		il2cpp_codegen_memcpy(L_1, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5)), SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
 		il2cpp_codegen_memcpy(L_2, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6)), SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
@@ -17683,7 +17683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1_set_Tween_mB67367C55956BD7420E36
 	const Il2CppFullySharedGenericAny L_3 = alloca(SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
 	const Il2CppFullySharedGenericAny L_5 = alloca(SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:188>
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_0 = *(Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		Func_4_t2D728D40D290F8C65346C870D314F893B5896872* L_1 = ((Tweak_1_t2634F39F5E3B3C0C215C1E8A18FFF142CD61F1D1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___Lerp;
 		il2cpp_codegen_memcpy(L_2, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5)), SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
@@ -17712,7 +17712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mD06F18CDFC74D5EA891235215
 		NullCheck(L_1);
 		L_1->___memberInfo = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___memberInfo), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:191>
 		U3CU3Ec__DisplayClass10_0_tFA7AC6E751D395328E99ECCB2E34206876C531AF* L_3 = V_0;
 		NullCheck(L_3);
 		MemberInfo_t* L_4 = L_3->___memberInfo;
@@ -17723,7 +17723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mD06F18CDFC74D5EA891235215
 		NullCheck(L_7);
 		L_7->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:193>
 		Func_2_tB5CF618947FC5173B54165B5CE46CAFC16D59714* L_8 = ((Tweak_1_t2634F39F5E3B3C0C215C1E8A18FFF142CD61F1D1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_9 = ___2_attribute;
 		NullCheck(L_9);
@@ -17731,7 +17731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mD06F18CDFC74D5EA891235215
 		NullCheck(L_8);
 		InvokerActionInvoker2< float, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)), il2cpp_rgctx_method(method->klass->rgctx_data, 14), L_8, L_10, (Il2CppFullySharedGenericAny*)L_11);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5), L_11, SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:194>
 		Func_2_tB5CF618947FC5173B54165B5CE46CAFC16D59714* L_12 = ((Tweak_1_t2634F39F5E3B3C0C215C1E8A18FFF142CD61F1D1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___FromFloat;
 		DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_13 = ___2_attribute;
 		NullCheck(L_13);
@@ -17739,17 +17739,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tweak_1__ctor_mD06F18CDFC74D5EA891235215
 		NullCheck(L_12);
 		InvokerActionInvoker2< float, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)), il2cpp_rgctx_method(method->klass->rgctx_data, 14), L_12, L_14, (Il2CppFullySharedGenericAny*)L_15);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6), L_15, SizeOf_T_t408816B87BBAF8815C4E07DFF485FA4620378AD0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:195>
 		U3CU3Ec__DisplayClass10_0_tFA7AC6E751D395328E99ECCB2E34206876C531AF* L_16 = V_0;
 		Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431* L_17 = (Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
 		((  void (*) (Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 16)))(L_17, (RuntimeObject*)L_16, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 15)), il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		il2cpp_codegen_write_instance_field_data<Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3), L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:196>
 		U3CU3Ec__DisplayClass10_0_tFA7AC6E751D395328E99ECCB2E34206876C531AF* L_18 = V_0;
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_19 = (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		((  void (*) (Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(L_19, (RuntimeObject*)L_18, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 		il2cpp_codegen_write_instance_field_data<Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), L_19);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/Hooks/Tweak.cs:197>
 		return;
 	}
 }

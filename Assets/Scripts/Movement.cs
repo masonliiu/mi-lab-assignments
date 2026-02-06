@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
   public float backOffDistance = 0.2f;
   
   [Header("Boundary Settings")]
-  public BoxCollider boundaryCollider; 
+  public BoxCollider boundaryCollider;
   public bool useBoundary = true; 
 
   bool IsWithinBoundary(Vector3 position) {

@@ -20844,22 +20844,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RBTree_1_Key_m136C79232025E1CED0F197E783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomSampleConsensus_1__ctor_m643E6093F6F6DFFF2D375D128995DE215273824E_gshared (RandomSampleConsensus_1_t77F5565C1F6960BBFF36A308486B4963AE8F37B4* __this, int32_t ___0_maxDataPoints, int32_t ___1_exclusionZone, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:60>
 		int32_t L_0 = ___0_maxDataPoints;
 		__this->____maxDataPoints = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:61>
 		int32_t L_1 = ___1_exclusionZone;
 		__this->____exclusionZone = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:62>
 		int32_t L_2 = ___0_maxDataPoints;
 		int32_t L_3 = ___0_maxDataPoints;
 		il2cpp_array_size_t L_5[] = { (il2cpp_array_size_t)L_2, (il2cpp_array_size_t)L_3 };
 		Vector3U5BU2CU5D_tCF0A54F4B5143C8BF0F998ECD98E52AFBB4E73C4* L_4 = (Vector3U5BU2CU5D_tCF0A54F4B5143C8BF0F998ECD98E52AFBB4E73C4*)GenArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), L_5);
 		__this->____modelSet = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____modelSet), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:63>
 		return;
 	}
 }
@@ -20867,7 +20867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomSampleConsensus_1__ctor_m643E6093F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RandomSampleConsensus_1_FindOptimalModel_m0CA97F10F10F0F27FEF3196ABC785C572132E3EA_gshared (RandomSampleConsensus_1_t77F5565C1F6960BBFF36A308486B4963AE8F37B4* __this, GenerateModel_tFD2092AA49E2EF13B97F8E177ABE8E6CFFFCEE0A* ___0_modelGenerator, EvaluateModelScore_t71DE5C267622406D6E5D893CBB65AE8829DDB0FF* ___1_modelScorer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:73>
 		GenerateModel_tFD2092AA49E2EF13B97F8E177ABE8E6CFFFCEE0A* L_0 = ___0_modelGenerator;
 		EvaluateModelScore_t71DE5C267622406D6E5D893CBB65AE8829DDB0FF* L_1 = ___1_modelScorer;
 		int32_t L_2 = __this->____maxDataPoints;
@@ -20891,14 +20891,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	memset((&V_7), 0, sizeof(V_7));
 	float V_8 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		V_2 = 0;
 		goto IL_003d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_0 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		goto IL_0035;
@@ -20906,9 +20906,9 @@ IL_0004:
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:92>
 		Vector3U5BU2CU5D_tCF0A54F4B5143C8BF0F998ECD98E52AFBB4E73C4* L_1 = __this->____modelSet;
 		int32_t L_2 = V_2;
 		int32_t L_3 = V_3;
@@ -20924,14 +20924,14 @@ IL_000a:
 		L_11 = GenerateModel_Invoke_mBA3D6D3F7DAC36894DA980C81217E2E4FEA522A9_inline(L_4, ((int32_t)(((int32_t)il2cpp_codegen_add(L_5, L_6))%L_7)), ((int32_t)(((int32_t)il2cpp_codegen_add(L_8, L_9))%L_10)), il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		NullCheck(L_1);
 		(L_1)->SetAt(L_2, L_3, L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_12 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_13 = V_3;
 		int32_t L_14 = ___2_dataPointsCount;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -20940,14 +20940,14 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		int32_t L_15 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		int32_t L_16 = V_2;
 		int32_t L_17 = ___2_dataPointsCount;
 		if ((((int32_t)L_16) < ((int32_t)L_17)))
@@ -20956,29 +20956,29 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:96>
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:97>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		V_4 = 0;
 		goto IL_009d;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:101>
 		int32_t L_18 = ___2_dataPointsCount;
 		int32_t L_19;
 		L_19 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)il2cpp_codegen_subtract(L_18, 1)), NULL);
 		V_5 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:102>
 		int32_t L_20 = V_5;
 		int32_t L_21 = ___2_dataPointsCount;
 		int32_t L_22;
 		L_22 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(((int32_t)il2cpp_codegen_add(L_20, 1)), L_21, NULL);
 		V_6 = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:104>
 		Vector3U5BU2CU5D_tCF0A54F4B5143C8BF0F998ECD98E52AFBB4E73C4* L_23 = __this->____modelSet;
 		int32_t L_24 = V_5;
 		int32_t L_25 = V_6;
@@ -20986,7 +20986,7 @@ IL_0054:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = (L_23)->GetAt(L_24, L_25);
 		V_7 = L_26;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:105>
 		EvaluateModelScore_t71DE5C267622406D6E5D893CBB65AE8829DDB0FF* L_27 = ___1_modelScorer;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_7;
 		Vector3U5BU2CU5D_tCF0A54F4B5143C8BF0F998ECD98E52AFBB4E73C4* L_29 = __this->____modelSet;
@@ -20994,7 +20994,7 @@ IL_0054:
 		float L_30;
 		L_30 = EvaluateModelScore_Invoke_mB940868ABEDDDEE2C3E9048C98BBE0673654C157_inline(L_27, L_28, L_29, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		V_8 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:107>
 		float L_31 = V_8;
 		float L_32 = V_1;
 		if ((!(((float)L_31) < ((float)L_32))))
@@ -21003,24 +21003,24 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:109>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_7;
 		V_0 = L_33;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:110>
 		float L_34 = V_8;
 		V_1 = L_34;
 	}
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		int32_t L_35 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		int32_t L_36 = V_4;
 		int32_t L_37 = ___2_dataPointsCount;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -21029,7 +21029,7 @@ IL_009d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:114>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_0;
 		return L_38;
 	}
@@ -21046,22 +21046,22 @@ IL_009d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomSampleConsensus_1__ctor_m706B1427C708CB75181B10A04A4C04F562401A05_gshared (RandomSampleConsensus_1_t681F929E50E8548403FE2EBDE01CBB5D8BB1294D* __this, int32_t ___0_maxDataPoints, int32_t ___1_exclusionZone, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:60>
 		int32_t L_0 = ___0_maxDataPoints;
 		__this->____maxDataPoints = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:61>
 		int32_t L_1 = ___1_exclusionZone;
 		__this->____exclusionZone = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:62>
 		int32_t L_2 = ___0_maxDataPoints;
 		int32_t L_3 = ___0_maxDataPoints;
 		il2cpp_array_size_t L_5[] = { (il2cpp_array_size_t)L_2, (il2cpp_array_size_t)L_3 };
 		__Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296* L_4 = (__Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296*)GenArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), L_5);
 		__this->____modelSet = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____modelSet), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:63>
 		return;
 	}
 }
@@ -21071,7 +21071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomSampleConsensus_1_FindOptimalModel
 	const uint32_t SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericAny L_3 = alloca(SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:73>
 		GenerateModel_t6A09AD526D52668F52472513169F29A30DFE979D* L_0 = ___0_modelGenerator;
 		EvaluateModelScore_t3187BF17905BBD3CBA0FEE0B74AE4DFA61F40FC6* L_1 = ___1_modelScorer;
 		int32_t L_2 = __this->____maxDataPoints;
@@ -21101,14 +21101,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomSampleConsensus_1_FindOptimalModel
 	memset(V_7, 0, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 	float V_8 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		V_2 = 0;
 		goto IL_003d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_0 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		goto IL_0035;
@@ -21116,9 +21116,9 @@ IL_0004:
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:92>
 		__Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296* L_1 = __this->____modelSet;
 		int32_t L_2 = V_2;
 		int32_t L_3 = V_3;
@@ -21133,14 +21133,14 @@ IL_000a:
 		InvokerActionInvoker3< int32_t, int32_t, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)), il2cpp_rgctx_method(method->klass->rgctx_data, 6), L_4, ((int32_t)(((int32_t)il2cpp_codegen_add(L_5, L_6))%L_7)), ((int32_t)(((int32_t)il2cpp_codegen_add(L_8, L_9))%L_10)), (Il2CppFullySharedGenericAny*)L_11);
 		NullCheck(L_1);
 		il2cpp_codegen_memcpy_with_write_barrier((L_1)->GetAddressAt(L_2, L_3), L_11, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F, il2cpp_rgctx_data(method->klass->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_12 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:88>
 		int32_t L_13 = V_3;
 		int32_t L_14 = ___2_dataPointsCount;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -21149,14 +21149,14 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		int32_t L_15 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:86>
 		int32_t L_16 = V_2;
 		int32_t L_17 = ___2_dataPointsCount;
 		if ((((int32_t)L_16) < ((int32_t)L_17)))
@@ -21165,36 +21165,36 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:96>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_0, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:97>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		V_4 = 0;
 		goto IL_009d;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:101>
 		int32_t L_18 = ___2_dataPointsCount;
 		int32_t L_19;
 		L_19 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)il2cpp_codegen_subtract(L_18, 1)), NULL);
 		V_5 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:102>
 		int32_t L_20 = V_5;
 		int32_t L_21 = ___2_dataPointsCount;
 		int32_t L_22;
 		L_22 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(((int32_t)il2cpp_codegen_add(L_20, 1)), L_21, NULL);
 		V_6 = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:104>
 		__Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296* L_23 = __this->____modelSet;
 		int32_t L_24 = V_5;
 		int32_t L_25 = V_6;
 		NullCheck(L_23);
 		il2cpp_codegen_memcpy(L_26, (L_23)->GetAddressAt(L_24, L_25), SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 		il2cpp_codegen_memcpy(V_7, L_26, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:105>
 		EvaluateModelScore_t3187BF17905BBD3CBA0FEE0B74AE4DFA61F40FC6* L_27 = ___1_modelScorer;
 		il2cpp_codegen_memcpy(L_28, V_7, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 		__Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296* L_29 = __this->____modelSet;
@@ -21202,7 +21202,7 @@ IL_0054:
 		float L_30;
 		L_30 = InvokerFuncInvoker2< float, Il2CppFullySharedGenericAny, __Il2CppFullySharedGenericTypeU5BU2CU5D_tFF243A155E8F21F3F2753D6C8C5DBFD843EEB296* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 7), L_27, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? L_28: *(void**)L_28), L_29);
 		V_8 = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:107>
 		float L_31 = V_8;
 		float L_32 = V_1;
 		if ((!(((float)L_31) < ((float)L_32))))
@@ -21211,24 +21211,24 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:109>
 		il2cpp_codegen_memcpy(L_33, V_7, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 		il2cpp_codegen_memcpy(V_0, L_33, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:110>
 		float L_34 = V_8;
 		V_1 = L_34;
 	}
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		int32_t L_35 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:99>
 		int32_t L_36 = V_4;
 		int32_t L_37 = ___2_dataPointsCount;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -21237,7 +21237,7 @@ IL_009d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/RandomSampleConsensus.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/RandomSampleConsensus.cs:114>
 		il2cpp_codegen_memcpy(L_38, V_0, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_38, SizeOf_TModel_t6D172D399CEF1F2E39D5353AB801B5DD9EA7CB3F);
 		return;

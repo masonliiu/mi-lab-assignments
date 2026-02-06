@@ -3484,8 +3484,8 @@ struct List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t3EA3FFCBCD9E77BF847862FBEC7AF61747674EED_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D10432_t8CDC89EE8235A6FCB2EFFB02CB504B71C3D88639 ___1B50B473479D84F9F95FBD315003330B2874076DA15E8BDE441C059C6417215E;
 	__StaticArrayInitTypeSizeU3D12_tFD23353BF3CB76E965FD24638A272AB325D8269A ___664A074F4209FFC6A261BC4B13749D523301A31721FE2F96A438C56EC01163D9;
+	__StaticArrayInitTypeSizeU3D10432_t8CDC89EE8235A6FCB2EFFB02CB504B71C3D88639 ___912B5E1BFBA81CD0B554170C8CF10A4B57441A1DF739DAD6DCB6EA2091458801;
 	__StaticArrayInitTypeSizeU3D4807_t784114C866D89DC59970324B12E24B7E514DF46C ___99C541623472C432D48C25D069164384BDD553CA91D46C9567E6D839A6F8B8C5;
 };
 struct String_t_StaticFields
@@ -5197,11 +5197,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWrapper_EnableTeleportRay_m5197484ED1677387E3F3E5E5060A2383AFED7CD1 (LocomotionTutorialAnimationUnityEventWrapper_tFE32B190EA1663AFF72EC26D146F3FEF7C80EA28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:35>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___WhenEnableTeleportRay;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:36>
 		return;
 	}
 }
@@ -5209,11 +5209,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWra
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWrapper_DisableTeleportRay_m3D08DDDBBC39A0974A54C7F1F73644ECDA9A5C02 (LocomotionTutorialAnimationUnityEventWrapper_tFE32B190EA1663AFF72EC26D146F3FEF7C80EA28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:40>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___WhenDisableTeleportRay;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:41>
 		return;
 	}
 }
@@ -5221,11 +5221,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWra
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWrapper_EnableTurningRing_m37B90832E1AAB05945AE93625D7CBC945E33F8E0 (LocomotionTutorialAnimationUnityEventWrapper_tFE32B190EA1663AFF72EC26D146F3FEF7C80EA28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:45>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___WhenEnableTurningRing;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:46>
 		return;
 	}
 }
@@ -5233,11 +5233,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWra
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialAnimationUnityEventWrapper_DisableTurningRing_m2F25A8E3069B15973E98972CB51B6D151DFC9E23 (LocomotionTutorialAnimationUnityEventWrapper_tFE32B190EA1663AFF72EC26D146F3FEF7C80EA28* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:50>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___WhenDisableTurningRing;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialAnimationUnityEventWrapper.cs:51>
 		return;
 	}
 }
@@ -5267,11 +5267,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Awake_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:58>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____locomotionHandler;
 		__this->___LocomotionHandler = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LocomotionHandler), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:59>
 		return;
 	}
 }
@@ -5279,17 +5279,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Awake_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Start_m0080348E60F2384AC99E7CE40AAB84179C689D72 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:63>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:72>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_1 = __this->____dots;
 		NullCheck(L_1);
 		__this->____totalProgress = ((int32_t)(((RuntimeArray*)L_1)->max_length));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:73>
 		bool* L_2 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:74>
 		return;
 	}
 }
@@ -5305,7 +5305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_OnEnab
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:78>
 		bool L_0 = __this->____started;
 		if (!L_0)
 		{
@@ -5313,19 +5313,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_OnEnab
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:80>
 		RuntimeObject* L_1 = __this->___LocomotionHandler;
 		Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* L_2 = (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC*)il2cpp_codegen_object_new(Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
 		Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8(L_2, __this, (intptr_t)((void*)LocomotionTutorialProgressTracker_LocomotionEventHandled_m05E7AD2C4F365BF10E4A336A3BA449BF1FF43AAF_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* >::Invoke(1, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:81>
 		LocomotionTutorialProgressTracker_ResetProgress_m2B57F71BC9A60F47307B25FA68C9D46949C79473(__this, NULL);
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:83>
 		return;
 	}
 }
@@ -5341,7 +5341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_OnDisa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:87>
 		bool L_0 = __this->____started;
 		if (!L_0)
 		{
@@ -5349,7 +5349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_OnDisa
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:89>
 		RuntimeObject* L_1 = __this->___LocomotionHandler;
 		Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* L_2 = (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC*)il2cpp_codegen_object_new(Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
 		Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8(L_2, __this, (intptr_t)((void*)LocomotionTutorialProgressTracker_LocomotionEventHandled_m05E7AD2C4F365BF10E4A336A3BA449BF1FF43AAF_RuntimeMethod_var), NULL);
@@ -5359,7 +5359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_OnDisa
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:91>
 		return;
 	}
 }
@@ -5374,8 +5374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Locomo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:96>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:97>
 		List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* L_0 = __this->____consumeRotationEvents;
 		int32_t L_1;
 		L_1 = LocomotionEvent_get_Rotation_m17D423D1279F818504AB3E3F0CA0ECE99CC1D82C_inline((&___0_arg1), NULL);
@@ -5402,13 +5402,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Locomo
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:99>
 		LocomotionTutorialProgressTracker_Progress_mE274D134790CFB3609A1656AAAA18B34C025B897(__this, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:101>
 		return;
 	}
 }
@@ -5416,10 +5416,10 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Progress_mE274D134790CFB3609A1656AAAA18B34C025B897 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:105>
 		int32_t L_0 = __this->____currentProgress;
 		__this->____currentProgress = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:106>
 		int32_t L_1 = __this->____currentProgress;
 		int32_t L_2 = __this->____totalProgress;
 		if ((((int32_t)L_1) > ((int32_t)L_2)))
@@ -5428,7 +5428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Progre
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:108>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_3 = __this->____dots;
 		int32_t L_4 = __this->____currentProgress;
 		NullCheck(L_3);
@@ -5441,7 +5441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Progre
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:110>
 		int32_t L_8 = __this->____currentProgress;
 		int32_t L_9 = __this->____totalProgress;
 		if ((((int32_t)L_8) >= ((int32_t)L_9)))
@@ -5450,7 +5450,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:112>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_10 = __this->____dots;
 		int32_t L_11 = __this->____currentProgress;
 		NullCheck(L_10);
@@ -5463,7 +5463,7 @@ IL_0036:
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:115>
 		int32_t L_15 = __this->____currentProgress;
 		int32_t L_16 = __this->____totalProgress;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -5472,7 +5472,7 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:117>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_17 = __this->___WhenCompleted;
 		NullCheck(L_17);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_17, NULL);
@@ -5480,7 +5480,7 @@ IL_005c:
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:119>
 		return;
 	}
 }
@@ -5493,16 +5493,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_ResetP
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B4_0 = NULL;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:123>
 		__this->____currentProgress = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:126>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = __this->____dots;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -5534,14 +5534,14 @@ IL_0024:
 	{
 		NullCheck(G_B4_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B4_1, G_B4_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:124>
 		int32_t L_8 = V_0;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_9 = __this->____dots;
 		NullCheck(L_9);
@@ -5551,7 +5551,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:128>
 		return;
 	}
 }
@@ -5559,28 +5559,28 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectAllLocomotionTutorialProgressTracker_m68C78B8BB0C4A8721DD3224A9EFC51CBFA6AE4E8 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* ___0_dots, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___1_pendingSprite, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___2_currentSprite, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___3_completedSprite, List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* ___4_consumeTranslationEvents, List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* ___5_consumeRotationEvents, RuntimeObject* ___6_locomotionHandler, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:137>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = ___0_dots;
 		LocomotionTutorialProgressTracker_InjectDots_mDDADD02BE89D7E6B19177C043F31677B7AC319B9_inline(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:138>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1 = ___1_pendingSprite;
 		LocomotionTutorialProgressTracker_InjectPendingSprite_mB4FD4854E4BE91FAA784DE26EBF19945CD5A8E65_inline(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:139>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2 = ___2_currentSprite;
 		LocomotionTutorialProgressTracker_InjectCurrentSprite_mCD1DF72C90EEF550B25FE558C41F454ADDFE8526_inline(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:140>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = ___3_completedSprite;
 		LocomotionTutorialProgressTracker_InjectCompletedSprite_m129835E966635575D185989CC9E110E395BC396C_inline(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:141>
 		List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* L_4 = ___4_consumeTranslationEvents;
 		LocomotionTutorialProgressTracker_InjectConsumeTranslationEvents_mB1E3BB7A944AE62BAEA884FCA7AF5BB6A320FE90_inline(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:142>
 		List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* L_5 = ___5_consumeRotationEvents;
 		LocomotionTutorialProgressTracker_InjectConsumeRotationEvents_m3AF2413C47109DF7D11E918D1B49E93A3EE85918_inline(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:143>
 		RuntimeObject* L_6 = ___6_locomotionHandler;
 		LocomotionTutorialProgressTracker_InjectLocomotionHandler_mBF48630423E0BD1BDAC93993A353865AA2114880(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:144>
 		return;
 	}
 }
@@ -5588,11 +5588,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectDots_mDDADD02BE89D7E6B19177C043F31677B7AC319B9 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* ___0_dots, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:148>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = ___0_dots;
 		__this->____dots = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dots), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:149>
 		return;
 	}
 }
@@ -5600,11 +5600,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectPendingSprite_mB4FD4854E4BE91FAA784DE26EBF19945CD5A8E65 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_pendingSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:153>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_pendingSprite;
 		__this->____pendingSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:154>
 		return;
 	}
 }
@@ -5612,11 +5612,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectCurrentSprite_mCD1DF72C90EEF550B25FE558C41F454ADDFE8526 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_currentSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:158>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_currentSprite;
 		__this->____currentSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:159>
 		return;
 	}
 }
@@ -5624,11 +5624,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectCompletedSprite_m129835E966635575D185989CC9E110E395BC396C (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_completedSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:163>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_completedSprite;
 		__this->____completedSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____completedSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:164>
 		return;
 	}
 }
@@ -5636,11 +5636,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectConsumeTranslationEvents_mB1E3BB7A944AE62BAEA884FCA7AF5BB6A320FE90 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* ___0_consumeTranslationEvents, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:168>
 		List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* L_0 = ___0_consumeTranslationEvents;
 		__this->____consumeTranslationEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____consumeTranslationEvents), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:169>
 		return;
 	}
 }
@@ -5648,11 +5648,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectConsumeRotationEvents_m3AF2413C47109DF7D11E918D1B49E93A3EE85918 (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* ___0_consumeRotationEvents, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:173>
 		List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* L_0 = ___0_consumeRotationEvents;
 		__this->____consumeRotationEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____consumeRotationEvents), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:174>
 		return;
 	}
 }
@@ -5666,15 +5666,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_Inject
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:178>
 		RuntimeObject* L_0 = ___0_locomotionHandler;
 		__this->____locomotionHandler = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____locomotionHandler), (void*)((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:179>
 		RuntimeObject* L_1 = ___0_locomotionHandler;
 		__this->___LocomotionHandler = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LocomotionHandler), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:180>
 		return;
 	}
 }
@@ -5691,12 +5691,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker__ctor_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:41>
 		List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* L_0 = (List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8*)il2cpp_codegen_object_new(List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8_il2cpp_TypeInfo_var);
 		List_1__ctor_mDFAF5C336F3CF3DF64F15E293E557B3B2F47A01B(L_0, List_1__ctor_mDFAF5C336F3CF3DF64F15E293E557B3B2F47A01B_RuntimeMethod_var);
 		__this->____consumeTranslationEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____consumeTranslationEvents), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:43>
 		List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* L_1 = (List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED*)il2cpp_codegen_object_new(List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED_il2cpp_TypeInfo_var);
 		List_1__ctor_m709B8F2A42CCAB16FF741C3029186949F0D827F3(L_1, List_1__ctor_m709B8F2A42CCAB16FF741C3029186949F0D827F3_RuntimeMethod_var);
 		__this->____consumeRotationEvents = L_1;
@@ -5717,7 +5717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker__ctor_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocomotionTutorialTurnVisual_get_VerticalOffset_m4C03062A0F63376DE36DA0C0B2797C0E78EEF727 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:52>
 		float L_0 = __this->____verticalOffset;
 		return L_0;
 	}
@@ -5726,7 +5726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocomotionTutorialTurnVisual_get_Vertic
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_VerticalOffset_m18942798D789A441425FFD63AEF398825942D182 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:53>
 		float L_0 = ___0_value;
 		__this->____verticalOffset = L_0;
 		return;
@@ -5736,7 +5736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_Vertica
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F LocomotionTutorialTurnVisual_get_DisabledColor_m76CAE9F79E01BA7840B3A7111C5E3C53AC48A27D (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:75>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____disabledColor;
 		return L_0;
 	}
@@ -5745,7 +5745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_DisabledColor_m903979EECB5C32C915EDC5CB2EBEF81A00066D34 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:76>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->____disabledColor = L_0;
 		return;
@@ -5755,7 +5755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_Disable
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F LocomotionTutorialTurnVisual_get_EnabledColor_m1902C66148C6F409A895EA28CE24473B4ECF9916 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:83>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____enabledColor;
 		return L_0;
 	}
@@ -5764,7 +5764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_EnabledColor_m162ECBBD4ED4D5BCABBB924999DF92235979C4E4 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:84>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->____enabledColor = L_0;
 		return;
@@ -5774,7 +5774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_Enabled
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F LocomotionTutorialTurnVisual_get_HighligtedColor_m84104BA161F0AF3FFCA4816C6058344FF3AB17F0 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:91>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____highligtedColor;
 		return L_0;
 	}
@@ -5783,7 +5783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_HighligtedColor_m1C85C898782E123269D5BB3437F598A00E147778 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:92>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->____highligtedColor = L_0;
 		return;
@@ -5793,15 +5793,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_set_Highlig
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_Start_m6DAA7017AD6B3D55361F55742E73E1343D0A2B12 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:105>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:114>
 		LocomotionTutorialTurnVisual_InitializeVisuals_mB3545E40C19DB33592768F383EC37689696B7B62(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:115>
 		bool* L_1 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:116>
 		return;
 	}
 }
@@ -5809,23 +5809,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_Start_m6DAA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_OnEnable_m315A28F268059E8A0B856CA321A7D386D199B72B (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:120>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_0 = __this->____leftTrail;
 		NullCheck(L_0);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:121>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_1 = __this->____rightTrail;
 		NullCheck(L_1);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:122>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = __this->____leftArrow;
 		NullCheck(L_2);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_2, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:123>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = __this->____rightArrow;
 		NullCheck(L_3);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_3, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:124>
 		return;
 	}
 }
@@ -5833,23 +5833,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_OnEnable_m3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_OnDisable_m0CBD6DD4CFEE8D2AC64D49D5913DB3535C17A084 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:128>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_0 = __this->____leftTrail;
 		NullCheck(L_0);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:129>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_1 = __this->____rightTrail;
 		NullCheck(L_1);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:130>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = __this->____leftArrow;
 		NullCheck(L_2);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_2, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:131>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = __this->____rightArrow;
 		NullCheck(L_3);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_3, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:132>
 		return;
 	}
 }
@@ -5857,11 +5857,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_OnDisable_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_Update_mD4CF4D6D91E855D12B385BCFB9DB0314158C31AF (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:136>
 		LocomotionTutorialTurnVisual_UpdateArrows_mD9E34BB8BA5403ADCA8591647EDB4651C6433018(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:137>
 		LocomotionTutorialTurnVisual_UpdateColors_mCE8F29C4DDB82EBFABD11F58650908F2266D65FF(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:138>
 		return;
 	}
 }
@@ -5870,7 +5870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_InitializeV
 {
 	TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:142>
 		float L_0 = __this->____margin;
 		float L_1 = __this->____maxAngle;
 		float L_2 = __this->____squeezeLength;
@@ -5880,17 +5880,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_InitializeV
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_4;
 		L_4 = LocomotionTutorialTurnVisual_InitializeSegment_m4FA57DF9A1E6F519B66F6B7E57A611B325A8406A(__this, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:143>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_5 = __this->____leftTrail;
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_6 = V_0;
 		NullCheck(L_5);
 		TubeRenderer_RenderTube_m32CD9435FBC62614E20BB3B43D66994132038F90(L_5, L_6, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:144>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_7 = __this->____rightTrail;
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_8 = V_0;
 		NullCheck(L_7);
 		TubeRenderer_RenderTube_m32CD9435FBC62614E20BB3B43D66994132038F90(L_7, L_8, 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:145>
 		return;
 	}
 }
@@ -5936,10 +5936,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 	float G_B23_0 = 0.0f;
 	LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* G_B23_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:149>
 		float L_0 = __this->____value;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:150>
 		float L_1 = __this->____maxAngle;
 		float L_2 = V_0;
 		float L_3;
@@ -5947,27 +5947,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 		float L_4;
 		L_4 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), L_1, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:151>
 		float L_5 = V_0;
 		V_2 = (bool)((((float)L_5) < ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:152>
 		float L_6 = V_0;
 		V_3 = (bool)((((float)L_6) > ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:153>
 		V_4 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:154>
 		float L_7 = __this->____squeezeLength;
 		float L_8 = __this->____progress;
 		float L_9;
 		L_9 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), L_7, L_8, NULL);
 		V_5 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:156>
 		float L_10 = V_1;
 		float L_11 = __this->____trailLength;
 		float L_12;
 		L_12 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_10, L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:158>
 		bool L_13 = V_3;
 		if (L_13)
 		{
@@ -5999,7 +5999,7 @@ IL_0068:
 		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_17, NULL);
 		NullCheck(G_B3_1);
 		LocomotionTutorialTurnVisual_UpdateArrowPosition_m8B35AE1DC8F47D8CEF46E6D7666F9F46D5860379(G_B3_1, G_B3_0, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:159>
 		bool L_19 = V_4;
 		bool L_20 = V_3;
 		if (((int32_t)((int32_t)L_19&(int32_t)L_20)))
@@ -6028,7 +6028,7 @@ IL_008e:
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_23 = __this->____rightTrail;
 		NullCheck(G_B6_1);
 		LocomotionTutorialTurnVisual_RotateTrail_mC53E9E5F56F16CE656DBF33B2A7C431E759882CA(G_B6_1, G_B6_0, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:160>
 		bool L_24 = V_3;
 		if (L_24)
 		{
@@ -6080,7 +6080,7 @@ IL_00b5:
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_30 = __this->____rightTrail;
 		NullCheck(G_B12_1);
 		LocomotionTutorialTurnVisual_UpdateTrail_mBD23C4A974F8927E80EAC67833F82EEEE6C9BEE1(G_B12_1, G_B12_0, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:162>
 		bool L_31 = V_2;
 		if (L_31)
 		{
@@ -6112,7 +6112,7 @@ IL_00d2:
 		L_36 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_35, NULL);
 		NullCheck(G_B15_1);
 		LocomotionTutorialTurnVisual_UpdateArrowPosition_m8B35AE1DC8F47D8CEF46E6D7666F9F46D5860379(G_B15_1, G_B15_0, L_36, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:163>
 		bool L_37 = V_4;
 		bool L_38 = V_2;
 		if (((int32_t)((int32_t)L_37&(int32_t)L_38)))
@@ -6141,7 +6141,7 @@ IL_00f9:
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_41 = __this->____leftTrail;
 		NullCheck(G_B18_1);
 		LocomotionTutorialTurnVisual_RotateTrail_mC53E9E5F56F16CE656DBF33B2A7C431E759882CA(G_B18_1, G_B18_0, L_41, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:164>
 		bool L_42 = V_2;
 		if (L_42)
 		{
@@ -6193,7 +6193,7 @@ IL_0120:
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_48 = __this->____leftTrail;
 		NullCheck(G_B24_1);
 		LocomotionTutorialTurnVisual_UpdateTrail_mBD23C4A974F8927E80EAC67833F82EEEE6C9BEE1(G_B24_1, G_B24_0, L_48, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:165>
 		return;
 	}
 }
@@ -6209,14 +6209,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:169>
 		float L_0 = ___0_angle;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:170>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___1_arrow;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
@@ -6228,7 +6228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 		L_8 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_6, L_7, NULL);
 		NullCheck(L_3);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:171>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___1_arrow;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333_il2cpp_TypeInfo_var);
@@ -6237,7 +6237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 		L_12 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_10, L_11, NULL);
 		NullCheck(L_9);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_9, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:172>
 		return;
 	}
 }
@@ -6245,7 +6245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateArrow
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_RotateTrail_mC53E9E5F56F16CE656DBF33B2A7C431E759882CA (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, float ___0_angle, TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* ___1_trail, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:176>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_0 = ___1_trail;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -6257,7 +6257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_RotateTrail
 		L_4 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(L_2, L_3, NULL);
 		NullCheck(L_1);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_1, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:177>
 		return;
 	}
 }
@@ -6269,45 +6269,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateTrail
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:181>
 		float L_0 = __this->____maxAngle;
 		float L_1 = __this->____squeezeLength;
 		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:182>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_2 = ___1_trail;
 		NullCheck(L_2);
 		float L_3;
 		L_3 = TubeRenderer_get_TotalLength_m53C8AFA88D7A73AFC99ACCE0F91F90109CFFBEAB_inline(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:183>
 		V_2 = (-100.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:184>
 		float L_4 = V_0;
 		float L_5 = ___0_angle;
 		float L_6 = __this->____margin;
 		float L_7 = V_0;
 		V_3 = ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_4, L_5)), L_6))/L_7));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:186>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_8 = ___1_trail;
 		float L_9 = V_1;
 		float L_10 = V_2;
 		NullCheck(L_8);
 		TubeRenderer_set_StartFadeThresold_m90F9A685EF0222D2EBBA5243809F9CE5FDFBD471_inline(L_8, ((float)il2cpp_codegen_multiply(L_9, L_10)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:187>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_11 = ___1_trail;
 		float L_12 = V_1;
 		float L_13 = V_3;
 		NullCheck(L_11);
 		TubeRenderer_set_EndFadeThresold_m5ADB692D0C3775CA3F34A0280834EB1DD686A2E4_inline(L_11, ((float)il2cpp_codegen_multiply(L_12, L_13)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:188>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_14 = ___1_trail;
 		NullCheck(L_14);
 		TubeRenderer_set_InvertThreshold_m0EEA2E653BF0AC82029BE9100F09083FC23BF624_inline(L_14, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:189>
 		TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* L_15 = ___1_trail;
 		NullCheck(L_15);
 		TubeRenderer_RedrawFadeThresholds_m1A1F944A80AA20A51D800A70B5D7641D0983EBEC(L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:190>
 		return;
 	}
 }
@@ -6343,17 +6343,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual_UpdateColor
 	int32_t G_B9_1 = 0;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B9_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:194>
 		float L_0 = __this->____progress;
 		float L_1;
 		L_1 = fabsf(L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:195>
 		float L_2 = __this->____value;
 		V_0 = (bool)((((float)L_2) < ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:196>
 		float L_3 = __this->____value;
 		V_1 = (bool)((((float)L_3) > ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:198>
 		if (((((int32_t)((!(((float)L_1) >= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0))
 		{
 			goto IL_003b;
@@ -6374,7 +6374,7 @@ IL_003b:
 IL_0041:
 	{
 		V_2 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:200>
 		MaterialPropertyBlockEditor_t2621E059B3EC71AF973EC4DD256CD1C1683DDC05* L_6 = __this->____leftMaterialBlock;
 		NullCheck(L_6);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_7;
@@ -6411,7 +6411,7 @@ IL_005e:
 	{
 		NullCheck(G_B6_2);
 		MaterialPropertyBlock_SetColor_m2E7CA761D98625E3B3CF380D3EBB2C99908FDFF6(G_B6_2, G_B6_1, G_B6_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:201>
 		MaterialPropertyBlockEditor_t2621E059B3EC71AF973EC4DD256CD1C1683DDC05* L_12 = __this->____rightMaterialBlock;
 		NullCheck(L_12);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_13;
@@ -6448,15 +6448,15 @@ IL_007f:
 	{
 		NullCheck(G_B9_2);
 		MaterialPropertyBlock_SetColor_m2E7CA761D98625E3B3CF380D3EBB2C99908FDFF6(G_B9_2, G_B9_1, G_B9_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:203>
 		MaterialPropertyBlockEditor_t2621E059B3EC71AF973EC4DD256CD1C1683DDC05* L_18 = __this->____leftMaterialBlock;
 		NullCheck(L_18);
 		MaterialPropertyBlockEditor_UpdateMaterialPropertyBlock_m16BF677358204F9ACE56AD982582F364D3249293(L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:204>
 		MaterialPropertyBlockEditor_t2621E059B3EC71AF973EC4DD256CD1C1683DDC05* L_19 = __this->____rightMaterialBlock;
 		NullCheck(L_19);
 		MaterialPropertyBlockEditor_UpdateMaterialPropertyBlock_m16BF677358204F9ACE56AD982582F364D3249293(L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:205>
 		return;
 	}
 }
@@ -6480,35 +6480,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350
 	TubePoint_t0763BD8380C0EB98C229BA646C7116006FE0C33B V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:209>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_minMax;
 		float L_1 = L_0.___x;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:210>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_minMax;
 		float L_3 = L_2.___y;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:211>
 		float L_4 = V_0;
 		float L_5;
 		L_5 = Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline(((float)il2cpp_codegen_subtract(L_3, L_4)), (360.0f), NULL);
 		int32_t L_6;
 		L_6 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)(L_5/(1.0f))), NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:212>
 		int32_t L_7 = V_1;
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_8 = (TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54*)(TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54*)SZArrayNew(TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54_il2cpp_TypeInfo_var, (uint32_t)L_7);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:213>
 		int32_t L_9 = V_1;
 		V_3 = ((float)((1.0f)/((float)L_9)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
 		V_4 = 0;
 		goto IL_00a7;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:216>
 		int32_t L_10 = V_4;
 		float L_11 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
@@ -6516,12 +6516,12 @@ IL_003a:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)((-L_10))), (1.0f))), L_11)), L_12, NULL);
 		V_5 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:217>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:218>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:219>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:220>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:221>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:222>
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_14 = V_2;
 		int32_t L_15 = V_4;
 		il2cpp_codegen_initobj((&V_6), sizeof(TubePoint_t0763BD8380C0EB98C229BA646C7116006FE0C33B));
@@ -6546,14 +6546,14 @@ IL_003a:
 		TubePoint_t0763BD8380C0EB98C229BA646C7116006FE0C33B L_26 = V_6;
 		NullCheck(L_14);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (TubePoint_t0763BD8380C0EB98C229BA646C7116006FE0C33B)L_26);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
 		int32_t L_27 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00a7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:214>
 		int32_t L_28 = V_4;
 		int32_t L_29 = V_1;
 		if ((((int32_t)L_28) < ((int32_t)L_29)))
@@ -6562,7 +6562,7 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:224>
 		TubePointU5BU5D_tE212FE6D99E80E8BCE6D4B0DB350A1BCB917BF54* L_30 = V_2;
 		return L_30;
 	}
@@ -6571,31 +6571,31 @@ IL_00a7:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual__ctor_mA8A4AAE6A6CF18AB29EE93C3A724A004C3259A09 (LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:49>
 		__this->____verticalOffset = (0.0199999996f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:57>
 		__this->____radius = (0.0700000003f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:59>
 		__this->____margin = (2.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:61>
 		__this->____trailLength = (15.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:63>
 		__this->____maxAngle = (45.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:66>
 		__this->____railGap = (0.00499999989f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:69>
 		__this->____squeezeLength = (5.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:72>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (0.200000003f), NULL);
 		__this->____disabledColor = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:80>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_1), (1.0f), (1.0f), (1.0f), (0.600000024f), NULL);
 		__this->____enabledColor = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:88>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
@@ -6615,11 +6615,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual__cctor_m2F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:98>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (-90.0f), (0.0f), NULL);
 		((LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333_il2cpp_TypeInfo_var))->____rotationCorrectionLeft = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialTurnVisual.cs:99>
 		int32_t L_1;
 		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, NULL);
 		((LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionTutorialTurnVisual_tABFD8A036669D318A5C1C8ADB8788F63AE58E333_il2cpp_TypeInfo_var))->____colorShaderPropertyID = L_1;
@@ -6638,7 +6638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionTutorialTurnVisual__cctor_m2F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtTarget_Start_m6CC14B7CDC648A871E18A65619CE1DE8C88C9C99 (LookAtTarget_tB093B3119B1ADE3D1656211C079DAA2827A50DD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/LookAtTarget.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/LookAtTarget.cs:38>
 		return;
 	}
 }
@@ -6650,7 +6650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtTarget_Update_mB34F3B86A64DF740ABF
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/LookAtTarget.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/LookAtTarget.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -6665,7 +6665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtTarget_Update_mB34F3B86A64DF740ABF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/LookAtTarget.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/LookAtTarget.cs:43>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____toRotate;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____toRotate;
 		NullCheck(L_7);
@@ -6678,7 +6678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtTarget_Update_mB34F3B86A64DF740ABF
 		L_11 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		NullCheck(L_6);
 		Transform_LookAt_mBD38EDB5E915C5DA6C5A79D191DEE2C826A9FC2C(L_6, L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/LookAtTarget.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/LookAtTarget.cs:44>
 		return;
 	}
 }
@@ -6702,7 +6702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtTarget__ctor_m22133A3BD5FFC9624C4B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* SlingshotPellet_get_HandGrabber_m3E9D80B271D44ABD63E86065814E4B637105A299 (SlingshotPellet_t4E19C3E8FF36BDDBBC0E7BC9709E9807621BAF58* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:38>
 		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_0 = __this->____lastHandGrabInteractor;
 		return L_0;
 	}
@@ -6718,7 +6718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Awake_mFA7C05133284E0112
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(Context_tD19D2F67813352CAEDC55A6518ACFD29AE96A204_il2cpp_TypeInfo_var);
 		Instance_tDC44B1F247BA884D4FEAAE7C256E681511657B29* L_0;
 		L_0 = Context_get_Global_mE94D722991CD4EE684DD5651630E640329C90614_inline(NULL);
@@ -6730,7 +6730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Awake_mFA7C05133284E0112
 		L_2 = UniqueIdentifier_Generate_mF78E00506917FF4775EEFC30904DA6965AE14493(L_1, __this, NULL);
 		__this->___Identifier = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Identifier), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:48>
 		return;
 	}
 }
@@ -6749,7 +6749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_OnEnable_m8F9F72FD8F905D
 	HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_0 = __this->____handGrabInteractables;
 		V_0 = L_0;
 		V_1 = 0;
@@ -6758,13 +6758,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_OnEnable_m8F9F72FD8F905D
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:54>
 		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = Interactable_2_get_WhenSelectingInteractorAdded_m7BBAC68CDDACF973F85AFAF683DFFA3CFE447F51_inline(L_4, Interactable_2_get_WhenSelectingInteractorAdded_m7BBAC68CDDACF973F85AFAF683DFFA3CFE447F51_RuntimeMethod_var);
@@ -6778,7 +6778,7 @@ IL_000b:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:52>
 		int32_t L_8 = V_1;
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_9 = V_0;
 		NullCheck(L_9);
@@ -6788,7 +6788,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:56>
 		return;
 	}
 }
@@ -6807,7 +6807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_OnDisable_mE3596A3424A3D
 	HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_0 = __this->____handGrabInteractables;
 		V_0 = L_0;
 		V_1 = 0;
@@ -6816,13 +6816,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_OnDisable_mE3596A3424A3D
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:62>
 		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = Interactable_2_get_WhenSelectingInteractorAdded_m7BBAC68CDDACF973F85AFAF683DFFA3CFE447F51_inline(L_4, Interactable_2_get_WhenSelectingInteractorAdded_m7BBAC68CDDACF973F85AFAF683DFFA3CFE447F51_RuntimeMethod_var);
@@ -6836,7 +6836,7 @@ IL_000b:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:60>
 		int32_t L_8 = V_1;
 		HandGrabInteractableU5BU5D_t6FB21EAB32B63D1C240DF90F8390C53FFC283E6A* L_9 = V_0;
 		NullCheck(L_9);
@@ -6846,7 +6846,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:64>
 		return;
 	}
 }
@@ -6854,11 +6854,11 @@ IL_0028:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_HandleSelectingHandGrabInteractorAdded_m582E57C9293027470A8FAC77D62C711BF1424571 (SlingshotPellet_t4E19C3E8FF36BDDBBC0E7BC9709E9807621BAF58* __this, HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* ___0_interactor, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:68>
 		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_0 = ___0_interactor;
 		__this->____lastHandGrabInteractor = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastHandGrabInteractor), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:69>
 		return;
 	}
 }
@@ -6868,13 +6868,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Attach_m0379F7E2C083B009
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:73>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
 		L_1 = PoseUtils_GetPose_m33C9042AEC0A37063CC4EEF49E515DC7AEB4B1B9(L_0, 0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:74>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_2 = __this->___grabbable;
 		UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* L_3 = __this->___Identifier;
 		NullCheck(L_3);
@@ -6886,7 +6886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Attach_m0379F7E2C083B009
 		PointerEvent__ctor_m82E1413B448C015A646DFA1BD12A1D6EFE5F0AFB((&L_6), L_4, 0, L_5, NULL, NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC >::Invoke(11, L_2, L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:75>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_7 = __this->___grabbable;
 		UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* L_8 = __this->___Identifier;
 		NullCheck(L_8);
@@ -6898,7 +6898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Attach_m0379F7E2C083B009
 		PointerEvent__ctor_m82E1413B448C015A646DFA1BD12A1D6EFE5F0AFB((&L_11), L_9, 2, L_10, NULL, NULL);
 		NullCheck(L_7);
 		VirtualActionInvoker1< PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC >::Invoke(11, L_7, L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:76>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_12 = __this->___grabbable;
 		UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* L_13 = __this->___Identifier;
 		NullCheck(L_13);
@@ -6910,7 +6910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Attach_m0379F7E2C083B009
 		PointerEvent__ctor_m82E1413B448C015A646DFA1BD12A1D6EFE5F0AFB((&L_16), L_14, 4, L_15, NULL, NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC >::Invoke(11, L_12, L_16);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:77>
 		return;
 	}
 }
@@ -6918,7 +6918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Attach_m0379F7E2C083B009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Move_mDE9C212527ED182A51E2E8AC99AB300E62B8AD37 (SlingshotPellet_t4E19C3E8FF36BDDBBC0E7BC9709E9807621BAF58* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:81>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0 = __this->___grabbable;
 		UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* L_1 = __this->___Identifier;
 		NullCheck(L_1);
@@ -6932,7 +6932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Move_mDE9C212527ED182A51
 		PointerEvent__ctor_m82E1413B448C015A646DFA1BD12A1D6EFE5F0AFB((&L_5), L_2, 4, L_4, NULL, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC >::Invoke(11, L_0, L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:82>
 		return;
 	}
 }
@@ -6940,7 +6940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Move_mDE9C212527ED182A51
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Eject_m11FD252F96B2CE21FF86DD6293408F6361BFE169 (SlingshotPellet_t4E19C3E8FF36BDDBBC0E7BC9709E9807621BAF58* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_force, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:86>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0 = __this->___grabbable;
 		UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* L_1 = __this->___Identifier;
 		NullCheck(L_1);
@@ -6955,12 +6955,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Eject_m11FD252F96B2CE21F
 		PointerEvent__ctor_m82E1413B448C015A646DFA1BD12A1D6EFE5F0AFB((&L_5), L_2, 5, L_4, NULL, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC >::Invoke(11, L_0, L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:88>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_force;
 		__this->____linearVelocity = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:89>
 		__this->____hasPendingForce = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:90>
 		return;
 	}
 }
@@ -6968,7 +6968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_Eject_m11FD252F96B2CE21F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_FixedUpdate_m8F6806F52FAE71F49EDEC79D0467F468758FE2AE (SlingshotPellet_t4E19C3E8FF36BDDBBC0E7BC9709E9807621BAF58* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:94>
 		bool L_0 = __this->____hasPendingForce;
 		if (!L_0)
 		{
@@ -6976,14 +6976,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_FixedUpdate_m8F6806F52FA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:96>
 		__this->____hasPendingForce = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:97>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->____rigidbody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->____linearVelocity;
 		NullCheck(L_1);
 		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_1, L_2, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:98>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->____rigidbody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -6993,7 +6993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet_FixedUpdate_m8F6806F52FA
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/MultiModal/SlingshotPellet.cs:100>
 		return;
 	}
 }
@@ -7017,7 +7017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlingshotPellet__ctor_m4D569F05C5371B556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredWorldSpaceDistanceScaler_Start_m5B5FD511F9C6BAC0B406C1C4EC8BBED31CD701DA (AnchoredWorldSpaceDistanceScaler_tECB3C380ACD02818AC10EA71D61FDC02890A8004* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:83>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____parentAnchor;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____localAnchor;
 		NullCheck(L_1);
@@ -7027,14 +7027,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredWorldSpaceDistanceScaler_Start_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_0, L_2, NULL);
 		__this->____parentAnchorOffset = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
 		__this->____originalLocalScale = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:85>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -7044,13 +7044,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredWorldSpaceDistanceScaler_Start_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_7, NULL);
 		__this->____originalParentLocalScale = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:86>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = __this->____originalParentLocalScale;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = __this->____originalLocalScale;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_9, L_10, NULL);
 		__this->____originalCombinedScale = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:87>
 		return;
 	}
 }
@@ -7095,14 +7095,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredWorldSpaceDistanceScaler_LateUpd
 	float G_B9_2 = 0.0f;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B9_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:91>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____parentAnchor;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->____parentAnchorOffset;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
@@ -7110,17 +7110,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredWorldSpaceDistanceScaler_LateUpd
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_3, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:97>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_6, NULL);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:98>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:99>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:100>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:101>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____localAnchor;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
@@ -7245,7 +7245,7 @@ IL_00db:
 		memset((&L_38), 0, sizeof(L_38));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_38), G_B9_2, G_B9_1, G_B9_0, NULL);
 		Vector3_Scale_mE0DC2C1B7902271788591F17DBE7F7F72EC37283_inline(G_B9_3, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:103>
 		int32_t L_39 = __this->____scalingMode;
 		if ((!(((uint32_t)L_39) == ((uint32_t)1))))
 		{
@@ -7253,7 +7253,7 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:112>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
 		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_40);
@@ -7266,7 +7266,7 @@ IL_00db:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
 		L_44 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_42, L_43, NULL);
 		V_3 = L_44;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:124>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_3;
 		float L_46 = L_45.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_3;
@@ -7281,13 +7281,13 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:126>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_3;
 		float L_54 = L_53.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_55 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_56 = L_55->___y;
 		V_4 = ((float)(L_54/L_56));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:127>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_57 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_58 = L_57->___x;
 		float L_59 = V_4;
@@ -7301,7 +7301,7 @@ IL_00db:
 		L_62 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_61, NULL);
 		float L_63 = L_62.___x;
 		(&V_2)->___x = ((float)(((float)il2cpp_codegen_multiply(L_58, L_59))/L_63));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:128>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_64 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_65 = L_64->___z;
 		float L_66 = V_4;
@@ -7320,13 +7320,13 @@ IL_00db:
 
 IL_019d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:132>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = V_3;
 		float L_72 = L_71.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_73 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_74 = L_73->___x;
 		V_5 = ((float)(L_72/L_74));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:133>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_75 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_76 = L_75->___y;
 		float L_77 = V_5;
@@ -7340,7 +7340,7 @@ IL_019d:
 		L_80 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_79, NULL);
 		float L_81 = L_80.___y;
 		(&V_2)->___y = ((float)(((float)il2cpp_codegen_multiply(L_76, L_77))/L_81));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:134>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_82 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalCombinedScale);
 		float L_83 = L_82->___z;
 		float L_84 = V_5;
@@ -7359,7 +7359,7 @@ IL_019d:
 
 IL_0209:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:139>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_89 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalParentLocalScale);
 		float L_90 = L_89->___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_91 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____originalLocalScale);
@@ -7378,13 +7378,13 @@ IL_0209:
 
 IL_023d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:142>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_97;
 		L_97 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98 = V_2;
 		NullCheck(L_97);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_97, L_98, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/AnchoredWorldSpaceDistanceScaler.cs:143>
 		return;
 	}
 }
@@ -7422,19 +7422,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Start_mCFDFBCDD9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:57>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_0 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)SZArrayNew(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->____endPositions = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____endPositions), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:58>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_1 = __this->____endPositions;
 		NullCheck(L_1);
 		((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___w = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:59>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_2 = __this->____endPositions;
 		NullCheck(L_2);
 		((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->___w = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:60>
 		return;
 	}
 }
@@ -7449,7 +7449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:64>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_1 = __this->____distanceToCurvatureCurve;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -7468,7 +7468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_7 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_1, L_6, NULL);
 		NullCheck(L_0);
 		Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE(L_0, _stringLiteralC5FAE9CA34381236F817A93011A91ED0865A12CA, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:66>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_8 = __this->____endPositions;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____topBone;
@@ -7477,7 +7477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
 		float L_11 = L_10.___x;
 		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___x = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:67>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_12 = __this->____endPositions;
 		NullCheck(L_12);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->____topBone;
@@ -7486,7 +7486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
 		float L_15 = L_14.___y;
 		((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___y = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:68>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_16 = __this->____endPositions;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->____topBone;
@@ -7495,7 +7495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
 		float L_19 = L_18.___z;
 		((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___z = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:69>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_20 = __this->____endPositions;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->____bottomBone;
@@ -7504,7 +7504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
 		float L_23 = L_22.___x;
 		((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->___x = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:70>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_24 = __this->____endPositions;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->____bottomBone;
@@ -7513,7 +7513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
 		float L_27 = L_26.___y;
 		((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->___y = L_27;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:71>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_28 = __this->____endPositions;
 		NullCheck(L_28);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = __this->____bottomBone;
@@ -7522,7 +7522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		L_30 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_29, NULL);
 		float L_31 = L_30.___z;
 		((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->___z = L_31;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:72>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_32 = __this->____renderer;
 		NullCheck(L_32);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33;
@@ -7530,7 +7530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcAffordanceController_Update_m3D5B0E2D
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_34 = __this->____endPositions;
 		NullCheck(L_33);
 		Material_SetVectorArray_mF95A113AD4508490F0F8749EF36D4DFEE6E83D6E(L_33, _stringLiteral151687C26A334A053B930F905DC2455FEB9B0C54, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ArcAffordanceController.cs:73>
 		return;
 	}
 }
@@ -7573,11 +7573,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_Start_m7
 	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:62>
 		int32_t L_0;
 		L_0 = ManipulatorAffordanceController_GetAnimatorState_m76A3095032CC6B973E0CA2DAE81816BCC73ACD17(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_1 = __this->____animators;
 		V_1 = L_1;
 		V_2 = 0;
@@ -7586,13 +7586,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_Start_m7
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:65>
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_5, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, L_6, NULL);
@@ -7602,7 +7602,7 @@ IL_0012:
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:63>
 		int32_t L_8 = V_2;
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_9 = V_1;
 		NullCheck(L_9);
@@ -7612,19 +7612,19 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:68>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_10 = __this->____grabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_11 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_11, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		Interactable_2_add_WhenStateChanged_m86A16C7BE9A062D4E875EE92BEFDEE48F92517C5(L_10, L_11, Interactable_2_add_WhenStateChanged_m86A16C7BE9A062D4E875EE92BEFDEE48F92517C5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:69>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_12 = __this->____handGrabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_13 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_13, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		Interactable_2_add_WhenStateChanged_m3C5F8B3669309ACF87C28E834F7E725B34F06EA9(L_12, L_13, Interactable_2_add_WhenStateChanged_m3C5F8B3669309ACF87C28E834F7E725B34F06EA9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:70>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_14 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -7635,7 +7635,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:70>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_16 = __this->____rayInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_17 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_17, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
@@ -7645,13 +7645,13 @@ IL_0024:
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:72>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_18 = __this->____stateSignaler;
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_19 = (Action_1_t090F492CBF60E7C7363293813E029057D40B312C*)il2cpp_codegen_object_new(Action_1_t090F492CBF60E7C7363293813E029057D40B312C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m81C1990192550D4F96EE71B2D4892A7BE200861A(L_19, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleStateChanged_mAD411B2EBDBC4AF3065E4607ADF92FE102398CAF_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		PanelWithManipulatorsStateSignaler_add_WhenStateChanged_mB9AA3D529A298F53DCF1D461872711BEAFEB74E9(L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:74>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_20 = __this->____panelHoverState;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -7662,7 +7662,7 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:74>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_22 = __this->____panelHoverState;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_23 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_23, __this, (intptr_t)((void*)ManipulatorAffordanceController_PanelHoverStateChanged_m7D95BB349B0A3C10F2A17E6A9871BAFB037E27C8_RuntimeMethod_var), NULL);
@@ -7672,7 +7672,7 @@ IL_007d:
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:75>
 		return;
 	}
 }
@@ -7695,19 +7695,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_OnDestro
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:79>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_0 = __this->____grabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_1 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_1, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		Interactable_2_remove_WhenStateChanged_mB45EB42C84A6488C72BD91D26914A2845862413B(L_0, L_1, Interactable_2_remove_WhenStateChanged_mB45EB42C84A6488C72BD91D26914A2845862413B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:80>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2 = __this->____handGrabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_3 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_3, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		Interactable_2_remove_WhenStateChanged_mF65466E66843DDA41E81B3AFD6F388796C38C9E7(L_2, L_3, Interactable_2_remove_WhenStateChanged_mF65466E66843DDA41E81B3AFD6F388796C38C9E7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:81>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_4 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -7718,7 +7718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_OnDestro
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:81>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_6 = __this->____rayInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_7 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_7, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleInteractableStateChanged_m44796A50F3D1BB8287F5A7268B947D95FDDAABAF_RuntimeMethod_var), NULL);
@@ -7728,13 +7728,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_OnDestro
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:83>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_8 = __this->____stateSignaler;
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_9 = (Action_1_t090F492CBF60E7C7363293813E029057D40B312C*)il2cpp_codegen_object_new(Action_1_t090F492CBF60E7C7363293813E029057D40B312C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m81C1990192550D4F96EE71B2D4892A7BE200861A(L_9, __this, (intptr_t)((void*)ManipulatorAffordanceController_HandleStateChanged_mAD411B2EBDBC4AF3065E4607ADF92FE102398CAF_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		PanelWithManipulatorsStateSignaler_remove_WhenStateChanged_m17EFD94A70F707E97453ADA023332CB0E28E53C0(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:85>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_10 = __this->____panelHoverState;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -7745,7 +7745,7 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:85>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_12 = __this->____panelHoverState;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_13 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_13, __this, (intptr_t)((void*)ManipulatorAffordanceController_PanelHoverStateChanged_m7D95BB349B0A3C10F2A17E6A9871BAFB037E27C8_RuntimeMethod_var), NULL);
@@ -7755,7 +7755,7 @@ IL_0053:
 
 IL_008f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:86>
 		return;
 	}
 }
@@ -7771,9 +7771,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManipulatorAffordanceController_GetAn
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:90>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:91>
 		RuntimeObject* L_0 = ___0_view;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7802,29 +7802,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManipulatorAffordanceController_GetAn
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:94>
 		V_0 = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:95>
 		goto IL_0027;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:97>
 		V_0 = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:98>
 		goto IL_0027;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:100>
 		V_0 = 3;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:103>
 		int32_t L_3 = V_0;
 		return L_3;
 	}
@@ -7843,9 +7843,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManipulatorAffordanceController_GetAn
 	int32_t V_1 = 0;
 	int32_t G_B6_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:107>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:109>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_0 = __this->____panelHoverState;
 		if (!L_0)
 		{
@@ -7853,7 +7853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManipulatorAffordanceController_GetAn
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:111>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_1 = __this->____panelHoverState;
 		NullCheck(L_1);
 		bool L_2;
@@ -7864,14 +7864,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManipulatorAffordanceController_GetAn
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:113>
 		int32_t L_3 = V_0;
 		return L_3;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:117>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_4 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -7897,7 +7897,7 @@ IL_002a:
 IL_0036:
 	{
 		V_1 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:118>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = L_8;
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_10 = __this->____grabInteractable;
@@ -7918,7 +7918,7 @@ IL_0036:
 		int32_t L_17;
 		L_17 = Mathf_Max_m271FF4CD2477D6193F44AE8F910FAB5E1A003DFF_inline(L_15, NULL);
 		V_0 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:120>
 		int32_t L_18 = V_0;
 		return L_18;
 	}
@@ -7936,7 +7936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_HandleIn
 	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:124>
 		int32_t L_0;
 		L_0 = InteractableStateChangeArgs_get_NewState_m0399E8059F72DE4B661759418475B3F21F45B42C_inline((&___0_args), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
@@ -7945,7 +7945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_HandleIn
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:126>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_1 = __this->____stateSignaler;
 		NullCheck(L_1);
 		PanelWithManipulatorsStateSignaler_set_CurrentState_m6CDA3562E1A8D3BAB4B606AF522DE2D28ED740CE(L_1, 1, NULL);
@@ -7954,7 +7954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_HandleIn
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:128>
 		int32_t L_2;
 		L_2 = InteractableStateChangeArgs_get_PreviousState_m320BE813F5200FD19525AFA68FF1C012497B30A0_inline((&___0_args), NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
@@ -7963,7 +7963,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:130>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_3 = __this->____stateSignaler;
 		NullCheck(L_3);
 		PanelWithManipulatorsStateSignaler_set_CurrentState_m6CDA3562E1A8D3BAB4B606AF522DE2D28ED740CE(L_3, 0, NULL);
@@ -7971,11 +7971,11 @@ IL_0018:
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:133>
 		int32_t L_4;
 		L_4 = ManipulatorAffordanceController_GetAnimatorState_m76A3095032CC6B973E0CA2DAE81816BCC73ACD17(__this, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_5 = __this->____animators;
 		V_1 = L_5;
 		V_2 = 0;
@@ -7984,13 +7984,13 @@ IL_002e:
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_6 = V_1;
 		int32_t L_7 = V_2;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:137>
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_9, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, L_10, NULL);
@@ -8000,7 +8000,7 @@ IL_0040:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:135>
 		int32_t L_12 = V_2;
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_13 = V_1;
 		NullCheck(L_13);
@@ -8010,7 +8010,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:139>
 		return;
 	}
 }
@@ -8027,11 +8027,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_PanelHov
 	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:142>
 		int32_t L_0;
 		L_0 = ManipulatorAffordanceController_GetAnimatorState_m76A3095032CC6B973E0CA2DAE81816BCC73ACD17(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_1 = __this->____animators;
 		V_1 = L_1;
 		V_2 = 0;
@@ -8040,13 +8040,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_PanelHov
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:146>
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_5, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, L_6, NULL);
@@ -8056,7 +8056,7 @@ IL_0012:
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:144>
 		int32_t L_8 = V_2;
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_9 = V_1;
 		NullCheck(L_9);
@@ -8066,7 +8066,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:148>
 		return;
 	}
 }
@@ -8086,7 +8086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_HandleSt
 	int32_t G_B4_0 = 0;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:151>
 		int32_t L_0 = ___0_state;
 		if (!L_0)
 		{
@@ -8094,7 +8094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController_HandleSt
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:153>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_1 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -8121,7 +8121,7 @@ IL_0014:
 IL_0025:
 	{
 		V_0 = (bool)G_B4_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:154>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_5 = __this->____grabInteractable;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -8154,15 +8154,15 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:156>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_10 = __this->____grabInteractable;
 		NullCheck(L_10);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:157>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_11 = __this->____handGrabInteractable;
 		NullCheck(L_11);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_11, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:158>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_12 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -8173,7 +8173,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:158>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_14 = __this->____rayInteractable;
 		NullCheck(L_14);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_14, (bool)0, NULL);
@@ -8182,15 +8182,15 @@ IL_0048:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:163>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_15 = __this->____grabInteractable;
 		NullCheck(L_15);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_15, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:164>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_16 = __this->____handGrabInteractable;
 		NullCheck(L_16);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:165>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_17 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -8201,7 +8201,7 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:165>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_19 = __this->____rayInteractable;
 		NullCheck(L_19);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_19, (bool)1, NULL);
@@ -8209,7 +8209,7 @@ IL_007f:
 
 IL_00b1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ManipulatorAffordanceController.cs:167>
 		return;
 	}
 }
@@ -8233,7 +8233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManipulatorAffordanceController__ctor_m2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* OneGrabScaleTransformer_get_Constraints_mF5FFBFA866E017245FD96222E7E3229F186ECA66 (OneGrabScaleTransformer_t42A41DC0BF923D3AA72F119EB87E4BB2EFD96099* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:67>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_0 = __this->____constraints;
 		return L_0;
 	}
@@ -8242,11 +8242,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneGrabScaleConstraints_t3F124FFACE7E897DD3D4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_set_Constraints_m8FA0282F40E1ADD7F9578C6883C60184FBEB6677 (OneGrabScaleTransformer_t42A41DC0BF923D3AA72F119EB87E4BB2EFD96099* __this, OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:72>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_0 = ___0_value;
 		__this->____constraints = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____constraints), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:73>
 		return;
 	}
 }
@@ -8254,11 +8254,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_set_Constraints_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_Initialize_m7EE31B6D5A6C1CC1C2B2E67AD81F9946E71F1EFA (OneGrabScaleTransformer_t42A41DC0BF923D3AA72F119EB87E4BB2EFD96099* __this, RuntimeObject* ___0_grabbable, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:83>
 		RuntimeObject* L_0 = ___0_grabbable;
 		__this->____grabbable = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____grabbable), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:84>
 		return;
 	}
 }
@@ -8299,7 +8299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_BeginTransform_m
 	float G_B9_2 = 0.0f;
 	OneGrabScaleTransformer_t42A41DC0BF923D3AA72F119EB87E4BB2EFD96099* G_B9_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:88>
 		RuntimeObject* L_0 = __this->____grabbable;
 		NullCheck(L_0);
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_1;
@@ -8308,29 +8308,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_BeginTransform_m
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = List_1_get_Item_m30DAA93C38186B88FCB4FDE8CD17B27CC6517431(L_1, 0, List_1_get_Item_m30DAA93C38186B88FCB4FDE8CD17B27CC6517431_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:89>
 		RuntimeObject* L_3 = __this->____grabbable;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(1, IGrabbable_t29BBED07EE978D3762F867A5E18F9C79C0020CB0_il2cpp_TypeInfo_var, L_3);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:90>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_1;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = TransformExtensions_InverseTransformPointUnscaled_m771E83075C069B62CB19958DD2BFAC82BC86C8FD(L_5, L_7, NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_1;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_9, NULL);
 		__this->____initialLocalScale = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:93>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:94>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:95>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:96>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_2;
 		float L_12 = L_11.___x;
 		bool L_13;
@@ -8429,7 +8429,7 @@ IL_00a7:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_26), G_B9_2, G_B9_1, G_B9_0, NULL);
 		NullCheck(G_B9_3);
 		G_B9_3->____initialLocalScaleFactor = L_26;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:97>
 		return;
 	}
 }
@@ -8452,7 +8452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 	float V_4 = 0.0f;
 	float V_5 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:101>
 		RuntimeObject* L_0 = __this->____grabbable;
 		NullCheck(L_0);
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_1;
@@ -8461,20 +8461,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = List_1_get_Item_m30DAA93C38186B88FCB4FDE8CD17B27CC6517431(L_1, 0, List_1_get_Item_m30DAA93C38186B88FCB4FDE8CD17B27CC6517431_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:102>
 		RuntimeObject* L_3 = __this->____grabbable;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(1, IGrabbable_t29BBED07EE978D3762F867A5E18F9C79C0020CB0_il2cpp_TypeInfo_var, L_3);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:103>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_1;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = TransformExtensions_InverseTransformPointUnscaled_m771E83075C069B62CB19958DD2BFAC82BC86C8FD(L_5, L_7, NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:105>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
 		float L_10 = L_9->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_2;
@@ -8482,7 +8482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScaleFactor);
 		float L_14 = L_13->___x;
 		V_3 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_10, L_12)), L_14));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:106>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_15 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
 		float L_16 = L_15->___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_2;
@@ -8490,7 +8490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_19 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScaleFactor);
 		float L_20 = L_19->___y;
 		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_16, L_18)), L_20));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:107>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_21 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
 		float L_22 = L_21->___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_2;
@@ -8498,7 +8498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_25 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScaleFactor);
 		float L_26 = L_25->___z;
 		V_5 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_22, L_24)), L_26));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:109>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_27 = __this->____constraints;
 		NullCheck(L_27);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_28 = L_27->___MinX;
@@ -8510,7 +8510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:111>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_30 = __this->____constraints;
 		NullCheck(L_30);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_31 = L_30->___MinX;
@@ -8524,7 +8524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_UpdateTransform_
 
 IL_00b3:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:113>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_35 = __this->____constraints;
 		NullCheck(L_35);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_36 = L_35->___MinY;
@@ -8536,7 +8536,7 @@ IL_00b3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:115>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_38 = __this->____constraints;
 		NullCheck(L_38);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_39 = L_38->___MinY;
@@ -8550,7 +8550,7 @@ IL_00b3:
 
 IL_00de:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:117>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_43 = __this->____constraints;
 		NullCheck(L_43);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_44 = L_43->___MinZ;
@@ -8562,7 +8562,7 @@ IL_00de:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:119>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_46 = __this->____constraints;
 		NullCheck(L_46);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_47 = L_46->___MinZ;
@@ -8576,7 +8576,7 @@ IL_00de:
 
 IL_0109:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:121>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_51 = __this->____constraints;
 		NullCheck(L_51);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_52 = L_51->___MaxX;
@@ -8588,7 +8588,7 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:123>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_54 = __this->____constraints;
 		NullCheck(L_54);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_55 = L_54->___MaxX;
@@ -8602,7 +8602,7 @@ IL_0109:
 
 IL_0132:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:125>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_59 = __this->____constraints;
 		NullCheck(L_59);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_60 = L_59->___MaxY;
@@ -8614,7 +8614,7 @@ IL_0132:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:127>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_62 = __this->____constraints;
 		NullCheck(L_62);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_63 = L_62->___MaxY;
@@ -8628,7 +8628,7 @@ IL_0132:
 
 IL_015d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:129>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_67 = __this->____constraints;
 		NullCheck(L_67);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_68 = L_67->___MaxZ;
@@ -8640,7 +8640,7 @@ IL_015d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:131>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_70 = __this->____constraints;
 		NullCheck(L_70);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_71 = L_70->___MaxZ;
@@ -8654,7 +8654,7 @@ IL_015d:
 
 IL_0188:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:134>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_75 = __this->____constraints;
 		NullCheck(L_75);
 		bool L_76 = L_75->___IgnoreFixedAxes;
@@ -8664,7 +8664,7 @@ IL_0188:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:136>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_77 = __this->____constraints;
 		NullCheck(L_77);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_78 = L_77->___MinX;
@@ -8703,7 +8703,7 @@ IL_0188:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:138>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_89 = V_1;
 		NullCheck(L_89);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
@@ -8714,7 +8714,7 @@ IL_0188:
 
 IL_01ea:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:140>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_92 = __this->____constraints;
 		NullCheck(L_92);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_93 = L_92->___MinY;
@@ -8753,7 +8753,7 @@ IL_01ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:142>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_104 = V_1;
 		NullCheck(L_104);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
@@ -8764,7 +8764,7 @@ IL_01ea:
 
 IL_023d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:144>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_107 = __this->____constraints;
 		NullCheck(L_107);
 		FloatConstraint_tADC9E583F22DA0200AF8518183225FF9760E284A* L_108 = L_107->___MinZ;
@@ -8803,7 +8803,7 @@ IL_023d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:146>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_119 = V_1;
 		NullCheck(L_119);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_120;
@@ -8814,7 +8814,7 @@ IL_023d:
 
 IL_0290:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:150>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_122 = __this->____constraints;
 		NullCheck(L_122);
 		bool L_123 = L_122->___ConstrainXYAspectRatio;
@@ -8824,7 +8824,7 @@ IL_0290:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:152>
 		float L_124 = V_3;
 		float L_125 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_126 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
@@ -8837,7 +8837,7 @@ IL_0290:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:154>
 		float L_130 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_131 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
 		float L_132 = L_131->___y;
@@ -8849,7 +8849,7 @@ IL_0290:
 
 IL_02d7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:158>
 		float L_135 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_136 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialLocalScale);
 		float L_137 = L_136->___x;
@@ -8860,7 +8860,7 @@ IL_02d7:
 
 IL_02f2:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:162>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_140 = V_1;
 		float L_141 = V_3;
 		float L_142 = V_4;
@@ -8870,7 +8870,7 @@ IL_02f2:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_144), L_141, L_142, L_143, NULL);
 		NullCheck(L_140);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_140, L_144, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:163>
 		return;
 	}
 }
@@ -8878,7 +8878,7 @@ IL_02f2:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer_EndTransform_mAE8C125E8889EABBF430C8AE11E541B2713FFF91 (OneGrabScaleTransformer_t42A41DC0BF923D3AA72F119EB87E4BB2EFD96099* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:165>
 		return;
 	}
 }
@@ -8893,18 +8893,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneGrabScaleTransformer__ctor_m23E135F04
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:50>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:51>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:52>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:53>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:54>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:55>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:58>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:59>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:60>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OneGrabScaleTransformer.cs:61>
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_0 = (OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C*)il2cpp_codegen_object_new(OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C_il2cpp_TypeInfo_var);
 		OneGrabScaleConstraints__ctor_mE266D6E3E075BD8BDFB3AF70F02C71A4B688E115(L_0, NULL);
 		OneGrabScaleConstraints_t3F124FFACE7E897DD3D489D0397F707AA754AC4C* L_1 = L_0;
@@ -8990,10 +8990,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_S
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:48>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->____renderer;
 		__this->____isSkinnedMeshRenderer = (bool)((!(((RuntimeObject*)(SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E*)((SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E*)IsInstClass((RuntimeObject*)L_0, SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:49>
 		bool L_1 = __this->____isSkinnedMeshRenderer;
 		if (L_1)
 		{
@@ -9001,7 +9001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_S
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:51>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_2 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_2, NULL);
 		__this->____materialProperties = L_2;
@@ -9010,7 +9010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_S
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:53>
 		return;
 	}
 }
@@ -9025,7 +9025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_U
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:57>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____opacityTransform;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -9034,7 +9034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_U
 		float L_3;
 		L_3 = fabsf(L_2);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:59>
 		bool L_4 = __this->____isSkinnedMeshRenderer;
 		if (!L_4)
 		{
@@ -9042,7 +9042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_U
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:61>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_5 = __this->____renderer;
 		NullCheck(L_5);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6;
@@ -9055,17 +9055,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpacityFromAnimatedTransformController_U
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:65>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_8 = __this->____materialProperties;
 		float L_9 = V_0;
 		NullCheck(L_8);
 		MaterialPropertyBlock_SetFloat_m49458EDC57C2B431D765FE7414F18918AD619888(L_8, _stringLiteral56FA0C8D9308880001A2ECB99BAADD0188191D3C, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:66>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_10 = __this->____renderer;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_11 = __this->____materialProperties;
 		NullCheck(L_10);
 		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/OpacityFromAnimatedTransformController.cs:68>
 		return;
 	}
 }
@@ -9111,15 +9111,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 	Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:55>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___1_targetTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_worldSpacePoint;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = TransformExtensions_InverseTransformPointUnscaled_m771E83075C069B62CB19958DD2BFAC82BC86C8FD(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:56>
 		(&V_0)->___z = (0.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:61>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___1_targetTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___2_boneTransform;
 		NullCheck(L_4);
@@ -9128,7 +9128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = TransformExtensions_InverseTransformPointUnscaled_m771E83075C069B62CB19958DD2BFAC82BC86C8FD(L_3, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:63>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		float L_8 = L_7.___x;
 		float L_9;
@@ -9144,7 +9144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		float L_16;
 		L_16 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_12, L_15, NULL);
 		V_2 = ((float)il2cpp_codegen_multiply(L_9, L_16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:64>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
 		float L_18 = L_17.___y;
 		float L_19;
@@ -9160,7 +9160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		float L_26;
 		L_26 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_22, L_25, NULL);
 		V_3 = ((float)il2cpp_codegen_multiply(L_19, L_26));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:65>
 		float L_27 = V_2;
 		float L_28;
 		L_28 = fabsf(L_27);
@@ -9171,7 +9171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		float L_32;
 		L_32 = fabsf(((float)il2cpp_codegen_subtract(L_28, L_31)));
 		float L_33 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:66>
 		float L_34 = V_3;
 		float L_35;
 		L_35 = fabsf(L_34);
@@ -9183,7 +9183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		L_39 = fabsf(((float)il2cpp_codegen_subtract(L_35, L_38)));
 		float L_40 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
 		V_4 = (bool)((((float)L_39) < ((float)L_40))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:67>
 		bool L_41 = V_4;
 		if (!((int32_t)(((((float)L_32) < ((float)L_33))? 1 : 0)|(int32_t)L_41)))
 		{
@@ -9191,11 +9191,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:69>
 		float L_42 = V_2;
 		float L_43 = V_3;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), L_42, L_43, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:70>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
@@ -9204,7 +9204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
 		L_47 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		V_6 = L_47;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:71>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48 = ___1_targetTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_6;
@@ -9223,7 +9223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A
 
 IL_00f0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:74>
 		il2cpp_codegen_initobj((&V_8), sizeof(Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE));
 		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_56 = V_8;
 		return L_56;
@@ -9257,12 +9257,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:221>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_0 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_0, NULL);
 		__this->____materialPropertyBlock = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____materialPropertyBlock), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:222>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_1 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)SZArrayNew(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD_il2cpp_TypeInfo_var, (uint32_t)4);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_2 = L_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3;
@@ -9286,34 +9286,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_9);
 		__this->____fadePoints = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____fadePoints), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:224>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_10 = (Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B*)il2cpp_codegen_object_new(Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mDFE24618ABC479BD97D3B3E838B11A1A79D70599(L_10, Dictionary_2__ctor_mDFE24618ABC479BD97D3B3E838B11A1A79D70599_RuntimeMethod_var);
 		__this->____points = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____points), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:225>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_11 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_11, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->____affordancesInUse = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____affordancesInUse), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:226>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_12 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_12, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		__this->____deletePointKeys = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____deletePointKeys), (void*)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:228>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_13 = __this->____grabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_14 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_14, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		Interactable_2_add_WhenStateChanged_m86A16C7BE9A062D4E875EE92BEFDEE48F92517C5(L_13, L_14, Interactable_2_add_WhenStateChanged_m86A16C7BE9A062D4E875EE92BEFDEE48F92517C5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:229>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_15 = __this->____handGrabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_16 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_16, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		Interactable_2_add_WhenStateChanged_m3C5F8B3669309ACF87C28E834F7E725B34F06EA9(L_15, L_16, Interactable_2_add_WhenStateChanged_m3C5F8B3669309ACF87C28E834F7E725B34F06EA9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:230>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_17 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -9324,7 +9324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:230>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_19 = __this->____rayInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_20 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_20, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
@@ -9334,23 +9334,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:232>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_21 = __this->____railOpacityAnimator;
 		NullCheck(L_21);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_21, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, 0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:233>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_22 = __this->____stateSignaler;
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_23 = (Action_1_t090F492CBF60E7C7363293813E029057D40B312C*)il2cpp_codegen_object_new(Action_1_t090F492CBF60E7C7363293813E029057D40B312C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m81C1990192550D4F96EE71B2D4892A7BE200861A(L_23, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleStateChanged_m2C2240DBCA38B993240A8A0873297CE967227D78_RuntimeMethod_var), NULL);
 		NullCheck(L_22);
 		PanelWithManipulatorsStateSignaler_add_WhenStateChanged_mB9AA3D529A298F53DCF1D461872711BEAFEB74E9(L_22, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:234>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_24 = __this->____grabbale;
 		Action_1_t16439AC0253118742562394ACC7B97D80B44200D* L_25 = (Action_1_t16439AC0253118742562394ACC7B97D80B44200D*)il2cpp_codegen_object_new(Action_1_t16439AC0253118742562394ACC7B97D80B44200D_il2cpp_TypeInfo_var);
 		Action_1__ctor_m4052E43C460A30441C3F436AC271D3F5CDC77FA4(L_25, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandlePointerEvent_m1A22D9958031127A4C5DB48FFFEF4EF619698E3A_RuntimeMethod_var), NULL);
 		NullCheck(L_24);
 		PointableElement_add_WhenPointerEventRaised_mE15E27F82BB55F84CFB1BA66E61604FDA12E1381(L_24, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:235>
 		return;
 	}
 }
@@ -9373,19 +9373,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:239>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_0 = __this->____grabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_1 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_1, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		Interactable_2_remove_WhenStateChanged_mB45EB42C84A6488C72BD91D26914A2845862413B(L_0, L_1, Interactable_2_remove_WhenStateChanged_mB45EB42C84A6488C72BD91D26914A2845862413B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:240>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:240>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2 = __this->____handGrabInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_3 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_3, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		Interactable_2_remove_WhenStateChanged_mF65466E66843DDA41E81B3AFD6F388796C38C9E7(L_2, L_3, Interactable_2_remove_WhenStateChanged_mF65466E66843DDA41E81B3AFD6F388796C38C9E7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:241>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_4 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -9396,7 +9396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:241>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_6 = __this->____rayInteractable;
 		Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5* L_7 = (Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5*)il2cpp_codegen_object_new(Action_1_t6FD8B79CDD506D49592A37BD0E0C9D68FC730BA5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC3677C6D25D69861A727F1F562046E411FE63D80(L_7, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4_RuntimeMethod_var), NULL);
@@ -9406,19 +9406,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:242>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_8 = __this->____stateSignaler;
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_9 = (Action_1_t090F492CBF60E7C7363293813E029057D40B312C*)il2cpp_codegen_object_new(Action_1_t090F492CBF60E7C7363293813E029057D40B312C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m81C1990192550D4F96EE71B2D4892A7BE200861A(L_9, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandleStateChanged_m2C2240DBCA38B993240A8A0873297CE967227D78_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		PanelWithManipulatorsStateSignaler_remove_WhenStateChanged_m17EFD94A70F707E97453ADA023332CB0E28E53C0(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:243>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_10 = __this->____grabbale;
 		Action_1_t16439AC0253118742562394ACC7B97D80B44200D* L_11 = (Action_1_t16439AC0253118742562394ACC7B97D80B44200D*)il2cpp_codegen_object_new(Action_1_t16439AC0253118742562394ACC7B97D80B44200D_il2cpp_TypeInfo_var);
 		Action_1__ctor_m4052E43C460A30441C3F436AC271D3F5CDC77FA4(L_11, __this, (intptr_t)((void*)PanelWithManipulatorsBorderAffordanceController_HandlePointerEvent_m1A22D9958031127A4C5DB48FFFEF4EF619698E3A_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		PointableElement_remove_WhenPointerEventRaised_m33DC1A49E03AB3B021974154B520ED47FD3D2CBE(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:244>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:244>
 		return;
 	}
 }
@@ -9437,16 +9437,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:248>
 		V_0 = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
 		V_1 = 0;
 		goto IL_0029;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:251>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_0 = __this->____affordancesInUse;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
@@ -9458,29 +9458,29 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:253>
 		int32_t L_3 = V_1;
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:254>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_4 = __this->____affordancesInUse;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB(L_4, L_5, HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:255>
 		goto IL_0034;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
 		int32_t L_7 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:249>
 		int32_t L_8 = V_1;
 		AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_9 = __this->____affordances;
 		NullCheck(L_9);
@@ -9492,7 +9492,7 @@ IL_0029:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:258>
 		int32_t L_10 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
@@ -9500,7 +9500,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:260>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_11 = __this->____points;
 		int32_t L_12 = ___0_eventIdentifier;
 		int32_t L_13 = V_0;
@@ -9512,7 +9512,7 @@ IL_0034:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:262>
 		return;
 	}
 }
@@ -9534,7 +9534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:266>
 		int32_t L_0;
 		L_0 = PointerEvent_get_Type_mC8D094C70BF61CC306E7BB11E48F8623BF3CED3D_inline((&___0_evt), NULL);
 		V_2 = L_0;
@@ -9573,7 +9573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:271>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = PointerEvent_get_Pose_m35212B40A009813FBA1F759FFD270BAC0E00B539_inline((&___0_evt), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
@@ -9586,12 +9586,12 @@ IL_0027:
 		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_8;
 		L_8 = PanelWithManipulatorsBorderAffordanceController__projectToRoundedBoxEdge_mF6229456B83E02060F4A955D66F78F61144CAFD8(L_3, L_5, L_6, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:272>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:272>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_9;
 		L_9 = PointerEvent_get_Pose_m35212B40A009813FBA1F759FFD270BAC0E00B539_inline((&___0_evt), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___position;
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:273>
 		bool L_11;
 		L_11 = Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_inline((&V_0), Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_RuntimeMethod_var);
 		if (!L_11)
@@ -9600,7 +9600,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:275>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Nullable_1_get_Value_m6A74FA440FE386A9905C61B41B5C261CD9DC4792((&V_0), Nullable_1_get_Value_m6A74FA440FE386A9905C61B41B5C261CD9DC4792_RuntimeMethod_var);
 		V_1 = L_12;
@@ -9608,7 +9608,7 @@ IL_0027:
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:278>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_13 = __this->____points;
 		int32_t L_14;
 		L_14 = PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline((&___0_evt), NULL);
@@ -9621,7 +9621,7 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:280>
 		int32_t L_16;
 		L_16 = PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline((&___0_evt), NULL);
 		PanelWithManipulatorsBorderAffordanceController_CreateFadePoint_m3A0673374FF5BB612EF37E606041FFF28A8492DF(__this, L_16, NULL);
@@ -9630,7 +9630,7 @@ IL_006e:
 
 IL_0090:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:284>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:284>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_17 = __this->____points;
 		int32_t L_18;
 		L_18 = PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline((&___0_evt), NULL);
@@ -9639,7 +9639,7 @@ IL_0090:
 		L_19 = Dictionary_2_get_Item_mA496149AEEE8FBDD4A8DDBB0F7F49837E80AFB6C(L_17, L_18, Dictionary_2_get_Item_mA496149AEEE8FBDD4A8DDBB0F7F49837E80AFB6C_RuntimeMethod_var);
 		NullCheck(L_19);
 		L_19->___removeFlag = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:285>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:285>
 		AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_20 = __this->____affordances;
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_21 = __this->____points;
 		int32_t L_22;
@@ -9662,13 +9662,13 @@ IL_0090:
 		L_30 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_28, L_29, NULL);
 		NullCheck(L_26);
 		Affordance_set_LastKnownPositionParentSpace_m819466D4479B4369EF7115A2D817AC5A61229A69_inline(L_26, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:287>
 		return;
 	}
 
 IL_00dd:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:290>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_31 = __this->____points;
 		int32_t L_32;
 		L_32 = PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline((&___0_evt), NULL);
@@ -9681,7 +9681,7 @@ IL_00dd:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:292>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_34 = __this->____points;
 		int32_t L_35;
 		L_35 = PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline((&___0_evt), NULL);
@@ -9694,7 +9694,7 @@ IL_00dd:
 
 IL_0109:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:298>
 		return;
 	}
 }
@@ -9717,9 +9717,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	int32_t G_B10_0 = 0;
 	int32_t G_B13_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:302>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:304>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_0 = __this->____panelHoverState;
 		if (!L_0)
 		{
@@ -9727,7 +9727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:306>
 		PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* L_1 = __this->____panelHoverState;
 		NullCheck(L_1);
 		bool L_2;
@@ -9738,27 +9738,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:308>
 		V_0 = 1;
 		goto IL_0021;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:312>
 		V_0 = 0;
 		goto IL_0021;
 	}
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:317>
 		V_0 = 1;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:320>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_3 = __this->____grabbale;
 		NullCheck(L_3);
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_4;
@@ -9772,13 +9772,13 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:322>
 		V_0 = 2;
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:325>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_6 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -9805,7 +9805,7 @@ IL_0047:
 IL_0055:
 	{
 		V_1 = (bool)G_B10_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:326>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_10 = __this->____grabInteractable;
 		NullCheck(L_10);
 		int32_t L_11;
@@ -9832,25 +9832,25 @@ IL_0074:
 IL_0075:
 	{
 		bool L_14 = V_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:327>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:327>
 		if (!((int32_t)(G_B13_0&(int32_t)L_14)))
 		{
 			goto IL_007b;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:329>
 		V_0 = 0;
 	}
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:332>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_15 = __this->____railOpacityAnimator;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_15, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:333>
 		return;
 	}
 }
@@ -9892,7 +9892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	int32_t G_B6_0 = 0;
 	Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:337>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:337>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_0 = __this->____points;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -9903,11 +9903,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:339>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = __this->____deletePointKeys;
 		NullCheck(L_2);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_2, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
 		Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_3 = __this->____points;
 		NullCheck(L_3);
 		Enumerator_tA5610DE195B7C4E49295937348EA058BA439D84B L_4;
@@ -9932,15 +9932,15 @@ FINALLY_008c:
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
 				KeyValuePair_2_t46EFC40167B4E7F410EE620DD7F33331C2D6D3EB L_5;
 				L_5 = Enumerator_get_Current_m6E0F3E8F91B242C615E901162E57CDCB4849319D_inline((&V_0), Enumerator_get_Current_m6E0F3E8F91B242C615E901162E57CDCB4849319D_RuntimeMethod_var);
 				V_1 = L_5;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:342>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:342>
 				FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* L_6;
 				L_6 = KeyValuePair_2_get_Value_m5AAAE79537168EA2DE34C0097C0C9C631A7AC73D_inline((&V_1), KeyValuePair_2_get_Value_m5AAAE79537168EA2DE34C0097C0C9C631A7AC73D_RuntimeMethod_var);
 				V_2 = L_6;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:343>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:343>
 				AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_7 = __this->____affordances;
 				FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* L_8 = V_2;
 				NullCheck(L_8);
@@ -9949,7 +9949,7 @@ IL_002a_1:
 				int32_t L_10 = L_9;
 				Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 				V_3 = L_11;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:344>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:344>
 				Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* L_12 = V_3;
 				FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* L_13 = V_2;
 				NullCheck(L_13);
@@ -9977,7 +9977,7 @@ IL_0055_1:
 			{
 				NullCheck(G_B6_1);
 				Affordance_set_AnimationState_m7AE32443B2D0E5ECE31FEF839204E99488D6A2EF(G_B6_1, G_B6_0, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:346>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:346>
 				FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* L_15 = V_2;
 				NullCheck(L_15);
 				bool L_16 = L_15->___removeFlag;
@@ -9997,7 +9997,7 @@ IL_0055_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:348>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:348>
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_19 = __this->____deletePointKeys;
 				int32_t L_20;
 				L_20 = KeyValuePair_2_get_Key_m869760833FA93E8C723C6832F8069A5B9FED4738_inline((&V_1), KeyValuePair_2_get_Key_m869760833FA93E8C723C6832F8069A5B9FED4738_RuntimeMethod_var);
@@ -10007,7 +10007,7 @@ IL_0055_1:
 
 IL_0081_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:340>
 				bool L_21;
 				L_21 = Enumerator_MoveNext_m8B060A06076CB402E482912273F613414FC5F980((&V_0), Enumerator_MoveNext_m8B060A06076CB402E482912273F613414FC5F980_RuntimeMethod_var);
 				if (L_21)
@@ -10027,7 +10027,7 @@ IL_0081_1:
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_22 = __this->____deletePointKeys;
 		NullCheck(L_22);
 		Enumerator_t9DBCD072C72E44AB8959D9884EF7F528028F20EC L_23;
@@ -10052,17 +10052,17 @@ FINALLY_00e0:
 
 IL_00a9_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
 				int32_t L_24;
 				L_24 = Enumerator_get_Current_mB49912FF111A954F2C326BF4FA29A53C1027187B_inline((&V_4), Enumerator_get_Current_mB49912FF111A954F2C326BF4FA29A53C1027187B_RuntimeMethod_var);
 				V_5 = L_24;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:353>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:353>
 				Dictionary_2_tAD792F0BE8B03D8BFCF1596C2FE958141B84D40B* L_25 = __this->____points;
 				int32_t L_26 = V_5;
 				NullCheck(L_25);
 				bool L_27;
 				L_27 = Dictionary_2_Remove_mEC5D9F51F284CEF5E4C8F02C283D9250A1A75B4C(L_25, L_26, (&V_6), Dictionary_2_Remove_mEC5D9F51F284CEF5E4C8F02C283D9250A1A75B4C_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:354>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:354>
 				HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_28 = __this->____affordancesInUse;
 				FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* L_29 = V_6;
 				NullCheck(L_29);
@@ -10074,7 +10074,7 @@ IL_00a9_1:
 
 IL_00d5_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:351>
 				bool L_32;
 				L_32 = Enumerator_MoveNext_m39C71A39758E2B4A04F44F20FCEFAF7009D5F312((&V_4), Enumerator_MoveNext_m39C71A39758E2B4A04F44F20FCEFAF7009D5F312_RuntimeMethod_var);
 				if (L_32)
@@ -10094,7 +10094,7 @@ IL_00d5_1:
 
 IL_00ee:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:357>
 		return;
 	}
 }
@@ -10117,7 +10117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:361>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_0 = __this->____materialPropertyBlock;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____railOpacityTransform;
 		NullCheck(L_1);
@@ -10126,7 +10126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		float L_3 = L_2.___x;
 		NullCheck(L_0);
 		MaterialPropertyBlock_SetFloat_m49458EDC57C2B431D765FE7414F18918AD619888(L_0, _stringLiteral358B07A97862DD2B2369A9CC248161BC8BC9F079, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:362>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_4 = __this->____materialPropertyBlock;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____railOpacityTransform;
 		NullCheck(L_5);
@@ -10135,9 +10135,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		float L_7 = L_6.___y;
 		NullCheck(L_4);
 		MaterialPropertyBlock_SetFloat_m49458EDC57C2B431D765FE7414F18918AD619888(L_4, _stringLiteralCD7036D8C94E045CA78004F5C31323251903C652, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:364>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:364>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
 		AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_8 = __this->____affordances;
 		V_1 = L_8;
 		V_2 = 0;
@@ -10146,14 +10146,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
 		AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_9 = V_1;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
 		Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:367>
 		int32_t L_13 = V_0;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_14 = __this->____fadePoints;
 		NullCheck(L_14);
@@ -10163,7 +10163,7 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:368>
 		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_15 = __this->____grabbale;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -10176,7 +10176,7 @@ IL_0050:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_16, L_18, NULL);
 		V_4 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:369>
 		Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* L_20 = V_3;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -10184,28 +10184,28 @@ IL_0050:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_4;
 		NullCheck(L_21);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_21, L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:370>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_23 = __this->____fadePoints;
 		int32_t L_24 = V_0;
 		NullCheck(L_23);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_4;
 		float L_26 = L_25.___x;
 		((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24)))->___x = L_26;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:371>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_27 = __this->____fadePoints;
 		int32_t L_28 = V_0;
 		NullCheck(L_27);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_4;
 		float L_30 = L_29.___y;
 		((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___y = L_30;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:372>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_31 = __this->____fadePoints;
 		int32_t L_32 = V_0;
 		NullCheck(L_31);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_4;
 		float L_34 = L_33.___z;
 		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___z = L_34;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:373>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:373>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_35 = __this->____fadePoints;
 		int32_t L_36 = V_0;
 		NullCheck(L_35);
@@ -10214,7 +10214,7 @@ IL_0050:
 		float L_38;
 		L_38 = Affordance_get_Opacity_m40A966C261414CF8BD5E479E84A599012360F98A(L_37, NULL);
 		((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->___w = L_38;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:374>
 		int32_t L_39 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 		int32_t L_40 = V_2;
@@ -10223,7 +10223,7 @@ IL_0050:
 
 IL_00ee:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:365>
 		int32_t L_41 = V_2;
 		AffordanceU5BU5D_tA00E6D47489006FC6450B6B539E19ADC6294AF87* L_42 = V_1;
 		NullCheck(L_42);
@@ -10235,22 +10235,22 @@ IL_00ee:
 
 IL_00f7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:377>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_43 = __this->____materialPropertyBlock;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_44 = __this->____fadePoints;
 		NullCheck(L_43);
 		MaterialPropertyBlock_SetVectorArray_mDC5BF3B57E7CA9F6A9FEE566B5A47ED3F14AFDFA(L_43, _stringLiteral151687C26A334A053B930F905DC2455FEB9B0C54, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:378>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_45 = __this->____materialPropertyBlock;
 		int32_t L_46 = V_0;
 		NullCheck(L_45);
 		MaterialPropertyBlock_SetInteger_mFEB3FCF07BD3317865A67BAC5F01B5D04742BCAC(L_45, _stringLiteral4CFCA89E67A4E5BA1EDB8DD6FC1656D7B8ACBF7A, L_46, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:380>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_47 = __this->____railRenderer;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_48 = __this->____materialPropertyBlock;
 		NullCheck(L_47);
 		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_47, L_48, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:381>
 		return;
 	}
 }
@@ -10258,13 +10258,13 @@ IL_00f7:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceController_Update_m5E6FC8FA81E1281FD597663B64060957FA2F1966 (PanelWithManipulatorsBorderAffordanceController_tAF2A863578B3705846F661C8F12821CCADF65261* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:385>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:385>
 		PanelWithManipulatorsBorderAffordanceController_SetRailAnimatorState_m0FAF36338E04C146D4072F72A70F1399696E96F8(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:386>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:386>
 		PanelWithManipulatorsBorderAffordanceController_UpdateFadePoints_mA60109D827B2FAB4B876317A853B1CB321348A87(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:387>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:387>
 		PanelWithManipulatorsBorderAffordanceController_UpdateMaterialProperties_m66F6965D1931A43E09972B65455956F7051298B6(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:388>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:388>
 		return;
 	}
 }
@@ -10272,7 +10272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceController_HandleInteractableStateChanged_mED774AE8EB49AE1BE9B2EE0F8FBBF128D012D8C4 (PanelWithManipulatorsBorderAffordanceController_tAF2A863578B3705846F661C8F12821CCADF65261* __this, InteractableStateChangeArgs_t339FED8B44AA0FD4F8EC5A6EF37AB9B3776A518D ___0_args, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:392>
 		int32_t L_0;
 		L_0 = InteractableStateChangeArgs_get_NewState_m0399E8059F72DE4B661759418475B3F21F45B42C_inline((&___0_args), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
@@ -10281,7 +10281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:394>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:394>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_1 = __this->____stateSignaler;
 		NullCheck(L_1);
 		PanelWithManipulatorsStateSignaler_set_CurrentState_m6CDA3562E1A8D3BAB4B606AF522DE2D28ED740CE(L_1, 1, NULL);
@@ -10290,7 +10290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:396>
 		int32_t L_2;
 		L_2 = InteractableStateChangeArgs_get_PreviousState_m320BE813F5200FD19525AFA68FF1C012497B30A0_inline((&___0_args), NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
@@ -10299,7 +10299,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:398>
 		PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* L_3 = __this->____stateSignaler;
 		NullCheck(L_3);
 		PanelWithManipulatorsStateSignaler_set_CurrentState_m6CDA3562E1A8D3BAB4B606AF522DE2D28ED740CE(L_3, 0, NULL);
@@ -10307,7 +10307,7 @@ IL_0017:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:400>
 		return;
 	}
 }
@@ -10327,7 +10327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 	int32_t G_B4_0 = 0;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:404>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:404>
 		int32_t L_0 = ___0_state;
 		if (!L_0)
 		{
@@ -10335,7 +10335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:406>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_1 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -10362,7 +10362,7 @@ IL_0014:
 IL_0025:
 	{
 		V_0 = (bool)G_B4_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:407>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:407>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_5 = __this->____grabInteractable;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -10395,15 +10395,15 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:409>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:409>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_10 = __this->____grabInteractable;
 		NullCheck(L_10);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_10, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:410>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_11 = __this->____handGrabInteractable;
 		NullCheck(L_11);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_11, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:411>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_12 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -10414,7 +10414,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:411>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:411>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_14 = __this->____rayInteractable;
 		NullCheck(L_14);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_14, (bool)0, NULL);
@@ -10423,15 +10423,15 @@ IL_0048:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:416>
 		GrabInteractable_t2766291754A7CD7AABE073724B385811213940A8* L_15 = __this->____grabInteractable;
 		NullCheck(L_15);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_15, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:417>
 		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_16 = __this->____handGrabInteractable;
 		NullCheck(L_16);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:418>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_17 = __this->____rayInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -10442,7 +10442,7 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:418>
 		RayInteractable_t919CD322CF95146C13694BED1AA08416B90BA02C* L_19 = __this->____rayInteractable;
 		NullCheck(L_19);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_19, (bool)1, NULL);
@@ -10450,7 +10450,7 @@ IL_007f:
 
 IL_00b1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:420>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:420>
 		return;
 	}
 }
@@ -10490,7 +10490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsBorderAffordanceCon
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Affordance_get_AnimationState_m9B907E8E6534C077B7D9A79FA8EFDA15F9EBE839 (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:141>
 		int32_t L_0 = __this->____animationState;
 		return L_0;
 	}
@@ -10507,7 +10507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Affordance_set_AnimationState_m7AE32443B
 	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:145>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = __this->____animationState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -10516,16 +10516,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Affordance_set_AnimationState_m7AE32443B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:147>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:150>
 		int32_t L_2 = ___0_value;
 		__this->____animationState = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_3 = __this->____animators;
 		V_0 = L_3;
 		V_1 = 0;
@@ -10534,13 +10534,13 @@ IL_000a:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:154>
 		int32_t L_8 = __this->____animationState;
 		NullCheck(L_7);
 		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_7, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, L_8, NULL);
@@ -10550,7 +10550,7 @@ IL_001c:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:152>
 		int32_t L_10 = V_1;
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_11 = V_0;
 		NullCheck(L_11);
@@ -10560,7 +10560,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:156>
 		return;
 	}
 }
@@ -10568,7 +10568,7 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Affordance_get_LastKnownPositionParentSpace_m997277874368A818E92E80CF15485CC31CDB6D20 (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:164>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____lastKnownPositionParentSpace;
 		return L_0;
 	}
@@ -10577,10 +10577,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Affordance_set_LastKnownPositionParentSpace_m819466D4479B4369EF7115A2D817AC5A61229A69 (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:168>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->____lastKnownPositionParentSpace = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:169>
 		return;
 	}
 }
@@ -10588,7 +10588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Affordance_set_LastKnownPositionParentSp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Affordance_get_Geometry_mF66A5075801E3B90754604EDD67AC986130E2184 (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:176>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____geometry;
 		return L_0;
 	}
@@ -10597,7 +10597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Affordance_get_Opacity_m40A966C261414CF8BD5E479E84A599012360F98A (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:184>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____opacityTransform;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -10628,14 +10628,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Affordance__ctor_mE6E1E8B034B2CE7F40C4E1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FadePoint__ctor_m6164F662B1D9C2852E9EDE2ABA909DE53FB36677 (FadePoint_t901B41120A1EB3B9B08B6FCB19B0B6F42D675735* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:203>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:205>
 		int32_t L_0 = ___0_index;
 		__this->___affordanceIndex = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:206>
 		__this->___removeFlag = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:207>
 		return;
 	}
 }
@@ -10737,7 +10737,7 @@ IL_0007:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PanelWithManipulatorsStateSignaler_get_CurrentState_mD2AA0C200D106742EF2FD47252D54C035A93D9B9 (PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:59>
 		int32_t L_0 = __this->____state;
 		return L_0;
 	}
@@ -10746,7 +10746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PanelWithManipulatorsStateSignaler_ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsStateSignaler_set_CurrentState_m6CDA3562E1A8D3BAB4B606AF522DE2D28ED740CE (PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:63>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = __this->____state;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -10755,10 +10755,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsStateSignaler_set_C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:65>
 		int32_t L_2 = ___0_value;
 		__this->____state = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:66>
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_3 = __this->___WhenStateChanged;
 		int32_t L_4 = __this->____state;
 		NullCheck(L_3);
@@ -10767,7 +10767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsStateSignaler_set_C
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:68>
 		return;
 	}
 }
@@ -10787,7 +10787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelWithManipulatorsStateSignaler__ctor
 	Action_1_t090F492CBF60E7C7363293813E029057D40B312C* G_B1_0 = NULL;
 	PanelWithManipulatorsStateSignaler_tA28C8F8E8AD92B17088148E1E09A91C53B2A0C9C* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tBAF1105BB7FD4B4C41ABBBD26F5691B1194C5335_il2cpp_TypeInfo_var);
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_0 = ((U3CU3Ec_tBAF1105BB7FD4B4C41ABBBD26F5691B1194C5335_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tBAF1105BB7FD4B4C41ABBBD26F5691B1194C5335_il2cpp_TypeInfo_var))->___U3CU3E9__8_0;
 		Action_1_t090F492CBF60E7C7363293813E029057D40B312C* L_1 = L_0;
@@ -10866,7 +10866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mFAFBCF52C8F95433404BBD108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__8_0_m10663530BBAC4C0B0D2E0B9300877A727E3E65EC (U3CU3Ec_tBAF1105BB7FD4B4C41ABBBD26F5691B1194C5335* __this, int32_t ___0_newState, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsStateSignaler.cs:52>
 		return;
 	}
 }
@@ -10882,14 +10882,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__8_0_m10663530BBAC4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter_Start_m58639BF698B21377C9E83AE3BBCC9A01C14CE0FB (ParentScaleInverter_t411DB67EFFB2B1638636154D17C5ABB4E1DAB8B1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
 		__this->____initialLocalScale = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:43>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
@@ -10899,7 +10899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter_Start_m58639BF698B21
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_3, NULL);
 		__this->____initialParentScale = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:44>
 		return;
 	}
 }
@@ -10907,10 +10907,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter_Start_m58639BF698B21
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter_LateUpdate_m77F0745F9850685D0FE6341A7D013D74DB9F3E9D (ParentScaleInverter_t411DB67EFFB2B1638636154D17C5ABB4E1DAB8B1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:48>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:49>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:50>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:51>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____initialParentScale);
@@ -10957,7 +10957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter_LateUpdate_m77F0745F
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_25), ((float)(((float)il2cpp_codegen_multiply(L_2, L_4))/L_8)), ((float)(((float)il2cpp_codegen_multiply(L_10, L_12))/L_16)), ((float)(((float)il2cpp_codegen_multiply(L_18, L_20))/L_24)), NULL);
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/ParentScaleInverter.cs:52>
 		return;
 	}
 }
@@ -10981,7 +10981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParentScaleInverter__ctor_mAC2BD7841C7B5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoseUseSample_get_Hmd_m466F84D742795CC1EA42F8A0E970559870C64B87 (PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:32>
 		RuntimeObject* L_0 = __this->___U3CHmdU3Ek__BackingField;
 		return L_0;
 	}
@@ -10990,7 +10990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PoseUseSample_get_Hmd_m466F84D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_set_Hmd_mA6B96E491A0CD51ECA444E4C49219335A080678B (PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:32>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CHmdU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHmdU3Ek__BackingField), (void*)L_0);
@@ -11007,10 +11007,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_Awake_m42756771B7DBF5B3E0F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:47>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____hmd;
 		PoseUseSample_set_Hmd_mA6B96E491A0CD51ECA444E4C49219335A080678B_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IHmd_t465201661836D4E88CC4488A09FAEB1A6C6A440D_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:48>
 		return;
 	}
 }
@@ -11034,13 +11034,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_Start_m0AA87CA284481946031
 	int32_t V_0 = 0;
 	U3CU3Ec__DisplayClass10_0_t711EE752AFF1958A2ECB4E1C8FF40EBCEF8BB966* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:55>
 		ActiveStateSelectorU5BU5D_tD51286990664F993867FEABD7022F36A2BB06F78* L_0 = __this->____poses;
 		NullCheck(L_0);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
 		__this->____poseActiveVisuals = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____poseActiveVisuals), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:56>
 		V_0 = 0;
 		goto IL_00be;
 	}
@@ -11054,7 +11054,7 @@ IL_001a:
 		NullCheck(L_3);
 		L_3->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:58>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_4 = __this->____poseActiveVisuals;
 		int32_t L_5 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->____poseActiveVisualPrefab;
@@ -11063,7 +11063,7 @@ IL_001a:
 		L_7 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_6, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:59>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->____poseActiveVisuals;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
@@ -11082,7 +11082,7 @@ IL_001a:
 		L_17 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_16, NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:60>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = __this->____poseActiveVisuals;
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
@@ -11098,7 +11098,7 @@ IL_001a:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
 		NullCheck(L_22);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_22, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:61>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_27 = __this->____poseActiveVisuals;
 		int32_t L_28 = V_0;
 		NullCheck(L_27);
@@ -11106,12 +11106,12 @@ IL_001a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
 		NullCheck(L_30);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:63>
 		U3CU3Ec__DisplayClass10_0_t711EE752AFF1958A2ECB4E1C8FF40EBCEF8BB966* L_31 = V_1;
 		int32_t L_32 = V_0;
 		NullCheck(L_31);
 		L_31->___poseNumber = L_32;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:64>
 		ActiveStateSelectorU5BU5D_tD51286990664F993867FEABD7022F36A2BB06F78* L_33 = __this->____poses;
 		int32_t L_34 = V_0;
 		NullCheck(L_33);
@@ -11122,7 +11122,7 @@ IL_001a:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_38, L_37, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__0_m7AFE4BF0343AF9F0C3392E25A74E0F7701DC763E_RuntimeMethod_var), NULL);
 		NullCheck(L_36);
 		ActiveStateSelector_add_WhenSelected_m8573112236A5E1BE9210411A43006A785D5C744B(L_36, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:65>
 		ActiveStateSelectorU5BU5D_tD51286990664F993867FEABD7022F36A2BB06F78* L_39 = __this->____poses;
 		int32_t L_40 = V_0;
 		NullCheck(L_39);
@@ -11133,14 +11133,14 @@ IL_001a:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_44, L_43, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__1_mC09E5ACC6C3A43B222FE64319996F33360D4B067_RuntimeMethod_var), NULL);
 		NullCheck(L_42);
 		ActiveStateSelector_add_WhenUnselected_m17BB61289D6B73D6074E3DC4973C17CCF21E8D57(L_42, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:56>
 		int32_t L_45 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 	}
 
 IL_00be:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:56>
 		int32_t L_46 = V_0;
 		ActiveStateSelectorU5BU5D_tD51286990664F993867FEABD7022F36A2BB06F78* L_47 = __this->____poses;
 		NullCheck(L_47);
@@ -11150,7 +11150,7 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:67>
 		return;
 	}
 }
@@ -11181,7 +11181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_ShowVisuals_m30BC84A4F1C83
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B6_0;
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:70>
 		RuntimeObject* L_0;
 		L_0 = PoseUseSample_get_Hmd_m466F84D742795CC1EA42F8A0E970559870C64B87_inline(__this, NULL);
 		NullCheck(L_0);
@@ -11193,13 +11193,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_ShowVisuals_m30BC84A4F1C83
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:72>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:75>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
@@ -11208,7 +11208,7 @@ IL_0010:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:76>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = __this->____poseActiveVisuals;
 		int32_t L_7 = ___0_poseNumber;
 		NullCheck(L_6);
@@ -11220,7 +11220,7 @@ IL_0010:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:77>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_12 = __this->____poseActiveVisuals;
 		int32_t L_13 = ___0_poseNumber;
 		NullCheck(L_12);
@@ -11248,7 +11248,7 @@ IL_0010:
 		L_26 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_23, L_25, NULL);
 		NullCheck(L_16);
 		Transform_LookAt_mFEF7353E4CAEB85D5F7CEEF9276C3B8D6E314C6C(L_16, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:79>
 		ActiveStateSelectorU5BU5D_tD51286990664F993867FEABD7022F36A2BB06F78* L_27 = __this->____poses;
 		int32_t L_28 = ___0_poseNumber;
 		NullCheck(L_27);
@@ -11258,11 +11258,11 @@ IL_0010:
 		HandRefU5BU5D_t7832B61A239ADBA4BE878E66BBB0B633A1C97342* L_31;
 		L_31 = Component_GetComponents_TisHandRef_tDC86BD52090CE4224141AC88C0D8CF7816573977_mA46B0153470667D040AD2552563EEE1829340A0F(L_30, Component_GetComponents_TisHandRef_tDC86BD52090CE4224141AC88C0D8CF7816573977_mA46B0153470667D040AD2552563EEE1829340A0F_RuntimeMethod_var);
 		V_2 = L_31;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:80>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_3 = L_32;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:81>
 		HandRefU5BU5D_t7832B61A239ADBA4BE878E66BBB0B633A1C97342* L_33 = V_2;
 		V_4 = L_33;
 		V_5 = 0;
@@ -11271,18 +11271,18 @@ IL_0010:
 
 IL_008b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:81>
 		HandRefU5BU5D_t7832B61A239ADBA4BE878E66BBB0B633A1C97342* L_34 = V_4;
 		int32_t L_35 = V_5;
 		NullCheck(L_34);
 		int32_t L_36 = L_35;
 		HandRef_tDC86BD52090CE4224141AC88C0D8CF7816573977* L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:83>
 		HandRef_tDC86BD52090CE4224141AC88C0D8CF7816573977* L_38 = L_37;
 		NullCheck(L_38);
 		bool L_39;
 		L_39 = HandRef_GetRootPose_m04AFFB03A7F61F09E262F6123BB4F2252F9367F0(L_38, (&V_6), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:84>
 		NullCheck(L_38);
 		int32_t L_40;
 		L_40 = HandRef_get_Handedness_mC78780570E5E479E0BA0022564C0FEE220649918(L_38, NULL);
@@ -11312,7 +11312,7 @@ IL_00ae:
 IL_00b5:
 	{
 		V_7 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:85>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_3;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_45 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = L_45.___position;
@@ -11336,7 +11336,7 @@ IL_00b5:
 
 IL_00f0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:81>
 		int32_t L_55 = V_5;
 		HandRefU5BU5D_t7832B61A239ADBA4BE878E66BBB0B633A1C97342* L_56 = V_4;
 		NullCheck(L_56);
@@ -11346,7 +11346,7 @@ IL_00f0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:87>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_57 = __this->____poseActiveVisuals;
 		int32_t L_58 = ___0_poseNumber;
 		NullCheck(L_57);
@@ -11362,7 +11362,7 @@ IL_00f0:
 		L_64 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_62, ((float)((int32_t)(((RuntimeArray*)L_63)->max_length))), NULL);
 		NullCheck(L_61);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_61, L_64, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:88>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_65 = __this->____poseActiveVisuals;
 		int32_t L_66 = ___0_poseNumber;
 		NullCheck(L_65);
@@ -11373,7 +11373,7 @@ IL_00f0:
 		L_69 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_68, NULL);
 		NullCheck(L_69);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_69, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:89>
 		return;
 	}
 }
@@ -11381,7 +11381,7 @@ IL_00f0:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_HideVisuals_mCEB8FD00C59B39F69B1D9554191F55C76ABE4650 (PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* __this, int32_t ___0_poseNumber, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:93>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____poseActiveVisuals;
 		int32_t L_1 = ___0_poseNumber;
 		NullCheck(L_0);
@@ -11392,7 +11392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseUseSample_HideVisuals_mCEB8FD00C59B3
 		L_4 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:94>
 		return;
 	}
 }
@@ -11424,7 +11424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m85239FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__0_m7AFE4BF0343AF9F0C3392E25A74E0F7701DC763E (U3CU3Ec__DisplayClass10_0_t711EE752AFF1958A2ECB4E1C8FF40EBCEF8BB966* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:64>
 		PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* L_0 = __this->___U3CU3E4__this;
 		int32_t L_1 = __this->___poseNumber;
 		NullCheck(L_0);
@@ -11436,7 +11436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__1_mC09E5ACC6C3A43B222FE64319996F33360D4B067 (U3CU3Ec__DisplayClass10_0_t711EE752AFF1958A2ECB4E1C8FF40EBCEF8BB966* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:65>
 		PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* L_0 = __this->___U3CU3E4__this;
 		int32_t L_1 = __this->___poseNumber;
 		NullCheck(L_0);
@@ -11456,7 +11456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CStartU3Eb__
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* RespawnOnDrop_get_WhenRespawned_m2E0323D1C8D23BF36AF6EDD003106B9951F4A896 (RespawnOnDrop_tDA2EEBCEC4DB067F54616A6142CAEE71C83FD8FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:50>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRespawned;
 		return L_0;
 	}
@@ -11472,38 +11472,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_OnEnable_m4FF157B2BB257BEF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		__this->____initialPosition = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:66>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_2, NULL);
 		__this->____initialRotation = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
 		__this->____initialScale = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:69>
 		TwoGrabFreeTransformerU5BU5D_t6321E9D2A47A7569F7FC2841D60D6D54AE877F4A* L_6;
 		L_6 = Component_GetComponents_TisTwoGrabFreeTransformer_t7D9C99C5A65190B2D195ADB3D9717BA6DC95C344_m82ABD5D6E1B4F6522812E4785F07F62F505EEDAF(__this, Component_GetComponents_TisTwoGrabFreeTransformer_t7D9C99C5A65190B2D195ADB3D9717BA6DC95C344_m82ABD5D6E1B4F6522812E4785F07F62F505EEDAF_RuntimeMethod_var);
 		__this->____freeTransformers = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____freeTransformers), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:71>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7;
 		L_7 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->____rigidBody = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rigidBody), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:72>
 		return;
 	}
 }
@@ -11511,7 +11511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_OnEnable_m4FF157B2BB257BEF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Update_m2BE56D6474988A8D01393F7770B842678E813E83 (RespawnOnDrop_tDA2EEBCEC4DB067F54616A6142CAEE71C83FD8FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:76>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -11525,13 +11525,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Update_m2BE56D6474988A8D01
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:78>
 		RespawnOnDrop_Respawn_m9D701BC27BEE236CBCFE354880D0171E36435F4C(__this, NULL);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:80>
 		return;
 	}
 }
@@ -11540,7 +11540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_FixedUpdate_mBEFC68DDFEB2A
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:84>
 		int32_t L_0 = __this->____sleepCountDown;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
@@ -11548,7 +11548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_FixedUpdate_mBEFC68DDFEB2A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:86>
 		int32_t L_1 = __this->____sleepCountDown;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
 		int32_t L_2 = V_0;
@@ -11560,7 +11560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_FixedUpdate_mBEFC68DDFEB2A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:88>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->____rigidBody;
 		NullCheck(L_4);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_4, (bool)0, NULL);
@@ -11568,7 +11568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_FixedUpdate_mBEFC68DDFEB2A
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:91>
 		return;
 	}
 }
@@ -11584,25 +11584,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Respawn_m9D701BC27BEE236CB
 	TwoGrabFreeTransformerU5BU5D_t6321E9D2A47A7569F7FC2841D60D6D54AE877F4A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:95>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->____initialPosition;
 		NullCheck(L_0);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:96>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = __this->____initialRotation;
 		NullCheck(L_2);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:97>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->____initialScale;
 		NullCheck(L_4);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:99>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_6 = __this->____rigidBody;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -11613,19 +11613,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Respawn_m9D701BC27BEE236CB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:102>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->____rigidBody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_8);
 		Rigidbody_set_velocity_mE4031DF1C2C1CCE889F2AC9D8871D83795BB0D62(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:104>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_10 = __this->____rigidBody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_10);
 		Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0(L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:106>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_12 = __this->____rigidBody;
 		NullCheck(L_12);
 		bool L_13;
@@ -11643,10 +11643,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Respawn_m9D701BC27BEE236CB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:108>
 		int32_t L_15 = __this->____sleepFrames;
 		__this->____sleepCountDown = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:109>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = __this->____rigidBody;
 		NullCheck(L_16);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_16, (bool)1, NULL);
@@ -11654,7 +11654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop_Respawn_m9D701BC27BEE236CB
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
 		TwoGrabFreeTransformerU5BU5D_t6321E9D2A47A7569F7FC2841D60D6D54AE877F4A* L_17 = __this->____freeTransformers;
 		V_0 = L_17;
 		V_1 = 0;
@@ -11663,13 +11663,13 @@ IL_008e:
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
 		TwoGrabFreeTransformerU5BU5D_t6321E9D2A47A7569F7FC2841D60D6D54AE877F4A* L_18 = V_0;
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
 		int32_t L_20 = L_19;
 		TwoGrabFreeTransformer_t7D9C99C5A65190B2D195ADB3D9717BA6DC95C344* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:115>
 		NullCheck(L_21);
 		TwoGrabFreeTransformer_MarkAsBaseScale_m4B4C2BCB0D5D81DD50BE420226279EC4FBC76596(L_21, NULL);
 		int32_t L_22 = V_1;
@@ -11678,7 +11678,7 @@ IL_0099:
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:113>
 		int32_t L_23 = V_1;
 		TwoGrabFreeTransformerU5BU5D_t6321E9D2A47A7569F7FC2841D60D6D54AE877F4A* L_24 = V_0;
 		NullCheck(L_24);
@@ -11688,11 +11688,11 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:118>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_25 = __this->____whenRespawned;
 		NullCheck(L_25);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:119>
 		return;
 	}
 }
@@ -11706,7 +11706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop__ctor_m47101AEB21E60696F50
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RespawnOnDrop.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RespawnOnDrop.cs:40>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->____whenRespawned = L_0;
@@ -11727,9 +11727,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RespawnOnDrop__ctor_m47101AEB21E60696F50
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_Awake_m1C75726BEB582F612B29346D4F207896B54B0055 (RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:57>
 		RippleCursorEffectManager_InitializeCursorPool_m657F7EE2AA1D3FF5261DD18E84A80E24736EB30C(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:58>
 		return;
 	}
 }
@@ -11744,11 +11744,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnEnable_m6FDF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:62>
 		Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A* L_0 = (Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A*)il2cpp_codegen_object_new(Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m0A18562399D6DEBA50974EB005342D487814FFCB(L_0, __this, (intptr_t)((void*)RippleCursorEffectManager_HandleInteractionEvent_m6F2A0C12556F2B09F7695978AC233FF29245D649_RuntimeMethod_var), NULL);
 		InteractionBroadcaster_add_OnEventRaised_m0DE4E7728CFCBC8CDEAA0FCA564F8CA6B4637671(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:63>
 		return;
 	}
 }
@@ -11763,13 +11763,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnDisable_m633
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:67>
 		Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A* L_0 = (Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A*)il2cpp_codegen_object_new(Action_1_t32886FA64010ADD6BAE7269317A61911ABB1436A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m0A18562399D6DEBA50974EB005342D487814FFCB(L_0, __this, (intptr_t)((void*)RippleCursorEffectManager_HandleInteractionEvent_m6F2A0C12556F2B09F7695978AC233FF29245D649_RuntimeMethod_var), NULL);
 		InteractionBroadcaster_remove_OnEventRaised_m3C74E0F722F209E940EAB629711D64FEDE9447CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:68>
 		RippleCursorEffectManager_CleanupAllActiveEffects_m6C809A33BB5326B3E45A44163DD3A86A07FC2BFD(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:69>
 		return;
 	}
 }
@@ -11815,19 +11815,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_InitializeCurs
 	Func_1_tD41628CABAE9ACA5A23D0DF3B0070B28F0D12ABE* G_B5_3 = NULL;
 	RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* G_B5_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:74>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:77>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:78>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:79>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:85>
 		Func_1_tD41628CABAE9ACA5A23D0DF3B0070B28F0D12ABE* L_0 = (Func_1_tD41628CABAE9ACA5A23D0DF3B0070B28F0D12ABE*)il2cpp_codegen_object_new(Func_1_tD41628CABAE9ACA5A23D0DF3B0070B28F0D12ABE_il2cpp_TypeInfo_var);
 		Func_1__ctor_m37FB0DB84B21D4C65F8B4F9E73AD3C5F0A2FDE8C(L_0, __this, (intptr_t)((void*)RippleCursorEffectManager_U3CInitializeCursorPoolU3Eb__12_0_m9964B911DEA75FC58643C83A856452BEFECED596_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t90C87EDA9FCBD59ACBC833ACF41CF651D12AC0AA_il2cpp_TypeInfo_var);
@@ -11932,7 +11932,7 @@ IL_006a:
 		NullCheck(G_B6_4);
 		G_B6_4->____cursorRendererPool = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B6_4->____cursorRendererPool), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:86>
 		return;
 	}
 }
@@ -11955,14 +11955,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_CleanupAllActi
 	memset((&V_0), 0, sizeof(V_0));
 	PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:90>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_0 = __this->____activePokeInteractors;
 		NullCheck(L_0);
 		KeyCollection_t596A7AD5B5C99F91524AD08F710E18CF449214CE* L_1;
 		L_1 = Dictionary_2_get_Keys_mE13AE1329D9F701CE50B3C5E45A4DD065E2F403B(L_0, Dictionary_2_get_Keys_mE13AE1329D9F701CE50B3C5E45A4DD065E2F403B_RuntimeMethod_var);
 		List_1_t8A80B9D97E4FA1EA29075BCBD5009B074608EFF4* L_2 = (List_1_t8A80B9D97E4FA1EA29075BCBD5009B074608EFF4*)il2cpp_codegen_object_new(List_1_t8A80B9D97E4FA1EA29075BCBD5009B074608EFF4_il2cpp_TypeInfo_var);
 		List_1__ctor_m8E5010CD0A52786DF5FC1E9CE4C80D9BC445DECC(L_2, L_1, List_1__ctor_m8E5010CD0A52786DF5FC1E9CE4C80D9BC445DECC_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
 		NullCheck(L_2);
 		Enumerator_t707F05DA4C25EE0191BDFF82C3D7F2F653104336 L_3;
 		L_3 = List_1_GetEnumerator_mF3B4E3A17BF654A0D8D017A0B7F0929282B7C43E(L_2, List_1_GetEnumerator_mF3B4E3A17BF654A0D8D017A0B7F0929282B7C43E_RuntimeMethod_var);
@@ -11986,18 +11986,18 @@ FINALLY_0032:
 
 IL_0018_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
 				PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_4;
 				L_4 = Enumerator_get_Current_m8FDA02186EFAB458EBD701B687902AEFD9A55140_inline((&V_0), Enumerator_get_Current_m8FDA02186EFAB458EBD701B687902AEFD9A55140_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:93>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:93>
 				PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_5 = V_1;
 				RippleCursorEffectManager_OnPokeHoverEnd_mE2604DF48D2239413336B613F2A3641DCE008EF0(__this, L_5, NULL);
 			}
 
 IL_0027_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:91>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mC267E7298E9474BF1F0B3D5C6A04F8B50CBD04AC((&V_0), Enumerator_MoveNext_mC267E7298E9474BF1F0B3D5C6A04F8B50CBD04AC_RuntimeMethod_var);
 				if (L_6)
@@ -12017,7 +12017,7 @@ IL_0027_1:
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:95>
 		return;
 	}
 }
@@ -12033,7 +12033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_HandleInteract
 	PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:99>
 		InteractionEvent_t8C77C25B866D4A4795EB78005CCC9859C5DB70F5 L_0 = ___0_interactionEvent;
 		RuntimeObject* L_1 = L_0.___InteractorView;
 		V_0 = ((PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109*)IsInstClass((RuntimeObject*)L_1, PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109_il2cpp_TypeInfo_var));
@@ -12044,13 +12044,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_HandleInteract
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:99>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:101>
 		InteractionEvent_t8C77C25B866D4A4795EB78005CCC9859C5DB70F5 L_3 = ___0_interactionEvent;
 		int32_t L_4 = L_3.____type;
 		V_1 = L_4;
@@ -12077,28 +12077,28 @@ IL_0010:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:104>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_6 = V_0;
 		RippleCursorEffectManager_OnPokeHoverBegin_m5DF8B1C6422409EB3F6A7DFD2C5AFE11D862E140(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:105>
 		return;
 	}
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:107>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_7 = V_0;
 		RippleCursorEffectManager_OnPokeHoverEnd_mE2604DF48D2239413336B613F2A3641DCE008EF0(__this, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:108>
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:110>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_8 = V_0;
 		RippleCursorEffectManager_OnPokeSelectStart_mF8D3F5E2508AD4E64026B71533A822E081384A52(__this, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:113>
 		return;
 	}
 }
@@ -12137,7 +12137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeHoverBeg
 		NullCheck(L_2);
 		L_2->___pokeInteractor = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___pokeInteractor), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:117>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_4 = __this->____activePokeInteractors;
 		U3CU3Ec__DisplayClass15_0_t53F1103A8452289A3A1B74FCC38589FA3992D281* L_5 = V_0;
 		NullCheck(L_5);
@@ -12151,45 +12151,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeHoverBeg
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:117>
 		return;
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:119>
 		RuntimeObject* L_8 = __this->____cursorRendererPool;
 		NullCheck(L_8);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9;
 		L_9 = InterfaceFuncInvoker0< Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* >::Invoke(0, IObjectPool_1_tAEB41C083C98E1FD942ED08171F3CC5E1EE78D79_il2cpp_TypeInfo_var, L_8);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:120>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_10 = V_1;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:122>
 		U3CU3Ec__DisplayClass15_0_t53F1103A8452289A3A1B74FCC38589FA3992D281* L_12 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, L_12, (intptr_t)((void*)U3CU3Ec__DisplayClass15_0_U3COnPokeHoverBeginU3Eb__0_m4B9DE80FF965B6DBEA5F745305A5926A90190B02_RuntimeMethod_var), NULL);
 		V_2 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:123>
 		U3CU3Ec__DisplayClass15_0_t53F1103A8452289A3A1B74FCC38589FA3992D281* L_14 = V_0;
 		NullCheck(L_14);
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_15 = L_14->___pokeInteractor;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = V_2;
 		NullCheck(L_15);
 		Interactor_2_add_WhenPostprocessed_mB70A7DAA81198E80E25F4FEEC6530C55DDD36C97(L_15, L_16, Interactor_2_add_WhenPostprocessed_mB70A7DAA81198E80E25F4FEEC6530C55DDD36C97_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:125>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:130>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:132>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_17 = __this->____activePokeInteractors;
 		U3CU3Ec__DisplayClass15_0_t53F1103A8452289A3A1B74FCC38589FA3992D281* L_18 = V_0;
 		NullCheck(L_18);
@@ -12220,7 +12220,7 @@ IL_0028:
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_27 = V_3;
 		NullCheck(L_17);
 		Dictionary_2_set_Item_m41BD5D734FE06C5C5A21CBC87508B4033106665E(L_17, L_19, L_27, Dictionary_2_set_Item_m41BD5D734FE06C5C5A21CBC87508B4033106665E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:133>
 		return;
 	}
 }
@@ -12239,7 +12239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeHoverEnd
 	InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:137>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_0 = __this->____activePokeInteractors;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_1 = ___0_pokeInteractor;
 		NullCheck(L_0);
@@ -12251,34 +12251,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeHoverEnd
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:137>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:139>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_3 = ___0_pokeInteractor;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_4 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = L_4.___UpdateAction;
 		NullCheck(L_3);
 		Interactor_2_remove_WhenPostprocessed_m7E59FF2264289D700B2A549769C26C5AD8EB74B8(L_3, L_5, Interactor_2_remove_WhenPostprocessed_m7E59FF2264289D700B2A549769C26C5AD8EB74B8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:140>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_6 = V_0;
 		RippleCursorEffectManager_ResetInteractorVisuals_m6C1722CE92E4A52CB58E070362774112007AD8A2(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:141>
 		RuntimeObject* L_7 = __this->____cursorRendererPool;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_8 = V_0;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = L_8.___ActiveCursorRenderer;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* >::Invoke(1, IObjectPool_1_tAEB41C083C98E1FD942ED08171F3CC5E1EE78D79_il2cpp_TypeInfo_var, L_7, L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:142>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_10 = __this->____activePokeInteractors;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_11 = ___0_pokeInteractor;
 		NullCheck(L_10);
 		bool L_12;
 		L_12 = Dictionary_2_Remove_mCFE8E35BD7D179BED264464B53E2C40F688445CF(L_10, L_11, Dictionary_2_Remove_mCFE8E35BD7D179BED264464B53E2C40F688445CF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:143>
 		return;
 	}
 }
@@ -12295,8 +12295,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeSelectSt
 	InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:147>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:148>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_0 = __this->____activePokeInteractors;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_1 = ___0_pokeInteractor;
 		NullCheck(L_0);
@@ -12318,15 +12318,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnPokeSelectSt
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:148>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:150>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:151>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:152>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_5 = ___0_pokeInteractor;
 		RuntimeObject* L_6;
 		L_6 = RippleCursorEffectManager_AnimateTapBurstCoroutine_mEDF32308C27CC7076B5728D20CD89E54783928E5(__this, L_5, NULL);
@@ -12334,13 +12334,13 @@ IL_0019:
 		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
 		(&V_0)->___TapAnimationCoroutine = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TapAnimationCoroutine), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:153>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_8 = __this->____activePokeInteractors;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_9 = ___0_pokeInteractor;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_10 = V_0;
 		NullCheck(L_8);
 		Dictionary_2_set_Item_m41BD5D734FE06C5C5A21CBC87508B4033106665E(L_8, L_9, L_10, Dictionary_2_set_Item_m41BD5D734FE06C5C5A21CBC87508B4033106665E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:154>
 		return;
 	}
 }
@@ -12356,7 +12356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnInteractorPo
 	InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:158>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_0 = __this->____activePokeInteractors;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_1 = ___0_pokeInteractor;
 		NullCheck(L_0);
@@ -12368,7 +12368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnInteractorPo
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:160>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_3 = ___0_pokeInteractor;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_4 = V_0;
 		RippleCursorEffectManager_UpdateInteractorVisuals_m6FB3715C5700057683E559E091795ABCF3D074BA(__this, L_3, L_4, NULL);
@@ -12376,7 +12376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_OnInteractorPo
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:162>
 		return;
 	}
 }
@@ -12394,7 +12394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_UpdateInteract
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:166>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_0 = ___0_pokeInteractor;
 		NullCheck(L_0);
 		bool L_1;
@@ -12418,19 +12418,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_UpdateInteract
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:166>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:168>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_5 = ___1_state;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = L_5.___ActiveCursorRenderer;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:169>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = L_7;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_9 = ___0_pokeInteractor;
 		NullCheck(L_9);
@@ -12438,7 +12438,7 @@ IL_0016:
 		L_10 = PokeInteractor_get_ClosestPoint_m690A53CEA0F69C342BDC911CFD1AFD6DE74F76CC_inline(L_9, NULL);
 		NullCheck(L_8);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:170>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_11 = ___0_pokeInteractor;
 		NullCheck(L_11);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
@@ -12447,7 +12447,7 @@ IL_0016:
 		L_13 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_12, NULL);
 		NullCheck(L_8);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_8, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:172>
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_14 = ___0_pokeInteractor;
 		NullCheck(L_14);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
@@ -12459,14 +12459,14 @@ IL_0016:
 		float L_18;
 		L_18 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_15, L_17, NULL);
 		V_0 = L_18;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:173>
 		float L_19 = V_0;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_20 = ___1_state;
 		float L_21 = L_20.___InitialPokeDistance;
 		float L_22;
 		L_22 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)il2cpp_codegen_subtract((1.0f), ((float)(L_19/L_21)))), NULL);
 		V_1 = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:175>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_23 = ___1_state;
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_24 = L_23.___TapAnimationCoroutine;
 		if (L_24)
@@ -12475,7 +12475,7 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:177>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_25 = ___1_state;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_26 = L_25.___PropertyBlock;
 		il2cpp_codegen_runtime_class_init_inline(RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_il2cpp_TypeInfo_var);
@@ -12487,14 +12487,14 @@ IL_0016:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:180>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_29 = ___1_state;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_30 = L_29.___ActiveCursorRenderer;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_31 = ___1_state;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_32 = L_31.___PropertyBlock;
 		NullCheck(L_30);
 		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_30, L_32, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:181>
 		return;
 	}
 }
@@ -12533,7 +12533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_ResetInteracto
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:211>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_0 = ___0_state;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1 = L_0.___ActiveCursorRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -12545,14 +12545,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_ResetInteracto
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:213>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_3 = ___0_state;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_4 = L_3.___PropertyBlock;
 		il2cpp_codegen_runtime_class_init_inline(RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_il2cpp_TypeInfo_var);
 		int32_t L_5 = ((RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_StaticFields*)il2cpp_codegen_static_fields_for(RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_il2cpp_TypeInfo_var))->___RippleProgressId;
 		NullCheck(L_4);
 		MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267(L_4, L_5, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:214>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_6 = ___0_state;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_7 = L_6.___ActiveCursorRenderer;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_8 = ___0_state;
@@ -12563,7 +12563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager_ResetInteracto
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:217>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_10 = ___0_state;
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11 = L_10.___TapAnimationCoroutine;
 		if (!L_11)
@@ -12572,7 +12572,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:219>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB L_12 = ___0_state;
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13 = L_12.___TapAnimationCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_13, NULL);
@@ -12580,7 +12580,7 @@ IL_0034:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:221>
 		return;
 	}
 }
@@ -12595,20 +12595,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager__ctor_mC3F0510
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:41>
 		__this->____initialPoolSize = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:43>
 		__this->____tapAnimationDuration = (0.200000003f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:45>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0;
 		L_0 = AnimationCurve_EaseInOut_m01DD06E6C8962F8F62F293C9EAE491C3D3F2CAF3((0.0f), (0.0f), (1.0f), (1.0f), NULL);
 		__this->____tapAnimationEase = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____tapAnimationEase), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:47>
 		__this->____tapAnimationUpperShaderValue = (-0.00999999978f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:49>
 		__this->____tapAnimationLowerShaderValue = (-0.25f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:52>
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_1 = (Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE*)il2cpp_codegen_object_new(Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mADBC9A59D10A79B40BEEF1EFF4D1EBDA1EAC9EF5(L_1, Dictionary_2__ctor_mADBC9A59D10A79B40BEEF1EFF4D1EBDA1EAC9EF5_RuntimeMethod_var);
 		__this->____activePokeInteractors = L_1;
@@ -12628,7 +12628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RippleCursorEffectManager__cctor_m644580
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:51>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralCD96EBB47EED78F6C100A684E34AB3319932B072, NULL);
 		((RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_StaticFields*)il2cpp_codegen_static_fields_for(RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_il2cpp_TypeInfo_var))->___RippleProgressId = L_0;
@@ -12649,7 +12649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____cursorPrefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -12657,7 +12657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_0, L_1, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:77>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____cursorPrefab;
 		NullCheck(L_4);
@@ -12673,7 +12673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral645B664CF0596D6F92D8E508512A908E82756CE4, L_5, L_9, NULL);
 		NullCheck(L_3);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_3, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:78>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_12;
@@ -12784,7 +12784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m7D06C526EBE0F14C6FB120A2B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitializeCursorPoolU3Eb__12_1_m4859F28954AD4547E62427D450EC6F0C81F556FF (U3CU3Ec_t90C87EDA9FCBD59ACBC833ACF41CF651D12AC0AA* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_renderer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:80>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_renderer;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -12798,7 +12798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitializeCursorPoolU3Eb__12_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitializeCursorPoolU3Eb__12_2_m787070669434C4A98F4A430ACD66D2FAEFF93B80 (U3CU3Ec_t90C87EDA9FCBD59ACBC833ACF41CF651D12AC0AA* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_renderer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:81>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_renderer;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -12818,7 +12818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CInitializeCursorPoolU3Eb__12_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:82>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_renderer;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -12848,7 +12848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_mEA6A6D5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0_U3COnPokeHoverBeginU3Eb__0_m4B9DE80FF965B6DBEA5F745305A5926A90190B02 (U3CU3Ec__DisplayClass15_0_t53F1103A8452289A3A1B74FCC38589FA3992D281* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:122>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_0 = __this->___U3CU3E4__this;
 		PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* L_1 = __this->___pokeInteractor;
 		NullCheck(L_0);
@@ -12924,7 +12924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateTapBurstCoroutineU3Ed__20_Move
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:185>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_4 = V_1;
 		NullCheck(L_4);
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_5 = L_4->____activePokeInteractors;
@@ -12939,26 +12939,26 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:185>
 		return (bool)0;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:187>
 		__this->___U3CelapsedTimeU3E5__3 = (0.0f);
 		goto IL_00d8;
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:190>
 		float L_9 = __this->___U3CelapsedTimeU3E5__3;
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_10 = V_1;
 		NullCheck(L_10);
 		float L_11 = L_10->____tapAnimationDuration;
 		V_3 = ((float)(L_9/L_11));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:191>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_12 = V_1;
 		NullCheck(L_12);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_13 = L_12->____tapAnimationEase;
@@ -12967,7 +12967,7 @@ IL_004c:
 		float L_15;
 		L_15 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_13, L_14, NULL);
 		V_4 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:192>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_16 = V_1;
 		NullCheck(L_16);
 		float L_17 = L_16->____tapAnimationUpperShaderValue;
@@ -12978,7 +12978,7 @@ IL_004c:
 		float L_21;
 		L_21 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_17, L_19, L_20, NULL);
 		V_5 = L_21;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:194>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB* L_22 = (InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB*)(&__this->___U3CstateU3E5__2);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_23 = L_22->___PropertyBlock;
 		il2cpp_codegen_runtime_class_init_inline(RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE_il2cpp_TypeInfo_var);
@@ -12986,19 +12986,19 @@ IL_004c:
 		float L_25 = V_5;
 		NullCheck(L_23);
 		MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267(L_23, L_24, L_25, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:195>
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB* L_26 = (InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB*)(&__this->___U3CstateU3E5__2);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_27 = L_26->___ActiveCursorRenderer;
 		InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB* L_28 = (InteractorState_t3BAB9D77361E8DE6D31C51605D364D8E6A412EDB*)(&__this->___U3CstateU3E5__2);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_29 = L_28->___PropertyBlock;
 		NullCheck(L_27);
 		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_27, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:197>
 		float L_30 = __this->___U3CelapsedTimeU3E5__3;
 		float L_31;
 		L_31 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedTimeU3E5__3 = ((float)il2cpp_codegen_add(L_30, L_31));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:198>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -13012,7 +13012,7 @@ IL_00d1:
 
 IL_00d8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:188>
 		float L_32 = __this->___U3CelapsedTimeU3E5__3;
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_33 = V_1;
 		NullCheck(L_33);
@@ -13023,7 +13023,7 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:202>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_35 = V_1;
 		NullCheck(L_35);
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_36 = L_35->____activePokeInteractors;
@@ -13037,10 +13037,10 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:204>
 		(&V_2)->___TapAnimationCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___TapAnimationCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:205>
 		RippleCursorEffectManager_t2D3A44191C0AEBE340D02F1DC1DE74CB4701DCBE* L_39 = V_1;
 		NullCheck(L_39);
 		Dictionary_2_tC2334445B75418B0F79E12A950B9266F4FE506AE* L_40 = L_39->____activePokeInteractors;
@@ -13052,7 +13052,7 @@ IL_00d8:
 
 IL_0118:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RippleCursorEffectManager.cs:207>
 		return (bool)0;
 	}
 }
@@ -13093,7 +13093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateTapBurstCoroutineU3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* RotationAudioEvents_get_WhenRotationStarted_m5E2E6841118C3BB1AAB780E5497019FC02B236C2 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:72>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRotationStarted;
 		return L_0;
 	}
@@ -13102,7 +13102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* RotationAudioEvents_get_WhenRotationEnded_mF17ECDBEB330F7CFC99E144C2A7EA146F41A6671 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:74>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRotationEnded;
 		return L_0;
 	}
@@ -13111,7 +13111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* RotationAudioEvents_get_WhenRotatedOpen_m14F1E154E23EBFB4293C99154F36597D5766B901 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:76>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRotatedOpen;
 		return L_0;
 	}
@@ -13120,7 +13120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* RotationAudioEvents_get_WhenRotatedClosed_mEC044DB87C5EF85205B36CB4ECC779A8157B9BED (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:78>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRotatedClosed;
 		return L_0;
 	}
@@ -13135,7 +13135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____trackedTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13161,17 +13161,17 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_RotationStarted_m4B6FB0D1435F7D640275B03E3D0D3155981D7871 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:95>
 		float L_0;
 		L_0 = RotationAudioEvents_GetTotalDelta_m6E66F48DAF7AAEDFEEBE000A719E7D646622D666(__this, NULL);
 		__this->____baseDelta = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:96>
 		__this->____lastCrossedDirection = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:97>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = __this->____whenRotationStarted;
 		NullCheck(L_1);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:98>
 		return;
 	}
 }
@@ -13179,11 +13179,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_RotationStarted_m4B6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_RotationEnded_m1068B0E7336B53F4BACB84B1A0E7DE34D56A0451 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:102>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenRotationEnded;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:103>
 		return;
 	}
 }
@@ -13191,7 +13191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_RotationEnded_m1068B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 RotationAudioEvents_GetCurrentRotation_m25D818176E4C177F8A53FEA857DCCB30AC25202C (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:107>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____relativeTo;
 		NullCheck(L_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -13212,7 +13212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RotationAudioEvents_GetTotalDelta_m6E66F48DAF7AAEDFEEBE000A719E7D646622D666 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:112>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____relativeTo;
 		NullCheck(L_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -13231,11 +13231,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_UpdateRotation_mFB6E
 	int32_t V_1 = 0;
 	int32_t G_B6_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:117>
 		float L_0;
 		L_0 = RotationAudioEvents_GetTotalDelta_m6E66F48DAF7AAEDFEEBE000A719E7D646622D666(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:119>
 		float L_1 = V_0;
 		float L_2 = __this->____maxRangeDeg;
 		if ((!(((float)L_1) > ((float)L_2))))
@@ -13244,13 +13244,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_UpdateRotation_mFB6E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:121>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:124>
 		float L_3 = V_0;
 		float L_4 = __this->____baseDelta;
 		float L_5;
@@ -13262,9 +13262,9 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:126>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:128>
 		float L_7 = V_0;
 		float L_8 = __this->____baseDelta;
 		if ((((float)((float)il2cpp_codegen_subtract(L_7, L_8))) > ((float)(0.0f))))
@@ -13285,7 +13285,7 @@ IL_0038:
 IL_0039:
 	{
 		V_1 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:130>
 		int32_t L_9 = V_1;
 		int32_t L_10 = __this->____lastCrossedDirection;
 		if ((((int32_t)L_9) == ((int32_t)L_10)))
@@ -13294,10 +13294,10 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:132>
 		int32_t L_11 = V_1;
 		__this->____lastCrossedDirection = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:133>
 		int32_t L_12 = V_1;
 		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
 		{
@@ -13305,7 +13305,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:135>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = __this->____whenRotatedOpen;
 		NullCheck(L_13);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_13, NULL);
@@ -13314,7 +13314,7 @@ IL_0039:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:139>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = __this->____whenRotatedClosed;
 		NullCheck(L_14);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_14, NULL);
@@ -13322,7 +13322,7 @@ IL_005b:
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:144>
 		int32_t L_15 = __this->____lastCrossedDirection;
 		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
 		{
@@ -13330,7 +13330,7 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:146>
 		float L_16 = __this->____baseDelta;
 		float L_17 = V_0;
 		float L_18;
@@ -13341,7 +13341,7 @@ IL_0066:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:148>
 		int32_t L_19 = __this->____lastCrossedDirection;
 		if ((!(((uint32_t)L_19) == ((uint32_t)2))))
 		{
@@ -13349,7 +13349,7 @@ IL_0082:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:150>
 		float L_20 = __this->____baseDelta;
 		float L_21 = V_0;
 		float L_22;
@@ -13359,7 +13359,7 @@ IL_0082:
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:152>
 		return;
 	}
 }
@@ -13373,11 +13373,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Awake_m127C81AC484A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:156>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____interactableView;
 		__this->___InteractableView = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InteractableView), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:157>
 		return;
 	}
 }
@@ -13385,13 +13385,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Awake_m127C81AC484A1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Start_mABAC5211F38BA02E010501BB93AA9E5755F9A496 (RotationAudioEvents_t88C7B3F7D25A3DAC07395F7BB12DD0DFAFB0D35B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:161>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:165>
 		bool* L_1 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:166>
 		return;
 	}
 }
@@ -13406,16 +13406,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Update_mAAC7C585EAD1
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:170>
 		bool L_0 = __this->____isRotating;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:171>
 		RuntimeObject* L_1 = __this->___InteractableView;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(1, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var, L_1);
 		__this->____isRotating = (bool)((((int32_t)L_2) == ((int32_t)2))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:173>
 		bool L_3 = __this->____isRotating;
 		if (L_3)
 		{
@@ -13423,7 +13423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Update_mAAC7C585EAD1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:175>
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -13431,14 +13431,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents_Update_mAAC7C585EAD1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:177>
 		RotationAudioEvents_RotationEnded_m1068B0E7336B53F4BACB84B1A0E7DE34D56A0451(__this, NULL);
 		return;
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:182>
 		bool L_5 = V_0;
 		if (L_5)
 		{
@@ -13446,19 +13446,19 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:184>
 		RotationAudioEvents_RotationStarted_m4B6FB0D1435F7D640275B03E3D0D3155981D7871(__this, NULL);
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:186>
 		RotationAudioEvents_UpdateRotation_mFB6E6D015072D45524704F2D24F494AB174417C0(__this, NULL);
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:188>
 		return;
 	}
 }
@@ -13472,26 +13472,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents__ctor_mA242A247D582B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:54>
 		__this->____thresholdDeg = (20.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:58>
 		__this->____maxRangeDeg = (150.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:61>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->____whenRotationStarted = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenRotationStarted), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:64>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
 		__this->____whenRotationEnded = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenRotationEnded), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:67>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_2, NULL);
 		__this->____whenRotatedOpen = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenRotatedOpen), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/RotationAudioEvents.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/RotationAudioEvents.cs:70>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_3, NULL);
 		__this->____whenRotatedClosed = L_3;
@@ -13520,7 +13520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAudioEvents__ctor_mA242A247D582B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SampleSceneGroup_get_GroupName_mAF847A3142D36AE14C407FB9815323AFD26290C6 (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:96>
 		String_t* L_0 = __this->____groupName;
 		return L_0;
 	}
@@ -13529,7 +13529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SampleSceneGroup_get_GroupName_mAF8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SampleSceneGroup_get_GroupEnabled_m4976CE58C15E9EB6E9E07A89257B114FAADB70F9 (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:101>
 		bool L_0 = __this->____groupEnabled;
 		return L_0;
 	}
@@ -13538,7 +13538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SampleSceneGroup_get_GroupEnabled_m4976C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SampleSceneGroup_get_GroupDisplayOrder_mFD759EB009DB4FDDFB31C8675B9671A571A99844 (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:107>
 		int32_t L_0 = __this->____groupDisplayOrder;
 		return L_0;
 	}
@@ -13547,7 +13547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SampleSceneGroup_get_GroupDisplayOrde
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SampleSceneGroup_get_SceneCount_m430D22E77587F78B51E83D53EE6789F1E48BE6D2 (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:112>
 		SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391* L_0 = __this->____sceneInfos;
 		NullCheck(L_0);
 		return ((int32_t)(((RuntimeArray*)L_0)->max_length));
@@ -13576,7 +13576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SampleSceneGroup_GetScenes_mF1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleSceneGroup__ctor_mF5310647836732220FF0D22BBA0E5E0DBAB5369C (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:82>
 		__this->____groupEnabled = (bool)1;
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
@@ -13594,7 +13594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleSceneGroup__ctor_mF531064783673222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SceneInfo_Oculus_Interaction_Samples_SampleSceneGroup_ISceneInfo_get_DisplayName_m12A82DF6496D6C841D4157D3E40D783C18693BFA (SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:68>
 		String_t* L_0 = __this->___DisplayName;
 		return L_0;
 	}
@@ -13603,7 +13603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SceneInfo_Oculus_Interaction_Sample
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SceneInfo_Oculus_Interaction_Samples_SampleSceneGroup_ISceneInfo_get_SceneName_m2AD8581929D46168AA196AA1CA900EED0ED2676E (SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:69>
 		String_t* L_0 = __this->___SceneName;
 		return L_0;
 	}
@@ -13612,7 +13612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SceneInfo_Oculus_Interaction_Sample
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* SceneInfo_Oculus_Interaction_Samples_SampleSceneGroup_ISceneInfo_get_Thumbnail_mC549356C2C45B27770731DEA6A9F184761F44967 (SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:70>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = __this->___Thumbnail;
 		return L_0;
 	}
@@ -13621,7 +13621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SceneInfo_Oculus_Interaction_Samples_SampleSceneGroup_ISceneInfo_get_SceneGuid_mC8343697CCF8DE86DB7CF5FAA525B39792B7D033 (SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:71>
 		String_t* L_0 = __this->___SceneGuid;
 		return L_0;
 	}
@@ -13693,7 +13693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetScenesU3Ed__14_MoveNext_m38FABF205
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
 		SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_4 = V_1;
 		NullCheck(L_4);
 		SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391* L_5 = L_4->____sceneInfos;
@@ -13705,14 +13705,14 @@ IL_0017:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
 		SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391* L_6 = __this->___U3CU3E7__wrap1;
 		int32_t L_7 = __this->___U3CU3E7__wrap2;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:122>
 		SceneInfo_t72531FA8D0DAAD9755116BF14D523A918F922F09* L_10 = V_2;
 		__this->___U3CU3E2__current = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
@@ -13729,7 +13729,7 @@ IL_0051:
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:120>
 		int32_t L_12 = __this->___U3CU3E7__wrap2;
 		SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391* L_13 = __this->___U3CU3E7__wrap1;
 		NullCheck(L_13);
@@ -13741,7 +13741,7 @@ IL_0066:
 	{
 		__this->___U3CU3E7__wrap1 = (SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1), (void*)(SceneInfoU5BU5D_t8425801365E4DDC5CD2A53CDEEBFFA18D52A7391*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:124>
 		return (bool)0;
 	}
 }
@@ -13847,11 +13847,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamplesInfoPanel_HandleUrlButton_m11F40D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SamplesInfoPanel.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SamplesInfoPanel.cs:29>
 		String_t* L_0 = ___0_url;
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SamplesInfoPanel.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SamplesInfoPanel.cs:30>
 		return;
 	}
 }
@@ -13875,7 +13875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamplesInfoPanel__ctor_mD336C8A77E65B3C0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ScaleAudioEvents_get_WhenScalingStarted_mB3C274BC751C48A4EBC115E19F27B488936CC6E2 (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:68>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenScalingStarted;
 		return L_0;
 	}
@@ -13884,7 +13884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ScaleAudioEvents_get_WhenScalingEnded_m3900328A09263D33102FC5627591441C126E5186 (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:70>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenScalingEnded;
 		return L_0;
 	}
@@ -13893,7 +13893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ScaleAudioEvents_get_WhenScaledUp_m77465D3A3272977D99FD909325B58EF537E8F64A (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:72>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenScaledUp;
 		return L_0;
 	}
@@ -13902,7 +13902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ScaleAudioEvents_get_WhenScaledDown_m1574D537FFEC123DB5E61927C6934B6CF1B935A2 (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:74>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenScaledDown;
 		return L_0;
 	}
@@ -13917,7 +13917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:80>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____trackedTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13943,18 +13943,18 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_ScalingStarted_mAC45C31D04221EE5EE83DF8024D2BB26B3BA0C59 (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = ScaleAudioEvents_get_TrackedTransform_m4F7A78F1D91FD82991E0636C773583944548E462(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
 		__this->____lastStep = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:93>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = __this->____whenScalingStarted;
 		NullCheck(L_2);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:94>
 		return;
 	}
 }
@@ -13962,11 +13962,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_ScalingStarted_mAC45C31
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_ScalingEnded_m22E19C9E78B9C104B08A769ED5767631605D2804 (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:98>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->____whenScalingEnded;
 		NullCheck(L_0);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:99>
 		return;
 	}
 }
@@ -13982,12 +13982,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleAudioEvents_GetTotalDelta_mF949B30
 	int32_t G_B5_0 = 0;
 	int32_t* G_B5_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:103>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____lastStep);
 		float L_1;
 		L_1 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:104>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = ScaleAudioEvents_get_TrackedTransform_m4F7A78F1D91FD82991E0636C773583944548E462(__this, NULL);
 		NullCheck(L_2);
@@ -13997,7 +13997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleAudioEvents_GetTotalDelta_mF949B30
 		float L_4;
 		L_4 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_2), NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:105>
 		float L_5 = V_1;
 		float L_6 = V_0;
 		if ((!(((float)L_5) == ((float)L_6))))
@@ -14006,7 +14006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleAudioEvents_GetTotalDelta_mF949B30
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:107>
 		int32_t* L_7 = ___0_direction;
 		*((int32_t*)L_7) = (int32_t)0;
 		goto IL_0033;
@@ -14014,7 +14014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleAudioEvents_GetTotalDelta_mF949B30
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:111>
 		int32_t* L_8 = ___0_direction;
 		float L_9 = V_1;
 		float L_10 = V_0;
@@ -14044,9 +14044,9 @@ IL_0032:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:116>
 		int32_t* L_11 = ___0_direction;
 		int32_t L_12 = *((int32_t*)L_11);
 		if ((((int32_t)L_12) == ((int32_t)1)))
@@ -14072,7 +14072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_UpdateScaling_mD7A487C2
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:121>
 		float L_0 = __this->____stepSize;
 		if ((((float)L_0) <= ((float)(0.0f))))
 		{
@@ -14089,20 +14089,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_UpdateScaling_mD7A487C2
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:123>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:126>
 		float L_2 = __this->____stepSize;
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:127>
 		int32_t* L_3 = (int32_t*)(&__this->____direction);
 		float L_4;
 		L_4 = ScaleAudioEvents_GetTotalDelta_mF949B30F7774F1FA166BC4C99987F09A60C77D36(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:128>
 		float L_5 = V_0;
 		if ((!(((float)L_4) > ((float)L_5))))
 		{
@@ -14110,18 +14110,18 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:130>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = ScaleAudioEvents_get_TrackedTransform_m4F7A78F1D91FD82991E0636C773583944548E462(__this, NULL);
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_6, NULL);
 		__this->____lastStep = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:131>
 		float L_8;
 		L_8 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_9 = __this->____lastEventTime;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:132>
 		int32_t L_10 = __this->____maxEventFreq;
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_8, L_9))) >= ((float)((float)((1.0f)/((float)L_10)))))))
 		{
@@ -14129,11 +14129,11 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:134>
 		float L_11;
 		L_11 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->____lastEventTime = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:135>
 		int32_t L_12 = __this->____direction;
 		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
 		{
@@ -14141,7 +14141,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:137>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = __this->____whenScaledUp;
 		NullCheck(L_13);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_13, NULL);
@@ -14150,7 +14150,7 @@ IL_0017:
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:141>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = __this->____whenScaledDown;
 		NullCheck(L_14);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_14, NULL);
@@ -14158,7 +14158,7 @@ IL_0079:
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:145>
 		return;
 	}
 }
@@ -14172,11 +14172,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Awake_m4A8C81C31396FDA3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:149>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____interactableView;
 		__this->___InteractableView = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InteractableView), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:150>
 		return;
 	}
 }
@@ -14184,13 +14184,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Awake_m4A8C81C31396FDA3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Start_mE71025214E69C9BC0DD49CF5098307AFBC30193D (ScaleAudioEvents_t1331F26264E9B7CA5D1D9A0FFA59C79D1630B79A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:154>
 		bool* L_0 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366(__this, L_0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:157>
 		bool* L_1 = (bool*)(&__this->____started);
 		MonoBehaviourStartExtensions_EndStart_mB9C76425BEAB3A0D8A30965081A4F356F9F69CF5(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:158>
 		return;
 	}
 }
@@ -14205,16 +14205,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Update_m037C76B71472A12
 	}
 	bool V_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:162>
 		bool L_0 = __this->____isScaling;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:163>
 		RuntimeObject* L_1 = __this->___InteractableView;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(1, IInteractableView_t043883F31EB8B9D77ABD7A85BB70EF83FF13741F_il2cpp_TypeInfo_var, L_1);
 		__this->____isScaling = (bool)((((int32_t)L_2) == ((int32_t)2))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:165>
 		bool L_3 = __this->____isScaling;
 		if (L_3)
 		{
@@ -14222,7 +14222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Update_m037C76B71472A12
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:167>
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -14230,14 +14230,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents_Update_m037C76B71472A12
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:169>
 		ScaleAudioEvents_ScalingEnded_m22E19C9E78B9C104B08A769ED5767631605D2804(__this, NULL);
 		return;
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:174>
 		bool L_5 = V_0;
 		if (L_5)
 		{
@@ -14245,19 +14245,19 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:176>
 		ScaleAudioEvents_ScalingStarted_mAC45C31D04221EE5EE83DF8024D2BB26B3BA0C59(__this, NULL);
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:178>
 		ScaleAudioEvents_UpdateScaling_mD7A487C286EA70BFC5104304EF5D63FAF8F82E15(__this, NULL);
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:180>
 		return;
 	}
 }
@@ -14271,26 +14271,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents__ctor_m8C4FE059C8075976
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:50>
 		__this->____stepSize = (0.400000006f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:54>
 		__this->____maxEventFreq = ((int32_t)20);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:57>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->____whenScalingStarted = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenScalingStarted), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:60>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
 		__this->____whenScalingEnded = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenScalingEnded), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:63>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_2, NULL);
 		__this->____whenScaledUp = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____whenScaledUp), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleAudioEvents.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleAudioEvents.cs:66>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_3, NULL);
 		__this->____whenScaledDown = L_3;
@@ -14319,7 +14319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleAudioEvents__ctor_m8C4FE059C8075976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleX_mD0184062B6DD04E91C1A64D71206249330D6CF4C (ScaleModifier_tFC254218B36BF8F5CABCA654A37A904807A2635C* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:29>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_1 = ___0_x;
@@ -14340,7 +14340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleX_mD0184062B6DD04E
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), L_1, L_4, L_7, NULL);
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:30>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:30>
 		return;
 	}
 }
@@ -14348,7 +14348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleX_mD0184062B6DD04E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleY_mEF8A723EEC41C61EB0FE945A6EFE02F9D82A6C9E (ScaleModifier_tFC254218B36BF8F5CABCA654A37A904807A2635C* __this, float ___0_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -14369,7 +14369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleY_mEF8A723EEC41C61
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), L_3, L_4, L_7, NULL);
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:34>
 		return;
 	}
 }
@@ -14377,7 +14377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleY_mEF8A723EEC41C61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleZ_m9B9C1B5DA616C64E2B7F7328594B3BE316553211 (ScaleModifier_tFC254218B36BF8F5CABCA654A37A904807A2635C* __this, float ___0_z, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:37>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -14398,7 +14398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier_SetScaleZ_m9B9C1B5DA616C64
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), L_3, L_6, L_7, NULL);
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/ScaleModifier.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/ScaleModifier.cs:38>
 		return;
 	}
 }
@@ -14422,9 +14422,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleModifier__ctor_m07D84C1E3E787C7A3F8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_Start_m6A2132B48891BF0A79B9EF9B6DE4B7D4F7FBF48E (SceneGroupLoader_t94079BAD3722C21856DE1881BD1FB77EE5DFBD33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:74>
 		SceneGroupLoader_BuildSceneGroups_m4757FA0B42DEEE04A05298280B504606F80C534C(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:75>
 		return;
 	}
 }
@@ -14479,12 +14479,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_BuildSceneGroups_m4757F
 	Func_2_t2FF0B3088C86B85E94126BBB860629C688DF6D2A* G_B5_0 = NULL;
 	RuntimeObject* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:101>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:102>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:103>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:104>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:105>
 		RuntimeObject* L_0;
 		L_0 = SceneGroupLoader_FindSceneGroupAssets_mDECCDF8CB835638EE1B83966E5FF60C41F39182B(NULL);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1056980C8C8AE138F9309A4EC3A8B0D331438665_il2cpp_TypeInfo_var);
@@ -14571,7 +14571,7 @@ IL_006e:
 	{
 		RuntimeObject* L_18;
 		L_18 = Enumerable_OrderBy_TisSampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7B48E9EF7FADA48BEF00AD7F56AA30B301726509(G_B6_1, G_B6_0, Enumerable_OrderBy_TisSampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7B48E9EF7FADA48BEF00AD7F56AA30B301726509_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
 		NullCheck(L_18);
 		RuntimeObject* L_19;
 		L_19 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_tB4F854C23774242EC01CCC29415098FD5CAA5E4C_il2cpp_TypeInfo_var, L_18);
@@ -14610,21 +14610,21 @@ IL_0200:
 
 IL_007e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
 				RuntimeObject* L_22 = V_1;
 				NullCheck(L_22);
 				SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_23;
 				L_23 = InterfaceFuncInvoker0< SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* >::Invoke(0, IEnumerator_1_t81F6AFEABDDE4E23B0A666E9903BF5D9BC827C89_il2cpp_TypeInfo_var, L_22);
 				V_2 = L_23;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:109>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:109>
 				SceneGroupLoader_U3CBuildSceneGroupsU3Eg__InitializeGroupViewTemplateU7C12_0_mA96D7AAD93C72BFB5826876243AA5BF62E51CBAB(__this, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:111>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:111>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->____groupTemplateParent;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->____sceneGroupContainer;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
 				L_26 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_24, L_25, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:112>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:112>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26;
 				SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_28 = V_2;
 				NullCheck(L_28);
@@ -14632,16 +14632,16 @@ IL_007e_1:
 				L_29 = SampleSceneGroup_get_GroupName_mAF847A3142D36AE14C407FB9815323AFD26290C6_inline(L_28, NULL);
 				NullCheck(L_27);
 				Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_27, L_29, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:113>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:113>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = L_27;
 				NullCheck(L_30);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, (bool)1, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:115>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:115>
 				NullCheck(L_30);
 				SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_31;
 				L_31 = GameObject_GetComponent_TisSceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24_mD912CCB09DAB09C53F7F5358416690613246A0B5(L_30, GameObject_GetComponent_TisSceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24_mD912CCB09DAB09C53F7F5358416690613246A0B5_RuntimeMethod_var);
 				V_3 = L_31;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:116>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:116>
 				SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_32 = V_3;
 				NullCheck(L_32);
 				TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_33 = L_32->___GroupName;
@@ -14651,7 +14651,7 @@ IL_007e_1:
 				L_35 = SampleSceneGroup_get_GroupName_mAF847A3142D36AE14C407FB9815323AFD26290C6_inline(L_34, NULL);
 				NullCheck(L_33);
 				VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_35);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
 				SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_36 = V_2;
 				NullCheck(L_36);
 				RuntimeObject* L_37;
@@ -14701,7 +14701,7 @@ IL_00d8_2:
 						NullCheck(L_42);
 						L_42->___U3CU3E4__this = __this;
 						Il2CppCodeGenWriteBarrier((void**)(&L_42->___U3CU3E4__this), (void*)__this);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
 						U3CU3Ec__DisplayClass12_0_t238A49380B7D61C858E13B2CB715A92A7B1E1AAD* L_43 = V_5;
 						RuntimeObject* L_44 = V_4;
 						NullCheck(L_44);
@@ -14710,20 +14710,20 @@ IL_00d8_2:
 						NullCheck(L_43);
 						L_43->___sceneMenuItem = L_45;
 						Il2CppCodeGenWriteBarrier((void**)(&L_43->___sceneMenuItem), (void*)L_45);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:120>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:120>
 						SceneGroupLoader_U3CBuildSceneGroupsU3Eg__InitializeTileViewTemplateU7C12_1_m7336C525206CEAFA225E9B27E2A7B4DD96CF5422(__this, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:122>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:122>
 						U3CU3Ec__DisplayClass12_0_t238A49380B7D61C858E13B2CB715A92A7B1E1AAD* L_46 = V_5;
 						NullCheck(L_46);
 						RuntimeObject* L_47 = L_46->___sceneMenuItem;
 						bool L_48;
 						L_48 = SceneGroupLoader_CheckSceneExists_m3353FCF8F1E5A100BD71D94A093D042C0A54271D(L_47, NULL);
 						V_6 = L_48;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:123>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:123>
 						bool L_49 = V_0;
 						bool L_50 = V_6;
 						V_0 = (bool)((int32_t)((int32_t)L_49|((((int32_t)L_50) == ((int32_t)0))? 1 : 0)));
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:125>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:125>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->____tileTemplateParent;
 						SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_52 = V_3;
 						NullCheck(L_52);
@@ -14731,7 +14731,7 @@ IL_00d8_2:
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54;
 						L_54 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_51, L_53, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:126>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:126>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = L_54;
 						U3CU3Ec__DisplayClass12_0_t238A49380B7D61C858E13B2CB715A92A7B1E1AAD* L_56 = V_5;
 						NullCheck(L_56);
@@ -14741,15 +14741,15 @@ IL_00d8_2:
 						L_58 = InterfaceFuncInvoker0< String_t* >::Invoke(0, ISceneInfo_tC91EBE6B2CAAC83042A47242DB6DE80503FAF598_il2cpp_TypeInfo_var, L_57);
 						NullCheck(L_55);
 						Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_55, L_58, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:127>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:127>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = L_55;
 						NullCheck(L_59);
 						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_59, (bool)1, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:129>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:129>
 						NullCheck(L_59);
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_60;
 						L_60 = GameObject_GetComponent_TisSceneTileView_tDD69168618184C7C683BBF66E503584A989B2887_m933B806E5D8760F0D77C9D8A6221876DB37B39D8(L_59, GameObject_GetComponent_TisSceneTileView_tDD69168618184C7C683BBF66E503584A989B2887_m933B806E5D8760F0D77C9D8A6221876DB37B39D8_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:130>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:130>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_61 = L_60;
 						NullCheck(L_61);
 						TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_62 = L_61->___Label;
@@ -14761,14 +14761,14 @@ IL_00d8_2:
 						L_65 = InterfaceFuncInvoker0< String_t* >::Invoke(0, ISceneInfo_tC91EBE6B2CAAC83042A47242DB6DE80503FAF598_il2cpp_TypeInfo_var, L_64);
 						NullCheck(L_62);
 						VirtualActionInvoker1< String_t* >::Invoke(66, L_62, L_65);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:131>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:131>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_66 = L_61;
 						NullCheck(L_66);
 						Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_67 = L_66->___Toggle;
 						bool L_68 = V_6;
 						NullCheck(L_67);
 						Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_67, L_68, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:132>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:132>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_69 = L_66;
 						NullCheck(L_69);
 						Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_70 = L_69->___Toggle;
@@ -14779,7 +14779,7 @@ IL_00d8_2:
 						UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_73, L_72, (intptr_t)((void*)U3CU3Ec__DisplayClass12_0_U3CBuildSceneGroupsU3Eb__5_mFCF0AEC49DCD9E6ED04AE478CCFCF7166E13CFEC_RuntimeMethod_var), NULL);
 						NullCheck(L_71);
 						UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_71, L_73, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:133>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:133>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_74 = L_69;
 						NullCheck(L_74);
 						Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_75 = L_74->___Image;
@@ -14791,14 +14791,14 @@ IL_00d8_2:
 						L_78 = InterfaceFuncInvoker0< Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* >::Invoke(3, ISceneInfo_tC91EBE6B2CAAC83042A47242DB6DE80503FAF598_il2cpp_TypeInfo_var, L_77);
 						NullCheck(L_75);
 						Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_75, L_78, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:134>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:134>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_79 = L_74;
 						NullCheck(L_79);
 						Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_80 = L_79->___Image;
 						bool L_81 = V_6;
 						NullCheck(L_80);
 						Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_80, L_81, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:135>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:135>
 						SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_82 = L_79;
 						NullCheck(L_82);
 						Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_83 = L_82->___SceneMissingOverlay;
@@ -14810,7 +14810,7 @@ IL_00d8_2:
 						L_86 = InterfaceFuncInvoker0< Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* >::Invoke(3, ISceneInfo_tC91EBE6B2CAAC83042A47242DB6DE80503FAF598_il2cpp_TypeInfo_var, L_85);
 						NullCheck(L_83);
 						Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_83, L_86, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:136>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:136>
 						NullCheck(L_82);
 						Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_87 = L_82->___SceneMissingOverlay;
 						NullCheck(L_87);
@@ -14823,7 +14823,7 @@ IL_00d8_2:
 
 IL_01d0_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:118>
 						RuntimeObject* L_90 = V_4;
 						NullCheck(L_90);
 						bool L_91;
@@ -14845,7 +14845,7 @@ IL_01d0_2:
 
 IL_01ea_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:107>
 				RuntimeObject* L_92 = V_1;
 				NullCheck(L_92);
 				bool L_93;
@@ -14867,12 +14867,12 @@ IL_01ea_1:
 
 IL_0201:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:140>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_94 = __this->____missingSceneWarning;
 		bool L_95 = V_0;
 		NullCheck(L_94);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_94, L_95, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:141>
 		return;
 	}
 }
@@ -14886,7 +14886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_LoadScene_m90ABE23A99B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:149>
 		SceneLoader_t4AA4E9B9DCFB244B9A7709872EF693F911726126* L_0 = __this->____sceneLoader;
 		RuntimeObject* L_1 = ___0_sceneInfo;
 		NullCheck(L_1);
@@ -14894,7 +14894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_LoadScene_m90ABE23A99B0
 		L_2 = InterfaceFuncInvoker0< String_t* >::Invoke(1, ISceneInfo_tC91EBE6B2CAAC83042A47242DB6DE80503FAF598_il2cpp_TypeInfo_var, L_1);
 		NullCheck(L_0);
 		SceneLoader_Load_m78D79F624C5BF7F79360F19801AC219CB0FD0FC4(L_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:151>
 		return;
 	}
 }
@@ -14908,7 +14908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SceneGroupLoader_CheckSceneExists_m3353F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:158>
 		RuntimeObject* L_0 = ___0_sceneInfo;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -14929,7 +14929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneGroupLoader_FindSceneGrou
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:164>
 		SampleSceneGroupU5BU5D_tEF49979C611C159443F09C85A21A8A16AE7F496D* L_0;
 		L_0 = Resources_LoadAll_TisSampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9_mC7FF231D12809B10BB7083BCC534DB52C19023E9(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, Resources_LoadAll_TisSampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9_mC7FF231D12809B10BB7083BCC534DB52C19023E9_RuntimeMethod_var);
 		return (RuntimeObject*)L_0;
@@ -14955,7 +14955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 	}
 	SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:81>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____groupTemplateParent;
 		NullCheck(L_0);
 		bool L_1;
@@ -14966,19 +14966,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:83>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____groupTemplateParent;
 		NullCheck(L_2);
 		SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_3;
 		L_3 = GameObject_AddComponent_TisSceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24_mA4521A40C8210D471D1B1AAEA70BF2649652155B(L_2, GameObject_AddComponent_TisSceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24_mA4521A40C8210D471D1B1AAEA70BF2649652155B_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:84>
 		SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_4 = V_0;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->____groupTemplateLabel;
 		NullCheck(L_4);
 		L_4->___GroupName = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___GroupName), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:85>
 		SceneGroupView_tFBB3D9B762DA5EB9910DF6EE0564C4E896F69A24* L_6 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->____groupTileContainer;
 		NullCheck(L_6);
@@ -14988,7 +14988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:87>
 		return;
 	}
 }
@@ -15004,7 +15004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 	}
 	SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:91>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____tileTemplateParent;
 		NullCheck(L_0);
 		bool L_1;
@@ -15015,31 +15015,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____tileTemplateParent;
 		NullCheck(L_2);
 		SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_3;
 		L_3 = GameObject_AddComponent_TisSceneTileView_tDD69168618184C7C683BBF66E503584A989B2887_m92DE8B9E0AACC67A7B475A3F2E8728F6AF8F0890(L_2, GameObject_AddComponent_TisSceneTileView_tDD69168618184C7C683BBF66E503584A989B2887_m92DE8B9E0AACC67A7B475A3F2E8728F6AF8F0890_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:94>
 		SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_4 = V_0;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->____tileTemplateImage;
 		NullCheck(L_4);
 		L_4->___Image = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___Image), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:95>
 		SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_6 = V_0;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->____tileTemplateLabel;
 		NullCheck(L_6);
 		L_6->___Label = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___Label), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:96>
 		SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_8 = V_0;
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_9 = __this->____tileTemplateToggle;
 		NullCheck(L_8);
 		L_8->___Toggle = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___Toggle), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:97>
 		SceneTileView_tDD69168618184C7C683BBF66E503584A989B2887* L_10 = V_0;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->____tileTemplateSceneMissingOverlay;
 		NullCheck(L_10);
@@ -15049,7 +15049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneGroupLoader_U3CBuildSceneGroupsU3Eg
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:99>
 		return;
 	}
 }
@@ -15122,7 +15122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m35149393193C960A4656DE269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBuildSceneGroupsU3Eb__12_2_m5ED07EE796BAB5976A0FC89CC19255DEE766B70B (U3CU3Ec_t1056980C8C8AE138F9309A4EC3A8B0D331438665* __this, SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:103>
 		SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_0 = ___0_x;
 		NullCheck(L_0);
 		bool L_1;
@@ -15134,7 +15134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBuildSceneGroupsU3Eb__12_2_m5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBuildSceneGroupsU3Eb__12_3_m9CD98E881C1ED058E36736998519EC5FE86A5F89 (U3CU3Ec_t1056980C8C8AE138F9309A4EC3A8B0D331438665* __this, SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* ___0_g, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:104>
 		SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_0 = ___0_g;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -15146,7 +15146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBuildSceneGroupsU3Eb__12_3_m9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CBuildSceneGroupsU3Eb__12_4_m1BCE6A9CDE2EACD66A1551F4B561BB1DE4250D05 (U3CU3Ec_t1056980C8C8AE138F9309A4EC3A8B0D331438665* __this, SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* ___0_g, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:105>
 		SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* L_0 = ___0_g;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -15174,7 +15174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m7C271D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CBuildSceneGroupsU3Eb__5_mFCF0AEC49DCD9E6ED04AE478CCFCF7166E13CFEC (U3CU3Ec__DisplayClass12_0_t238A49380B7D61C858E13B2CB715A92A7B1E1AAD* __this, bool ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneGroupLoader.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneGroupLoader.cs:132>
 		SceneGroupLoader_t94079BAD3722C21856DE1881BD1FB77EE5DFBD33* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___sceneMenuItem;
 		NullCheck(L_0);
@@ -15194,7 +15194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CBuildSceneG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_Load_m78D79F624C5BF7F79360F19801AC219CB0FD0FC4 (SceneLoader_t4AA4E9B9DCFB244B9A7709872EF693F911726126* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:38>
 		bool L_0 = __this->____loading;
 		if (!L_0)
 		{
@@ -15202,22 +15202,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_Load_m78D79F624C5BF7F79360F1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:38>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:39>
 		__this->____loading = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:41>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = __this->___WhenLoadingScene;
 		NullCheck(L_1);
 		DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* L_2;
 		L_2 = VirtualFuncInvoker0< DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* >::Invoke(9, L_1);
 		NullCheck(L_2);
 		__this->____waitingCount = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_2)->max_length)), 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:42>
 		int32_t L_3 = __this->____waitingCount;
 		if (L_3)
 		{
@@ -15225,7 +15225,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:45>
 		String_t* L_4 = ___0_sceneName;
 		SceneLoader_HandleReadyToLoad_m8412C3F9DE4F5D8CA85E98ADC2BBB5ECE7B3C0B2(__this, L_4, NULL);
 		return;
@@ -15233,12 +15233,12 @@ IL_0009:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:49>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = __this->___WhenLoadingScene;
 		String_t* L_6 = ___0_sceneName;
 		NullCheck(L_5);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:51>
 		return;
 	}
 }
@@ -15246,10 +15246,10 @@ IL_0035:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_HandleReadyToLoad_m8412C3F9DE4F5D8CA85E98ADC2BBB5ECE7B3C0B2 (SceneLoader_t4AA4E9B9DCFB244B9A7709872EF693F911726126* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:56>
 		int32_t L_0 = __this->____waitingCount;
 		__this->____waitingCount = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:57>
 		int32_t L_1 = __this->____waitingCount;
 		if ((((int32_t)L_1) > ((int32_t)0)))
 		{
@@ -15257,7 +15257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_HandleReadyToLoad_m8412C3F9D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:59>
 		String_t* L_2 = ___0_sceneName;
 		RuntimeObject* L_3;
 		L_3 = SceneLoader_LoadSceneAsync_m90E81AA3DE97DF5F6642AA05466B50EAE68BCC21(__this, L_2, NULL);
@@ -15267,7 +15267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_HandleReadyToLoad_m8412C3F9D
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:61>
 		return;
 	}
 }
@@ -15316,7 +15316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader__ctor_mB27D4CE97BC38445B675F
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B3_0 = NULL;
 	SceneLoader_t4AA4E9B9DCFB244B9A7709872EF693F911726126* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:32>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_il2cpp_TypeInfo_var))->___U3CU3E9__7_0;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0;
@@ -15346,7 +15346,7 @@ IL_0020:
 		NullCheck(G_B2_1);
 		G_B2_1->___WhenLoadingScene = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___WhenLoadingScene), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:33>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = ((U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF_il2cpp_TypeInfo_var))->___U3CU3E9__7_1;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_6 = L_5;
@@ -15417,7 +15417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m9F277D67653E7E54AE527D877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__7_0_m3C5F9A973BFCD21DCBE77AB5FAD311E2D8CB8C6A (U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF* __this, String_t* ___0_U3Cp0U3E, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:32>
 		return;
 	}
 }
@@ -15425,7 +15425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__7_0_m3C5F9A973BFCD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__7_1_m99B13F95B300CC8EB13190E673768B0C3F1F7C3E (U3CU3Ec_tF07E2ED2A546AE313EA582D95B423BE73A77DECF* __this, String_t* ___0_U3Cp0U3E, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:33>
 		return;
 	}
 }
@@ -15490,7 +15490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadSceneAsyncU3Ed__6_MoveNext_m9EB1F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:88>
 		String_t* L_4 = __this->___sceneName;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_5;
@@ -15502,7 +15502,7 @@ IL_0017:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:93>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -15516,7 +15516,7 @@ IL_0041:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:91>
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_6 = __this->___U3CasyncLoadU3E5__2;
 		NullCheck(L_6);
 		bool L_7;
@@ -15527,14 +15527,14 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:96>
 		SceneLoader_t4AA4E9B9DCFB244B9A7709872EF693F911726126* L_8 = V_1;
 		NullCheck(L_8);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_9 = L_8->___WhenSceneLoaded;
 		String_t* L_10 = __this->___sceneName;
 		NullCheck(L_9);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SceneLoader.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SceneLoader.cs:97>
 		return (bool)0;
 	}
 }
@@ -15591,7 +15591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShouldHideHandOnGrab__ctor_m0E3E1B695CDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConstantRotation_get_RotationSpeed_m9F1BE12A72BA950828EAF4955EACCE3BEE7F8C08 (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:37>
 		float L_0 = __this->____rotationSpeed;
 		return L_0;
 	}
@@ -15600,7 +15600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConstantRotation_get_RotationSpeed_m9F1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_set_RotationSpeed_mA0F565E345053E85105410E9295F6B4E5BBF768A (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:38>
 		float L_0 = ___0_value;
 		__this->____rotationSpeed = L_0;
 		return;
@@ -15610,7 +15610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_set_RotationSpeed_mA0F5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ConstantRotation_get_LocalAxis_mF917F7D1165BCBD1EEA302AC41397DCC8FF29CA3 (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:43>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____localAxis;
 		return L_0;
 	}
@@ -15619,7 +15619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_set_LocalAxis_m7B12EBC5D84215231C18B28FFAA230D6D80F4272 (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:44>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->____localAxis = L_0;
 		return;
@@ -15629,7 +15629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_set_LocalAxis_m7B12EBC5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_Update_m8167AEE34265D839564DAC784511B16BB9AC511F (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:51>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->____localAxis;
@@ -15638,7 +15638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_Update_m8167AEE34265D83
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_0, L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:52>
 		return;
 	}
 }
@@ -15646,7 +15646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation_Update_m8167AEE34265D83
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstantRotation__ctor_mEC87533378EE1AD1C87E08D800EE8A4825994818 (ConstantRotation_tF77711F8CA22DA4471ADA24C610B0A2EAB4EE73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ConstantRotation.cs:31>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		__this->____localAxis = L_0;
@@ -15680,7 +15680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual_Lat
 	memset((&G_B5_0), 0, sizeof(G_B5_0));
 	RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:47>
 		ListSnapPoseDelegate_t25742384649205D352FEDFF83B3121CD009A503F* L_0 = __this->____listSnapPoseDelegate;
 		NullCheck(L_0);
 		float L_1;
@@ -15689,7 +15689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual_Lat
 		float L_3;
 		L_3 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:48>
 		float L_4 = V_0;
 		float L_5 = __this->____targetWidth;
 		if ((((float)L_4) == ((float)L_5)))
@@ -15698,14 +15698,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual_Lat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:50>
 		float L_6 = V_0;
 		__this->____targetWidth = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:51>
 		ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401* L_7 = __this->____curve;
 		NullCheck(L_7);
 		ProgressCurve_Start_m9E43CC88BF0A04079B2283D8EC8A5FA9CE54F937(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:52>
 		RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* L_8 = __this->____properties;
 		NullCheck(L_8);
 		float L_9;
@@ -15715,7 +15715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual_Lat
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:55>
 		RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* L_10 = __this->____properties;
 		float L_11 = __this->____startWidth;
 		float L_12 = __this->____targetWidth;
@@ -15727,10 +15727,10 @@ IL_0043:
 		L_15 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_11, L_12, L_14, NULL);
 		NullCheck(L_10);
 		RoundedBoxProperties_set_Width_m77B9ABE2CCF766556971512E570F14031C91F460(L_10, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:56>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:58>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:59>
 		RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* L_16 = __this->____properties;
 		SnapInteractable_t9AE1A894088022EF319EE350F6AFC114E75A5755* L_17 = __this->____snapInteractable;
 		NullCheck(L_17);
@@ -15775,7 +15775,7 @@ IL_00c6:
 	{
 		NullCheck(G_B5_1);
 		RoundedBoxProperties_set_BorderColor_m485A15D49DA27CF0F076ACCED37621AF7F457C0F_inline(G_B5_1, G_B5_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Snap/ListSnapPoseDelegateRoundedBoxVisual.cs:60>
 		return;
 	}
 }
@@ -15803,14 +15803,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:37>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_0);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:38>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____eyeCenter;
@@ -15819,7 +15819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		NullCheck(L_2);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:39>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____eyeCenter;
@@ -15832,7 +15832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 		float L_9 = L_8.___y;
 		NullCheck(L_5);
 		Transform_Rotate_mE12DB27208410BB7090FA117D53DBEBBC0A36B30(L_5, (0.0f), L_9, (0.0f), 1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->____eyeCenter;
@@ -15854,7 +15854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 		L_18 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_12, L_17, NULL);
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:41>
 		bool L_19 = __this->____zeroOutEyeHeight;
 		if (!L_19)
 		{
@@ -15862,7 +15862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -15886,7 +15886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E3
 
 IL_00ca:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:43>
 		return;
 	}
 }
@@ -15894,7 +15894,7 @@ IL_00ca:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView__ctor_m435B954052EEF944F030C5A3943EB5EAF7884060 (StayInView_tE8D2B7875C6FA1C3D1632647610427931746757A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/StayInView.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/StayInView.cs:34>
 		__this->____zeroOutEyeHeight = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -15912,7 +15912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView__ctor_m435B954052EEF944F030C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_get_LeftHand_m13629ACE93E748E82C2085D621BA45FDF223F39E (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
 		RuntimeObject* L_0 = __this->___U3CLeftHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -15921,7 +15921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_g
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_set_LeftHand_m414A11473DF45B7E384E42B82F745D7447AA8968 (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CLeftHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLeftHandU3Ek__BackingField), (void*)L_0);
@@ -15943,7 +15943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_Start_m49DD
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____leftHandedGameObjects;
 		V_0 = L_0;
 		V_1 = 0;
@@ -15952,14 +15952,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_Start_m49DD
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:52>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_5 = __this->____leftHandedGameObjectSet;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_2;
 		NullCheck(L_5);
@@ -15971,7 +15971,7 @@ IL_000b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:50>
 		int32_t L_9 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_10 = V_0;
 		NullCheck(L_10);
@@ -15981,7 +15981,7 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = __this->____rightHandedGameObjects;
 		V_0 = L_11;
 		V_1 = 0;
@@ -15990,14 +15990,14 @@ IL_0020:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_12 = V_0;
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
 		V_3 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:57>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_16 = __this->____rightHandedGameObjectSet;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_3;
 		NullCheck(L_16);
@@ -16009,7 +16009,7 @@ IL_0031:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:55>
 		int32_t L_20 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_21 = V_0;
 		NullCheck(L_21);
@@ -16019,10 +16019,10 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:60>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_22 = __this->____leftHand;
 		DominantHandGameObjectFilter_set_LeftHand_m414A11473DF45B7E384E42B82F745D7447AA8968_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_22, IHand_tE8954B30C59B7A5FE09959C74E4BEEBA8521C1E5_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:61>
 		return;
 	}
 }
@@ -16037,7 +16037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DominantHandGameObjectFilter_Filter_m635
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:65>
 		RuntimeObject* L_0;
 		L_0 = DominantHandGameObjectFilter_get_LeftHand_m13629ACE93E748E82C2085D621BA45FDF223F39E_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16049,7 +16049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DominantHandGameObjectFilter_Filter_m635
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:67>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_2 = __this->____leftHandedGameObjectSet;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_go;
 		NullCheck(L_2);
@@ -16060,7 +16060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DominantHandGameObjectFilter_Filter_m635
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:71>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_5 = __this->____rightHandedGameObjectSet;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_go;
 		NullCheck(L_5);
@@ -16080,14 +16080,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter__ctor_mFFC2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:44>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_0 = (HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2*)il2cpp_codegen_object_new(HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534(L_0, HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534_RuntimeMethod_var);
 		__this->____leftHandedGameObjectSet = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftHandedGameObjectSet), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:45>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:46>
 		HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2* L_1 = (HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2*)il2cpp_codegen_object_new(HashSet_1_tAA6C1F6337C1D573AEC249E1B9B43BFCADF908F2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534(L_1, HashSet_1__ctor_m78839548D7E3252DC1D5F2642AD73C49DD221534_RuntimeMethod_var);
 		__this->____rightHandedGameObjectSet = L_1;
@@ -16108,7 +16108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter__ctor_mFFC2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
 		RuntimeObject* L_0 = __this->___U3CLeftHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -16117,7 +16117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpace
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_LeftHand_m061D0A2A6EC3908D168D1929C605A5751E537418 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CLeftHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLeftHandU3Ek__BackingField), (void*)L_0);
@@ -16128,7 +16128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_RightHand_m8BDA220815523DB52A1D5BA57879ED345C6A0D9E (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
 		RuntimeObject* L_0 = __this->___U3CRightHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -16137,7 +16137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpace
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_RightHand_m039A88F0AE4ADFC98CD3F1851EB6550E49ADD3E0 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CRightHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRightHandU3Ek__BackingField), (void*)L_0);
@@ -16154,13 +16154,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:62>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____leftHand;
 		MatchNonDominantPalmWorldSpaceTransform_set_LeftHand_m061D0A2A6EC3908D168D1929C605A5751E537418_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IHand_tE8954B30C59B7A5FE09959C74E4BEEBA8521C1E5_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:63>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = __this->____rightHand;
 		MatchNonDominantPalmWorldSpaceTransform_set_RightHand_m039A88F0AE4ADFC98CD3F1851EB6550E49ADD3E0_inline(__this, ((RuntimeObject*)IsInst((RuntimeObject*)L_1, IHand_tE8954B30C59B7A5FE09959C74E4BEEBA8521C1E5_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:64>
 		return;
 	}
 }
@@ -16194,7 +16194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	RuntimeObject* G_B9_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:68>
 		RuntimeObject* L_0;
 		L_0 = MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16220,7 +16220,7 @@ IL_0015:
 IL_001b:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:69>
 		RuntimeObject* L_4;
 		L_4 = MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C_inline(__this, NULL);
 		NullCheck(L_4);
@@ -16246,7 +16246,7 @@ IL_0031:
 IL_0037:
 	{
 		V_1 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:70>
 		RuntimeObject* L_8;
 		L_8 = MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C_inline(__this, NULL);
 		NullCheck(L_8);
@@ -16273,7 +16273,7 @@ IL_004d:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:72>
 		NullCheck(G_B9_0);
 		bool L_12;
 		L_12 = InterfaceFuncInvoker2< bool, int32_t, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* >::Invoke(9, IHand_tE8954B30C59B7A5FE09959C74E4BEEBA8521C1E5_il2cpp_TypeInfo_var, G_B9_0, 1, (&V_2));
@@ -16283,7 +16283,7 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:74>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
 		L_14 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -16296,7 +16296,7 @@ IL_0053:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_17;
 		L_17 = Pose_GetTransformedBy_m8B18A1ED205791F95CDC1D1F2A08A42D6DA02CBF((&V_5), L_16, NULL);
 		V_3 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:75>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
 		L_19 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -16308,7 +16308,7 @@ IL_0053:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22;
 		L_22 = Pose_GetTransformedBy_m8B18A1ED205791F95CDC1D1F2A08A42D6DA02CBF((&V_5), L_21, NULL);
 		V_4 = L_22;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:76>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_24 = V_3;
@@ -16330,7 +16330,7 @@ IL_0053:
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:78>
 		return;
 	}
 }
@@ -16338,22 +16338,22 @@ IL_00bb:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform__ctor_m727746AE887D5ED14ABD4032872086A7FE96CA98 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:46>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (-0.0608603321f), (0.00953984447f), (0.000258127693f), NULL);
 		__this->____leftAnchorPoint = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:49>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1), (-0.0749258399f), (0.0893092677f), (0.000258127693f), NULL);
 		__this->____leftAimPoint = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:52>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2), (0.0652603358f), (-0.011439844f), (-0.00455812784f), NULL);
 		__this->____rightAnchorPoint = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:55>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), (0.0793258473f), (-0.0912092775f), (-0.00455812784f), NULL);
@@ -16374,11 +16374,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Start_mABF689D3037CA2E660DD5AB94B017F3C717D2739 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:70>
 		int32_t L_0;
 		L_0 = PalmMenuExample_CalculateNearestButtonIdx_mB8E7E1C50D6A32D108EBF3341DAF5937D4B2234D(__this, NULL);
 		__this->____currentSelectedButtonIdx = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:71>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->____selectionIndicatorDot;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_2 = __this->____paginationDots;
 		int32_t L_3 = __this->____currentSelectedButtonIdx;
@@ -16390,7 +16390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Start_mABF689D3037CA2E66
 		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:72>
 		return;
 	}
 }
@@ -16405,11 +16405,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Update_m76BE78DCD9F1647E
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:76>
 		int32_t L_0;
 		L_0 = PalmMenuExample_CalculateNearestButtonIdx_mB8E7E1C50D6A32D108EBF3341DAF5937D4B2234D(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:77>
 		int32_t L_1 = V_0;
 		int32_t L_2 = __this->____currentSelectedButtonIdx;
 		if ((((int32_t)L_1) == ((int32_t)L_2)))
@@ -16418,14 +16418,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Update_m76BE78DCD9F1647E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:79>
 		int32_t L_3 = V_0;
 		__this->____currentSelectedButtonIdx = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:80>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->____paginationSwipeAudio;
 		NullCheck(L_4);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:81>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->____selectionIndicatorDot;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_6 = __this->____paginationDots;
 		int32_t L_7 = __this->____currentSelectedButtonIdx;
@@ -16441,7 +16441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Update_m76BE78DCD9F1647E
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:84>
 		PokeInteractable_tF277648D34B289EA77CC7387E293077C6507B556* L_11 = __this->____menuInteractable;
 		NullCheck(L_11);
 		int32_t L_12;
@@ -16452,13 +16452,13 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:86>
 		PalmMenuExample_LerpToButton_m43F025054E618B84B0AE95B2597B74DE4E21E070(__this, NULL);
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:88>
 		return;
 	}
 }
@@ -16477,18 +16477,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PalmMenuExample_CalculateNearestButto
 	int32_t G_B4_0 = 0;
 	float G_B4_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:92>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:93>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
 		V_2 = 0;
 		goto IL_00c6;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:96>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_0 = __this->____buttons;
 		int32_t L_1 = V_2;
 		NullCheck(L_0);
@@ -16503,7 +16503,7 @@ IL_000f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_6, NULL);
 		float L_8 = L_7.___x;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:97>
 		float L_9 = ((float)il2cpp_codegen_add(L_5, L_8));
 		if ((((float)L_9) < ((float)(0.0f))))
 		{
@@ -16529,11 +16529,11 @@ IL_003f:
 IL_0042:
 	{
 		V_3 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:98>
 		float L_12;
 		L_12 = fabsf(G_B4_1);
 		V_4 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:100>
 		float L_13 = V_4;
 		float L_14 = V_1;
 		if ((!(((float)L_13) < ((float)L_14))))
@@ -16542,20 +16542,20 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:102>
 		int32_t L_15 = V_2;
 		V_0 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:103>
 		float L_16 = V_4;
 		V_1 = L_16;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:106>
 		float L_17 = __this->____defaultButtonDistance;
 		V_5 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:107>
 		int32_t L_18 = V_3;
 		if ((((int32_t)L_18) < ((int32_t)0)))
 		{
@@ -16572,7 +16572,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:109>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_21 = __this->____buttons;
 		int32_t L_22 = V_3;
 		NullCheck(L_21);
@@ -16598,7 +16598,7 @@ IL_0054:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:111>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_34 = __this->____paginationButtonScaleCurve;
 		float L_35 = V_4;
 		float L_36 = V_5;
@@ -16606,7 +16606,7 @@ IL_0097:
 		float L_37;
 		L_37 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_34, ((float)(L_35/L_36)), NULL);
 		V_6 = L_37;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:112>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_38 = __this->____buttons;
 		int32_t L_39 = V_2;
 		NullCheck(L_38);
@@ -16619,14 +16619,14 @@ IL_0097:
 		L_44 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_42, L_43, NULL);
 		NullCheck(L_41);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_41, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
 		int32_t L_45 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 	}
 
 IL_00c6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:94>
 		int32_t L_46 = V_2;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_47 = __this->____buttons;
 		NullCheck(L_47);
@@ -16636,7 +16636,7 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:114>
 		int32_t L_48 = V_0;
 		return L_48;
 	}
@@ -16650,7 +16650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_LerpToButton_m43F025054E
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:119>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_0 = __this->____buttons;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -16660,7 +16660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_LerpToButton_m43F025054E
 		L_3 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_2, NULL);
 		float L_4 = L_3.___x;
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:120>
 		float L_5 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->____menuPanel;
 		NullCheck(L_6);
@@ -16670,14 +16670,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_LerpToButton_m43F025054E
 		float L_9;
 		L_9 = fabsf(((float)il2cpp_codegen_add(L_5, L_8)));
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
 		V_2 = 1;
 		goto IL_0069;
 	}
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:124>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_10 = __this->____buttons;
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
@@ -16688,7 +16688,7 @@ IL_002f:
 		L_14 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_13, NULL);
 		float L_15 = L_14.___x;
 		V_3 = L_15;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:125>
 		float L_16 = V_3;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = __this->____menuPanel;
 		NullCheck(L_17);
@@ -16698,7 +16698,7 @@ IL_002f:
 		float L_20;
 		L_20 = fabsf(((float)il2cpp_codegen_add(L_16, L_19)));
 		V_4 = L_20;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:126>
 		float L_21 = V_4;
 		float L_22 = V_1;
 		if ((!(((float)L_21) < ((float)L_22))))
@@ -16707,24 +16707,24 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:128>
 		float L_23 = V_3;
 		V_0 = L_23;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:129>
 		float L_24 = V_4;
 		V_1 = L_24;
 	}
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
 		int32_t L_25 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:122>
 		int32_t L_26 = V_2;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_27 = __this->____buttons;
 		NullCheck(L_27);
@@ -16734,7 +16734,7 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:134>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = __this->____menuPanel;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_29 = __this->____menuPanel;
 		NullCheck(L_29);
@@ -16748,7 +16748,7 @@ IL_0069:
 		L_33 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_30, L_32, (0.200000003f), NULL);
 		NullCheck(L_28);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_28, L_33, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:135>
 		return;
 	}
 }
@@ -16756,7 +16756,7 @@ IL_0069:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_ToggleMenu_m288508A87E8D7A682FFB7F27A4A3B0F6A74DB289 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:142>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____menuParent;
 		NullCheck(L_0);
 		bool L_1;
@@ -16767,11 +16767,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_ToggleMenu_m288508A87E8D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:144>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->____hideMenuAudio;
 		NullCheck(L_2);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:145>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____menuParent;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
@@ -16780,15 +16780,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_ToggleMenu_m288508A87E8D
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:149>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->____showMenuAudio;
 		NullCheck(L_4);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____menuParent;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:152>
 		return;
 	}
 }
@@ -16796,7 +16796,7 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample__ctor_m22A137A51BBD27EB75E82A69613994EA520CAFCD (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExample.cs:55>
 		__this->____defaultButtonDistance = (50.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -16814,23 +16814,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample__ctor_m22A137A51BBD27EB7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Start_mF5B8C344F66C24B6A6B575E36375AE7743A18B7E (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:86>
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_0 = __this->____colors;
 		NullCheck(L_0);
 		__this->____currentColorIdx = ((int32_t)(((RuntimeArray*)L_0)->max_length));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:87>
 		PalmMenuExampleButtonHandlers_CycleColor_mA67AEF7D86D0EFC0100925AB5511415CF74FF43D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:89>
 		__this->____rotationEnabled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:90>
 		PalmMenuExampleButtonHandlers_ToggleRotationEnabled_m7BEB28979D061BF95C0BB3914EAB3300B159490F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:92>
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_1 = __this->____rotationDirections;
 		NullCheck(L_1);
 		__this->____currentRotationDirectionIdx = ((int32_t)(((RuntimeArray*)L_1)->max_length));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:93>
 		PalmMenuExampleButtonHandlers_CycleRotationDirection_m147693647FE52B477C1C97C6F188505CE2DDF79E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:95>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____controlledObject;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -16839,17 +16839,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Start_mF5B
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		__this->____targetPosition = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:96>
 		PalmMenuExampleButtonHandlers_IncrementElevation_m53D6A5CBACBA61C33B942442AEE77106E361EA0B(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:97>
 		PalmMenuExampleButtonHandlers_IncrementElevation_m53D6A5CBACBA61C33B942442AEE77106E361EA0B(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:99>
 		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_5 = __this->____shapes;
 		NullCheck(L_5);
 		__this->____currentShapeIdx = ((int32_t)(((RuntimeArray*)L_5)->max_length));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:100>
 		PalmMenuExampleButtonHandlers_CycleShape_m7B15D0F86D08B49B0883B91BD5CD808B6A6EC502(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:101>
 		return;
 	}
 }
@@ -16859,7 +16859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Update_mE4
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:105>
 		bool L_0 = __this->____rotationEnabled;
 		if (!L_0)
 		{
@@ -16867,7 +16867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Update_mE4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:107>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_2 = __this->____rotationDirections;
@@ -16881,7 +16881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Update_mE4
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
 		L_8 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_1, L_5, ((float)il2cpp_codegen_multiply(L_6, L_7)), NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:108>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____controlledObject;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -16902,7 +16902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Update_mE4
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:111>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____controlledObject;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -16922,7 +16922,7 @@ IL_0056:
 		L_24 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_20, L_21, ((float)il2cpp_codegen_multiply(L_22, L_23)), NULL);
 		NullCheck(L_17);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_17, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:112>
 		return;
 	}
 }
@@ -16936,10 +16936,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleColor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:119>
 		int32_t L_0 = __this->____currentColorIdx;
 		__this->____currentColorIdx = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:120>
 		int32_t L_1 = __this->____currentColorIdx;
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_2 = __this->____colors;
 		NullCheck(L_2);
@@ -16949,13 +16949,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleColor
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:122>
 		__this->____currentColorIdx = 0;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____controlledObject;
 		NullCheck(L_3);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4;
@@ -16970,7 +16970,7 @@ IL_0025:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		NullCheck(L_5);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_5, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:126>
 		return;
 	}
 }
@@ -16978,20 +16978,20 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_ToggleRotationEnabled_m7BEB28979D061BF95C0BB3914EAB3300B159490F (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:133>
 		bool L_0 = __this->____rotationEnabled;
 		__this->____rotationEnabled = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:134>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____rotationEnabledIcon;
 		bool L_2 = __this->____rotationEnabled;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:135>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____rotationDisabledIcon;
 		bool L_4 = __this->____rotationEnabled;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:136>
 		return;
 	}
 }
@@ -17001,10 +17001,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleRotat
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:147>
 		int32_t L_0 = __this->____currentRotationDirectionIdx;
 		__this->____currentRotationDirectionIdx = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:148>
 		int32_t L_1 = __this->____currentRotationDirectionIdx;
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_2 = __this->____rotationDirections;
 		NullCheck(L_2);
@@ -17014,16 +17014,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleRotat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:150>
 		__this->____currentRotationDirectionIdx = 0;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:153>
 		int32_t L_3 = __this->____currentRotationDirectionIdx;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_3, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:154>
 		int32_t L_4 = V_0;
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_5 = __this->____rotationDirections;
 		NullCheck(L_5);
@@ -17033,13 +17033,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:156>
 		V_0 = 0;
 	}
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:159>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->____rotationDirectionText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->____rotationDirectionNames;
 		int32_t L_8 = V_0;
@@ -17048,14 +17048,14 @@ IL_003b:
 		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_10);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
 		V_1 = 0;
 		goto IL_0067;
 	}
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:162>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = __this->____rotationDirectionIcons;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
@@ -17065,14 +17065,14 @@ IL_0052:
 		int32_t L_16 = V_0;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)((((int32_t)L_15) == ((int32_t)L_16))? 1 : 0), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:160>
 		int32_t L_18 = V_1;
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_19 = __this->____rotationDirections;
 		NullCheck(L_19);
@@ -17082,7 +17082,7 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:164>
 		return;
 	}
 }
@@ -17098,10 +17098,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_IncrementE
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:172>
 		float L_0 = __this->____elevationChangeIncrement;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:173>
 		bool L_1 = ___0_up;
 		if (L_1)
 		{
@@ -17109,14 +17109,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_IncrementE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:175>
 		float L_2 = V_0;
 		V_0 = ((float)il2cpp_codegen_multiply(L_2, (-1.0f)));
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:177>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____targetPosition);
 		float L_4 = L_3->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____targetPosition);
@@ -17130,7 +17130,7 @@ IL_0012:
 		memset((&L_11), 0, sizeof(L_11));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_11), L_4, L_8, L_10, NULL);
 		__this->____targetPosition = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:178>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = __this->____elevationText;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____targetPosition);
 		float* L_14 = (float*)(&L_13->___y);
@@ -17140,7 +17140,7 @@ IL_0012:
 		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral99B47625D0E91D762A2F5CA6A2121557E775D09F, L_15, NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_16);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:179>
 		return;
 	}
 }
@@ -17161,7 +17161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleShape
 	int32_t G_B3_1 = 0;
 	PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:189>
 		int32_t L_0 = __this->____currentShapeIdx;
 		bool L_1 = ___0_cycleForward;
 		if (L_1)
@@ -17191,7 +17191,7 @@ IL_000e:
 	{
 		NullCheck(G_B3_2);
 		G_B3_2->____currentShapeIdx = ((int32_t)il2cpp_codegen_add(G_B3_1, G_B3_0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:190>
 		int32_t L_2 = __this->____currentShapeIdx;
 		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_3 = __this->____shapes;
 		NullCheck(L_3);
@@ -17201,14 +17201,14 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:192>
 		__this->____currentShapeIdx = 0;
 		goto IL_0046;
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:194>
 		int32_t L_4 = __this->____currentShapeIdx;
 		if ((((int32_t)L_4) >= ((int32_t)0)))
 		{
@@ -17216,7 +17216,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:196>
 		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_5 = __this->____shapes;
 		NullCheck(L_5);
 		__this->____currentShapeIdx = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1));
@@ -17224,7 +17224,7 @@ IL_002d:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:199>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->____shapeNameText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->____shapeNames;
 		int32_t L_8 = __this->____currentShapeIdx;
@@ -17233,7 +17233,7 @@ IL_0046:
 		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_10);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:200>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->____controlledObject;
 		NullCheck(L_11);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_12;
@@ -17245,7 +17245,7 @@ IL_0046:
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
 		NullCheck(L_12);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_12, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:201>
 		return;
 	}
 }
@@ -17253,9 +17253,9 @@ IL_0046:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers__ctor_m067CE830F7189BC2A9FBE333E1D27D247FF3912F (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:46>
 		__this->____rotationLerpSpeed = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/PalmMenuExampleButtonHandlers.cs:67>
 		__this->____elevationChangeLerpSpeed = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -17300,7 +17300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers__ctor_m067
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Rotation_m17D423D1279F818504AB3E3F0CA0ECE99CC1D82C_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:96>
 		int32_t L_0 = __this->___U3CRotationU3Ek__BackingField;
 		return L_0;
 	}
@@ -17309,7 +17309,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Rotat
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Translation_m30955E2197430BDBD58E8E13F4AB5389A0CC914D_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:90>
 		int32_t L_0 = __this->___U3CTranslationU3Ek__BackingField;
 		return L_0;
 	}
@@ -17318,11 +17318,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Trans
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectDots_mDDADD02BE89D7E6B19177C043F31677B7AC319B9_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* ___0_dots, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:148>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = ___0_dots;
 		__this->____dots = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dots), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:149>
 		return;
 	}
 }
@@ -17330,11 +17330,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectPendingSprite_mB4FD4854E4BE91FAA784DE26EBF19945CD5A8E65_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_pendingSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:153>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_pendingSprite;
 		__this->____pendingSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:154>
 		return;
 	}
 }
@@ -17342,11 +17342,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectCurrentSprite_mCD1DF72C90EEF550B25FE558C41F454ADDFE8526_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_currentSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:158>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_currentSprite;
 		__this->____currentSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:159>
 		return;
 	}
 }
@@ -17354,11 +17354,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectCompletedSprite_m129835E966635575D185989CC9E110E395BC396C_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_completedSprite, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:163>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_completedSprite;
 		__this->____completedSprite = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____completedSprite), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:164>
 		return;
 	}
 }
@@ -17366,11 +17366,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectConsumeTranslationEvents_mB1E3BB7A944AE62BAEA884FCA7AF5BB6A320FE90_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* ___0_consumeTranslationEvents, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:168>
 		List_1_tC1654FBA6DEB5ECE93F30946F97A86530CEFFCC8* L_0 = ___0_consumeTranslationEvents;
 		__this->____consumeTranslationEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____consumeTranslationEvents), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:169>
 		return;
 	}
 }
@@ -17378,11 +17378,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocomotionTutorialProgressTracker_InjectConsumeRotationEvents_m3AF2413C47109DF7D11E918D1B49E93A3EE85918_inline (LocomotionTutorialProgressTracker_t639991638C0D186481E3983D8507EB737CE69B0E* __this, List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* ___0_consumeRotationEvents, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:173>
 		List_1_t4C5CC42F8513E147F2BAF279E91EC2833DF35AED* L_0 = ___0_consumeRotationEvents;
 		__this->____consumeRotationEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____consumeRotationEvents), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/Locomotion/LocomotionTutorialProgressTracker.cs:174>
 		return;
 	}
 }
@@ -17616,7 +17616,7 @@ IL_00e5:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TubeRenderer_get_TotalLength_m53C8AFA88D7A73AFC99ACCE0F91F90109CFFBEAB_inline (TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:246>
 		float L_0 = __this->____totalLength;
 		return L_0;
 	}
@@ -17625,10 +17625,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TubeRenderer_get_TotalLengt
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TubeRenderer_set_StartFadeThresold_m90F9A685EF0222D2EBBA5243809F9CE5FDFBD471_inline (TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:180>
 		float L_0 = ___0_value;
 		__this->____startFadeThresold = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:181>
 		return;
 	}
 }
@@ -17636,10 +17636,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TubeRenderer_set_StartFadeTh
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TubeRenderer_set_EndFadeThresold_m5ADB692D0C3775CA3F34A0280834EB1DD686A2E4_inline (TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:197>
 		float L_0 = ___0_value;
 		__this->____endFadeThresold = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:198>
 		return;
 	}
 }
@@ -17647,10 +17647,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TubeRenderer_set_EndFadeThre
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TubeRenderer_set_InvertThreshold_m0EEA2E653BF0AC82029BE9100F09083FC23BF624_inline (TubeRenderer_t8ECAC5265D79682F4C5489928DA33D4F089A6362* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:214>
 		bool L_0 = ___0_value;
 		__this->____invertThreshold = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:215>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/Visuals/TubeRenderer.cs:215>
 		return;
 	}
 }
@@ -17804,7 +17804,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Instance_tDC44B1F247BA884D4FEAAE7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/Context.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/Context.cs:172>
 		il2cpp_codegen_runtime_class_init_inline(Context_tD19D2F67813352CAEDC55A6518ACFD29AE96A204_il2cpp_TypeInfo_var);
 		Instance_tDC44B1F247BA884D4FEAAE7C256E681511657B29* L_0 = ((Context_tD19D2F67813352CAEDC55A6518ACFD29AE96A204_StaticFields*)il2cpp_codegen_static_fields_for(Context_tD19D2F67813352CAEDC55A6518ACFD29AE96A204_il2cpp_TypeInfo_var))->___U3CGlobalU3Ek__BackingField;
 		return L_0;
@@ -17814,7 +17814,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Instance_tDC44B1F247BA884D4FEAAE7
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UniqueIdentifier_get_ID_mF4CE854D1058901A90EF10A16586703536E64537_inline (UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/UniqueIdentifier.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/UniqueIdentifier.cs:62>
 		int32_t L_0 = __this->___U3CIDU3Ek__BackingField;
 		return L_0;
 	}
@@ -17957,7 +17957,7 @@ IL_0040:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PanelHoverState_get_Hovered_m751C135C4EC2DA04BBC832CACF83C05B87C85336_inline (PanelHoverState_t0091418F09363778E57679321B39DE691ED2738B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelHoverState.cs:31>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelHoverState.cs:31>
 		bool L_0 = __this->___hovered;
 		return L_0;
 	}
@@ -18057,7 +18057,7 @@ IL_0043:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InteractableStateChangeArgs_get_NewState_m0399E8059F72DE4B661759418475B3F21F45B42C_inline (InteractableStateChangeArgs_t339FED8B44AA0FD4F8EC5A6EF37AB9B3776A518D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/IInteractable.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/IInteractable.cs:48>
 		int32_t L_0 = __this->___U3CNewStateU3Ek__BackingField;
 		return L_0;
 	}
@@ -18066,7 +18066,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InteractableStateChangeAr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InteractableStateChangeArgs_get_PreviousState_m320BE813F5200FD19525AFA68FF1C012497B30A0_inline (InteractableStateChangeArgs_t339FED8B44AA0FD4F8EC5A6EF37AB9B3776A518D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/IInteractable.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/IInteractable.cs:41>
 		int32_t L_0 = __this->___U3CPreviousStateU3Ek__BackingField;
 		return L_0;
 	}
@@ -18236,7 +18236,7 @@ IL_0009:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_Type_mC8D094C70BF61CC306E7BB11E48F8623BF3CED3D_inline (PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Pointable/IPointable.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Pointable/IPointable.cs:64>
 		int32_t L_0 = __this->___U3CTypeU3Ek__BackingField;
 		return L_0;
 	}
@@ -18245,7 +18245,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_Type_mC8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 PointerEvent_get_Pose_m35212B40A009813FBA1F759FFD270BAC0E00B539_inline (PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Pointable/IPointable.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Pointable/IPointable.cs:74>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CPoseU3Ek__BackingField;
 		return L_0;
 	}
@@ -18254,7 +18254,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Grabbable_get_Transform_m59FFFEBD4B28CF6BB29AE3166A9C640DCED19FC7_inline (Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Grabbable/Grabbable.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Grabbable/Grabbable.cs:119>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____targetTransform;
 		return L_0;
 	}
@@ -18263,7 +18263,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_Identifier_mB1FA861855C5CB0514B441A21F8582209882F442_inline (PointerEvent_tAEB047AC9AE96DA96400B3C6FA88E56C917608BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Pointable/IPointable.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Pointable/IPointable.cs:51>
 		int32_t L_0 = __this->___U3CIdentifierU3Ek__BackingField;
 		return L_0;
 	}
@@ -18272,10 +18272,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_Identifi
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Affordance_set_LastKnownPositionParentSpace_m819466D4479B4369EF7115A2D817AC5A61229A69_inline (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:168>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->____lastKnownPositionParentSpace = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:169>
 		return;
 	}
 }
@@ -18283,7 +18283,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Affordance_set_LastKnownPosi
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* PointableElement_get_SelectingPoints_mF94849919E535898E96B089064C5F35DD9A8864D_inline (PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Pointable/PointableElement.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Pointable/PointableElement.cs:127>
 		List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* L_0 = __this->____selectingPoints;
 		return L_0;
 	}
@@ -18292,7 +18292,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t785970ECD3400B166B17F9286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Affordance_get_LastKnownPositionParentSpace_m997277874368A818E92E80CF15485CC31CDB6D20_inline (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:164>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____lastKnownPositionParentSpace;
 		return L_0;
 	}
@@ -18301,7 +18301,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Affordance_get_Geometry_mF66A5075801E3B90754604EDD67AC986130E2184_inline (Affordance_tCBD9598FD70DF67713DE016B39654A3537E849F2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PanelWithManipulators/PanelWithManipulatorsBorderAffordanceController.cs:176>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____geometry;
 		return L_0;
 	}
@@ -18310,7 +18310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PoseUseSample_set_Hmd_mA6B96E491A0CD51ECA444E4C49219335A080678B_inline (PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:32>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CHmdU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHmdU3Ek__BackingField), (void*)L_0);
@@ -18321,7 +18321,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PoseUseSample_set_Hmd_mA6B96
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* PoseUseSample_get_Hmd_m466F84D742795CC1EA42F8A0E970559870C64B87_inline (PoseUseSample_tBA55177F63A3EF1260D1B1ADD2F66A8A765C2B07* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PoseUseSample.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PoseUseSample.cs:32>
 		RuntimeObject* L_0 = __this->___U3CHmdU3Ek__BackingField;
 		return L_0;
 	}
@@ -18411,7 +18411,7 @@ IL_0021:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PokeInteractable_get_EnterHoverNormal_m6AB77942D25265CBB8761F1E3FD12CD5A5BFB891_inline (PokeInteractable_tF277648D34B289EA77CC7387E293077C6507B556* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Poke/PokeInteractable.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Poke/PokeInteractable.cs:380>
 		float L_0 = __this->____enterHoverNormal;
 		return L_0;
 	}
@@ -18420,7 +18420,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PokeInteractable_get_EnterH
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PokeInteractor_get_ClosestPoint_m690A53CEA0F69C342BDC911CFD1AFD6DE74F76CC_inline (PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:136>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CClosestPointU3Ek__BackingField;
 		return L_0;
 	}
@@ -18429,7 +18429,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PokeInteractor_get_TouchNormal_m366EAB5D6A375CAE7D7940B354126D6008AEA07B_inline (PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:155>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CTouchNormalU3Ek__BackingField;
 		return L_0;
 	}
@@ -18438,7 +18438,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PokeInteractor_get_Origin_m3D8EEE4A3B4C847E8F5B55A89EE60063E9E577CE_inline (PokeInteractor_t4F39A9EF3D3467AB7D9BEB48F2638C14A9DDD109* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/Poke/PokeInteractor.cs:167>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3COriginU3Ek__BackingField;
 		return L_0;
 	}
@@ -18574,7 +18574,7 @@ IL_0034:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SampleSceneGroup_get_GroupName_mAF847A3142D36AE14C407FB9815323AFD26290C6_inline (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:96>
 		String_t* L_0 = __this->____groupName;
 		return L_0;
 	}
@@ -18583,7 +18583,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SampleSceneGroup_get_Gr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SampleSceneGroup_get_GroupEnabled_m4976CE58C15E9EB6E9E07A89257B114FAADB70F9_inline (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:101>
 		bool L_0 = __this->____groupEnabled;
 		return L_0;
 	}
@@ -18592,7 +18592,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SampleSceneGroup_get_GroupEn
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SampleSceneGroup_get_GroupDisplayOrder_mFD759EB009DB4FDDFB31C8675B9671A571A99844_inline (SampleSceneGroup_t223EFDB4AB6E57EA5EEA59FFCF3B084081E219C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/SampleSceneGroup.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/SampleSceneGroup.cs:107>
 		int32_t L_0 = __this->____groupDisplayOrder;
 		return L_0;
 	}
@@ -18601,7 +18601,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SampleSceneGroup_get_Grou
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RoundedBoxProperties_get_Width_m17C418DF0D1C3E8899095A93B727FBE155241331_inline (RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:72>
 		float L_0 = __this->____width;
 		return L_0;
 	}
@@ -18610,10 +18610,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RoundedBoxProperties_get_Wi
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RoundedBoxProperties_set_BorderColor_m485A15D49DA27CF0F076ACCED37621AF7F457C0F_inline (RoundedBoxProperties_t619FD5CF8515D502D2057452A44DDCE588D3DC92* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:114>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->____borderColor = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/MaterialProperties/RoundedBoxProperties.cs:115>
 		return;
 	}
 }
@@ -18667,7 +18667,7 @@ IL_001e:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_set_LeftHand_m414A11473DF45B7E384E42B82F745D7447AA8968_inline (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CLeftHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLeftHandU3Ek__BackingField), (void*)L_0);
@@ -18678,7 +18678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_get_LeftHand_m13629ACE93E748E82C2085D621BA45FDF223F39E_inline (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/DominantHandGameObjectFilter.cs:41>
 		RuntimeObject* L_0 = __this->___U3CLeftHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -18687,7 +18687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameOb
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_LeftHand_m061D0A2A6EC3908D168D1929C605A5751E537418_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CLeftHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLeftHandU3Ek__BackingField), (void*)L_0);
@@ -18698,7 +18698,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpa
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_RightHand_m039A88F0AE4ADFC98CD3F1851EB6550E49ADD3E0_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CRightHandU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRightHandU3Ek__BackingField), (void*)L_0);
@@ -18709,7 +18709,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpa
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:57>
 		RuntimeObject* L_0 = __this->___U3CLeftHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -18718,7 +18718,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPa
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_RightHand_m8BDA220815523DB52A1D5BA57879ED345C6A0D9E_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Sample/Scripts/PalmMenu/MatchNonDominantPalmWorldSpaceTransform.cs:58>
 		RuntimeObject* L_0 = __this->___U3CRightHandU3Ek__BackingField;
 		return L_0;
 	}
@@ -18882,7 +18882,7 @@ IL_001d:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactable_2_get_WhenSelectingInteractorAdded_m939B389977391C3E4ACC717BB1A49BF2EDBAC020_gshared_inline (Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/Interactable.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/Interactable.cs:182>
 		MultiAction_1_t37896912B022FC254BEA493339F3CCA3AF4AB2E3* L_0 = __this->____whenSelectingInteractorAdded;
 		return (RuntimeObject*)L_0;
 	}
@@ -18891,7 +18891,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactable_2_get
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Interactable_2_get_State_m979A42C2A11C27155808DB3C7CB39D4DDC8D34CE_gshared_inline (Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/Interactable.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/Interactable.cs:198>
 		int32_t L_0 = __this->____state;
 		return L_0;
 	}
@@ -19020,7 +19020,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_Candidate_m18663BCA87CA2851569959B65DB614F31C9B39C3_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/Interactor.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/Interactor.cs:314>
 		RuntimeObject* L_0 = __this->____candidate;
 		return L_0;
 	}
@@ -19035,7 +19035,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactable_2_get_Interactors_mD702BE469881FDBDABEE96233F2C1539F3AA3DD3_gshared_inline (Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/Interactable.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/Interactable.cs:249>
 		EnumerableHashSet_1_t35637A792BF9918AC0C8E4AC4D25477EC9026F62* L_0 = __this->____interactors;
 		return (RuntimeObject*)L_0;
 	}
@@ -19044,7 +19044,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactable_2_get
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactable_2_get_SelectingInteractors_mC01B3DE9BB4DD7D22A6EE7D93B636EA70E25A32D_gshared_inline (Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Core/Interactable.cs:256>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Core/Interactable.cs:256>
 		EnumerableHashSet_1_t35637A792BF9918AC0C8E4AC4D25477EC9026F62* L_0 = __this->____selectingInteractors;
 		return (RuntimeObject*)L_0;
 	}

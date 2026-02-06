@@ -24159,7 +24159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveStateDebugTree_RegisterModel_TisRu
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/Debug/ActiveStateDebugTree.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/Debug/ActiveStateDebugTree.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(ActiveStateDebugTree_t84508E89578E7CB0C7A3258059AFCBC6D37DA9A5_il2cpp_TypeInfo_var);
 		Dictionary_2_t59B5D513EA14D0781F47883F1142C9D49F05D08D* L_0 = ((ActiveStateDebugTree_t84508E89578E7CB0C7A3258059AFCBC6D37DA9A5_StaticFields*)il2cpp_codegen_static_fields_for(ActiveStateDebugTree_t84508E89578E7CB0C7A3258059AFCBC6D37DA9A5_il2cpp_TypeInfo_var))->____models;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
@@ -24169,7 +24169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveStateDebugTree_RegisterModel_TisRu
 		RuntimeObject* L_3 = ___0_stateModel;
 		NullCheck(L_0);
 		Dictionary_2_set_Item_m5CFAFD0A61A68A6343D0020622E8C29F791775E6(L_0, L_2, L_3, Dictionary_2_set_Item_m5CFAFD0A61A68A6343D0020622E8C29F791775E6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/PoseDetection/Debug/ActiveStateDebugTree.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/PoseDetection/Debug/ActiveStateDebugTree.cs:48>
 		return;
 	}
 }

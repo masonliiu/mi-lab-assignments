@@ -45,11 +45,9 @@ extern void PointHandler__ctor_m3C5BFA3A3440E1707F50571E54712E8ABC8A9012 (void);
 extern void ResetRig_Update_m6978E0789379804476A413F39D270933166D1CBE (void);
 extern void ResetRig_ResetToAnchor_mCB121CEAF3A6C0199803A9B8A6EBD92F36E8CBF2 (void);
 extern void ResetRig__ctor_mB3141EB91232487CA00CCC3639711FA82CC6659D (void);
-extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
-extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[42] = 
+static Il2CppMethodPointer s_methodPointers[40] = 
 {
 	Movement_IsWithinBoundary_mDD7342EADA82F6A6EADA7E72B3BBEE8D8B888DD9,
 	Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418,
@@ -89,12 +87,10 @@ static Il2CppMethodPointer s_methodPointers[42] =
 	ResetRig_Update_m6978E0789379804476A413F39D270933166D1CBE,
 	ResetRig_ResetToAnchor_mCB121CEAF3A6C0199803A9B8A6EBD92F36E8CBF2,
 	ResetRig__ctor_mB3141EB91232487CA00CCC3639711FA82CC6659D,
-	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
-	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[42] = 
+static const int32_t s_InvokerIndices[40] = 
 {
 	11456,
 	20257,
@@ -134,8 +130,6 @@ static const int32_t s_InvokerIndices[42] =
 	20257,
 	20257,
 	20257,
-	20257,
-	20257,
 	32874,
 	20257,
 };
@@ -143,7 +137,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	42,
+	40,
 	s_methodPointers,
 	0,
 	NULL,

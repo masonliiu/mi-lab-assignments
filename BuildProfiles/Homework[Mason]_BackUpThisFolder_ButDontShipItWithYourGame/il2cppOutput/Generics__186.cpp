@@ -16327,7 +16327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackScope_1__ctor_mB5878954E782DE87BB4C
 {
 	Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:212>
 		Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A** L_0 = ___0_stack;
 		Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A* L_1;
 		L_1 = ((  Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -16352,7 +16352,7 @@ IL2CPP_EXTERN_C  void StackScope_1__ctor_mB5878954E782DE87BB4C30D92E66F23988D6BC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackScope_1_Dispose_m23CF13EF100AC68D65C505ECE7714FF44A2B4248_gshared (StackScope_1_tB82A0C5F6E33138F56988FA681174EF82C9ADB26* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:213>
 		Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A* L_0 = __this->____stack;
 		((  void (*) (Stack_1_tF3E5E7101E929741300A1CF7C159A6ED9B61621A*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
 		return;

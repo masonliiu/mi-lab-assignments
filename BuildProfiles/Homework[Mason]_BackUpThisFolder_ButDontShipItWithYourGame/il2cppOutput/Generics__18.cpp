@@ -25246,7 +25246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BindableVariable_1_ValueEquals_mA0C21AEA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BodySkeletonMapping_1_get_Joints_mBDAFDB4A62E56ABD9A1C2515B217FA07BF67659E_gshared (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
 		RuntimeObject* L_0 = __this->____joints;
 		return L_0;
 	}
@@ -25261,7 +25261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetParentJointI
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:40>
 		RuntimeObject* L_0 = __this->____jointToParent;
 		int32_t L_1 = ___0_jointId;
 		int32_t* L_2 = ___1_parentJointId;
@@ -25275,7 +25275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetParentJointI
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetSourceJointId_m0F1309061D7901082526D18456EA7A8437C59FC1_gshared (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, int32_t ___0_jointId, int32_t* ___1_sourceJointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:45>
 		RuntimeObject* L_0 = __this->____reverseMap;
 		int32_t L_1 = ___0_jointId;
 		int32_t* L_2 = ___1_sourceJointId;
@@ -25289,7 +25289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetSourceJointI
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetBodyJointId_mE80C31A9FBF0B677A109842BB1B481123C97D08E_gshared (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, int32_t ___0_jointId, int32_t* ___1_bodyJointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:50>
 		RuntimeObject* L_0 = __this->____forwardMap;
 		int32_t L_1 = ___0_jointId;
 		int32_t* L_2 = ___1_bodyJointId;
@@ -25303,7 +25303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetBodyJointId_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BodySkeletonMapping_1_GetSourceJointFromBodyJoint_mBC107A83CEBDEDB3698CC0823DD4121F0BADF0D6_gshared (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, int32_t ___0_jointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:55>
 		RuntimeObject* L_0 = __this->____reverseMap;
 		int32_t L_1 = ___0_jointId;
 		NullCheck(L_0);
@@ -25316,7 +25316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BodySkeletonMapping_1_GetSourceJointF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BodySkeletonMapping_1_GetBodyJointFromSourceJoint_mE3DC950E5952378D30817B80FA0F31809A396CCB_gshared (BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* __this, int32_t ___0_sourceJointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:60>
 		RuntimeObject* L_0 = __this->____forwardMap;
 		int32_t L_1 = ___0_sourceJointId;
 		NullCheck(L_0);
@@ -25384,17 +25384,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BodySkeletonMapping_1__ctor_mE21AED992D0
 	RuntimeObject* G_B13_2 = NULL;
 	BodySkeletonMapping_1_t5F725302253AC0F951567C97B2A4BC5CFFF1FD25* G_B13_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:63>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:64>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:66>
 		int32_t L_0 = ___0_root;
 		RuntimeObject* L_1 = ___1_jointMapping;
 		SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B* L_2 = (SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 10));
 		SkeletonTree__ctor_m7A5C448A3075326E2DB7639F19BC8E1A895E0434(L_2, L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		__this->____tree = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____tree), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:67>
 		SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B* L_3 = __this->____tree;
 		NullCheck(L_3);
 		RuntimeObject* L_4 = L_3->___Nodes;
@@ -25434,7 +25434,7 @@ IL_003e:
 		NullCheck(G_B2_2);
 		G_B2_2->____joints = (RuntimeObject*)L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_2->____joints), (void*)(RuntimeObject*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:68>
 		SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B* L_12 = __this->____tree;
 		NullCheck(L_12);
 		RuntimeObject* L_13 = L_12->___Nodes;
@@ -25504,7 +25504,7 @@ IL_0097:
 		NullCheck(G_B6_3);
 		G_B6_3->____forwardMap = (RuntimeObject*)L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B6_3->____forwardMap), (void*)(RuntimeObject*)L_24);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:69>
 		SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B* L_25 = __this->____tree;
 		NullCheck(L_25);
 		RuntimeObject* L_26 = L_25->___Nodes;
@@ -25574,7 +25574,7 @@ IL_00eb:
 		NullCheck(G_B10_3);
 		G_B10_3->____reverseMap = (RuntimeObject*)L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B10_3->____reverseMap), (void*)(RuntimeObject*)L_37);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:70>
 		SkeletonTree_t8F5B796334607D0F8E44DD9D368DFE9F1C4F265B* L_38 = __this->____tree;
 		NullCheck(L_38);
 		RuntimeObject* L_39 = L_38->___Nodes;
@@ -25644,7 +25644,7 @@ IL_013f:
 		NullCheck(G_B14_3);
 		G_B14_3->____jointToParent = (RuntimeObject*)L_50;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B14_3->____jointToParent), (void*)(RuntimeObject*)L_50);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:71>
 		return;
 	}
 }
@@ -25660,7 +25660,7 @@ IL_013f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BodySkeletonMapping_1_get_Joints_m3B41F7A5B150EDEEC4E817E6632E6829D0143BE5_gshared (BodySkeletonMapping_1_tCF901B5866A07B95061F8FFC3F1422A3B689D963* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:36>
 		RuntimeObject* L_0 = __this->____joints;
 		return L_0;
 	}
@@ -25675,7 +25675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetParentJointI
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:40>
 		RuntimeObject* L_0 = __this->____jointToParent;
 		int32_t L_1 = ___0_jointId;
 		int32_t* L_2 = ___1_parentJointId;
@@ -25689,7 +25689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetParentJointI
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetSourceJointId_mE3B64F78AC417A66336D36224D5C342D3D2C6243_gshared (BodySkeletonMapping_1_tCF901B5866A07B95061F8FFC3F1422A3B689D963* __this, int32_t ___0_jointId, Il2CppFullySharedGenericStruct* ___1_sourceJointId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:45>
 		RuntimeObject* L_0 = __this->____reverseMap;
 		int32_t L_1 = ___0_jointId;
 		Il2CppFullySharedGenericStruct* L_2 = ___1_sourceJointId;
@@ -25705,7 +25705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BodySkeletonMapping_1_TryGetBodyJointId_
 	const uint32_t SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:50>
 		RuntimeObject* L_0 = __this->____forwardMap;
 		il2cpp_codegen_memcpy(L_1, ___0_jointId, SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 		int32_t* L_2 = ___1_bodyJointId;
@@ -25721,7 +25721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BodySkeletonMapping_1_GetSourceJointFrom
 	const uint32_t SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericStruct L_2 = alloca(SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:55>
 		RuntimeObject* L_0 = __this->____reverseMap;
 		int32_t L_1 = ___0_jointId;
 		NullCheck(L_0);
@@ -25736,7 +25736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BodySkeletonMapping_1_GetBodyJointFro
 	const uint32_t SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:60>
 		RuntimeObject* L_0 = __this->____forwardMap;
 		il2cpp_codegen_memcpy(L_1, ___0_sourceJointId, SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 		NullCheck(L_0);
@@ -25806,17 +25806,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BodySkeletonMapping_1__ctor_mB7E0D9E192B
 	RuntimeObject* G_B13_2 = NULL;
 	BodySkeletonMapping_1_tCF901B5866A07B95061F8FFC3F1422A3B689D963* G_B13_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:63>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:64>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:66>
 		il2cpp_codegen_memcpy(L_0, ___0_root, SizeOf_TSourceJointId_t2C7EB74DC7DE53EBA35D37613E47A35A1B0642CB);
 		RuntimeObject* L_1 = ___1_jointMapping;
 		SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688* L_2 = (SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 10));
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, RuntimeObject* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)), il2cpp_rgctx_method(method->klass->rgctx_data, 11), L_2, L_0, L_1);
 		__this->____tree = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____tree), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:67>
 		SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688* L_3 = __this->____tree;
 		NullCheck(L_3);
 		RuntimeObject* L_4 = L_3->___Nodes;
@@ -25856,7 +25856,7 @@ IL_003e:
 		NullCheck(G_B2_2);
 		G_B2_2->____joints = (RuntimeObject*)L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_2->____joints), (void*)(RuntimeObject*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:68>
 		SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688* L_12 = __this->____tree;
 		NullCheck(L_12);
 		RuntimeObject* L_13 = L_12->___Nodes;
@@ -25926,7 +25926,7 @@ IL_0097:
 		NullCheck(G_B6_3);
 		G_B6_3->____forwardMap = (RuntimeObject*)L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B6_3->____forwardMap), (void*)(RuntimeObject*)L_24);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:69>
 		SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688* L_25 = __this->____tree;
 		NullCheck(L_25);
 		RuntimeObject* L_26 = L_25->___Nodes;
@@ -25996,7 +25996,7 @@ IL_00eb:
 		NullCheck(G_B10_3);
 		G_B10_3->____reverseMap = (RuntimeObject*)L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B10_3->____reverseMap), (void*)(RuntimeObject*)L_37);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:70>
 		SkeletonTree_t0FAE8B9AEC2D09864F4CB3CB052CC76574FA3688* L_38 = __this->____tree;
 		NullCheck(L_38);
 		RuntimeObject* L_39 = L_38->___Nodes;
@@ -26066,7 +26066,7 @@ IL_013f:
 		NullCheck(G_B14_3);
 		G_B14_3->____jointToParent = (RuntimeObject*)L_50;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B14_3->____jointToParent), (void*)(RuntimeObject*)L_50);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:71>
 		return;
 	}
 }

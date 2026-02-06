@@ -24555,7 +24555,7 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Observable_1_get_Value_m429E41E244623001BCF3B831A0E134AD1A46D57A_gshared (Observable_1_t9DF318C9CF11BAB80C67AE6073E266C4BFE271DC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3928>
 		int32_t L_0 = __this->____value;
 		return L_0;
 	}
@@ -24564,12 +24564,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Observable_1_get_Value_m429E41E244623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m6669F86DC23FCBAC40CC3980110B5F6E7BCD5790_gshared (Observable_1_t9DF318C9CF11BAB80C67AE6073E266C4BFE271DC* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3932>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3931>
 		int32_t L_0 = __this->____value;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3932>
 		int32_t L_1 = ___0_value;
 		__this->____value = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3934>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3933>
 		Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* L_2 = __this->___OnChanged;
 		if (!L_2)
 		{
@@ -24577,7 +24577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m6669F86DC23FCBAC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3935>
 		Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* L_3 = __this->___OnChanged;
 		int32_t L_4 = ___0_value;
 		NullCheck(L_3);
@@ -24586,7 +24586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m6669F86DC23FCBAC
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3938>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3937>
 		return;
 	}
 }
@@ -24594,9 +24594,9 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m5BC51959589B2E2707C4C85223905411A69DE637_gshared (Observable_1_t9DF318C9CF11BAB80C67AE6073E266C4BFE271DC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3941>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3940>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3943>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3942>
 		return;
 	}
 }
@@ -24604,12 +24604,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m5BC51959589B2E2707C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m293816686366727B567C6FE74E4390D8200FE5E6_gshared (Observable_1_t9DF318C9CF11BAB80C67AE6073E266C4BFE271DC* __this, int32_t ___0_defaultValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3945>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3944>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3946>
 		int32_t L_0 = ___0_defaultValue;
 		__this->____value = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3948>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3947>
 		return;
 	}
 }
@@ -24617,17 +24617,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m293816686366727B567C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m88C373793F421619641D7103AD7C7DA821DE6B4A_gshared (Observable_1_t9DF318C9CF11BAB80C67AE6073E266C4BFE271DC* __this, int32_t ___0_defaultValue, Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* ___1_callback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3951>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3950>
 		int32_t L_0 = ___0_defaultValue;
 		Observable_1__ctor_m293816686366727B567C6FE74E4390D8200FE5E6(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3953>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3952>
 		Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* L_1 = __this->___OnChanged;
 		Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* L_2 = ___1_callback;
 		Delegate_t* L_3;
 		L_3 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00((Delegate_t*)L_1, (Delegate_t*)L_2, NULL);
 		__this->___OnChanged = ((Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B*)Castclass((RuntimeObject*)L_3, il2cpp_rgctx_data(method->klass->rgctx_data, 2)));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OnChanged), (void*)((Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B*)Castclass((RuntimeObject*)L_3, il2cpp_rgctx_data(method->klass->rgctx_data, 2))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3954>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3953>
 		return;
 	}
 }
@@ -24645,7 +24645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_get_Value_mDEADD24CD683600A
 	const uint32_t SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3929>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3928>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		return;
@@ -24659,12 +24659,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m450076137EC06A7D
 	const Il2CppFullySharedGenericAny L_4 = L_0;
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3932>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3931>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3933>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3932>
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_value : &___0_value), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_1, SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3934>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3933>
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_2 = *(Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		if (!L_2)
 		{
@@ -24672,7 +24672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m450076137EC06A7D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3936>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3935>
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_3 = *(Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		il2cpp_codegen_memcpy(L_4, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_value : &___0_value), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		NullCheck(L_3);
@@ -24681,7 +24681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_Value_m450076137EC06A7D
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3938>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3937>
 		return;
 	}
 }
@@ -24689,9 +24689,9 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_mA9F51F42E80962FE0C6C86C3B009A1772198CCF6_gshared (Observable_1_t22C8AC7D7D53CF090D91F0CC8B60DE02A7C20539* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3941>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3940>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3943>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3942>
 		return;
 	}
 }
@@ -24701,12 +24701,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m95FA642DE14BC8C1ACA4
 	const uint32_t SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3945>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3944>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3947>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3946>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_defaultValue : &___0_defaultValue), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0, SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3948>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3947>
 		return;
 	}
 }
@@ -24716,16 +24716,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_m9C841B0C71B144A66E30
 	const uint32_t SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3951>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3950>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_defaultValue : &___0_defaultValue), SizeOf_T_tAAA714FF56BD0A9CFD3006C1CA9150F19B822328);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)), il2cpp_rgctx_method(method->klass->rgctx_data, 4), __this, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? L_0: *(void**)L_0));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3953>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3952>
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_1 = *(Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_2 = ___1_callback;
 		Delegate_t* L_3;
 		L_3 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00((Delegate_t*)L_1, (Delegate_t*)L_2, NULL);
 		il2cpp_codegen_write_instance_field_data<Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), ((Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*)Castclass((RuntimeObject*)L_3, il2cpp_rgctx_data(method->klass->rgctx_data, 2))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRManager.cs:3954>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRManager.cs:3953>
 		return;
 	}
 }
@@ -25042,7 +25042,7 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 OneEuroFilterMulti_1_get_Value_m2BC50BE39E9C60CD12CEC756B489A9A2F324B57C_gshared (OneEuroFilterMulti_1_tBB7325EE9A92BAC0A28B6FE33B673129B3A19944* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -25051,7 +25051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_mE66FE9B6E36CFAA1F096BEB562B75301269D4EE6_gshared (OneEuroFilterMulti_1_tBB7325EE9A92BAC0A28B6FE33B673129B3A19944* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -25071,38 +25071,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_m9D1731B2CE10
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		__this->____filters = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____filters), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____componentValues = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____componentValues), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_tA621234F81E9F0207DF50720D54EB15DB149D209* L_5 = ___1_arrayToType;
 		__this->____arrayToType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrayToType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_t9D2AB511E99EAC3E2EB593D5703C715B42122F60* L_6 = ___2_getValAtIndex;
 		__this->____getValAtIndex = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getValAtIndex), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = __this->____filters;
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -25110,14 +25110,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = __this->____filters;
 		NullCheck(L_12);
@@ -25127,7 +25127,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -25143,7 +25143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mE530
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25152,13 +25152,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mE530
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -25168,7 +25168,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -25178,7 +25178,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -25194,14 +25194,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_t9D2AB511E99EAC3E2EB593D5703C715B42122F60* L_0 = __this->____getValAtIndex;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1 = ___0_newValue;
 		int32_t L_2 = V_0;
@@ -25209,7 +25209,7 @@ IL_0004:
 		float L_3;
 		L_3 = Func_3_Invoke_m515CA3B316D024FC83633011647E5E926403EDC1_inline(L_0, L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____componentValues;
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = __this->____filters;
@@ -25224,14 +25224,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = __this->____filters;
 		NullCheck(L_15);
@@ -25241,14 +25241,14 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_tA621234F81E9F0207DF50720D54EB15DB149D209* L_16 = __this->____arrayToType;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____componentValues;
 		NullCheck(L_16);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_18;
 		L_18 = Func_2_Invoke_m8255CA545A5C7BF4E05F4709AB4B14AEBE64F5BD_inline(L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		OneEuroFilterMulti_1_set_Value_mE66FE9B6E36CFAA1F096BEB562B75301269D4EE6_inline(__this, L_18, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_19;
 		L_19 = OneEuroFilterMulti_1_get_Value_m2BC50BE39E9C60CD12CEC756B489A9A2F324B57C_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		return L_19;
@@ -25266,7 +25266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_mF8813B204EEC
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25275,13 +25275,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_mF8813B204EEC
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -25290,7 +25290,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -25300,7 +25300,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -25325,7 +25325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Oculus_Interaction_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 OneEuroFilterMulti_1_get_Value_m1576B73494E5EE9149C152A106C932F3F495AE43_gshared (OneEuroFilterMulti_1_tED0D9F9B8E98940C58F6F58DA9C2E4366643BBB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -25334,7 +25334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_mF4C4F6DAF1F9FFA00A9B45919C587C687263FE5A_gshared (OneEuroFilterMulti_1_tED0D9F9B8E98940C58F6F58DA9C2E4366643BBB3* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -25354,38 +25354,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_m908E8C98C877
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		__this->____filters = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____filters), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____componentValues = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____componentValues), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_tF726ED4D3FF7EA3A634C0D1CB5FAD7FED70CF8D5* L_5 = ___1_arrayToType;
 		__this->____arrayToType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrayToType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_t3D2BFA1E2FC5EEE03D3871EAC58581F7A84855AD* L_6 = ___2_getValAtIndex;
 		__this->____getValAtIndex = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getValAtIndex), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = __this->____filters;
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -25393,14 +25393,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = __this->____filters;
 		NullCheck(L_12);
@@ -25410,7 +25410,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -25426,7 +25426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_m9FBC
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25435,13 +25435,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_m9FBC
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -25451,7 +25451,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -25461,7 +25461,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -25477,14 +25477,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_t3D2BFA1E2FC5EEE03D3871EAC58581F7A84855AD* L_0 = __this->____getValAtIndex;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___0_newValue;
 		int32_t L_2 = V_0;
@@ -25492,7 +25492,7 @@ IL_0004:
 		float L_3;
 		L_3 = Func_3_Invoke_mBA7C8CF4205B767F56AA35B18B4F29530B03681B_inline(L_0, L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____componentValues;
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = __this->____filters;
@@ -25507,14 +25507,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = __this->____filters;
 		NullCheck(L_15);
@@ -25524,14 +25524,14 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_tF726ED4D3FF7EA3A634C0D1CB5FAD7FED70CF8D5* L_16 = __this->____arrayToType;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____componentValues;
 		NullCheck(L_16);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18;
 		L_18 = Func_2_Invoke_m77F152DB4DB3CDD59D4F025034226830A1161C8E_inline(L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		OneEuroFilterMulti_1_set_Value_mF4C4F6DAF1F9FFA00A9B45919C587C687263FE5A_inline(__this, L_18, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
 		L_19 = OneEuroFilterMulti_1_get_Value_m1576B73494E5EE9149C152A106C932F3F495AE43_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		return L_19;
@@ -25549,7 +25549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m210C48967B22
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25558,13 +25558,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m210C48967B22
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -25573,7 +25573,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -25583,7 +25583,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -25608,7 +25608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Oculus_Interaction_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 OneEuroFilterMulti_1_get_Value_mB2EED98CA423F7FB09AD1190AB96B0131104B4DE_gshared (OneEuroFilterMulti_1_tDDBDB06E694A8A18AB0C9B7BF09CCA89AEF50F76* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -25617,7 +25617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m1DC86657BE6F5CCE2B89CCFD2DE875EABC021763_gshared (OneEuroFilterMulti_1_tDDBDB06E694A8A18AB0C9B7BF09CCA89AEF50F76* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -25637,38 +25637,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_m769483E3F151
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		__this->____filters = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____filters), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____componentValues = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____componentValues), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_t26F0D8E811F719695FA5EB7B27457598453F37A7* L_5 = ___1_arrayToType;
 		__this->____arrayToType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrayToType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_tC3F5340BFAEE6CCB710DE37AF6D503F195644D27* L_6 = ___2_getValAtIndex;
 		__this->____getValAtIndex = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getValAtIndex), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = __this->____filters;
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -25676,14 +25676,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = __this->____filters;
 		NullCheck(L_12);
@@ -25693,7 +25693,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -25709,7 +25709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_m9629
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25718,13 +25718,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_m9629
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -25734,7 +25734,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -25744,7 +25744,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -25760,14 +25760,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_tC3F5340BFAEE6CCB710DE37AF6D503F195644D27* L_0 = __this->____getValAtIndex;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_newValue;
 		int32_t L_2 = V_0;
@@ -25775,7 +25775,7 @@ IL_0004:
 		float L_3;
 		L_3 = Func_3_Invoke_m5E2E453914D78A30980CD327D1EF499943F75109_inline(L_0, L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____componentValues;
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = __this->____filters;
@@ -25790,14 +25790,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = __this->____filters;
 		NullCheck(L_15);
@@ -25807,14 +25807,14 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_t26F0D8E811F719695FA5EB7B27457598453F37A7* L_16 = __this->____arrayToType;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____componentValues;
 		NullCheck(L_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		L_18 = Func_2_Invoke_m731125E6D104EA549FABDA5C2A4A1C93C9FC26ED_inline(L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		OneEuroFilterMulti_1_set_Value_m1DC86657BE6F5CCE2B89CCFD2DE875EABC021763_inline(__this, L_18, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
 		L_19 = OneEuroFilterMulti_1_get_Value_mB2EED98CA423F7FB09AD1190AB96B0131104B4DE_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		return L_19;
@@ -25832,7 +25832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_mC0DD96B4BFA6
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -25841,13 +25841,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_mC0DD96B4BFA6
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -25856,7 +25856,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -25866,7 +25866,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -25891,7 +25891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Oculus_Interaction_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 OneEuroFilterMulti_1_get_Value_m61503A80CA0E60E8B009750819A07E6FC0B1C73B_gshared (OneEuroFilterMulti_1_tB64444423BB6654BFFE90C339540C2AD370FF726* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -25900,7 +25900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m67EA6522611AEC7DB2DE7DD88EA995707288AF76_gshared (OneEuroFilterMulti_1_tB64444423BB6654BFFE90C339540C2AD370FF726* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -25920,38 +25920,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_mFF0F3726B5B1
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		__this->____filters = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____filters), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____componentValues = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____componentValues), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_tD9D6FF5C4C547A132BC256DDD48141E628DAA21A* L_5 = ___1_arrayToType;
 		__this->____arrayToType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrayToType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_tEE76E26E27B51A2B1789AD486E2805EC0B413C04* L_6 = ___2_getValAtIndex;
 		__this->____getValAtIndex = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getValAtIndex), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = __this->____filters;
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -25959,14 +25959,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = __this->____filters;
 		NullCheck(L_12);
@@ -25976,7 +25976,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -25992,7 +25992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mAD3F
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -26001,13 +26001,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mAD3F
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -26017,7 +26017,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -26027,7 +26027,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -26043,14 +26043,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_tEE76E26E27B51A2B1789AD486E2805EC0B413C04* L_0 = __this->____getValAtIndex;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_newValue;
 		int32_t L_2 = V_0;
@@ -26058,7 +26058,7 @@ IL_0004:
 		float L_3;
 		L_3 = Func_3_Invoke_mB0A4896894F1E7CD9B942277C2F49B4E30D4E79F_inline(L_0, L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____componentValues;
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = __this->____filters;
@@ -26073,14 +26073,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = __this->____filters;
 		NullCheck(L_15);
@@ -26090,14 +26090,14 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_tD9D6FF5C4C547A132BC256DDD48141E628DAA21A* L_16 = __this->____arrayToType;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____componentValues;
 		NullCheck(L_16);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Func_2_Invoke_m03FE1944A07764FE3739A3162D42BCE0EDBB40DA_inline(L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		OneEuroFilterMulti_1_set_Value_m67EA6522611AEC7DB2DE7DD88EA995707288AF76_inline(__this, L_18, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = OneEuroFilterMulti_1_get_Value_m61503A80CA0E60E8B009750819A07E6FC0B1C73B_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		return L_19;
@@ -26115,7 +26115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m2F736A96A879
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -26124,13 +26124,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m2F736A96A879
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -26139,7 +26139,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -26149,7 +26149,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -26174,7 +26174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Oculus_Interaction_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 OneEuroFilterMulti_1_get_Value_m54DCD009E93E0CDDE1A81ECBB9E90B5633DAE7E4_gshared (OneEuroFilterMulti_1_tF5D9FCFA04C7C5EEF7CCDDADE90F4D5FCB0BEF33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -26183,7 +26183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m5E74005EF5229A1DEA100CBAE037A13A68305A54_gshared (OneEuroFilterMulti_1_tF5D9FCFA04C7C5EEF7CCDDADE90F4D5FCB0BEF33* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -26203,38 +26203,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_mEFB64289039B
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		__this->____filters = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____filters), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____componentValues = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____componentValues), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_tD8E66AE4BA66657F23A5BBC96BD6BDCAA8A789D1* L_5 = ___1_arrayToType;
 		__this->____arrayToType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrayToType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_tDB0D71FB87B6E95F2ECDD5B529C90C300D8303E8* L_6 = ___2_getValAtIndex;
 		__this->____getValAtIndex = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____getValAtIndex), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = __this->____filters;
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -26242,14 +26242,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = __this->____filters;
 		NullCheck(L_12);
@@ -26259,7 +26259,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -26275,7 +26275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mAE6B
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -26284,13 +26284,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mAE6B
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -26300,7 +26300,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -26310,7 +26310,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -26326,14 +26326,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_tDB0D71FB87B6E95F2ECDD5B529C90C300D8303E8* L_0 = __this->____getValAtIndex;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1 = ___0_newValue;
 		int32_t L_2 = V_0;
@@ -26341,7 +26341,7 @@ IL_0004:
 		float L_3;
 		L_3 = Func_3_Invoke_mCBCE9FAF6EABE3AF342B82F850144BECCADB107B_inline(L_0, L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->____componentValues;
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = __this->____filters;
@@ -26356,14 +26356,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = __this->____filters;
 		NullCheck(L_15);
@@ -26373,14 +26373,14 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_tD8E66AE4BA66657F23A5BBC96BD6BDCAA8A789D1* L_16 = __this->____arrayToType;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____componentValues;
 		NullCheck(L_16);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_18;
 		L_18 = Func_2_Invoke_mE60D570859FEA81E75DA46B89BDE584206F4E88E_inline(L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		OneEuroFilterMulti_1_set_Value_m5E74005EF5229A1DEA100CBAE037A13A68305A54_inline(__this, L_18, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
 		L_19 = OneEuroFilterMulti_1_get_Value_m54DCD009E93E0CDDE1A81ECBB9E90B5633DAE7E4_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		return L_19;
@@ -26398,7 +26398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m71E6D8204943
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = __this->____filters;
 		V_0 = L_0;
 		V_1 = 0;
@@ -26407,13 +26407,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m71E6D8204943
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -26422,7 +26422,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -26432,7 +26432,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -26459,7 +26459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_get_Value_mC2489373
 	const uint32_t SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		return;
@@ -26471,7 +26471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m1AB83556
 	const uint32_t SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_value : &___0_value), SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0, SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		return;
@@ -26491,34 +26491,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1__ctor_mBC0A11B7B5EC
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:51>
 		int32_t L_0 = ___0_numComponents;
 		OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A* L_1 = (OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A*)SZArrayNew(OneEuroFilterU5BU5D_tF525B8A985EBDDDF6251617C0A218DE4884C4B7A_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		V_0 = (IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*)L_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_2 = V_0;
 		il2cpp_codegen_write_instance_field_data<IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3), L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:52>
 		int32_t L_3 = ___0_numComponents;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		il2cpp_codegen_write_instance_field_data<SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:53>
 		Func_2_t8FCAC393314144ABC1179486B383350C44A9373F* L_5 = ___1_arrayToType;
 		il2cpp_codegen_write_instance_field_data<Func_2_t8FCAC393314144ABC1179486B383350C44A9373F*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:54>
 		Func_3_t56B277055D28BDB1F1E3959C55F9581842842E33* L_6 = ___2_getValAtIndex;
 		il2cpp_codegen_write_instance_field_data<Func_3_t56B277055D28BDB1F1E3959C55F9581842842E33*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2), L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		V_1 = 0;
 		goto IL_0043;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:58>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		int32_t L_8 = V_1;
 		OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E* L_9 = (OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E*)il2cpp_codegen_object_new(OneEuroFilter_t1A8B97214D6D807D19EF8CE0580CA5EE11041B6E_il2cpp_TypeInfo_var);
@@ -26526,14 +26526,14 @@ IL_0032:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (RuntimeObject*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:56>
 		int32_t L_11 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_12 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		NullCheck(L_12);
@@ -26543,7 +26543,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:60>
 		return;
 	}
 }
@@ -26559,7 +26559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mFCB7
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		V_0 = L_0;
 		V_1 = 0;
@@ -26568,13 +26568,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_SetProperties_mFCB7
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:66>
 		OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* L_5 = ___0_properties;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59* >::Invoke(1, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4, L_5);
@@ -26584,7 +26584,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:64>
 		int32_t L_7 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_8 = V_0;
 		NullCheck(L_8);
@@ -26594,7 +26594,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:68>
 		return;
 	}
 }
@@ -26614,14 +26614,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Step_mF1724C6C4E167
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		V_0 = 0;
 		goto IL_002d;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:74>
 		Func_3_t56B277055D28BDB1F1E3959C55F9581842842E33* L_0 = *(Func_3_t56B277055D28BDB1F1E3959C55F9581842842E33**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2));
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_newValue : &___0_newValue), SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		int32_t L_2 = V_0;
@@ -26629,7 +26629,7 @@ IL_0004:
 		float L_3;
 		L_3 = InvokerFuncInvoker2< float, Il2CppFullySharedGenericAny, int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)), il2cpp_rgctx_method(method->klass->rgctx_data, 4), L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? L_1: *(void**)L_1), L_2);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:75>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = *(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		int32_t L_5 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_6 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
@@ -26644,14 +26644,14 @@ IL_0004:
 		L_12 = InterfaceFuncInvoker2< float, float, float >::Invoke(2, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (float)L_12);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:72>
 		int32_t L_14 = V_0;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_15 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		NullCheck(L_15);
@@ -26661,13 +26661,13 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:78>
 		Func_2_t8FCAC393314144ABC1179486B383350C44A9373F* L_16 = *(Func_2_t8FCAC393314144ABC1179486B383350C44A9373F**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = *(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		NullCheck(L_16);
 		InvokerActionInvoker2< SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)), il2cpp_rgctx_method(method->klass->rgctx_data, 5), L_16, L_17, (Il2CppFullySharedGenericAny*)L_18);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)), il2cpp_rgctx_method(method->klass->rgctx_data, 6), __this, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? L_18: *(void**)L_18));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:79>
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 7), __this, (Il2CppFullySharedGenericAny*)L_19);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_19, SizeOf_TData_tD8E0C3B85780663C8F888F36C8863B5712AD359F);
 		return;
@@ -26685,7 +26685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m3B5EE7001BF4
 	IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_0 = *(IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		V_0 = L_0;
 		V_1 = 0;
@@ -26694,13 +26694,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_Reset_m3B5EE7001BF4
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:86>
 		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(3, IOneEuroFilter_1_t2C1DC3EDAD93ED3F85C735231A084C5747F527ED_il2cpp_TypeInfo_var, L_4);
 		int32_t L_5 = V_1;
@@ -26709,7 +26709,7 @@ IL_000b:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:84>
 		int32_t L_6 = V_1;
 		IOneEuroFilter_1U5BU5D_tCEB69B0080CA389CD935F295784465B29C0993A1* L_7 = V_0;
 		NullCheck(L_7);
@@ -26719,7 +26719,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:88>
 		return;
 	}
 }
@@ -28098,7 +28098,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_mE66FE9B6E36CFAA1F096BEB562B75301269D4EE6_gshared_inline (OneEuroFilterMulti_1_tBB7325EE9A92BAC0A28B6FE33B673129B3A19944* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -28108,7 +28108,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Val
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 OneEuroFilterMulti_1_get_Value_m2BC50BE39E9C60CD12CEC756B489A9A2F324B57C_gshared_inline (OneEuroFilterMulti_1_tBB7325EE9A92BAC0A28B6FE33B673129B3A19944* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -28129,7 +28129,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_mF4C4F6DAF1F9FFA00A9B45919C587C687263FE5A_gshared_inline (OneEuroFilterMulti_1_tED0D9F9B8E98940C58F6F58DA9C2E4366643BBB3* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -28139,7 +28139,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Val
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 OneEuroFilterMulti_1_get_Value_m1576B73494E5EE9149C152A106C932F3F495AE43_gshared_inline (OneEuroFilterMulti_1_tED0D9F9B8E98940C58F6F58DA9C2E4366643BBB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -28160,7 +28160,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m1DC86657BE6F5CCE2B89CCFD2DE875EABC021763_gshared_inline (OneEuroFilterMulti_1_tDDBDB06E694A8A18AB0C9B7BF09CCA89AEF50F76* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -28170,7 +28170,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Val
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 OneEuroFilterMulti_1_get_Value_mB2EED98CA423F7FB09AD1190AB96B0131104B4DE_gshared_inline (OneEuroFilterMulti_1_tDDBDB06E694A8A18AB0C9B7BF09CCA89AEF50F76* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -28191,7 +28191,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m67EA6522611AEC7DB2DE7DD88EA995707288AF76_gshared_inline (OneEuroFilterMulti_1_tB64444423BB6654BFFE90C339540C2AD370FF726* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -28201,7 +28201,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Val
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 OneEuroFilterMulti_1_get_Value_m61503A80CA0E60E8B009750819A07E6FC0B1C73B_gshared_inline (OneEuroFilterMulti_1_tB64444423BB6654BFFE90C339540C2AD370FF726* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -28222,7 +28222,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Value_m5E74005EF5229A1DEA100CBAE037A13A68305A54_gshared_inline (OneEuroFilterMulti_1_tF5D9FCFA04C7C5EEF7CCDDADE90F4D5FCB0BEF33* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField = L_0;
 		return;
@@ -28232,7 +28232,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OneEuroFilterMulti_1_set_Val
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 OneEuroFilterMulti_1_get_Value_m54DCD009E93E0CDDE1A81ECBB9E90B5633DAE7E4_gshared_inline (OneEuroFilterMulti_1_tF5D9FCFA04C7C5EEF7CCDDADE90F4D5FCB0BEF33* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilterMulti.cs:36>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = __this->___U3CValueU3Ek__BackingField;
 		return L_0;
 	}

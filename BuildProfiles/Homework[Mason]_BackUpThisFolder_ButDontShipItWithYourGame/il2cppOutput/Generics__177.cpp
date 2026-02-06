@@ -6982,7 +6982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingletonMonoBehaviour_1_get_I
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:58>
 		RuntimeObject* L_0 = ((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7002,12 +7002,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingletonMonoBehaviour_1_get_I
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Object_FindObjectsByType_TisRuntimeObject_mB1F91C8A4722D89B3A122EE213E9746E9C67EE8D((int32_t)1, (int32_t)0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:66>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
 		NullCheck(L_4);
 		if (!(((RuntimeArray*)L_4)->max_length))
@@ -7016,7 +7016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingletonMonoBehaviour_1_get_I
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:68>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6 = 0;
@@ -7027,7 +7027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingletonMonoBehaviour_1_get_I
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:72>
 		RuntimeObject* L_8 = ((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____instance;
 		return L_8;
 	}
@@ -7045,7 +7045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_InitializeSingl
 	}
 	InstantiationSettings_t0D2D6DE70740F74AF8003F717517A53A6B6ADF4B* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:78>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 5)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -7055,7 +7055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_InitializeSingl
 		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
 		Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* L_4;
 		L_4 = Attribute_GetCustomAttribute_mF48604D4722E67239F3D6A48CFCCBCDE7BCFFB06((MemberInfo_t*)L_1, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:79>
 		V_0 = ((InstantiationSettings_t0D2D6DE70740F74AF8003F717517A53A6B6ADF4B*)IsInstClass((RuntimeObject*)L_4, InstantiationSettings_t0D2D6DE70740F74AF8003F717517A53A6B6ADF4B_il2cpp_TypeInfo_var));
 		InstantiationSettings_t0D2D6DE70740F74AF8003F717517A53A6B6ADF4B* L_5 = V_0;
 		if (!L_5)
@@ -7064,7 +7064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_InitializeSingl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:81>
 		InstantiationSettings_t0D2D6DE70740F74AF8003F717517A53A6B6ADF4B* L_6 = V_0;
 		NullCheck(L_6);
 		bool L_7 = L_6->___dontDestroyOnLoad;
@@ -7074,7 +7074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_InitializeSingl
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:83>
 		RuntimeObject* L_8 = ((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->____instance;
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -7085,7 +7085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_InitializeSingl
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:86>
 		return;
 	}
 }
@@ -7101,7 +7101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_Awake_mD14243F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:93>
 		RuntimeObject* L_0 = ((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7112,17 +7112,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_Awake_mD14243F7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:95>
 		((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->____instance = ((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->klass->rgctx_data, 1)));
 		Il2CppCodeGenWriteBarrier((void**)(&((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->____instance), (void*)((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->klass->rgctx_data, 1))));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:96>
 		SingletonMonoBehaviour_1_InitializeSingleton_m3C68C4D16A695B576F7E726935582870A0FD7AF1(il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		return;
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:98>
 		RuntimeObject* L_2 = ((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -7133,7 +7133,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:100>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_5;
@@ -7142,14 +7142,14 @@ IL_0028:
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral78977DD1EE392CB649A4218570E00E1AE800C281, (RuntimeObject*)L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:101>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)__this, NULL);
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:103>
 		return;
 	}
 }
@@ -7157,9 +7157,9 @@ IL_0059:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingletonMonoBehaviour_1_OnDestroy_m64521F437D422CDF49503563C3C927D6EEC4116F_gshared (SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:110>
 		il2cpp_codegen_initobj((&((SingletonMonoBehaviour_1_t670053B84DB8743CBFB7ACD0078E84D14F1850AB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->____instance), sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/SingletonMonoBehavior.cs:111>
 		return;
 	}
 }
@@ -7201,14 +7201,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkeletonTree__ctor_m7A5C448A3075326E2DB7
 	memset((&V_6), 0, sizeof(V_6));
 	Node_t2742CFF087D7EB608E8E5C3690D643E235CC72C4* V_7 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:85>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:87>
 		Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_0 = (Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		Dictionary_2__ctor_mDC790A31BCFD172944D41699F8F7B0489E406CB5(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 		RuntimeObject* L_1 = ___1_mapping;
 		NullCheck((RuntimeObject*)L_1);
 		RuntimeObject* L_2;
@@ -7248,22 +7248,22 @@ IL_005a:
 
 IL_0015_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 				RuntimeObject* L_5 = V_1;
 				NullCheck(L_5);
 				KeyValuePair_2_tB5F90B5753357C404709E4C797D807989025A5EA L_6;
 				L_6 = InterfaceFuncInvoker0< KeyValuePair_2_tB5F90B5753357C404709E4C797D807989025A5EA >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 5), L_5);
 				V_2 = L_6;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:90>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:90>
 				int32_t L_7;
 				L_7 = KeyValuePair_2_get_Key_m66CCFA51DB2F09B3EEC2F9D44CE0F8DA99578172_inline((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 				V_3 = L_7;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:91>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:91>
 				JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 L_8;
 				L_8 = KeyValuePair_2_get_Value_m3ACFCDC5ECA72D9AF0C3F3EE7817C41FA8106CA9_inline((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 				V_4 = L_8;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:94>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:95>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:94>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:95>
 				Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_9 = V_0;
 				JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 L_10 = V_4;
 				int32_t L_11 = L_10.___SourceJointId;
@@ -7278,7 +7278,7 @@ IL_0015_1:
 
 IL_0047_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 				RuntimeObject* L_16 = V_1;
 				NullCheck((RuntimeObject*)L_16);
 				bool L_17;
@@ -7300,7 +7300,7 @@ IL_0047_1:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 		RuntimeObject* L_18 = ___1_mapping;
 		NullCheck(L_18);
 		RuntimeObject* L_19;
@@ -7343,13 +7343,13 @@ IL_00bf:
 
 IL_006a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 				RuntimeObject* L_23 = V_5;
 				NullCheck(L_23);
 				JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 L_24;
 				L_24 = InterfaceFuncInvoker0< JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 19), L_23);
 				V_6 = L_24;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:99>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:99>
 				Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_25 = V_0;
 				JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 L_26 = V_6;
 				int32_t L_27 = L_26.___SourceJointId;
@@ -7357,7 +7357,7 @@ IL_006a_1:
 				Node_t2742CFF087D7EB608E8E5C3690D643E235CC72C4* L_28;
 				L_28 = Dictionary_2_get_Item_m5C5D232C99DA6A8DF744CF94BA23BF78DCF94156(L_25, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 21));
 				V_7 = L_28;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:100>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:100>
 				Node_t2742CFF087D7EB608E8E5C3690D643E235CC72C4* L_29 = V_7;
 				Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_30 = V_0;
 				JointInfo_t9A1D52B5AC07F31BFEA2D57D19EFFDEFD8CE5F61 L_31 = V_6;
@@ -7368,7 +7368,7 @@ IL_006a_1:
 				NullCheck(L_29);
 				L_29->___Parent = L_33;
 				Il2CppCodeGenWriteBarrier((void**)(&L_29->___Parent), (void*)L_33);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:101>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:101>
 				Node_t2742CFF087D7EB608E8E5C3690D643E235CC72C4* L_34 = V_7;
 				NullCheck(L_34);
 				Node_t2742CFF087D7EB608E8E5C3690D643E235CC72C4* L_35 = L_34->___Parent;
@@ -7381,7 +7381,7 @@ IL_006a_1:
 
 IL_00a9_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 				RuntimeObject* L_38 = V_5;
 				NullCheck((RuntimeObject*)L_38);
 				bool L_39;
@@ -7403,7 +7403,7 @@ IL_00a9_1:
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:103>
 		Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_40 = V_0;
 		NullCheck(L_40);
 		ValueCollection_t80ED8D4581783EEEFC84FC1AE53896B4A3DC8E8C* L_41;
@@ -7412,7 +7412,7 @@ IL_00c0:
 		List_1__ctor_m77DBEA381246C7619FFB517306EF0E8E8D607185(L_42, (RuntimeObject*)L_41, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
 		__this->___Nodes = (RuntimeObject*)L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Nodes), (void*)(RuntimeObject*)L_42);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:104>
 		Dictionary_2_t0576AE5EE4E4B1E89C1BF9630004A77A37E61E33* L_43 = V_0;
 		int32_t L_44 = ___0_root;
 		NullCheck(L_43);
@@ -7420,7 +7420,7 @@ IL_00c0:
 		L_45 = Dictionary_2_get_Item_m5C5D232C99DA6A8DF744CF94BA23BF78DCF94156(L_43, L_44, il2cpp_rgctx_method(method->klass->rgctx_data, 21));
 		__this->___Root = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Root), (void*)L_45);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:105>
 		return;
 	}
 }
@@ -7469,14 +7469,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkeletonTree__ctor_m1844526150876C02AD94
 	memset(V_6, 0, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
 	Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA* V_7 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:85>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:87>
 		Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_0 = (Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		((  void (*) (Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 		RuntimeObject* L_1 = ___1_mapping;
 		NullCheck((RuntimeObject*)L_1);
 		RuntimeObject* L_2;
@@ -7516,20 +7516,20 @@ IL_005a:
 
 IL_0015_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 				RuntimeObject* L_5 = V_1;
 				NullCheck(L_5);
 				InterfaceActionInvoker1Invoker< KeyValuePair_2_tE98CF7E8961D6EC9A287345C0BB7BDADA143E6AF* >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 5), L_5, (KeyValuePair_2_tE98CF7E8961D6EC9A287345C0BB7BDADA143E6AF*)L_6);
 				il2cpp_codegen_memcpy(V_2, L_6, SizeOf_KeyValuePair_2_t734361CE45442E79B9EFA18FE90FC75702F1C648);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:90>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:90>
 				int32_t L_7;
 				L_7 = InvokerFuncInvoker0< int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)), il2cpp_rgctx_method(method->klass->rgctx_data, 8), (KeyValuePair_2_tE98CF7E8961D6EC9A287345C0BB7BDADA143E6AF*)V_2);
 				V_3 = L_7;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:91>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:91>
 				InvokerActionInvoker1< JointInfo_t52D3692C3B1588E761A3C4106B7BE755DACB61DC* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)), il2cpp_rgctx_method(method->klass->rgctx_data, 10), (KeyValuePair_2_tE98CF7E8961D6EC9A287345C0BB7BDADA143E6AF*)V_2, (JointInfo_t52D3692C3B1588E761A3C4106B7BE755DACB61DC*)L_8);
 				il2cpp_codegen_memcpy(V_4, L_8, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:94>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:95>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:94>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:95>
 				Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_9 = V_0;
 				il2cpp_codegen_memcpy(L_10, V_4, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
 				il2cpp_codegen_memcpy(L_11, il2cpp_codegen_get_instance_field_data_pointer(L_10, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),0)), SizeOf_TSourceJointId_t03615AC6F9B109EAE42CE09867ADDC0243781326);
@@ -7544,7 +7544,7 @@ IL_0015_1:
 
 IL_0047_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:88>
 				RuntimeObject* L_16 = V_1;
 				NullCheck((RuntimeObject*)L_16);
 				bool L_17;
@@ -7566,7 +7566,7 @@ IL_0047_1:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 		RuntimeObject* L_18 = ___1_mapping;
 		NullCheck(L_18);
 		RuntimeObject* L_19;
@@ -7609,12 +7609,12 @@ IL_00bf:
 
 IL_006a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 				RuntimeObject* L_23 = V_5;
 				NullCheck(L_23);
 				InterfaceActionInvoker1Invoker< JointInfo_t52D3692C3B1588E761A3C4106B7BE755DACB61DC* >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 19), L_23, (JointInfo_t52D3692C3B1588E761A3C4106B7BE755DACB61DC*)L_24);
 				il2cpp_codegen_memcpy(V_6, L_24, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:99>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:99>
 				Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_25 = V_0;
 				il2cpp_codegen_memcpy(L_26, V_6, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
 				il2cpp_codegen_memcpy(L_27, il2cpp_codegen_get_instance_field_data_pointer(L_26, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),0)), SizeOf_TSourceJointId_t03615AC6F9B109EAE42CE09867ADDC0243781326);
@@ -7622,7 +7622,7 @@ IL_006a_1:
 				Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA* L_28;
 				L_28 = InvokerFuncInvoker1< Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA*, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 21)), il2cpp_rgctx_method(method->klass->rgctx_data, 21), L_25, L_27);
 				V_7 = L_28;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:100>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:100>
 				Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA* L_29 = V_7;
 				Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_30 = V_0;
 				il2cpp_codegen_memcpy(L_31, V_6, SizeOf_JointInfo_t6EBBABC78DE600C483176323E21C640390768DFB);
@@ -7632,7 +7632,7 @@ IL_006a_1:
 				L_33 = InvokerFuncInvoker1< Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA*, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 21)), il2cpp_rgctx_method(method->klass->rgctx_data, 21), L_30, L_32);
 				NullCheck(L_29);
 				il2cpp_codegen_write_instance_field_data<Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA*>(L_29, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13),2), L_33);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:101>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:101>
 				Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA* L_34 = V_7;
 				Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA* L_35 = *(Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA**)il2cpp_codegen_get_instance_field_data_pointer(L_34, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13),2));
 				List_1_t10393EE1C1C619BD629A323B31E6E4B26E9D6BFD* L_36 = *(List_1_t10393EE1C1C619BD629A323B31E6E4B26E9D6BFD**)il2cpp_codegen_get_instance_field_data_pointer(L_35, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13),3));
@@ -7643,7 +7643,7 @@ IL_006a_1:
 
 IL_00a9_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:97>
 				RuntimeObject* L_38 = V_5;
 				NullCheck((RuntimeObject*)L_38);
 				bool L_39;
@@ -7665,7 +7665,7 @@ IL_00a9_1:
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:103>
 		Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_40 = V_0;
 		NullCheck(L_40);
 		ValueCollection_tB1C913DEC58AAB06DD62A12A66E6B5797572FCE6* L_41;
@@ -7674,7 +7674,7 @@ IL_00c0:
 		((  void (*) (List_1_t10393EE1C1C619BD629A323B31E6E4B26E9D6BFD*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 26)))(L_42, (RuntimeObject*)L_41, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
 		__this->___Nodes = (RuntimeObject*)L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Nodes), (void*)(RuntimeObject*)L_42);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:104>
 		Dictionary_2_t37AAA4DEA4624CF29998545E43980BC784ED22E7* L_43 = V_0;
 		il2cpp_codegen_memcpy(L_44, ___0_root, SizeOf_TSourceJointId_t03615AC6F9B109EAE42CE09867ADDC0243781326);
 		NullCheck(L_43);
@@ -7682,7 +7682,7 @@ IL_00c0:
 		L_45 = InvokerFuncInvoker1< Node_t3A33F938AA8EF13511F554C48A04D2A987C724CA*, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 21)), il2cpp_rgctx_method(method->klass->rgctx_data, 21), L_43, L_44);
 		__this->___Root = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Root), (void*)L_45);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Body/Input/BodySkeletonMapping.cs:105>
 		return;
 	}
 }
@@ -24241,7 +24241,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStatic_1__ctor_m89A249
 		return;
 	}
 }
-// Method Definition Index: 128504
+// Method Definition Index: 128502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Array32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6* Unsafe_AsRef_TisArray32768_1_tF94DB9E949B98E267CCEE7E61378AA0A89C951D6_mA61D216FC909FB8B42CB2EDBD3146EF82808E8D9_gshared_inline (void* ___0_source, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;
@@ -24280,7 +24280,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStatic_1__ctor_m282EBB
 		return;
 	}
 }
-// Method Definition Index: 128504
+// Method Definition Index: 128502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t* Unsafe_AsRef_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE30782588C12082D21B776E14FAB37229016AD0E_gshared_inline (void* ___0_source, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;
@@ -24319,7 +24319,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStatic_1__ctor_m2AD176
 		return;
 	}
 }
-// Method Definition Index: 128504
+// Method Definition Index: 128502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t* Unsafe_AsRef_TisIntPtr_t_mE17A0ECBFCF763A4C065A542CDF0F425DEFC0CDA_gshared_inline (void* ___0_source, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;
@@ -24358,7 +24358,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStatic_1__ctor_m366FF5
 		return;
 	}
 }
-// Method Definition Index: 128504
+// Method Definition Index: 128502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Long1024_tEE887C506947419DC829213E6C7483D80AF5659F* Unsafe_AsRef_TisLong1024_tEE887C506947419DC829213E6C7483D80AF5659F_m55889A5425117884EC38A5171F72C0C46A4FEBD9_gshared_inline (void* ___0_source, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;
@@ -24397,7 +24397,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStatic_1__ctor_m594A17
 		return;
 	}
 }
-// Method Definition Index: 128504
+// Method Definition Index: 128502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StreamCompressionModel_t7F9FB7DB2D88DA832A4DD61C1E6587A4C530697D* Unsafe_AsRef_TisStreamCompressionModel_t7F9FB7DB2D88DA832A4DD61C1E6587A4C530697D_m4FAA5C77EACDEEC07D84980F8AD42ACCAE596203_gshared_inline (void* ___0_source, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;

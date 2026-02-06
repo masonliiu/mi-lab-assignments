@@ -11965,7 +11965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MRUKNative_LoadFunction_TisRun
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:205>
 		intptr_t L_0 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_1;
 		L_1 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_0, 0, NULL);
@@ -11975,13 +11975,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MRUKNative_LoadFunction_TisRun
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:207>
 		String_t* L_2 = ___0_name;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral19CAAA4114A6F8740A0A55B8AC6BC8BDECEF0230, L_2, _stringLiteral21AEDF443DC09D9017C9E226E617BE78408C3D02, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:208>
 		il2cpp_codegen_initobj((&V_1), sizeof(RuntimeObject*));
 		RuntimeObject* L_4 = V_1;
 		return L_4;
@@ -11989,13 +11989,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MRUKNative_LoadFunction_TisRun
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:210>
 		intptr_t L_5 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		String_t* L_6 = ___0_name;
 		intptr_t L_7;
 		L_7 = MRUKNative_GetDllExport_m73AACA72187EF49712CFF11C15395260F18CE3D4(L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:211>
 		intptr_t L_8 = V_0;
 		bool L_9;
 		L_9 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_8, 0, NULL);
@@ -12005,13 +12005,13 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:213>
 		String_t* L_10 = ___0_name;
 		String_t* L_11;
 		L_11 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral72BEAD40626D332E9E48C02BCCE913FAD1416B50, L_10, _stringLiteral7CBFA4B2EEE39B40075938B0B580B6D5A7DD45D0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:214>
 		il2cpp_codegen_initobj((&V_1), sizeof(RuntimeObject*));
 		RuntimeObject* L_12 = V_1;
 		return L_12;
@@ -12019,7 +12019,7 @@ IL_0030:
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:216>
 		intptr_t L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		RuntimeObject* L_14;
@@ -12050,7 +12050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_LoadFunction_TisIl2CppFullySh
 	Il2CppFullySharedGenericAny V_1 = alloca(SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 	memset(V_1, 0, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:205>
 		intptr_t L_0 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		bool L_1;
 		L_1 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_0, 0, NULL);
@@ -12060,13 +12060,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_LoadFunction_TisIl2CppFullySh
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:207>
 		String_t* L_2 = ___0_name;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral19CAAA4114A6F8740A0A55B8AC6BC8BDECEF0230, L_2, _stringLiteral21AEDF443DC09D9017C9E226E617BE78408C3D02, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_3, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:208>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_1, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 		il2cpp_codegen_memcpy(L_4, V_1, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_4, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
@@ -12075,13 +12075,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MRUKNative_LoadFunction_TisIl2CppFullySh
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:210>
 		intptr_t L_5 = ((MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_StaticFields*)il2cpp_codegen_static_fields_for(MRUKNative_t09ED909E6CF36539A26176E092F0894AD9EC76F8_il2cpp_TypeInfo_var))->____nativeLibraryPtr;
 		String_t* L_6 = ___0_name;
 		intptr_t L_7;
 		L_7 = MRUKNative_GetDllExport_m73AACA72187EF49712CFF11C15395260F18CE3D4(L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:211>
 		intptr_t L_8 = V_0;
 		bool L_9;
 		L_9 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_8, 0, NULL);
@@ -12091,13 +12091,13 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:213>
 		String_t* L_10 = ___0_name;
 		String_t* L_11;
 		L_11 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral72BEAD40626D332E9E48C02BCCE913FAD1416B50, L_10, _stringLiteral7CBFA4B2EEE39B40075938B0B580B6D5A7DD45D0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:214>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_1, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 		il2cpp_codegen_memcpy(L_12, V_1, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_12, SizeOf_T_tF878FB7CD473B6AD058737C8483AF3E7FCB0EE3E);
@@ -12106,7 +12106,7 @@ IL_0030:
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/MRUKNative.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/MRUKNative.cs:216>
 		intptr_t L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		InvokerActionInvoker2< intptr_t, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_13, (Il2CppFullySharedGenericAny*)L_14);
@@ -12311,7 +12311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerUtils_RebuildInspectorForType_Tis
 	RuntimeObject* G_B11_0 = NULL;
 	RuntimeObject* G_B13_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
 		List_1_t84D3C4DF7E7139A1CE31AA2F01FEDAECB9920943* L_0 = ___3_memberPairs;
 		NullCheck(L_0);
 		Enumerator_tCCD3F21FA75A18B5617F6BD0577983CB396B455E L_1;
@@ -12336,7 +12336,7 @@ FINALLY_0101:
 
 IL_000c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
 				ValueTuple_2_tD9DC08513E1904B9C0BBAB3D57EA7CC8441CBA75 L_2;
 				L_2 = Enumerator_get_Current_mA53FCAF6D4C05A6A2C33083FC6F3F73539B34EC4_inline((&V_0), il2cpp_rgctx_method(method->rgctx_data, 3));
 				ValueTuple_2_tD9DC08513E1904B9C0BBAB3D57EA7CC8441CBA75 L_3 = L_2;
@@ -12344,7 +12344,7 @@ IL_000c_1:
 				V_1 = L_4;
 				DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* L_5 = L_3.___Item2;
 				V_2 = L_5;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:53>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:53>
 				RuntimeObject* L_6 = V_1;
 				bool L_7;
 				L_7 = MemberInfoExtensions_IsStatic_mC76B1E8AC9341C5A4BF96AB5D34A815861E928E2((MemberInfo_t*)L_6, NULL);
@@ -12354,12 +12354,12 @@ IL_000c_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:55>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:55>
 				Type_t* L_8 = ___2_type;
 				InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_9;
 				L_9 = InstanceHandle_Static_m3144E4BFC92C9736F8FFB068EC75F09B77475ADC(L_8, NULL);
 				V_3 = L_9;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:56>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:56>
 				RuntimeObject* L_10 = ___0_panel;
 				InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_11 = V_3;
 				il2cpp_codegen_initobj((&V_5), sizeof(Category_t0D44D4BFDF034573AFDF5E0C33E3E8930E938280));
@@ -12372,7 +12372,7 @@ IL_000c_1:
 				NullCheck(L_10);
 				RuntimeObject* L_15;
 				L_15 = InterfaceFuncInvoker2< RuntimeObject*, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA, Category_t0D44D4BFDF034573AFDF5E0C33E3E8930E938280 >::Invoke(0, IDebugUIPanel_tA0E3139641B739E2BAEDB4420D1DB98B4D0088EF_il2cpp_TypeInfo_var, L_10, L_11, L_14);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:57>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:57>
 				RuntimeObject* L_16 = L_15;
 				if (L_16)
 				{
@@ -12399,7 +12399,7 @@ IL_0059_1:
 IL_0065_1:
 			{
 				V_4 = G_B6_0;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:58>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:58>
 				RuntimeObject* L_20 = V_4;
 				if (!L_20)
 				{
@@ -12407,7 +12407,7 @@ IL_0065_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:60>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:60>
 				RegisterMember_1_t0B922DD7A040E12D923BEAC0FF8A2EE136DC45FD* L_21 = ___4_memberRegistration;
 				RuntimeObject* L_22 = V_4;
 				RuntimeObject* L_23 = V_1;
@@ -12420,13 +12420,13 @@ IL_0065_1:
 
 IL_007c_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:65>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:65>
 				InstanceCache_t4BE74F0905EC3B9F43DA75C026AFE64CF80DCD98* L_26 = ___1_cache;
 				Type_t* L_27 = ___2_type;
 				NullCheck(L_26);
 				List_1_t1169F3672387C4139E9A5951CD3EB62796562E7D* L_28;
 				L_28 = InstanceCache_GetCacheDataForClass_mE5F595AB0BD4C342656C4B17061CD4099CEEA0DB(L_26, L_27, NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
 				NullCheck(L_28);
 				Enumerator_t27054C8038CD80F6A42F4B11C20D730EF7CC67E1 L_29;
 				L_29 = List_1_GetEnumerator_m3AAE1B97A7146B4C72C8DE40C5C35C4BA23A1BB8(L_28, List_1_GetEnumerator_m3AAE1B97A7146B4C72C8DE40C5C35C4BA23A1BB8_RuntimeMethod_var);
@@ -12450,11 +12450,11 @@ FINALLY_00e5_1:
 
 IL_008c_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
 						InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_30;
 						L_30 = Enumerator_get_Current_mA2F2B1F4C20F6A1637F821B9A33E233E651A74E6_inline((&V_6), Enumerator_get_Current_mA2F2B1F4C20F6A1637F821B9A33E233E651A74E6_RuntimeMethod_var);
 						V_7 = L_30;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:68>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:68>
 						RuntimeObject* L_31 = ___0_panel;
 						InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA L_32 = V_7;
 						il2cpp_codegen_initobj((&V_5), sizeof(Category_t0D44D4BFDF034573AFDF5E0C33E3E8930E938280));
@@ -12467,7 +12467,7 @@ IL_008c_2:
 						NullCheck(L_31);
 						RuntimeObject* L_36;
 						L_36 = InterfaceFuncInvoker2< RuntimeObject*, InstanceHandle_tE6B8E29890FB27E3E1824A634157E596584E0CFA, Category_t0D44D4BFDF034573AFDF5E0C33E3E8930E938280 >::Invoke(0, IDebugUIPanel_tA0E3139641B739E2BAEDB4420D1DB98B4D0088EF_il2cpp_TypeInfo_var, L_31, L_32, L_35);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:69>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:69>
 						RuntimeObject* L_37 = L_36;
 						if (L_37)
 						{
@@ -12494,7 +12494,7 @@ IL_00bb_2:
 IL_00c7_2:
 					{
 						V_8 = G_B13_0;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:70>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:70>
 						RuntimeObject* L_41 = V_8;
 						if (!L_41)
 						{
@@ -12502,7 +12502,7 @@ IL_00c7_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:72>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:72>
 						RegisterMember_1_t0B922DD7A040E12D923BEAC0FF8A2EE136DC45FD* L_42 = ___4_memberRegistration;
 						RuntimeObject* L_43 = V_8;
 						RuntimeObject* L_44 = V_1;
@@ -12514,7 +12514,7 @@ IL_00c7_2:
 
 IL_00da_2:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:66>
 						bool L_47;
 						L_47 = Enumerator_MoveNext_m925A23FA6929531821A88F989D3C56C740EC3DFD((&V_6), Enumerator_MoveNext_m925A23FA6929531821A88F989D3C56C740EC3DFD_RuntimeMethod_var);
 						if (L_47)
@@ -12534,7 +12534,7 @@ IL_00da_2:
 
 IL_00f3_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:51>
 				bool L_48;
 				L_48 = Enumerator_MoveNext_mE506DADDC5E76C9907B16AA872D540914BB8E34F((&V_0), il2cpp_rgctx_method(method->rgctx_data, 9));
 				if (L_48)
@@ -12554,7 +12554,7 @@ IL_00f3_1:
 
 IL_010f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Managers/IDebugManager.cs:77>
 		return;
 	}
 }

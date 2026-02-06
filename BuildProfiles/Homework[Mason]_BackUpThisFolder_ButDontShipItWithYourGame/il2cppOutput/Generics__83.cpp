@@ -15483,7 +15483,7 @@ IL2CPP_EXTERN_C  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 FixedLi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FixedPool_1_get_CountAll_m21D71468995033D2857ED4058B18A6570C50D283_gshared (FixedPool_1_t9D1CE63179C7AD24D9C93D209F08416BFE7808B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:38>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_0 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		NullCheck(L_0);
 		return ((int32_t)(((RuntimeArray*)L_0)->max_length));
@@ -15493,7 +15493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FixedPool_1_get_CountAll_m21D71468995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FixedPool_1_get_CountActive_m2BAB807244AC1FA96C1F31C57A11E9C8F7F3E7B9_gshared (FixedPool_1_t9D1CE63179C7AD24D9C93D209F08416BFE7808B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:46>
 		int32_t L_0 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		return L_0;
 	}
@@ -15504,22 +15504,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedPool_1__ctor_mBF806710BA5FA20823F3C
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:55>
 		Pool_1__ctor_m2DE7106583E9FEB84D7358CC88644B1C0A1C3979((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:57>
 		int32_t L_0 = ___1_size;
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_1 = (EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42*)(EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 4), (uint32_t)L_0);
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:58>
 		int32_t L_2 = ___1_size;
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_3 = (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 5));
 		Dictionary_2__ctor_m129B1E1EDDABF00B402C93841CCA7169B8963D83(L_3, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___indices = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___indices), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:59>
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:60>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8 L_4 = ___2_callbacks;
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks = L_4;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks))->___Create), (void*)NULL);
@@ -15529,14 +15529,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedPool_1__ctor_mBF806710BA5FA20823F3C
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks))->___OnRelease), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
 		V_0 = 0;
 		goto IL_0060;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:64>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8 L_5 = ___2_callbacks;
 		Func_2_tACBF5A1656250800CE861707354491F0611F6624* L_6 = L_5.___Create;
 		RuntimeObject* L_7 = ___0_primitive;
@@ -15544,27 +15544,27 @@ IL_0030:
 		RuntimeObject* L_8;
 		L_8 = Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_inline(L_6, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:65>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_9 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
 		RuntimeObject* L_11 = V_1;
 		((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->___t = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->___t), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:66>
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_12 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___indices;
 		RuntimeObject* L_13 = V_1;
 		int32_t L_14 = V_0;
 		NullCheck(L_12);
 		Dictionary_2_set_Item_m72CC2F1213D1C1B8ABEDE31082D07B67EC873B13(L_12, L_13, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:62>
 		int32_t L_16 = V_0;
 		int32_t L_17 = ___1_size;
 		if ((((int32_t)L_16) < ((int32_t)L_17)))
@@ -15573,7 +15573,7 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:68>
 		return;
 	}
 }
@@ -15583,7 +15583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FixedPool_1_Get_m33E12EB11EE04
 	RuntimeObject* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:72>
 		int32_t L_0 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_1 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		NullCheck(L_1);
@@ -15593,7 +15593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FixedPool_1_Get_m33E12EB11EE04
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:74>
 		il2cpp_codegen_initobj((&V_1), sizeof(RuntimeObject*));
 		RuntimeObject* L_2 = V_1;
 		return L_2;
@@ -15601,18 +15601,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FixedPool_1_Get_m33E12EB11EE04
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:77>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_3 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		int32_t L_4 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		NullCheck(L_3);
 		RuntimeObject* L_5 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___t;
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:78>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_6 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		int32_t L_7 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		NullCheck(L_6);
 		((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___active = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:79>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8* L_8 = (Callbacks_t166220914FE5505031E79F719C507389ECC57DC8*)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_9 = L_8->___OnGet;
 		if (!L_9)
@@ -15621,7 +15621,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:81>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8* L_10 = (Callbacks_t166220914FE5505031E79F719C507389ECC57DC8*)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_11 = L_10->___OnGet;
 		RuntimeObject* L_12 = V_0;
@@ -15631,10 +15631,10 @@ IL_001a:
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:84>
 		int32_t L_13 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index = ((int32_t)il2cpp_codegen_add(L_13, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:86>
 		RuntimeObject* L_14 = V_0;
 		return L_14;
 	}
@@ -15644,14 +15644,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedPool_1_Release_mD44D583B719660CEE76
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:91>
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_0 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___indices;
 		RuntimeObject* L_1 = ___0_t;
 		NullCheck(L_0);
 		int32_t L_2;
 		L_2 = Dictionary_2_get_Item_mA019F7A495B48EF2A6E5D36977DB3EA09A47ECDB(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:92>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_3 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -15662,26 +15662,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedPool_1_Release_mD44D583B719660CEE76
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:94>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:97>
 		EntryU5BU5D_t1BCD4DD87A2A5E3EEC69412DD215A772F29E0E42* L_6 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___pool;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___active = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:99>
 		int32_t L_8 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:100>
 		int32_t L_9 = V_0;
 		int32_t L_10 = ((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___index;
 		NullCheck((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this);
 		Pool_1_Swap_m43571EFAE6F77F0689C34582CE62538394FAA8C8((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this, L_9, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:101>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8* L_11 = (Callbacks_t166220914FE5505031E79F719C507389ECC57DC8*)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_12 = L_11->___OnRelease;
 		if (!L_12)
@@ -15690,7 +15690,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:103>
 		Callbacks_t166220914FE5505031E79F719C507389ECC57DC8* L_13 = (Callbacks_t166220914FE5505031E79F719C507389ECC57DC8*)(&((Pool_1_tF670DAB862A5246ED23446954ED800A7AAE436D0*)__this)->___callbacks);
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_14 = L_13->___OnRelease;
 		RuntimeObject* L_15 = ___0_t;
@@ -15700,7 +15700,7 @@ IL_0021:
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@9c23d645de9c/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.mrutilitykit@7416b411559a/Core/Scripts/SceneDecorator/Pool/FixedPool.cs:105>
 		return;
 	}
 }

@@ -36754,15 +36754,15 @@ IL2CPP_EXTERN_C  RuntimeObject* InternalEnumerator_1_System_Collections_IEnumera
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__ctor_m733DD771EA716E0320ABF8C244AE539E5351D0C7_gshared (InvertedCapture_2_tB32FADEFBD7A0F757FB26AD4B1101B14963ED236* __this, Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* ___0_callback, RuntimeObject* ___1_capture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1669>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1669>
 		Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* L_0 = ___0_callback;
 		__this->____callback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____callback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1670>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1670>
 		RuntimeObject* L_1 = ___1_capture;
 		__this->____capture = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____capture), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1671>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1671>
 		return;
 	}
 }
@@ -36779,7 +36779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_Invoke_mA4514C18B758BE
 	Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* G_B2_0 = NULL;
 	Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1675>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1675>
 		InvertedCapture_2_tB32FADEFBD7A0F757FB26AD4B1101B14963ED236 L_0 = ___1_invertedCapture;
 		Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* L_1 = L_0.____callback;
 		Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* L_2 = L_1;
@@ -36801,7 +36801,7 @@ IL_000b:
 		bool L_5 = ___0_result;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_inline(G_B2_0, L_4, L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1676>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1676>
 		return;
 	}
 }
@@ -36809,7 +36809,7 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m6630E00276C74F756F04995D445C30530BE56936_gshared (OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 ___0_task, Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* ___1_onCompleted, RuntimeObject* ___2_state, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1681>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1681>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		Action_2_tB30570AAE20742E08100ED12460C2B37AF11DD88* L_0 = ((InvertedCapture_2_tB32FADEFBD7A0F757FB26AD4B1101B14963ED236_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate;
 		Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* L_1 = ___1_onCompleted;
@@ -36819,7 +36819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m6630
 		InvertedCapture_2__ctor_m733DD771EA716E0320ABF8C244AE539E5351D0C7((&L_3), L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		OVRTask_1_ContinueWith_TisInvertedCapture_2_tB32FADEFBD7A0F757FB26AD4B1101B14963ED236_m02D07694AA08709D764C4A5FBB02488D2BD491C6((&___0_task), L_0, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1682>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1682>
 		return;
 	}
 }
@@ -36827,7 +36827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m6630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__cctor_mEB70E204AA7A9B589D0C2267EEC4DAB6E171806C_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1661>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1661>
 		Action_2_tB30570AAE20742E08100ED12460C2B37AF11DD88* L_0 = (Action_2_tB30570AAE20742E08100ED12460C2B37AF11DD88*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		Action_2__ctor_m0744E1C4677BA785A71804494C8AD1C539FF9D2B(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		((InvertedCapture_2_tB32FADEFBD7A0F757FB26AD4B1101B14963ED236_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate = L_0;
@@ -36847,14 +36847,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__cctor_mEB70E204AA7A9B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__ctor_m70AC11E0078472B265A30709ABF9C8E3BFD7EC4E_gshared (InvertedCapture_2_tB60E0B53E02F92260D5BA9359439EDB87964857A* __this, Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* ___0_callback, UnboundAnchor_tB94D982DC1C3B6FF028AD53B3D1CEFF5EFBAAF71 ___1_capture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1669>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1669>
 		Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* L_0 = ___0_callback;
 		__this->____callback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____callback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1670>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1670>
 		UnboundAnchor_tB94D982DC1C3B6FF028AD53B3D1CEFF5EFBAAF71 L_1 = ___1_capture;
 		__this->____capture = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1671>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1671>
 		return;
 	}
 }
@@ -36871,7 +36871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_Invoke_m8907E5C8C013C5
 	Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* G_B2_0 = NULL;
 	Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1675>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1675>
 		InvertedCapture_2_tB60E0B53E02F92260D5BA9359439EDB87964857A L_0 = ___1_invertedCapture;
 		Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* L_1 = L_0.____callback;
 		Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* L_2 = L_1;
@@ -36893,7 +36893,7 @@ IL_000b:
 		bool L_5 = ___0_result;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m85770B8746363639715731D577A3EFD84D32B3A7_inline(G_B2_0, L_4, L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1676>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1676>
 		return;
 	}
 }
@@ -36901,7 +36901,7 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m824317CCFECF20DC910D649463E9BA5204BD5DD1_gshared (OVRTask_1_tAF5413F2901FDD0987C924E6A3573C1FFEC4AFB9 ___0_task, Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* ___1_onCompleted, UnboundAnchor_tB94D982DC1C3B6FF028AD53B3D1CEFF5EFBAAF71 ___2_state, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1681>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1681>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		Action_2_t8013CDC6B2EE2DC8C448D0AC82B2F5EA85078607* L_0 = ((InvertedCapture_2_tB60E0B53E02F92260D5BA9359439EDB87964857A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate;
 		Action_2_t979AFF408DA299E0AA292FEEB3C2633BBD5B4EBD* L_1 = ___1_onCompleted;
@@ -36911,7 +36911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m8243
 		InvertedCapture_2__ctor_m70AC11E0078472B265A30709ABF9C8E3BFD7EC4E((&L_3), L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		OVRTask_1_ContinueWith_TisInvertedCapture_2_tB60E0B53E02F92260D5BA9359439EDB87964857A_mBFC28D881856FF20A66BFF4739D7C214DF8BA285((&___0_task), L_0, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1682>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1682>
 		return;
 	}
 }
@@ -36919,7 +36919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m8243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__cctor_m5F6B322658B25AA510F9A5B34A6C0F3431CFAF1C_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1661>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1661>
 		Action_2_t8013CDC6B2EE2DC8C448D0AC82B2F5EA85078607* L_0 = (Action_2_t8013CDC6B2EE2DC8C448D0AC82B2F5EA85078607*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		Action_2__ctor_m48738A3F49BF3C41A10ADC6B6BBBD5E4EF8768D3(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		((InvertedCapture_2_tB60E0B53E02F92260D5BA9359439EDB87964857A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate = L_0;
@@ -36941,13 +36941,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__ctor_m7FF674A440B271C
 	const uint32_t SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1669>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1669>
 		Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* L_0 = ___0_callback;
 		il2cpp_codegen_write_instance_field_data<Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),2), L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1670>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1670>
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)) ? ___1_capture : &___1_capture), SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1), L_1, SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1671>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1671>
 		return;
 	}
 }
@@ -36971,7 +36971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_Invoke_m563B4A6841C861
 	Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* G_B2_0 = NULL;
 	Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1675>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1675>
 		il2cpp_codegen_memcpy(L_0, ___1_invertedCapture, SizeOf_InvertedCapture_2_t4A205D089C4793323C3C8486428C39EA4DE6F242);
 		Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* L_1 = *(Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8**)il2cpp_codegen_get_instance_field_data_pointer(L_0, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),2));
 		Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* L_2 = L_1;
@@ -36993,7 +36993,7 @@ IL_000b:
 		il2cpp_codegen_memcpy(L_5, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3)) ? ___0_result : &___0_result), SizeOf_TResult_t4A127F88B5111BDEB4D80EAC15C49AE9A32F0625);
 		NullCheck(G_B2_0);
 		InvokerActionInvoker2< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4), G_B2_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)) ? L_4: *(void**)L_4), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3)) ? L_5: *(void**)L_5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1676>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1676>
 		return;
 	}
 }
@@ -37006,7 +37006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m1735
 	const Il2CppFullySharedGenericAny L_3 = alloca(SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD);
 	const InvertedCapture_2_t4FFD30D383B16BE08D10FD339E7DAF0E55D5B957 L_4 = alloca(SizeOf_InvertedCapture_2_t4A205D089C4793323C3C8486428C39EA4DE6F242);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1681>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1681>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		Action_2_t4491CA95EB37360C3296AEDF647929D6242FE7AD* L_0 = ((InvertedCapture_2_t4FFD30D383B16BE08D10FD339E7DAF0E55D5B957_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate;
 		Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* L_1 = ___1_onCompleted;
@@ -37015,7 +37015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m1735
 		InvertedCapture_2__ctor_m7FF674A440B271C8CA2F5D99F3964FCF921ACF58((InvertedCapture_2_t4FFD30D383B16BE08D10FD339E7DAF0E55D5B957*)L_4, L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)) ? il2cpp_codegen_memcpy(L_3, L_2, SizeOf_TCapture_t09DEAB8B8A66B2F76FE6149612D4E15D399CA4BD): *(void**)L_2), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		InvokerActionInvoker2< Action_2_t4491CA95EB37360C3296AEDF647929D6242FE7AD*, InvertedCapture_2_t4FFD30D383B16BE08D10FD339E7DAF0E55D5B957 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9), (&___0_task), L_0, L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1682>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1682>
 		return;
 	}
 }
@@ -37023,7 +37023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2_ContinueTaskWith_m1735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvertedCapture_2__cctor_mAE9BC93255DA06FC3191F0416549799996D16C44_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/OVRSpatialAnchor.cs:1661>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/OVRSpatialAnchor.cs:1661>
 		Action_2_t4491CA95EB37360C3296AEDF647929D6242FE7AD* L_0 = (Action_2_t4491CA95EB37360C3296AEDF647929D6242FE7AD*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		((  void (*) (Action_2_t4491CA95EB37360C3296AEDF647929D6242FE7AD*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12)))(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		((InvertedCapture_2_t4FFD30D383B16BE08D10FD339E7DAF0E55D5B957_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)))->___s_delegate = L_0;

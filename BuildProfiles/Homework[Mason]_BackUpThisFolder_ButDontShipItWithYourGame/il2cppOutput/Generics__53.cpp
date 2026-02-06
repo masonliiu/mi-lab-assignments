@@ -14956,7 +14956,7 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF DistantCandidateComputer_2_get_DetectionFrustums_m8B0B01776B56B6F38D3B80A829E1B7765BEB0650_gshared (DistantCandidateComputer_2_tF80D1CB0F8B81C29AF7B63334684BB1512669E99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:47>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF L_0 = __this->____detectionFrustums;
 		return L_0;
 	}
@@ -14971,7 +14971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantCandidateComputer_2_set_Detection
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:51>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF L_0 = ___0_value;
 		__this->____detectionFrustums = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____detectionFrustums))->____selectionFrustum), (void*)NULL);
@@ -14981,13 +14981,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantCandidateComputer_2_set_Detection
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____detectionFrustums))->____aidFrustum), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:52>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF L_1 = ___0_value;
 		DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5* L_2 = (DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5*)il2cpp_codegen_object_new(DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5_il2cpp_TypeInfo_var);
 		DistantPointDetector__ctor_mDD763E166B8442132CD1A4F1404A784D4607EE22(L_2, L_1, NULL);
 		__this->____detector = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____detector), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:53>
 		return;
 	}
 }
@@ -14995,7 +14995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantCandidateComputer_2_set_Detection
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DistantCandidateComputer_2_get_DetectionDelay_m5707DCBEE5C63743F9208513C89803D71AFC1F04_gshared (DistantCandidateComputer_2_tF80D1CB0F8B81C29AF7B63334684BB1512669E99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:66>
 		float L_0 = __this->____detectionDelay;
 		return L_0;
 	}
@@ -15004,10 +15004,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DistantCandidateComputer_2_get_Detectio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantCandidateComputer_2_set_DetectionDelay_m926712DD774A57D6768226850F801EDB1D07388D_gshared (DistantCandidateComputer_2_tF80D1CB0F8B81C29AF7B63334684BB1512669E99* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:70>
 		float L_0 = ___0_value;
 		__this->____detectionDelay = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:71>
 		return;
 	}
 }
@@ -15015,8 +15015,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantCandidateComputer_2_set_Detection
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 DistantCandidateComputer_2_get_Origin_mC4C8A124F88C7C49A41D41AAA03B3B394CC70043_gshared (DistantCandidateComputer_2_tF80D1CB0F8B81C29AF7B63334684BB1512669E99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:85>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF* L_0 = (DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF*)(&__this->____detectionFrustums);
 		ConicalFrustum_t4D5B23814649B609D1328373C63073F421B64822* L_1;
 		L_1 = DistantPointDetectorFrustums_get_SelectionFrustum_m1D6AE872812CAAB731813C9C31641F30D4760036_inline(L_0, NULL);
@@ -15055,7 +15055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DistantCandidateComputer_2_Com
 	InteractableSet_t934434D7D540BCC55D05BEF15E0116ADEEF0F987 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:97>
 		DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5* L_0 = __this->____detector;
 		if (L_0)
 		{
@@ -15063,7 +15063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DistantCandidateComputer_2_Com
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:99>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF L_1;
 		L_1 = DistantCandidateComputer_2_get_DetectionFrustums_m8B0B01776B56B6F38D3B80A829E1B7765BEB0650_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5* L_2 = (DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5*)il2cpp_codegen_object_new(DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5_il2cpp_TypeInfo_var);
@@ -15074,8 +15074,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DistantCandidateComputer_2_Com
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:101>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:102>
 		RuntimeObject* L_3 = __this->____stableCandidate;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -15101,16 +15101,16 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:104>
 		RuntimeObject* L_10 = __this->____stableCandidate;
 		return L_10;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:107>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:108>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:109>
 		RuntimeObject* L_11 = __this->____stableCandidate;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -15135,17 +15135,17 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:111>
 		RuntimeObject** L_17 = (RuntimeObject**)(&__this->____stableCandidate);
 		il2cpp_codegen_initobj(L_17, sizeof(RuntimeObject*));
 	}
 
 IL_0092:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:114>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:115>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:116>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:117>
 		InteractableRegistry_2_t8EFC4239DE1EFD29A8A89A869EE7B5A824303B7D* L_18 = ___0_registry;
 		RuntimeObject* L_19 = ___1_interactor;
 		NullCheck(L_18);
@@ -15160,7 +15160,7 @@ IL_0092:
 		RuntimeObject* L_24;
 		L_24 = DistantCandidateComputer_2_ComputeBestInteractable_m9463DC69E2A3FE07BEA4A0667F88DF435E040CD1(__this, (&V_3), L_22, L_23, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		V_2 = L_24;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:118>
 		RuntimeObject* L_25 = V_2;
 		RuntimeObject* L_26 = __this->____pointedCandidate;
 		bool L_27;
@@ -15171,11 +15171,11 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:120>
 		RuntimeObject* L_28 = V_2;
 		__this->____pointedCandidate = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pointedCandidate), (void*)L_28);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:121>
 		RuntimeObject* L_29 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -15186,7 +15186,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:123>
 		float L_31;
 		L_31 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->____hoverStartTime = L_31;
@@ -15194,12 +15194,12 @@ IL_0092:
 
 IL_00ed:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:127>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:128>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:129>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:130>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:132>
 		RuntimeObject* L_32 = __this->____stableCandidate;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -15265,10 +15265,10 @@ IL_010e:
 
 IL_015b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:134>
 		RuntimeObject** L_46 = (RuntimeObject**)(&__this->____pointedCandidate);
 		il2cpp_codegen_initobj(L_46, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:135>
 		RuntimeObject* L_47 = V_2;
 		__this->____stableCandidate = L_47;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____stableCandidate), (void*)L_47);
@@ -15276,7 +15276,7 @@ IL_015b:
 
 IL_016e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:138>
 		RuntimeObject* L_48 = __this->____stableCandidate;
 		return L_48;
 	}
@@ -15301,16 +15301,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DistantCandidateComputer_2_Com
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:145>
 		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:146>
 		V_1 = (-std::numeric_limits<float>::infinity());
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:147>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___2_bestHitPoint;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
 		InteractableSet_t934434D7D540BCC55D05BEF15E0116ADEEF0F987* L_2 = ___0_candidates;
 		InteractableSet_t934434D7D540BCC55D05BEF15E0116ADEEF0F987 L_3 = (*(InteractableSet_t934434D7D540BCC55D05BEF15E0116ADEEF0F987*)L_2);
 		V_3 = L_3;
@@ -15336,12 +15336,12 @@ FINALLY_006f:
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
 				RuntimeObject* L_5;
 				L_5 = Enumerator_get_Current_m5E7ACA63C1AE947CB0A18B7E854309B2DA2BEEA1((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 12));
 				V_4 = L_5;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:151>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:152>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:151>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:152>
 				DistantPointDetector_t0A8798580FD34015778F0692EE62EEE822573FC5* L_6 = __this->____detector;
 				RuntimeObject* L_7 = V_4;
 				NullCheck((RuntimeObject*)L_7);
@@ -15365,13 +15365,13 @@ IL_002a_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:154>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:154>
 				float L_13 = V_5;
 				V_1 = L_13;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:155>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:155>
 				RuntimeObject* L_14 = V_4;
 				V_0 = L_14;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:156>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:156>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_15 = ___2_bestHitPoint;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_6;
 				*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_15 = L_16;
@@ -15379,7 +15379,7 @@ IL_002a_1:
 
 IL_0064_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:149>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m2DBDEDE272E636768B922CA88FC72724B76738CA((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 				if (L_17)
@@ -15399,7 +15399,7 @@ IL_0064_1:
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:159>
 		RuntimeObject* L_18 = V_0;
 		return L_18;
 	}
@@ -29351,7 +29351,7 @@ IL_0074:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConicalFrustum_t4D5B23814649B609D1328373C63073F421B64822* DistantPointDetectorFrustums_get_SelectionFrustum_m1D6AE872812CAAB731813C9C31641F30D4760036_inline (DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/DistanceGrab/DistantPointDetector.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/DistanceGrab/DistantPointDetector.cs:56>
 		ConicalFrustum_t4D5B23814649B609D1328373C63073F421B64822* L_0 = __this->____selectionFrustum;
 		return L_0;
 	}
@@ -30005,7 +30005,7 @@ IL_0019:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF DistantCandidateComputer_2_get_DetectionFrustums_m8B0B01776B56B6F38D3B80A829E1B7765BEB0650_gshared_inline (DistantCandidateComputer_2_tF80D1CB0F8B81C29AF7B63334684BB1512669E99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Interaction/Models/DistanceGrab/DistantCandidateComputer.cs:47>
 		DistantPointDetectorFrustums_tD2E82CACF3F672F01A20B893770B3BD5351213FF L_0 = __this->____detectionFrustums;
 		return L_0;
 	}

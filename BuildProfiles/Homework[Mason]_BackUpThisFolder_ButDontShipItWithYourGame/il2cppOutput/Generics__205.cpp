@@ -10328,7 +10328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mCD08CA61
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
 		return _stringLiteral29EB64E08E72E60A4F68BBBD3D60D22DADE14C50;
 	}
 }
@@ -10336,7 +10336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mCD08CA61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_tD1F9BA54A612E414877D7C078D3465242196EB59* ValueContainer_1_Load_m8E6E127E9EA3C3BA663633FB4B4CD4EBF79E062C_gshared (String_t* ___0_assetName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
 		String_t* L_0;
 		L_0 = ValueContainer_1_get_Path_mCD08CA6171902E9E47AF84BDBF80FEB9C7BCAEE8(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		String_t* L_1 = ___0_assetName;
@@ -10351,7 +10351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_tD1F9BA54A612E414877D7C078D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueContainer_1_get_Item_m55710D2AB694EFE14A9D4FD9D58C348A9AA7864E_gshared (ValueContainer_1_tD1F9BA54A612E414877D7C078D3465242196EB59* __this, String_t* ___0_valueName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
 		String_t* L_0 = ___0_valueName;
 		int32_t L_1;
 		L_1 = ValueContainer_1_GetValue_m6CF3EB19C0048C5F88A39F6330CD8F72B38E1CEF(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -10377,7 +10377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueContainer_1_GetValue_m6CF3EB19C0
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t1C9D07E9F730160A901C4E43A1A6E6F6E1845A43* L_0 = __this->___Values;
 		V_0 = L_0;
 		V_1 = 0;
@@ -10386,14 +10386,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueContainer_1_GetValue_m6CF3EB19C0
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t1C9D07E9F730160A901C4E43A1A6E6F6E1845A43* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		ValueStruct_1_t4427830548F80433BBBCBD12D76DE7922F01F7F7 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
 		ValueStruct_1_t4427830548F80433BBBCBD12D76DE7922F01F7F7 L_5 = V_2;
 		String_t* L_6 = L_5.___ValueName;
 		String_t* L_7 = ___0_valueName;
@@ -10406,7 +10406,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
 		ValueStruct_1_t4427830548F80433BBBCBD12D76DE7922F01F7F7 L_9 = V_2;
 		int32_t L_10 = L_9.___Value;
 		return L_10;
@@ -10420,7 +10420,7 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		int32_t L_12 = V_1;
 		ValueStruct_1U5BU5D_t1C9D07E9F730160A901C4E43A1A6E6F6E1845A43* L_13 = V_0;
 		NullCheck(L_13);
@@ -10430,7 +10430,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		NullCheck(L_15);
@@ -10455,7 +10455,7 @@ IL_002c:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
 		il2cpp_codegen_initobj((&V_3), sizeof(int32_t));
 		int32_t L_23 = V_3;
 		return L_23;
@@ -10487,7 +10487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_m25118FF5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
 		return _stringLiteral29EB64E08E72E60A4F68BBBD3D60D22DADE14C50;
 	}
 }
@@ -10495,7 +10495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_m25118FF5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t115EBC705F2EE21A1DC5B13133C9A1591F87DB9C* ValueContainer_1_Load_mCCAC83334A7E4CAAEB3939148DEC64DA56DFAF38_gshared (String_t* ___0_assetName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
 		String_t* L_0;
 		L_0 = ValueContainer_1_get_Path_m25118FF5864CCF09A21DD3D5199AD2518C36963F(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		String_t* L_1 = ___0_assetName;
@@ -10510,7 +10510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t115EBC705F2EE21A1DC5B13133C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ValueContainer_1_get_Item_m1D734839B6C48AB79CB7C6D3AD4F012FB97B4DC9_gshared (ValueContainer_1_t115EBC705F2EE21A1DC5B13133C9A1591F87DB9C* __this, String_t* ___0_valueName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
 		String_t* L_0 = ___0_valueName;
 		float L_1;
 		L_1 = ValueContainer_1_GetValue_mC614C8CD14A37BFDE7C7BFB771E01A99F0ED5841(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -10536,7 +10536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ValueContainer_1_GetValue_mC614C8CD14A3
 	memset((&V_2), 0, sizeof(V_2));
 	float V_3 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_tC1E3F5EC8EDA1D456828C2EE2E1625105A659EA8* L_0 = __this->___Values;
 		V_0 = L_0;
 		V_1 = 0;
@@ -10545,14 +10545,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ValueContainer_1_GetValue_mC614C8CD14A3
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_tC1E3F5EC8EDA1D456828C2EE2E1625105A659EA8* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		ValueStruct_1_t6303CA695B22ED429273A7E6AC4E9866F250404F L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
 		ValueStruct_1_t6303CA695B22ED429273A7E6AC4E9866F250404F L_5 = V_2;
 		String_t* L_6 = L_5.___ValueName;
 		String_t* L_7 = ___0_valueName;
@@ -10565,7 +10565,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
 		ValueStruct_1_t6303CA695B22ED429273A7E6AC4E9866F250404F L_9 = V_2;
 		float L_10 = L_9.___Value;
 		return L_10;
@@ -10579,7 +10579,7 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		int32_t L_12 = V_1;
 		ValueStruct_1U5BU5D_tC1E3F5EC8EDA1D456828C2EE2E1625105A659EA8* L_13 = V_0;
 		NullCheck(L_13);
@@ -10589,7 +10589,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		NullCheck(L_15);
@@ -10614,7 +10614,7 @@ IL_002c:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
 		il2cpp_codegen_initobj((&V_3), sizeof(float));
 		float L_23 = V_3;
 		return L_23;
@@ -10646,7 +10646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mFC63A775
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
 		return _stringLiteral29EB64E08E72E60A4F68BBBD3D60D22DADE14C50;
 	}
 }
@@ -10654,7 +10654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mFC63A775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t10069C07C1ACC556C11B28387FB760FED5047DB3* ValueContainer_1_Load_m23FAAC039A4877CB37CFF9C19E33A70DB5D4910E_gshared (String_t* ___0_assetName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
 		String_t* L_0;
 		L_0 = ValueContainer_1_get_Path_mFC63A775A0D91D185A8D16961916918AAA07194A(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		String_t* L_1 = ___0_assetName;
@@ -10669,7 +10669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t10069C07C1ACC556C11B28387FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ValueContainer_1_get_Item_m032D6830B9A5BC9AE5292AC5D004E887F47CF59C_gshared (ValueContainer_1_t10069C07C1ACC556C11B28387FB760FED5047DB3* __this, String_t* ___0_valueName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
 		String_t* L_0 = ___0_valueName;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = ValueContainer_1_GetValue_m234B1FD0B88AF9FB9105CE44D2A4FEBDE0E5AC02(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -10696,7 +10696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t4F0F46A3287AB71C7D838E3B98D30F893A04B0DB* L_0 = __this->___Values;
 		V_0 = L_0;
 		V_1 = 0;
@@ -10705,14 +10705,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t4F0F46A3287AB71C7D838E3B98D30F893A04B0DB* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		ValueStruct_1_tF0ECD80C7A4860ACA421B25828CE13066E9923C4 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
 		ValueStruct_1_tF0ECD80C7A4860ACA421B25828CE13066E9923C4 L_5 = V_2;
 		String_t* L_6 = L_5.___ValueName;
 		String_t* L_7 = ___0_valueName;
@@ -10725,7 +10725,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
 		ValueStruct_1_tF0ECD80C7A4860ACA421B25828CE13066E9923C4 L_9 = V_2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9.___Value;
 		return L_10;
@@ -10739,7 +10739,7 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		int32_t L_12 = V_1;
 		ValueStruct_1U5BU5D_t4F0F46A3287AB71C7D838E3B98D30F893A04B0DB* L_13 = V_0;
 		NullCheck(L_13);
@@ -10749,7 +10749,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		NullCheck(L_15);
@@ -10774,7 +10774,7 @@ IL_002c:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
 		il2cpp_codegen_initobj((&V_3), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = V_3;
 		return L_23;
@@ -10806,7 +10806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mF616C109
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
 		return _stringLiteral29EB64E08E72E60A4F68BBBD3D60D22DADE14C50;
 	}
 }
@@ -10814,7 +10814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_mF616C109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t6D5127C19E2D06EF7D3F3B1F194A158DFC819E01* ValueContainer_1_Load_m03ACE0AC2EFD406392094E736D3F1C4D4B767496_gshared (String_t* ___0_assetName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
 		String_t* L_0;
 		L_0 = ValueContainer_1_get_Path_mF616C10966691A8E792194DF98B6B32CB0BAB6FE(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		String_t* L_1 = ___0_assetName;
@@ -10829,7 +10829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_t6D5127C19E2D06EF7D3F3B1F194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ValueContainer_1_get_Item_mF417B1CF989935651C3EE1854C0C6ECF893AC89E_gshared (ValueContainer_1_t6D5127C19E2D06EF7D3F3B1F194A158DFC819E01* __this, String_t* ___0_valueName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
 		String_t* L_0 = ___0_valueName;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = ValueContainer_1_GetValue_m3717927768D433ADEE0B4E90173A671FF49330B7(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
@@ -10856,7 +10856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t6C614A6E9059FA725AD6FD95CA07DE6D1785E776* L_0 = __this->___Values;
 		V_0 = L_0;
 		V_1 = 0;
@@ -10865,14 +10865,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t6C614A6E9059FA725AD6FD95CA07DE6D1785E776* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		ValueStruct_1_t6A0C2EFF07BB5EE379B086F1D4E29DCDE76F1468 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
 		ValueStruct_1_t6A0C2EFF07BB5EE379B086F1D4E29DCDE76F1468 L_5 = V_2;
 		String_t* L_6 = L_5.___ValueName;
 		String_t* L_7 = ___0_valueName;
@@ -10885,7 +10885,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
 		ValueStruct_1_t6A0C2EFF07BB5EE379B086F1D4E29DCDE76F1468 L_9 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___Value;
 		return L_10;
@@ -10899,7 +10899,7 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		int32_t L_12 = V_1;
 		ValueStruct_1U5BU5D_t6C614A6E9059FA725AD6FD95CA07DE6D1785E776* L_13 = V_0;
 		NullCheck(L_13);
@@ -10909,7 +10909,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		NullCheck(L_15);
@@ -10934,7 +10934,7 @@ IL_002c:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
 		il2cpp_codegen_initobj((&V_3), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_3;
 		return L_23;
@@ -10966,7 +10966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_m5927F131
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:40>
 		return _stringLiteral29EB64E08E72E60A4F68BBBD3D60D22DADE14C50;
 	}
 }
@@ -10974,7 +10974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ValueContainer_1_get_Path_m5927F131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueContainer_1_tA4831F4F197B042578F876B7484A2DE90ABC1BC1* ValueContainer_1_Load_m6F52F46184D0547DEEBCF98ED0B2A39BDC238DCC_gshared (String_t* ___0_assetName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:42>
 		String_t* L_0;
 		L_0 = ((  String_t* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 		String_t* L_1 = ___0_assetName;
@@ -10991,7 +10991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueContainer_1_get_Item_mF3DCBE226C4EC
 	const uint32_t SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:44>
 		String_t* L_0 = ___0_valueName;
 		InvokerActionInvoker2< String_t*, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)), il2cpp_rgctx_method(method->klass->rgctx_data, 4), __this, L_0, (Il2CppFullySharedGenericAny*)L_1);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_1, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
@@ -11025,7 +11025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueContainer_1_GetValue_m2FA40E043FB08
 	Il2CppFullySharedGenericAny V_3 = alloca(SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 	memset(V_3, 0, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t2A42C59B50B7099939EAD18466D44E4F4573833C* L_0 = __this->___Values;
 		V_0 = L_0;
 		V_1 = 0;
@@ -11034,14 +11034,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueContainer_1_GetValue_m2FA40E043FB08
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		ValueStruct_1U5BU5D_t2A42C59B50B7099939EAD18466D44E4F4573833C* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		il2cpp_codegen_memcpy(L_4, (L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)), SizeOf_ValueStruct_1_tE299B001CD4752E68224C760B7D8B0FD4864CD5D);
 		il2cpp_codegen_memcpy(V_2, L_4, SizeOf_ValueStruct_1_tE299B001CD4752E68224C760B7D8B0FD4864CD5D);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:50>
 		il2cpp_codegen_memcpy(L_5, V_2, SizeOf_ValueStruct_1_tE299B001CD4752E68224C760B7D8B0FD4864CD5D);
 		String_t* L_6 = *(String_t**)il2cpp_codegen_get_instance_field_data_pointer(L_5, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),0));
 		String_t* L_7 = ___0_valueName;
@@ -11054,7 +11054,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:51>
 		il2cpp_codegen_memcpy(L_9, V_2, SizeOf_ValueStruct_1_tE299B001CD4752E68224C760B7D8B0FD4864CD5D);
 		il2cpp_codegen_memcpy(L_10, il2cpp_codegen_get_instance_field_data_pointer(L_9, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_10, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
@@ -11069,7 +11069,7 @@ IL_0028:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:48>
 		int32_t L_12 = V_1;
 		ValueStruct_1U5BU5D_t2A42C59B50B7099939EAD18466D44E4F4573833C* L_13 = V_0;
 		NullCheck(L_13);
@@ -11079,7 +11079,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:54>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		NullCheck(L_15);
@@ -11104,7 +11104,7 @@ IL_002c:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_22, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/Utils/ValueContainer/ValueContainer.cs:55>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_3, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 		il2cpp_codegen_memcpy(L_23, V_3, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_23, SizeOf_T_tD69AFE59513A53E5A0101C1D5A2A8D2C781AB458);
@@ -26672,19 +26672,19 @@ IL2CPP_EXTERN_C  String_t* ValueTask_1_ToString_m4530D6455BD931A8A62927E59CA17C3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2__ctor_m4B5A3AE53AB2E48DC481467ABF300D4DD6238BF2_gshared (ValueToClassDecorator_2_tE339F2651D82DAE3A66CC129ADAD2E23CA8875A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:133>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_0 = (Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		Dictionary_2__ctor_mD4BAD0D875EFD27E5DD085C1223B4376DC379DF7(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		__this->____instanceToDecoration = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____instanceToDecoration), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:134>
 		ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49* L_1 = (ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		ConditionalWeakTable_2__ctor_m0FB4196C49C6F04682DEA9DBC5DA85C6598789A4(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		__this->____cleanupActions = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cleanupActions), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:136>
 		DecoratorBase_2__ctor_m7D6F412AEDC2621092D3E002EE07D090D7DDCE0B((DecoratorBase_2_t16D01AF84DF042CA62C12D62B5B5784C197E4138*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:136>
 		return;
 	}
 }
@@ -26712,7 +26712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_mE
 		int32_t L_3 = ___0_instance;
 		NullCheck(L_2);
 		L_2->___instance = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:147>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_4 = __this->____instanceToDecoration;
 		U3CU3Ec__DisplayClass3_0_t9BD0CED159A4AFFF2564BF61B3B1AD1D467F46E7* L_5 = V_0;
 		NullCheck(L_5);
@@ -26726,7 +26726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_mE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:149>
 		U3CU3Ec__DisplayClass3_0_t9BD0CED159A4AFFF2564BF61B3B1AD1D467F46E7* L_8 = V_0;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->___instance;
@@ -26735,7 +26735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_mE
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:152>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_10 = __this->____instanceToDecoration;
 		U3CU3Ec__DisplayClass3_0_t9BD0CED159A4AFFF2564BF61B3B1AD1D467F46E7* L_11 = V_0;
 		NullCheck(L_11);
@@ -26745,7 +26745,7 @@ IL_0033:
 		WeakReference_1__ctor_m932665C8861A22B177DC1ACF1EDAA87E1624B5AC(L_14, L_13, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck(L_10);
 		Dictionary_2_Add_m8A7BB38AA06F0DEF3D3FA139095D61D1BE544E12(L_10, L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:154>
 		ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49* L_15 = __this->____cleanupActions;
 		RuntimeObject* L_16 = ___1_decoration;
 		NullCheck(L_15);
@@ -26757,7 +26757,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:156>
 		ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49* L_18 = __this->____cleanupActions;
 		RuntimeObject* L_19 = ___1_decoration;
 		Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0* L_20 = (Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
@@ -26770,13 +26770,13 @@ IL_0033:
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:162>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:164>
 		Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0* L_22 = V_1;
 		U3CU3Ec__DisplayClass3_0_t9BD0CED159A4AFFF2564BF61B3B1AD1D467F46E7* L_23 = V_0;
 		NullCheck(L_23);
@@ -26788,14 +26788,14 @@ IL_006d:
 		FinalAction__ctor_mDBE9C8768D258CE7BD782A18C703A9C6B1BBBA31(L_27, L_26, NULL);
 		NullCheck(L_22);
 		Dictionary_2_Add_m974F46C5AF6E06CCCF3CFDB1564327E44D65D85A(L_22, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:166>
 		U3CU3Ec__DisplayClass3_0_t9BD0CED159A4AFFF2564BF61B3B1AD1D467F46E7* L_28 = V_0;
 		NullCheck(L_28);
 		int32_t L_29 = L_28->___instance;
 		RuntimeObject* L_30 = ___1_decoration;
 		NullCheck((DecoratorBase_2_t16D01AF84DF042CA62C12D62B5B5784C197E4138*)__this);
 		DecoratorBase_2_CompleteAsynchronousRequests_m50B879FD6761581242816329ACB439C29B3B066F((DecoratorBase_2_t16D01AF84DF042CA62C12D62B5B5784C197E4138*)__this, L_29, L_30, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:167>
 		return;
 	}
 }
@@ -26807,8 +26807,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 	Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0* V_2 = NULL;
 	FinalAction_t0E6DBF9CCEB18BE705CAE3EB01C04AF77D20CBC8* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:180>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:181>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_0 = __this->____instanceToDecoration;
 		int32_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -26830,8 +26830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:183>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:184>
 		ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49* L_5 = __this->____cleanupActions;
 		RuntimeObject* L_6 = V_1;
 		NullCheck(L_5);
@@ -26854,17 +26854,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:186>
 		FinalAction_t0E6DBF9CCEB18BE705CAE3EB01C04AF77D20CBC8* L_11 = V_3;
 		NullCheck(L_11);
 		FinalAction_Cancel_mA460FA5CD100800057787740B82E171398853DAD(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:187>
 		Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0* L_12 = V_2;
 		int32_t L_13 = ___0_instance;
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = Dictionary_2_Remove_mD9C7328C47F8CC5F5192BDB11B8B25567CA78E92(L_12, L_13, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:188>
 		Dictionary_2_tB05B960805C516BF7DBF7F5B11C3080CD2BCB3B0* L_15 = V_2;
 		NullCheck(L_15);
 		int32_t L_16;
@@ -26875,7 +26875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:190>
 		ConditionalWeakTable_2_t5C926DBC2A7CBD82C471B3B63D3E3393D4E7DC49* L_17 = __this->____cleanupActions;
 		RuntimeObject* L_18 = V_1;
 		NullCheck(L_17);
@@ -26885,7 +26885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:198>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_20 = __this->____instanceToDecoration;
 		int32_t L_21 = ___0_instance;
 		NullCheck(L_20);
@@ -26895,7 +26895,7 @@ IL_0058:
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:200>
 		return;
 	}
 }
@@ -26904,7 +26904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 {
 	WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:210>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_0 = __this->____instanceToDecoration;
 		int32_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -26916,7 +26916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:212>
 		WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* L_3 = V_0;
 		RuntimeObject** L_4 = ___1_decoration;
 		NullCheck(L_3);
@@ -26927,10 +26927,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:216>
 		RuntimeObject** L_6 = ___1_decoration;
 		il2cpp_codegen_initobj(L_6, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:217>
 		return (bool)0;
 	}
 }
@@ -26946,7 +26946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 	WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:233>
 		Dictionary_2_t8F46989A76D81A2622DEA40E99E6D8B474BB7DE0* L_0 = __this->____instanceToDecoration;
 		int32_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -26968,7 +26968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:235>
 		RuntimeObject* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_6;
@@ -26978,7 +26978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:239>
 		int32_t L_7 = ___0_instance;
 		NullCheck((DecoratorBase_2_t16D01AF84DF042CA62C12D62B5B5784C197E4138*)__this);
 		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_8;
@@ -26998,19 +26998,19 @@ IL_0021:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2__ctor_mB0322FC441B4F2C748F492C3BA94AD9FDB830DBA_gshared (ValueToClassDecorator_2_tE3E31DF63EE613374E083742615529663F476FAC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:133>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_0 = (Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		((  void (*) (Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		__this->____instanceToDecoration = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____instanceToDecoration), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:134>
 		ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696* L_1 = (ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		((  void (*) (ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 		__this->____cleanupActions = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cleanupActions), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:136>
 		((  void (*) (DecoratorBase_2_t5E1266E04D0DEBB3ED47ED9A082BCEFA4EA3B844*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))((DecoratorBase_2_t5E1266E04D0DEBB3ED47ED9A082BCEFA4EA3B844*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:136>
 		return;
 	}
 }
@@ -27044,7 +27044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_m1
 		il2cpp_codegen_memcpy(L_3, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_2);
 		il2cpp_codegen_write_instance_field_data(L_2, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1), L_3, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:147>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_4 = __this->____instanceToDecoration;
 		U3CU3Ec__DisplayClass3_0_tA05F20923A6D84016498C053371B1CC4A3F8821F* L_5 = V_0;
 		il2cpp_codegen_memcpy(L_6, il2cpp_codegen_get_instance_field_data_pointer(L_5, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
@@ -27057,7 +27057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_m1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:149>
 		U3CU3Ec__DisplayClass3_0_tA05F20923A6D84016498C053371B1CC4A3F8821F* L_8 = V_0;
 		il2cpp_codegen_memcpy(L_9, il2cpp_codegen_get_instance_field_data_pointer(L_8, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		InvokerActionInvoker1< Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)), il2cpp_rgctx_method(method->klass->rgctx_data, 11), __this, L_9);
@@ -27065,7 +27065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_AddDecoration_m1
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:152>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_10 = __this->____instanceToDecoration;
 		U3CU3Ec__DisplayClass3_0_tA05F20923A6D84016498C053371B1CC4A3F8821F* L_11 = V_0;
 		il2cpp_codegen_memcpy(L_12, il2cpp_codegen_get_instance_field_data_pointer(L_11, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
@@ -27074,7 +27074,7 @@ IL_0033:
 		WeakReference_1__ctor_m932665C8861A22B177DC1ACF1EDAA87E1624B5AC(L_14, L_13, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck(L_10);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 15)), il2cpp_rgctx_method(method->klass->rgctx_data, 15), L_10, L_12, L_14);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:154>
 		ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696* L_15 = __this->____cleanupActions;
 		RuntimeObject* L_16 = ___1_decoration;
 		NullCheck(L_15);
@@ -27086,7 +27086,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:156>
 		ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696* L_18 = __this->____cleanupActions;
 		RuntimeObject* L_19 = ___1_decoration;
 		Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B* L_20 = (Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
@@ -27099,13 +27099,13 @@ IL_0033:
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:158>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:159>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:160>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:161>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:162>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:163>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:164>
 		Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B* L_22 = V_1;
 		U3CU3Ec__DisplayClass3_0_tA05F20923A6D84016498C053371B1CC4A3F8821F* L_23 = V_0;
 		il2cpp_codegen_memcpy(L_24, il2cpp_codegen_get_instance_field_data_pointer(L_23, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
@@ -27116,13 +27116,13 @@ IL_006d:
 		FinalAction__ctor_mDBE9C8768D258CE7BD782A18C703A9C6B1BBBA31(L_27, L_26, NULL);
 		NullCheck(L_22);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, FinalAction_t0E6DBF9CCEB18BE705CAE3EB01C04AF77D20CBC8* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 22)), il2cpp_rgctx_method(method->klass->rgctx_data, 22), L_22, L_24, L_27);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:166>
 		U3CU3Ec__DisplayClass3_0_tA05F20923A6D84016498C053371B1CC4A3F8821F* L_28 = V_0;
 		il2cpp_codegen_memcpy(L_29, il2cpp_codegen_get_instance_field_data_pointer(L_28, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7),1)), SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		RuntimeObject* L_30 = ___1_decoration;
 		NullCheck((DecoratorBase_2_t5E1266E04D0DEBB3ED47ED9A082BCEFA4EA3B844*)__this);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, RuntimeObject* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)), il2cpp_rgctx_method(method->klass->rgctx_data, 23), (DecoratorBase_2_t5E1266E04D0DEBB3ED47ED9A082BCEFA4EA3B844*)__this, L_29, L_30);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:167>
 		return;
 	}
 }
@@ -27139,8 +27139,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 	Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B* V_2 = NULL;
 	FinalAction_t0E6DBF9CCEB18BE705CAE3EB01C04AF77D20CBC8* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:180>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:181>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_0);
@@ -27162,8 +27162,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:183>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:184>
 		ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696* L_5 = __this->____cleanupActions;
 		RuntimeObject* L_6 = V_1;
 		NullCheck(L_5);
@@ -27186,17 +27186,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:186>
 		FinalAction_t0E6DBF9CCEB18BE705CAE3EB01C04AF77D20CBC8* L_11 = V_3;
 		NullCheck(L_11);
 		FinalAction_Cancel_mA460FA5CD100800057787740B82E171398853DAD(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:187>
 		Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B* L_12 = V_2;
 		il2cpp_codegen_memcpy(L_13, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = InvokerFuncInvoker1< bool, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)), il2cpp_rgctx_method(method->klass->rgctx_data, 29), L_12, L_13);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:188>
 		Dictionary_2_t5C05F2998969E1246C6CBC9DC04A13A34B98161B* L_15 = V_2;
 		NullCheck(L_15);
 		int32_t L_16;
@@ -27207,7 +27207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:190>
 		ConditionalWeakTable_2_t0179D4255EB3037FE2B794A78F514D9C4E0B5696* L_17 = __this->____cleanupActions;
 		RuntimeObject* L_18 = V_1;
 		NullCheck(L_17);
@@ -27217,7 +27217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToClassDecorator_2_RemoveDecoration
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:198>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_20 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_21, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_20);
@@ -27227,7 +27227,7 @@ IL_0058:
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:200>
 		return;
 	}
 }
@@ -27238,7 +27238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 	WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:210>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_0);
@@ -27250,7 +27250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:212>
 		WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* L_3 = V_0;
 		RuntimeObject** L_4 = ___1_decoration;
 		NullCheck(L_3);
@@ -27261,10 +27261,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToClassDecorator_2_TryGetDecoration
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:216>
 		RuntimeObject** L_6 = ___1_decoration;
 		il2cpp_codegen_initobj(L_6, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:217>
 		return (bool)0;
 	}
 }
@@ -27283,7 +27283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 	WeakReference_1_tED795563AD26F795CED3BBCD488AB1694E385BCE* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:233>
 		Dictionary_2_t1C1FE368B3F989A68E880F8D2DE0309E6DB4FD39* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck(L_0);
@@ -27305,7 +27305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:235>
 		RuntimeObject* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_6;
@@ -27315,7 +27315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:239>
 		il2cpp_codegen_memcpy(L_7, ___0_instance, SizeOf_InstanceT_tBED1061371F6662D70907794D76FA8157F9DEB4B);
 		NullCheck((DecoratorBase_2_t5E1266E04D0DEBB3ED47ED9A082BCEFA4EA3B844*)__this);
 		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_8;
@@ -27335,14 +27335,14 @@ IL_0021:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2__ctor_mB6ED8DB6F839E43E36C29F994B3DAF27F4D464E6_gshared (ValueToValueDecorator_2_t868AE22767E55DABA49F649486FA38136846301E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:262>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_0 = (Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		Dictionary_2__ctor_m0943E012B37A35FBEF60AD016A84A88D7D0430BA(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		__this->____instanceToDecoration = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____instanceToDecoration), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:264>
 		DecoratorBase_2__ctor_m057983B1B6289D450BBECA2AC4BE2927EE3B18D8((DecoratorBase_2_t865529E11B5A87480DF8A662461140A209E0644B*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:264>
 		return;
 	}
 }
@@ -27350,7 +27350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2__ctor_mB6ED8DB6F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_AddDecoration_m10F41EF31D9D58AD22068F941BBD6981376DEB1C_gshared (ValueToValueDecorator_2_t868AE22767E55DABA49F649486FA38136846301E* __this, uint64_t ___0_instance, int32_t ___1_decoration, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:275>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_0 = __this->____instanceToDecoration;
 		uint64_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -27362,25 +27362,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_AddDecoration_m1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:277>
 		uint64_t L_3 = ___0_instance;
 		ValueToValueDecorator_2_RemoveDecoration_mC0D137C8D27807E31F20826C1AA730C42FC8D32D(__this, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:280>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_4 = __this->____instanceToDecoration;
 		uint64_t L_5 = ___0_instance;
 		int32_t L_6 = ___1_decoration;
 		NullCheck(L_4);
 		Dictionary_2_Add_m8EB75802BF78249E62808FC4D4CF92D64ED91D50(L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:282>
 		uint64_t L_7 = ___0_instance;
 		int32_t L_8 = ___1_decoration;
 		NullCheck((DecoratorBase_2_t865529E11B5A87480DF8A662461140A209E0644B*)__this);
 		DecoratorBase_2_CompleteAsynchronousRequests_m1297173535B62826671B93FDD0099027B6641814((DecoratorBase_2_t865529E11B5A87480DF8A662461140A209E0644B*)__this, L_7, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:283>
 		return;
 	}
 }
@@ -27389,7 +27389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:296>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_0 = __this->____instanceToDecoration;
 		uint64_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -27401,7 +27401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:298>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_3 = __this->____instanceToDecoration;
 		uint64_t L_4 = ___0_instance;
 		NullCheck(L_3);
@@ -27411,7 +27411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:300>
 		return;
 	}
 }
@@ -27419,7 +27419,7 @@ IL_001d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToValueDecorator_2_TryGetDecoration_m420A4B94220BF890CBED4C413E432E956C6FFED7_gshared (ValueToValueDecorator_2_t868AE22767E55DABA49F649486FA38136846301E* __this, uint64_t ___0_instance, int32_t* ___1_decoration, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:310>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_0 = __this->____instanceToDecoration;
 		uint64_t L_1 = ___0_instance;
 		int32_t* L_2 = ___1_decoration;
@@ -27432,16 +27432,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToValueDecorator_2_TryGetDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:312>
 		return (bool)1;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:316>
 		int32_t* L_4 = ___1_decoration;
 		il2cpp_codegen_initobj(L_4, sizeof(int32_t));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:317>
 		return (bool)0;
 	}
 }
@@ -27456,7 +27456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:333>
 		Dictionary_2_tFAAC2C80249DD69953E2833CF96994BE03335ADB* L_0 = __this->____instanceToDecoration;
 		uint64_t L_1 = ___0_instance;
 		NullCheck(L_0);
@@ -27468,7 +27468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:335>
 		int32_t L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* L_4;
@@ -27478,7 +27478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:339>
 		uint64_t L_5 = ___0_instance;
 		NullCheck((DecoratorBase_2_t865529E11B5A87480DF8A662461140A209E0644B*)__this);
 		Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* L_6;
@@ -27498,14 +27498,14 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2__ctor_m92BE6A8DFDC95FD928A434948957D9A8AFF8EA0D_gshared (ValueToValueDecorator_2_t27BBACDEA4A8C83CBAE2FCCC6CC26F08CDC458F8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:262>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_0 = (Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		((  void (*) (Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		__this->____instanceToDecoration = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____instanceToDecoration), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:264>
 		((  void (*) (DecoratorBase_2_tF604B6DCE7BE976AC9C156430705CC46A383788F*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))((DecoratorBase_2_tF604B6DCE7BE976AC9C156430705CC46A383788F*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:264>
 		return;
 	}
 }
@@ -27521,7 +27521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_AddDecoration_mF
 	const Il2CppFullySharedGenericStruct L_6 = alloca(SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	const Il2CppFullySharedGenericStruct L_8 = alloca(SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:275>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		NullCheck(L_0);
@@ -27533,25 +27533,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_AddDecoration_mF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:277>
 		il2cpp_codegen_memcpy(L_3, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		InvokerActionInvoker1< Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 7), __this, L_3);
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:280>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_4 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_5, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		il2cpp_codegen_memcpy(L_6, ___1_decoration, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 		NullCheck(L_4);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), L_4, L_5, L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:282>
 		il2cpp_codegen_memcpy(L_7, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		il2cpp_codegen_memcpy(L_8, ___1_decoration, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 		NullCheck((DecoratorBase_2_tF604B6DCE7BE976AC9C156430705CC46A383788F*)__this);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)), il2cpp_rgctx_method(method->klass->rgctx_data, 10), (DecoratorBase_2_tF604B6DCE7BE976AC9C156430705CC46A383788F*)__this, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:283>
 		return;
 	}
 }
@@ -27565,7 +27565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 	Il2CppFullySharedGenericStruct V_0 = alloca(SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	memset(V_0, 0, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:296>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		NullCheck(L_0);
@@ -27577,7 +27577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:298>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_3 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_4, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		NullCheck(L_3);
@@ -27587,7 +27587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueToValueDecorator_2_RemoveDecoration
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:300>
 		return;
 	}
 }
@@ -27598,7 +27598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToValueDecorator_2_TryGetDecoration
 	const uint32_t SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 8));
 	const Il2CppFullySharedGenericStruct L_1 = alloca(SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:310>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:310>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		Il2CppFullySharedGenericStruct* L_2 = ___1_decoration;
@@ -27611,16 +27611,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueToValueDecorator_2_TryGetDecoration
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:312>
 		return (bool)1;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:316>
 		Il2CppFullySharedGenericStruct* L_4 = ___1_decoration;
 		il2cpp_codegen_initobj(L_4, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:317>
 		return (bool)0;
 	}
 }
@@ -27641,7 +27641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t59ADC77AFDE6B85975A34FC31711EAE91701F
 	Il2CppFullySharedGenericStruct V_0 = alloca(SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	memset(V_0, 0, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:333>
 		Dictionary_2_t0E4D9652CA90E8A6E258E9AB683593A6C0DBC4DA* L_0 = __this->____instanceToDecoration;
 		il2cpp_codegen_memcpy(L_1, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		NullCheck(L_0);
@@ -27653,7 +27653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t59ADC77AFDE6B85975A34FC31711EAE91701F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:335>
 		il2cpp_codegen_memcpy(L_3, V_0, SizeOf_DecorationT_tDB776D7FADD548911FC8AA55774B6CDF4F73AA4F);
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_1_t59ADC77AFDE6B85975A34FC31711EAE91701F4EE* L_4;
@@ -27663,7 +27663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t59ADC77AFDE6B85975A34FC31711EAE91701F
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@9cc3f2563948/Runtime/Scripts/Utils/DecorationUtils.cs:339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@c7b9fd4a82b0/Runtime/Scripts/Utils/DecorationUtils.cs:339>
 		il2cpp_codegen_memcpy(L_5, ___0_instance, SizeOf_InstanceT_t46209AB523381BCC28A72D90A753716EB5D06C59);
 		NullCheck((DecoratorBase_2_tF604B6DCE7BE976AC9C156430705CC46A383788F*)__this);
 		Task_1_t59ADC77AFDE6B85975A34FC31711EAE91701F4EE* L_6;

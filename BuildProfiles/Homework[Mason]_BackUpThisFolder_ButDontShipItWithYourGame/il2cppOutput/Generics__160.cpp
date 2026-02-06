@@ -16027,7 +16027,7 @@ IL_0043:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProxyController_1_get_Target_mDEB57D2EA165195A74C99A3ABFB0ABF4265B5FCD_gshared (ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
 		RuntimeObject* L_0 = __this->___U3CTargetU3Ek__BackingField;
 		return L_0;
 	}
@@ -16036,7 +16036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProxyController_1_get_Target_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyController_1_set_Target_mF5EE24279BDFECCA5095043393760AA5ABB2C74D_gshared (ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTargetU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTargetU3Ek__BackingField), (void*)L_0);
@@ -16048,7 +16048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyController_1_Fill_m2A94FC3DAF15CBCF
 {
 	ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:38>
 		Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14* L_0 = ___1_targets;
 		RuntimeObject* L_1 = ___0_target;
 		NullCheck(L_0);
@@ -16067,28 +16067,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyController_1_Fill_m2A94FC3DAF15CBCF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:38>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:40>
 		Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14* L_4 = ___1_targets;
 		RuntimeObject* L_5 = ___0_target;
 		NullCheck(L_4);
 		Dictionary_2_set_Item_mA36AAD49C81D0725CB2C71C0CE29099B7E23CFD1(L_4, L_5, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:42>
 		RuntimeObject* L_6 = ___0_target;
 		ProxyController_1_set_Target_mF5EE24279BDFECCA5095043393760AA5ABB2C74D_inline(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:44>
 		VirtualActionInvoker0::Invoke(4, __this);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:46>
 		RuntimeObject* L_7;
 		L_7 = ProxyController_1_get_Target_mDEB57D2EA165195A74C99A3ABFB0ABF4265B5FCD_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_7);
 		Controller_RefreshLayout_m643C7D1573F29B77944420A7C8D07726134EB323((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_7, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:47>
 		return;
 	}
 }
@@ -16112,7 +16112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyController_1__ctor_mCBCFE85664143F4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProxyFlex_2_get_Dirty_m338DE268E44D8B4751EFFDE31FB1E62970152322_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
 		bool L_0 = __this->___U3CDirtyU3Ek__BackingField;
 		return L_0;
 	}
@@ -16121,7 +16121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProxyFlex_2_get_Dirty_m338DE268E44D8B475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
 		bool L_0 = ___0_value;
 		__this->___U3CDirtyU3Ek__BackingField = L_0;
 		return;
@@ -16131,7 +16131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_set_Dirty_mF7C08236B0490A93A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:46>
 		ScrollView_tC06FCC2C5F7056B74C2A6D7F5976897DA63B1FA2* L_0 = __this->____scrollView;
 		NullCheck(L_0);
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_1;
@@ -16143,7 +16143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE95
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:47>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____proxyChildren;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -16161,7 +16161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProxyFlex_2_get_NumberOfControllers_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:48>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_0;
 		L_0 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_0);
@@ -16189,31 +16189,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2__ctor_mFEBBB3E39F34D7F8FA75D
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:40>
 		Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14* L_0 = (Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
 		Dictionary_2__ctor_m040334778F703A4CA208A25F9E9974705A19760D(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		__this->____targetsDictionary = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____targetsDictionary), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:43>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		__this->____proxyChildren = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____proxyChildren), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:57>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:60>
 		ScrollView_tC06FCC2C5F7056B74C2A6D7F5976897DA63B1FA2* L_2 = ___3_scrollView;
 		__this->____scrollView = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____scrollView), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
 		V_0 = 0;
 		goto IL_0049;
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:65>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_3;
 		L_3 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		String_t* L_4;
@@ -16221,18 +16221,18 @@ IL_0028:
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_3);
 		RuntimeObject* L_5;
 		L_5 = Controller_Append_TisRuntimeObject_m518A2CC0F82FDCFA762886E92EE278D94BCDFC58((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_3, L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:66>
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_6 = ___2_layoutStyle;
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_5);
 		Controller_set_LayoutStyle_m0DCC79A5F6FC2F3FFC366CB1295A37661B0DD89A((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:63>
 		int32_t L_8 = V_0;
 		int32_t L_9 = ___0_numberOfInstantiatedControllers;
 		if ((((int32_t)L_8) < ((int32_t)L_9)))
@@ -16241,14 +16241,14 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:69>
 		int32_t L_10 = ___1_maximumNumberOfProxies;
 		__this->____maximumNumberOfProxies = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:71>
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_11 = ___2_layoutStyle;
 		__this->____childrenLayoutStyle = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____childrenLayoutStyle), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:74>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_12;
 		L_12 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_12);
@@ -16256,13 +16256,13 @@ IL_0049:
 		L_13 = Controller_Prepend_TisController_tD1D864C815FC4FCDC85F17939716E36A88B39386_m54AF080287502D4983695E212BE176B3E460AF9D((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_12, _stringLiteralBCC1ECDF2A921E0F4F2600A3DA4CB634588E28A8, Controller_Prepend_TisController_tD1D864C815FC4FCDC85F17939716E36A88B39386_m54AF080287502D4983695E212BE176B3E460AF9D_RuntimeMethod_var);
 		__this->____before = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____before), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:75>
 		Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* L_14 = __this->____before;
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_15;
 		L_15 = Style_Instantiate_TisLayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177_mDCDAD7E4DCED4864DBCE3EB0E1605BE75517692C(_stringLiteral9D7AED08930F52B5AAB58B2CBC3E9482D298B52C, Style_Instantiate_TisLayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177_mDCDAD7E4DCED4864DBCE3EB0E1605BE75517692C_RuntimeMethod_var);
 		NullCheck(L_14);
 		Controller_set_LayoutStyle_m0DCC79A5F6FC2F3FFC366CB1295A37661B0DD89A(L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:76>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_16;
 		L_16 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_16);
@@ -16270,13 +16270,13 @@ IL_0049:
 		L_17 = Controller_Append_TisController_tD1D864C815FC4FCDC85F17939716E36A88B39386_m5F5CC98DC700BE5FE6F75BBEE55FE04D0B2E6B74((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_16, _stringLiteral61D82A6D056F63D8FBEA0F6047658030510B2383, Controller_Append_TisController_tD1D864C815FC4FCDC85F17939716E36A88B39386_m5F5CC98DC700BE5FE6F75BBEE55FE04D0B2E6B74_RuntimeMethod_var);
 		__this->____after = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____after), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:77>
 		Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* L_18 = __this->____after;
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_19;
 		L_19 = Style_Instantiate_TisLayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177_mDCDAD7E4DCED4864DBCE3EB0E1605BE75517692C(_stringLiteral9D7AED08930F52B5AAB58B2CBC3E9482D298B52C, Style_Instantiate_TisLayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177_mDCDAD7E4DCED4864DBCE3EB0E1605BE75517692C_RuntimeMethod_var);
 		NullCheck(L_18);
 		Controller_set_LayoutStyle_m0DCC79A5F6FC2F3FFC366CB1295A37661B0DD89A(L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:78>
 		return;
 	}
 }
@@ -16285,7 +16285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProxyFlex_2_AppendProxy_mABC8B
 {
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:82>
 		int32_t L_0;
 		L_0 = ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_1 = __this->____maximumNumberOfProxies;
@@ -16295,7 +16295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProxyFlex_2_AppendProxy_mABC8B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:84>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2 = __this->____proxyChildren;
 		NullCheck(L_2);
 		RuntimeObject* L_3;
@@ -16305,18 +16305,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProxyFlex_2_AppendProxy_mABC8B
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:87>
 		RuntimeObject* L_4;
 		L_4 = OVRObjectPool_Get_TisRuntimeObject_m4C4607A6D063CCEB8FFE7317FC0AC3A536AEFD1C(il2cpp_rgctx_method(method->klass->rgctx_data, 13));
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:88>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_5 = __this->____proxyChildren;
 		RuntimeObject* L_6 = V_0;
 		NullCheck(L_5);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:89>
 		ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_inline(__this, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:90>
 		RuntimeObject* L_7 = V_0;
 		return L_7;
 	}
@@ -16331,13 +16331,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_RemoveProxy_mED3ED66352C9314
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:95>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____proxyChildren;
 		RuntimeObject* L_1 = ___0_proxy;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:96>
 		RuntimeObject* L_3 = ___0_proxy;
 		NullCheck((ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B*)L_3);
 		RuntimeObject* L_4;
@@ -16351,7 +16351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_RemoveProxy_mED3ED66352C9314
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:98>
 		Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14* L_6 = __this->____targetsDictionary;
 		RuntimeObject* L_7 = ___0_proxy;
 		NullCheck((ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B*)L_7);
@@ -16364,12 +16364,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_RemoveProxy_mED3ED66352C9314
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:101>
 		RuntimeObject* L_10 = ___0_proxy;
 		OVRObjectPool_Return_TisRuntimeObject_m59E9AEA1458F1459886C344546AFF3482B15F519(L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 20));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:102>
 		ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_inline(__this, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:103>
 		return;
 	}
 }
@@ -16379,7 +16379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Clear_m3A2A4CCE792B749B59329
 	Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->____proxyChildren;
 		NullCheck(L_0);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_1;
@@ -16404,16 +16404,16 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 23));
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:109>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:109>
 				OVRObjectPool_Return_TisRuntimeObject_m59E9AEA1458F1459886C344546AFF3482B15F519(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 20));
 			}
 
 IL_001a_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:107>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 				if (L_3)
@@ -16433,17 +16433,17 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:112>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = __this->____proxyChildren;
 		NullCheck(L_4);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 27));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:113>
 		Dictionary_2_t48022136DBC46545B3C1414CAD949CE29D56FA14* L_5 = __this->____targetsDictionary;
 		NullCheck(L_5);
 		Dictionary_2_Clear_mC4F286EA8C29224E1604A5CE6D559990266817B2(L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:114>
 		ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_inline(__this, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:115>
 		return;
 	}
 }
@@ -16451,7 +16451,7 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Update_mBC2BDDF013AC675CC2721D10007091D63391327E_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:119>
 		bool L_0;
 		L_0 = ProxyFlex_2_HasScrolledEnough_mA5E3D8229EFE259E4F6E7FD062B70E5EA14B65A6(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
 		if (!L_0)
@@ -16460,13 +16460,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Update_mBC2BDDF013AC675CC272
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:121>
 		ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_inline(__this, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:124>
 		bool L_1;
 		L_1 = ProxyFlex_2_get_Dirty_m338DE268E44D8B4751EFFDE31FB1E62970152322_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 30));
 		if (!L_1)
@@ -16475,15 +16475,15 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:126>
 		ProxyFlex_2_Fill_m5363CC231A12F72452CE002700DE20FE3E5CA1EB(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:127>
 		ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_inline(__this, (bool)0, il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:129>
 		return;
 	}
 }
@@ -16491,7 +16491,7 @@ IL_0024:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProxyFlex_2_HasScrolledEnough_mA5E3D8229EFE259E4F6E7FD062B70E5EA14B65A6_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:134>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_0;
 		L_0 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_0);
@@ -16528,7 +16528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Fill_m5363CC231A12F72452CE00
 	int32_t V_8 = 0;
 	RuntimeObject* V_9 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:139>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_0;
 		L_0 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_0);
@@ -16539,7 +16539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Fill_m5363CC231A12F72452CE00
 		L_2 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_1, NULL);
 		float L_3 = L_2.___y;
 		__this->____lastScroll = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:142>
 		ScrollView_tC06FCC2C5F7056B74C2A6D7F5976897DA63B1FA2* L_4 = __this->____scrollView;
 		NullCheck(L_4);
 		float L_5;
@@ -16547,24 +16547,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Fill_m5363CC231A12F72452CE00
 		float L_6;
 		L_6 = ProxyFlex_2_ComputeStartHeightFromProgress_m1BA73A53F65E067B94627CC22ADD0344F2786561(__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:145>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_7;
 		L_7 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_7);
 		List_1_tF69BC40AD4F6D8D2D7B94894BC2B913F64D28DBD* L_8;
 		L_8 = Controller_get_Children_mF2E5D2651D061A486CB8C6C75ABFD8F3E28D570C_inline((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:146>
 		float L_9 = V_0;
 		int32_t L_10;
 		L_10 = ProxyFlex_2_GetItemIndexAtHeight_m50E175AD4D5BBE55649AAB63E8FE2AEAAB8C51F6(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 33));
 		V_2 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:147>
 		int32_t L_11 = V_2;
 		int32_t L_12;
 		L_12 = ProxyFlex_2_get_NumberOfControllers_m3BB265EEAA112FD1045C5ADB44D2C9AB2A737113(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 34));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_11, L_12)), 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:150>
 		int32_t L_13 = V_3;
 		int32_t L_14;
 		L_14 = ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
@@ -16575,17 +16575,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Fill_m5363CC231A12F72452CE00
 		int32_t L_17;
 		L_17 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, L_16, NULL);
 		V_4 = L_17;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:151>
 		int32_t L_18 = V_2;
 		int32_t L_19 = V_4;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_18, L_19));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:152>
 		int32_t L_20 = V_3;
 		int32_t L_21 = V_4;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_20, L_21));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:153>
 		V_5 = 1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
 		int32_t L_22 = V_2;
 		V_8 = L_22;
 		goto IL_00bc;
@@ -16593,7 +16593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProxyFlex_2_Fill_m5363CC231A12F72452CE00
 
 IL_0074:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:157>
 		int32_t L_23 = V_8;
 		int32_t L_24;
 		L_24 = ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
@@ -16603,7 +16603,7 @@ IL_0074:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:159>
 		List_1_tF69BC40AD4F6D8D2D7B94894BC2B913F64D28DBD* L_25 = V_1;
 		int32_t L_26 = V_5;
 		int32_t L_27 = L_26;
@@ -16612,7 +16612,7 @@ IL_0074:
 		Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* L_28;
 		L_28 = List_1_get_Item_m6C1A074F5C634FC95C16588C5963426CA1E98EE2(L_25, L_27, List_1_get_Item_m6C1A074F5C634FC95C16588C5963426CA1E98EE2_RuntimeMethod_var);
 		V_9 = ((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:160>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_29 = __this->____proxyChildren;
 		int32_t L_30 = V_8;
 		NullCheck(L_29);
@@ -16626,14 +16626,14 @@ IL_0074:
 
 IL_00b6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
 		int32_t L_34 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
 IL_00bc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:155>
 		int32_t L_35 = V_8;
 		int32_t L_36 = V_3;
 		if ((((int32_t)L_35) <= ((int32_t)L_36)))
@@ -16642,29 +16642,29 @@ IL_00bc:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:165>
 		int32_t L_37 = V_2;
 		float L_38;
 		L_38 = ProxyFlex_2_ComputeHeight_m8D5150D6A5F15E570874B42364DB0BBD42FCD768(__this, 0, ((int32_t)il2cpp_codegen_subtract(L_37, 1)), il2cpp_rgctx_method(method->klass->rgctx_data, 36));
 		V_6 = L_38;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:166>
 		int32_t L_39 = V_3;
 		int32_t L_40;
 		L_40 = ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		float L_41;
 		L_41 = ProxyFlex_2_ComputeHeight_m8D5150D6A5F15E570874B42364DB0BBD42FCD768(__this, ((int32_t)il2cpp_codegen_add(L_39, 1)), ((int32_t)il2cpp_codegen_subtract(L_40, 1)), il2cpp_rgctx_method(method->klass->rgctx_data, 36));
 		V_7 = L_41;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:167>
 		Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* L_42 = __this->____before;
 		float L_43 = V_6;
 		NullCheck(L_42);
 		Controller_SetHeight_m00D0A61737400182889A4E221AF4C511C2B05EA7(L_42, L_43, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:168>
 		Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* L_44 = __this->____after;
 		float L_45 = V_7;
 		NullCheck(L_44);
 		Controller_SetHeight_m00D0A61737400182889A4E221AF4C511C2B05EA7(L_44, L_45, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:169>
 		return;
 	}
 }
@@ -16678,7 +16678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeTotalHeight_m9CF46AD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:174>
 		int32_t L_0;
 		L_0 = ProxyFlex_2_get_NumberOfProxies_m6BC120F1064C214B4A722CB56F56A0F9E95168DC(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_1;
@@ -16695,7 +16695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeTotalHeight_m9CF46AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeTotalUsefulHeight_m97AE74A58F07AC4DCE6045BA9FB380BE31DA2254_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:179>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:179>
 		float L_0;
 		L_0 = ProxyFlex_2_ComputeTotalHeight_m9CF46AD14E76E18892C511EC39C9962D0510B357(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
 		int32_t L_1;
@@ -16716,7 +16716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeTotalUsefulHeight_m9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeStartHeightFromProgress_m1BA73A53F65E067B94627CC22ADD0344F2786561_gshared (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:185>
 		float L_0 = ___0_progress;
 		float L_1;
 		L_1 = ProxyFlex_2_ComputeTotalUsefulHeight_m97AE74A58F07AC4DCE6045BA9FB380BE31DA2254(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
@@ -16734,7 +16734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProxyFlex_2_GetItemIndexAtHeight_m50E
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:192>
 		float L_0 = ___0_height;
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_1 = __this->____childrenLayoutStyle;
 		NullCheck(L_1);
@@ -16748,7 +16748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProxyFlex_2_GetItemIndexAtHeight_m50E
 		NullCheck(L_5);
 		float L_6 = L_5->___spacing;
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_0/((float)il2cpp_codegen_add(L_3, L_6)))));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:193>
 		int32_t L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_8;
@@ -16761,10 +16761,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeHeight_m8D5150D6A5F1
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:200>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:200>
 		int32_t L_0 = ___1_endIndex;
 		int32_t L_1 = ___0_startIndex;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:201>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:201>
 		Flex_tD790FC07CC2A01F924A9CD8B271FA2FBF86EE959* L_2;
 		L_2 = ProxyFlex_2_get_Flex_m7CFF7F1F1C822256E9511C1D59BB3A0AEDFC9D5A(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		NullCheck((Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386*)L_2);
@@ -16773,7 +16773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProxyFlex_2_ComputeHeight_m8D5150D6A5F1
 		NullCheck(L_3);
 		float L_4 = L_3->___spacing;
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:202>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:202>
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_5 = __this->____childrenLayoutStyle;
 		NullCheck(L_5);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_6 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_5->___size);
@@ -16926,7 +16926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueueScope_1__ctor_mD5515AA4F1D24FAA4377
 {
 	Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:219>
 		Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41** L_0 = ___0_queue;
 		Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41* L_1;
 		L_1 = ((  Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -16951,7 +16951,7 @@ IL2CPP_EXTERN_C  void QueueScope_1__ctor_mD5515AA4F1D24FAA4377BAC80B4AC176C963E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueueScope_1_Dispose_m131CAC63A1B39029AFD7A5140B7147FC60C40D38_gshared (QueueScope_1_tD44324E04FFBAD59B89ABAF179A818FAE7446C31* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/Util/OVRObjectPool.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/Util/OVRObjectPool.cs:220>
 		Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41* L_0 = __this->____queue;
 		((  void (*) (Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
 		return;
@@ -26782,7 +26782,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRBodyTransformer_t913A5C6DC68A5C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF69BC40AD4F6D8D2D7B94894BC2B913F64D28DBD* Controller_get_Children_mF2E5D2651D061A486CB8C6C75ABFD8F3E28D570C_inline (Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:90>
 		List_1_tF69BC40AD4F6D8D2D7B94894BC2B913F64D28DBD* L_0 = __this->____children;
 		return L_0;
 	}
@@ -26791,7 +26791,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF69BC40AD4F6D8D2D7B94894B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* Controller_get_RectTransform_mBBC871C7A4C81DA04D35132421487DAAA892BB6C_inline (Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:85>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___U3CRectTransformU3Ek__BackingField;
 		return L_0;
 	}
@@ -26800,7 +26800,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* Controller_get_LayoutStyle_m1D58B0FBB0CBF0F04B67A746336BD1F309E49405_inline (Controller_tD1D864C815FC4FCDC85F17939716E36A88B39386* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/Controller.cs:100>
 		LayoutStyle_t051DD646A1EC305B160B3C7F8ACB75795A57F177* L_0 = __this->____layoutStyle;
 		return L_0;
 	}
@@ -26937,7 +26937,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProxyController_1_set_Target_mF5EE24279BDFECCA5095043393760AA5ABB2C74D_gshared_inline (ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTargetU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTargetU3Ek__BackingField), (void*)L_0);
@@ -26948,7 +26948,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProxyController_1_set_Target
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ProxyController_1_get_Target_mDEB57D2EA165195A74C99A3ABFB0ABF4265B5FCD_gshared_inline (ProxyController_1_t9D95B3757E5A4E271BE96F94E513D1026B11E01B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyController.cs:34>
 		RuntimeObject* L_0 = __this->___U3CTargetU3Ek__BackingField;
 		return L_0;
 	}
@@ -26957,7 +26957,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ProxyController_1_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProxyFlex_2_set_Dirty_mF7C08236B0490A93A382C2D6D504B8F1CF7A7985_gshared_inline (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
 		bool L_0 = ___0_value;
 		__this->___U3CDirtyU3Ek__BackingField = L_0;
 		return;
@@ -26997,7 +26997,7 @@ IL_003c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ProxyFlex_2_get_Dirty_m338DE268E44D8B4751EFFDE31FB1E62970152322_gshared_inline (ProxyFlex_2_tD878579AD8618DD877E6A5822C0B719BFF3BD13E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@e6e7a2c46b82/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Scripts/ImmersiveDebugger/UserInterface/Generic/Controllers/ProxyFlex.cs:44>
 		bool L_0 = __this->___U3CDirtyU3Ek__BackingField;
 		return L_0;
 	}
