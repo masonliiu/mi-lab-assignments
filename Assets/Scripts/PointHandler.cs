@@ -64,4 +64,8 @@ public class PointHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     if (Outline == null) return;
     Outline.enabled = _eventSystemHovering || _hoveringPointerIds.Count > 0;
   }
+
+  public bool IsHovered {
+    get { return _eventSystemHovering || _hoveringPointerIds.Count > 0; }
+  }
 }
