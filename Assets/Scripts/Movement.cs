@@ -20,6 +20,10 @@ public class Movement : MonoBehaviour
   public BoxCollider boundaryCollider;
   public bool useBoundary = true; 
 
+  [Header("Ground Correction")]
+  public Collider groundCollider;
+  public float floorY = 0f;
+
   bool _leftPinchLastFrame;
   bool _rightPinchLastFrame;
 
@@ -35,6 +39,25 @@ public class Movement : MonoBehaviour
     }
     
     if (!IsWithinBoundary(teleportPos)) return;
+    
+    // Raycast down to find the actual surface we're teleporting to (floor, desk, table, etc.)
+    RaycastHit hit;
+    float targetSurfaceY = floorY; // fallback to floor
+    
+    if (Physics.Raycast(teleportPos + Vector3.up, Vector3.down, out hit, 5f)) {
+      targetSurfaceY = hit.point.y; // Use the actual surface we hit
+    } else if (groundCollider != null) {
+      targetSurfaceY = groundCollider.bounds.max.y; // Fallback to ground collider top
+    }
+    
+    // Place capsule bottom on the target surface
+    var capsule = rigRoot.GetComponentInChildren<CapsuleCollider>();
+    if (capsule != null) {
+      float bottomOffset = capsule.center.y - capsule.height * 0.5f;
+      teleportPos.y = targetSurfaceY - bottomOffset;
+    } else {
+      teleportPos.y = targetSurfaceY + 0.1f; // Simple fallback
+    }
     
     rigRoot.position = teleportPos;
   }
@@ -74,7 +97,7 @@ public class Movement : MonoBehaviour
     }
     // controller
     if (!teleportRequested) {
-      if (OVRInput.GetDown(OVRInput.Button.Four)) {
+      if (OVRInput.GetDown(OVRInput.Button.Two)) {
         useCursor = cursorDot;
         useRay = rayOrigin;
         teleportRequested = true;

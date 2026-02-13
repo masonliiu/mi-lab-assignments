@@ -97,14 +97,23 @@ public class InteractableVR : MonoBehaviour
     }
 
     void ScaleObject() {
-        transform.localScale += Vector3.one * 0.1f;
+        var renderer = GetComponent<Renderer>();
+        if (renderer != null) {
+            Vector3 centerBefore = renderer.bounds.center;
+            transform.localScale += Vector3.one * 0.1f;
+            Vector3 centerAfter = renderer.bounds.center;
+            transform.position += (centerBefore - centerAfter);
+        } else {
+            transform.localScale += Vector3.one * 0.1f;
+        }
     }
 
     void TeleportObject() {
-        // move rig root directly
+        // use mesh center, or transform if no renderer
+        Vector3 targetPos = _renderer != null ? _renderer.bounds.center : transform.position;
         var movement = FindFirstObjectByType<Movement>();
         if (movement != null && movement.rigRoot != null) {
-            movement.rigRoot.position = transform.position;
+            movement.rigRoot.position = targetPos;
         }
         gameObject.SetActive(false);
     }

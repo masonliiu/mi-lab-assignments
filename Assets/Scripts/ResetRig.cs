@@ -6,7 +6,7 @@ public class ResetRig: MonoBehaviour
   public Transform resetAnchor;
   void Update()
   {
-    if (OVRInput.GetDown(OVRInput.Button.Three)) {
+    if (OVRInput.GetDown(OVRInput.Button.Three) && OVRInput.Get(OVRInput.Button.Four)) {
       ResetToAnchor();
     }
   }
