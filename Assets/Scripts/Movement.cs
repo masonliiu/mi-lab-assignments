@@ -40,23 +40,22 @@ public class Movement : MonoBehaviour
     
     if (!IsWithinBoundary(teleportPos)) return;
     
-    // Raycast down to find the actual surface we're teleporting to (floor, desk, table, etc.)
+   // raycast downwards to object hit point
     RaycastHit hit;
-    float targetSurfaceY = floorY; // fallback to floor
+    float targetSurfaceY = floorY;
     
     if (Physics.Raycast(teleportPos + Vector3.up, Vector3.down, out hit, 5f)) {
-      targetSurfaceY = hit.point.y; // Use the actual surface we hit
+      targetSurfaceY = hit.point.y;
     } else if (groundCollider != null) {
-      targetSurfaceY = groundCollider.bounds.max.y; // Fallback to ground collider top
+      targetSurfaceY = groundCollider.bounds.max.y;
     }
     
-    // Place capsule bottom on the target surface
     var capsule = rigRoot.GetComponentInChildren<CapsuleCollider>();
     if (capsule != null) {
       float bottomOffset = capsule.center.y - capsule.height * 0.5f;
       teleportPos.y = targetSurfaceY - bottomOffset;
     } else {
-      teleportPos.y = targetSurfaceY + 0.1f; // Simple fallback
+      teleportPos.y = targetSurfaceY + 0.1f;
     }
     
     rigRoot.position = teleportPos;
