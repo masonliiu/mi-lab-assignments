@@ -25,6 +25,12 @@ public class InteractableVR : MonoBehaviour
             _originalColor = _renderer.material.color;
         }
     }
+
+    void Start() {
+        if (SceneResetManager.Instance != null) {
+            SceneResetManager.Instance.Register(transform);
+        }
+    }
     bool IsHovered() {
         return _pointHandler != null && _pointHandler.IsHovered;
     }
@@ -109,12 +115,24 @@ public class InteractableVR : MonoBehaviour
     }
 
     void TeleportObject() {
-        // use mesh center, or transform if no renderer
-        Vector3 targetPos = _renderer != null ? _renderer.bounds.center : transform.position;
         var movement = FindFirstObjectByType<Movement>();
-        if (movement != null && movement.rigRoot != null) {
-            movement.rigRoot.position = targetPos;
+        if (movement == null || movement.rigRoot == null) {
+            gameObject.SetActive(false);
+            return;
         }
+
+        float targetSurfaceY = _renderer != null ? _renderer.bounds.max.y : transform.position.y;
+        Vector3 targetPos = _renderer != null ? _renderer.bounds.center : transform.position;
+
+        var capsule = movement.rigRoot.GetComponentInChildren<CapsuleCollider>();
+        if (capsule != null) {
+            float bottomOffset = capsule.center.y - capsule.height * 0.5f;
+            targetPos.y = targetSurfaceY - bottomOffset;
+        } else {
+            targetPos.y = targetSurfaceY + 0.1f;
+        }
+
+        movement.rigRoot.position = targetPos;
         gameObject.SetActive(false);
     }
 }

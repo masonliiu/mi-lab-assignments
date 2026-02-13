@@ -14,5 +14,6 @@ public class ResetRig: MonoBehaviour
     {
         rigRoot.position = resetAnchor.position;
         rigRoot.rotation = resetAnchor.rotation;
+        SceneResetManager.Instance?.ResetAll();
     }
 }
