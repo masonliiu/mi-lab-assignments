@@ -3,9 +3,15 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
   public Transform rigRoot;
+  public float backOffDistance = 0.2f;
+  [Header("Left Controller")]
   public Transform cursorDot;
   public Transform rayOrigin;
-  public float backOffDistance = 0.2f;
+
+  [Header("Right Controller")]
+  public Transform cursorDotControllerRight;
+  public Transform rayOriginControllerRight;
+
   [Header("Hand Tracking (Pinch to Teleport)")]
   public OVRHand ovrHandLeft;
   public OVRHand ovrHandRight;
@@ -94,11 +100,20 @@ public class Movement : MonoBehaviour
       }
       _rightPinchLastFrame = rightPinch;
     }
-    // controller
+    
     if (!teleportRequested) {
-      if (OVRInput.GetDown(OVRInput.Button.Two)) {
+      // left controller hand trigger
+      if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger)) {
         useCursor = cursorDot;
         useRay = rayOrigin;
+        teleportRequested = true;
+      }
+    }
+    if (!teleportRequested) {
+      // right controller hand trigger
+      if (OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger)) {
+        useCursor = cursorDotControllerRight;
+        useRay = rayOriginControllerRight;
         teleportRequested = true;
       }
     }
