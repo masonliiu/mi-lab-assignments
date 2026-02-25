@@ -26,6 +26,7 @@ public class PointHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     if (_rayInteractable != null) {
       _rayInteractable.WhenPointerEventRaised += HandleOvrPointerEvent;
     }
+    UpdateOutline();
   }
 
   void OnDisable() {
@@ -63,6 +64,12 @@ public class PointHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
   private void UpdateOutline() {
     if (Outline == null) return;
     Outline.enabled = _eventSystemHovering || _hoveringPointerIds.Count > 0;
+  }
+
+  public void ForceClearHover() {
+    _hoveringPointerIds.Clear();
+    _eventSystemHovering = false;
+    UpdateOutline();
   }
 
   public bool IsHovered {
