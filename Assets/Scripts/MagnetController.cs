@@ -9,7 +9,6 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
     [SerializeField] private OVRInput.RawButton holdRawButtonFallback = OVRInput.RawButton.LIndexTrigger;
-    [SerializeField] private OVRInput.Button holdButtonFallback = OVRInput.Button.Three;
     [SerializeField] private bool preferHoveredInteractable = false;
 
     [Header("Floating Pull")]
@@ -33,8 +32,7 @@ public class MagnetController : MonoBehaviour
     {
         bool heldByAxis = OVRInput.Get(holdAxis) >= holdAxisThreshold;
         bool heldByRawFallback = OVRInput.Get(holdRawButtonFallback);
-        bool heldByButtonFallback = OVRInput.Get(holdButtonFallback);
-        bool held = heldByAxis || heldByRawFallback || heldByButtonFallback;
+        bool held = heldByAxis || heldByRawFallback;
 
         if (!held)
         {
