@@ -10,7 +10,7 @@ public class MagnetController : MonoBehaviour
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
     [SerializeField] private OVRInput.RawButton holdRawButtonFallback = OVRInput.RawButton.LIndexTrigger;
     [SerializeField] private OVRInput.Button holdButtonFallback = OVRInput.Button.Three;
-    [SerializeField] private float maxTargetBoundsSize = 6f;
+    [SerializeField] private bool preferHoveredInteractable = false;
 
     [Header("Floating Pull")]
     [SerializeField] private bool pullToControllerPosition = true;
@@ -101,6 +101,17 @@ public class MagnetController : MonoBehaviour
     private Transform GetCurrentHitTransform(out Rigidbody hitBody)
     {
         hitBody = null;
+
+        if (preferHoveredInteractable)
+        {
+            Transform hovered = GetHoveredTarget();
+            if (hovered != null)
+            {
+                hitBody = hovered.GetComponent<Rigidbody>();
+                return hovered;
+            }
+        }
+
         if (rayOrigin == null)
         {
             return null;
@@ -118,25 +129,50 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
-        if (!TryGetBoundsSize(target, out float boundsSize))
-        {
-            return null;
-        }
-
-        if (boundsSize > maxTargetBoundsSize)
-        {
-            return null; // Prevent magnetizing huge environment chunks like the whole room.
-        }
-
         hitBody = target.GetComponent<Rigidbody>();
         return target;
     }
 
+    private Transform GetHoveredTarget()
+    {
+        PointHandler[] handlers = FindObjectsByType<PointHandler>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+        for (int i = 0; i < handlers.Length; i++)
+        {
+            PointHandler ph = handlers[i];
+            if (ph == null || !ph.IsHovered)
+            {
+                continue;
+            }
+
+            InteractableVR iv = ph.GetComponentInParent<InteractableVR>();
+            if (iv != null)
+            {
+                return iv.transform;
+            }
+
+            Rigidbody rb = ph.GetComponentInParent<Rigidbody>();
+            if (rb != null)
+            {
+                return rb.transform;
+            }
+
+            return ph.transform;
+        }
+
+        return null;
+    }
+
     private Transform ResolveTargetTransform(RaycastHit hit)
     {
-        if (hit.transform == null || hit.transform.gameObject.isStatic)
+        if (hit.transform == null)
         {
             return null;
+        }
+
+        InteractableVR iv = hit.transform.GetComponentInParent<InteractableVR>();
+        if (iv != null)
+        {
+            return iv.transform;
         }
 
         MagnetizableBody magnetizable = hit.transform.GetComponentInParent<MagnetizableBody>();
@@ -151,36 +187,6 @@ public class MagnetController : MonoBehaviour
         }
 
         return hit.transform;
-    }
-
-    private bool TryGetBoundsSize(Transform target, out float size)
-    {
-        size = 0f;
-        var renderers = target.GetComponentsInChildren<Renderer>(true);
-        if (renderers.Length > 0)
-        {
-            Bounds bounds = renderers[0].bounds;
-            for (int i = 1; i < renderers.Length; i++)
-            {
-                bounds.Encapsulate(renderers[i].bounds);
-            }
-            size = Mathf.Max(bounds.size.x, Mathf.Max(bounds.size.y, bounds.size.z));
-            return true;
-        }
-
-        var colliders = target.GetComponentsInChildren<Collider>(true);
-        if (colliders.Length > 0)
-        {
-            Bounds bounds = colliders[0].bounds;
-            for (int i = 1; i < colliders.Length; i++)
-            {
-                bounds.Encapsulate(colliders[i].bounds);
-            }
-            size = Mathf.Max(bounds.size.x, Mathf.Max(bounds.size.y, bounds.size.z));
-            return true;
-        }
-
-        return false;
     }
 
     private void AcquireBody(Transform targetTransform, Rigidbody existingBody)
