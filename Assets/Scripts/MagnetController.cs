@@ -169,6 +169,12 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
+        PointHandler ph = hit.transform.GetComponentInParent<PointHandler>();
+        if (ph != null)
+        {
+            return ph.transform;
+        }
+
         InteractableVR iv = hit.transform.GetComponentInParent<InteractableVR>();
         if (iv != null)
         {
@@ -186,7 +192,7 @@ public class MagnetController : MonoBehaviour
             return hit.rigidbody.transform;
         }
 
-        return hit.transform;
+        return null;
     }
 
     private void AcquireBody(Transform targetTransform, Rigidbody existingBody)
