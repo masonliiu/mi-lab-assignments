@@ -12,6 +12,7 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private OVRInput.RawAxis1D holdRawAxis = OVRInput.RawAxis1D.LIndexTrigger;
     [SerializeField] private OVRInput.Controller leftController = OVRInput.Controller.LTouch;
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.55f;
+    [SerializeField] private bool preferHoveredMagnetizable = true;
 
     [Header("Floating Pull")]
     [SerializeField] private bool pullToControllerPosition = true;
@@ -26,11 +27,7 @@ public class MagnetController : MonoBehaviour
     private Rigidbody _lockedBody;
     private Quaternion _lockedRotation;
     private float _lockedMass;
-
-    private bool _originalUseGravity;
-    private bool _originalIsKinematic;
     private bool _originalDetectCollisions;
-    private RigidbodyConstraints _originalConstraints;
 
     void Update()
     {
@@ -88,9 +85,10 @@ public class MagnetController : MonoBehaviour
 
     private bool IsLeftIndexHeld()
     {
+        float threshold = Mathf.Max(0.55f, holdAxisThreshold);
         float axis = OVRInput.Get(holdAxis, leftController);
         float raw = OVRInput.Get(holdRawAxis);
-        return axis >= holdAxisThreshold || raw >= holdAxisThreshold;
+        return axis >= threshold || raw >= threshold;
     }
 
     private MagnetizableBody GetCurrentMagnetizableTarget()
@@ -100,20 +98,43 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
+        if (preferHoveredMagnetizable)
+        {
+            PointHandler[] hoveredHandlers = FindObjectsByType<PointHandler>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+            for (int i = 0; i < hoveredHandlers.Length; i++)
+            {
+                PointHandler ph = hoveredHandlers[i];
+                if (ph == null || !ph.IsHovered)
+                {
+                    continue;
+                }
+
+                MagnetizableBody hoveredMagnetizable = ph.GetComponentInParent<MagnetizableBody>();
+                if (hoveredMagnetizable != null)
+                {
+                    return hoveredMagnetizable;
+                }
+            }
+        }
+
         Ray ray = new Ray(rayOrigin.position, rayOrigin.forward);
-        if (!Physics.Raycast(ray, out RaycastHit hit, maxLockDistance, magnetizableMask, QueryTriggerInteraction.Ignore))
+        RaycastHit[] hits = Physics.RaycastAll(ray, maxLockDistance, magnetizableMask, QueryTriggerInteraction.Ignore);
+        if (hits == null || hits.Length == 0)
         {
             return null;
         }
 
-        // Hard gate: only explicitly magnetizable objects can be moved.
-        MagnetizableBody magnetizable = hit.transform.GetComponentInParent<MagnetizableBody>();
-        if (magnetizable == null)
+        System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+        for (int i = 0; i < hits.Length; i++)
         {
-            return null;
+            MagnetizableBody magnetizable = hits[i].transform.GetComponentInParent<MagnetizableBody>();
+            if (magnetizable != null)
+            {
+                return magnetizable;
+            }
         }
 
-        return magnetizable;
+        return null;
     }
 
     private void AcquireBody(MagnetizableBody magnetizable)
@@ -136,14 +157,10 @@ public class MagnetController : MonoBehaviour
 
         _lockedMagnetizable.OnMagnetGrabbed();
 
-        _originalUseGravity = _lockedBody.useGravity;
-        _originalIsKinematic = _lockedBody.isKinematic;
         _originalDetectCollisions = _lockedBody.detectCollisions;
-        _originalConstraints = _lockedBody.constraints;
 
         _lockedBody.useGravity = false;
         _lockedBody.isKinematic = true;
-        _lockedBody.constraints = RigidbodyConstraints.FreezeRotation;
         if (disableCollisionsWhileHeld)
         {
             _lockedBody.detectCollisions = false;
@@ -160,10 +177,7 @@ public class MagnetController : MonoBehaviour
             return;
         }
 
-        _lockedBody.useGravity = _originalUseGravity;
-        _lockedBody.isKinematic = _originalIsKinematic;
         _lockedBody.detectCollisions = _originalDetectCollisions;
-        _lockedBody.constraints = _originalConstraints;
 
         _lockedMagnetizable.OnMagnetReleased();
         _lockedMagnetizable = null;
