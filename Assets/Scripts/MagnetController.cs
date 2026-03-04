@@ -64,9 +64,15 @@ public class MagnetController : MonoBehaviour
         Vector3 target = rayOrigin.position;
         float speed = ComputePullSpeed(_lockedMass);
 
+        // Pull by world center-of-mass instead of pivot so motion is global and
+        // unaffected by flipped/local object orientation.
+        Vector3 currentCom = _lockedBody.worldCenterOfMass;
+        Vector3 nextCom = Vector3.MoveTowards(currentCom, target, speed * Time.fixedDeltaTime);
+        Vector3 delta = nextCom - currentCom;
+
         _lockedBody.linearVelocity = Vector3.zero;
         _lockedBody.angularVelocity = Vector3.zero;
-        _lockedBody.MovePosition(Vector3.MoveTowards(_lockedBody.position, target, speed * Time.fixedDeltaTime));
+        _lockedBody.MovePosition(_lockedBody.position + delta);
 
         Quaternion nextRotation = Quaternion.Slerp(
             _lockedBody.rotation,

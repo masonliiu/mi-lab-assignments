@@ -251,7 +251,7 @@ public class BLETransport : MonoBehaviour
         }
         catch (Exception)
         {
-            // Intentionally ignored.
+            //blank
         }
 
         _gattCallback ??= new BleGattCallback(this);
@@ -260,7 +260,6 @@ public class BLETransport : MonoBehaviour
 
     private void OnConnectionStateChanged(AndroidJavaObject gatt, int newState)
     {
-        // Android BluetoothProfile.STATE_CONNECTED == 2
         if (newState == 2 && gatt != null)
         {
             _gatt = gatt;
@@ -319,7 +318,6 @@ public class BLETransport : MonoBehaviour
             _owner = owner;
         }
 
-        // Signature: onScanResult(int callbackType, ScanResult result)
         void onScanResult(int callbackType, AndroidJavaObject result)
         {
             _owner?.OnScanResult(result);
@@ -335,13 +333,11 @@ public class BLETransport : MonoBehaviour
             _owner = owner;
         }
 
-        // Signature: onConnectionStateChange(BluetoothGatt gatt, int status, int newState)
         void onConnectionStateChange(AndroidJavaObject gatt, int status, int newState)
         {
             _owner?.OnConnectionStateChanged(gatt, newState);
         }
 
-        // Signature: onServicesDiscovered(BluetoothGatt gatt, int status)
         void onServicesDiscovered(AndroidJavaObject gatt, int status)
         {
             _owner?.OnServicesDiscovered(gatt);
