@@ -109,7 +109,7 @@ public class MagnetController : MonoBehaviour
                     continue;
                 }
 
-                MagnetizableBody hoveredMagnetizable = ph.GetComponentInParent<MagnetizableBody>();
+                MagnetizableBody hoveredMagnetizable = ResolveMagnetizableFromTransform(ph.transform);
                 if (hoveredMagnetizable != null)
                 {
                     return hoveredMagnetizable;
@@ -127,7 +127,7 @@ public class MagnetController : MonoBehaviour
         System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
         for (int i = 0; i < hits.Length; i++)
         {
-            MagnetizableBody magnetizable = hits[i].transform.GetComponentInParent<MagnetizableBody>();
+            MagnetizableBody magnetizable = ResolveMagnetizableFromTransform(hits[i].transform);
             if (magnetizable != null)
             {
                 return magnetizable;
@@ -135,6 +135,40 @@ public class MagnetController : MonoBehaviour
         }
 
         return null;
+    }
+
+    private MagnetizableBody ResolveMagnetizableFromTransform(Transform t)
+    {
+        if (t == null)
+        {
+            return null;
+        }
+
+        MagnetizableBody magnetizable = t.GetComponentInParent<MagnetizableBody>();
+        if (magnetizable != null)
+        {
+            return magnetizable;
+        }
+
+        // Safe fallback: only objects already marked as interactable can become magnet targets.
+        InteractableVR iv = t.GetComponentInParent<InteractableVR>();
+        if (iv == null)
+        {
+            return null;
+        }
+
+        Rigidbody rb = iv.GetComponent<Rigidbody>() ?? iv.GetComponentInParent<Rigidbody>();
+        if (rb == null)
+        {
+            return null;
+        }
+
+        magnetizable = rb.GetComponent<MagnetizableBody>();
+        if (magnetizable == null)
+        {
+            magnetizable = rb.gameObject.AddComponent<MagnetizableBody>();
+        }
+        return magnetizable;
     }
 
     private void AcquireBody(MagnetizableBody magnetizable)
