@@ -8,7 +8,9 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private float maxLockDistance = 8f;
     [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
+    [SerializeField] private OVRInput.Controller leftController = OVRInput.Controller.LTouch;
     [SerializeField] private OVRInput.RawButton holdRawButtonFallback = OVRInput.RawButton.LIndexTrigger;
+    [SerializeField] private OVRInput.Button holdButtonFallback = OVRInput.Button.PrimaryHandTrigger;
     [SerializeField] private bool preferHoveredInteractable = false;
 
     [Header("Floating Pull")]
@@ -30,9 +32,11 @@ public class MagnetController : MonoBehaviour
 
     void Update()
     {
-        bool heldByAxis = OVRInput.Get(holdAxis) >= holdAxisThreshold;
+        bool heldByAxis = OVRInput.Get(holdAxis, leftController) >= holdAxisThreshold
+            || OVRInput.Get(holdAxis, OVRInput.Controller.Active) >= holdAxisThreshold;
         bool heldByRawFallback = OVRInput.Get(holdRawButtonFallback);
-        bool held = heldByAxis || heldByRawFallback;
+        bool heldByButtonFallback = OVRInput.Get(holdButtonFallback);
+        bool held = heldByAxis || heldByRawFallback || heldByButtonFallback;
 
         if (!held)
         {
@@ -167,12 +171,6 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
-        PointHandler ph = hit.transform.GetComponentInParent<PointHandler>();
-        if (ph != null)
-        {
-            return ph.transform;
-        }
-
         InteractableVR iv = hit.transform.GetComponentInParent<InteractableVR>();
         if (iv != null)
         {
@@ -190,13 +188,31 @@ public class MagnetController : MonoBehaviour
             return hit.rigidbody.transform;
         }
 
+        Rigidbody parentBody = hit.transform.GetComponentInParent<Rigidbody>();
+        if (parentBody != null)
+        {
+            return parentBody.transform;
+        }
+
+        RayInteractable ri = hit.transform.GetComponentInParent<RayInteractable>();
+        if (ri != null)
+        {
+            return ri.transform;
+        }
+
+        PointHandler ph = hit.transform.GetComponentInParent<PointHandler>();
+        if (ph != null)
+        {
+            return ph.transform;
+        }
+
         return null;
     }
 
     private void AcquireBody(Transform targetTransform, Rigidbody existingBody)
     {
         _lockedTransform = targetTransform;
-        _lockedBody = existingBody ?? targetTransform.GetComponent<Rigidbody>();
+        _lockedBody = existingBody ?? targetTransform.GetComponent<Rigidbody>() ?? targetTransform.GetComponentInParent<Rigidbody>();
         _addedRuntimeBody = false;
 
         if (_lockedBody == null)
