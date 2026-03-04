@@ -4,6 +4,8 @@ public class MagnetController : MonoBehaviour
 {
     [Header("Controller / Target")]
     [SerializeField] private Transform rayOrigin;
+    [SerializeField] private Behaviour rightControllerRayInteractor;
+    [SerializeField] private bool disableRightRayWhileMagnetizing = true;
 
     [Header("Input (Left Index Trigger Only)")]
     [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
@@ -12,6 +14,8 @@ public class MagnetController : MonoBehaviour
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
 
     [Header("Floating Pull")]
+    [SerializeField, Min(0f)] private float stopDistanceFromController = 1f;
+    [SerializeField] private float targetHeightOffset = 0.25f;
     [SerializeField] private float basePullSpeed = 2.2f;
     [SerializeField] private float minPullSpeed = 0.5f;
     [SerializeField] private float massSlowdownFactor = 0.2f;
@@ -25,6 +29,8 @@ public class MagnetController : MonoBehaviour
     private bool _originalDetectCollisions;
     private bool _originalUseGravity;
     private bool _originalIsKinematic;
+    private bool _rightRayWasEnabled;
+    private bool _rightRaySuppressed;
 
     void Update()
     {
@@ -54,6 +60,11 @@ public class MagnetController : MonoBehaviour
         }
     }
 
+    void OnDisable()
+    {
+        ReleaseLockedBody();
+    }
+
     void FixedUpdate()
     {
         if (_lockedBody == null || _lockedMagnetizable == null || rayOrigin == null)
@@ -61,7 +72,10 @@ public class MagnetController : MonoBehaviour
             return;
         }
 
-        Vector3 target = rayOrigin.position;
+        // Keep object a little in front of the controller to avoid clipping into player capsule.
+        Vector3 target = rayOrigin.position
+                       + rayOrigin.forward * Mathf.Max(0f, stopDistanceFromController)
+                       + Vector3.up * targetHeightOffset;
         float speed = ComputePullSpeed(_lockedMass);
 
         // Pull by world center-of-mass instead of pivot so motion is global and
@@ -181,6 +195,7 @@ public class MagnetController : MonoBehaviour
         _originalIsKinematic = _lockedBody.isKinematic;
 
         _lockedMagnetizable.OnMagnetGrabbed();
+        SuppressRightRayIfNeeded();
 
         _lockedBody.useGravity = false;
         _lockedBody.isKinematic = false;
@@ -213,7 +228,31 @@ public class MagnetController : MonoBehaviour
 
         _lockedMagnetizable = null;
         _lockedBody = null;
+        RestoreRightRayIfNeeded();
         HapticsManager.Instance?.SetMagnetActive(false);
+    }
+
+    private void SuppressRightRayIfNeeded()
+    {
+        if (!disableRightRayWhileMagnetizing || rightControllerRayInteractor == null || _rightRaySuppressed)
+        {
+            return;
+        }
+
+        _rightRayWasEnabled = rightControllerRayInteractor.enabled;
+        rightControllerRayInteractor.enabled = false;
+        _rightRaySuppressed = true;
+    }
+
+    private void RestoreRightRayIfNeeded()
+    {
+        if (!_rightRaySuppressed || rightControllerRayInteractor == null)
+        {
+            return;
+        }
+
+        rightControllerRayInteractor.enabled = _rightRayWasEnabled;
+        _rightRaySuppressed = false;
     }
 
     private float ComputePullSpeed(float mass)
