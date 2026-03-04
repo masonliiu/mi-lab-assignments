@@ -70,6 +70,15 @@ public class SceneResetManager : MonoBehaviour
     public void ResetAll()
     {
         var handlersToToggle = new List<PointHandler>();
+        var allScenePointHandlers = FindObjectsByType<PointHandler>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        for (int i = 0; i < allScenePointHandlers.Length; i++)
+        {
+            var ph = allScenePointHandlers[i];
+            if (ph == null) continue;
+            ph.enabled = false; // OnDisable clears local hover state + outline.
+            handlersToToggle.Add(ph);
+        }
+
         for (int n = 0; n < _resettables.Count; n++)
         {
             var (transform, state) = _resettables[n];
@@ -105,16 +114,6 @@ public class SceneResetManager : MonoBehaviour
             if (iv != null)
                 iv.ResetToNoAction();
 
-            var pointHandlers = transform.GetComponentsInChildren<PointHandler>(true);
-            foreach (var ph in pointHandlers)
-            {
-                if (ph != null)
-                {
-                    ph.enabled = false; // triggers OnDisable -> clears hover + outline
-                    handlersToToggle.Add(ph);
-                }
-            }
-
             var rayInteractables = transform.GetComponentsInChildren<RayInteractable>(true);
             foreach (var ri in rayInteractables)
             {
@@ -123,12 +122,12 @@ public class SceneResetManager : MonoBehaviour
                 ri.enabled = false;
                 ri.enabled = wasEnabled;
             }
+        }
 
-            foreach (var ph in pointHandlers)
-            {
-                if (ph != null)
-                    ph.ForceClearHover();
-            }
+        for (int i = 0; i < handlersToToggle.Count; i++)
+        {
+            if (handlersToToggle[i] != null)
+                handlersToToggle[i].ForceClearHover();
         }
 
         VRMenuManager.Instance?.ResetToNoAction();

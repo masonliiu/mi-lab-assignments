@@ -8,6 +8,8 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private float maxLockDistance = 8f;
     [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
     [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
+    [SerializeField] private OVRInput.RawButton holdRawButtonFallback = OVRInput.RawButton.LIndexTrigger;
+    [SerializeField] private OVRInput.Button holdButtonFallback = OVRInput.Button.Three;
 
     [Header("Target Pull")]
     [SerializeField] private float targetDistanceFromRayOrigin = 1.5f;
@@ -24,7 +26,10 @@ public class MagnetController : MonoBehaviour
 
     void Update()
     {
-        bool held = OVRInput.Get(holdAxis) >= holdAxisThreshold;
+        bool heldByAxis = OVRInput.Get(holdAxis) >= holdAxisThreshold;
+        bool heldByRawFallback = OVRInput.Get(holdRawButtonFallback);
+        bool heldByButtonFallback = OVRInput.Get(holdButtonFallback);
+        bool held = heldByAxis || heldByRawFallback || heldByButtonFallback;
 
         if (!held)
         {
