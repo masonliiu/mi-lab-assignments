@@ -6,23 +6,25 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private Transform rayOrigin;
     [SerializeField] private LayerMask magnetizableMask = ~0;
     [SerializeField] private float maxLockDistance = 8f;
-    [SerializeField] private OVRInput.RawButton holdButton = OVRInput.RawButton.LIndexTrigger;
+    [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
+    [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
 
     [Header("Target Pull")]
     [SerializeField] private float targetDistanceFromRayOrigin = 1.5f;
-    [SerializeField] private float springForce = 30f;
-    [SerializeField] private float dampingForce = 8f;
-    [SerializeField] private float maxAcceleration = 50f;
+    [SerializeField] private float springForce = 4f;
+    [SerializeField] private float dampingForce = 3f;
+    [SerializeField] private float maxAcceleration = 6f;
 
     [Header("Load Mapping")]
     [SerializeField] private float expectedMaxMass = 5f;
     [SerializeField] private float expectedMaxAcceleration = 20f;
 
     private Rigidbody _lockedBody;
+    private MagnetizableBody _lockedMagnetizable;
 
     void Update()
     {
-        bool held = OVRInput.Get(holdButton);
+        bool held = OVRInput.Get(holdAxis) >= holdAxisThreshold;
 
         if (!held)
         {
@@ -30,9 +32,16 @@ public class MagnetController : MonoBehaviour
             return;
         }
 
-        if (_lockedBody == null)
+        Rigidbody currentHitBody = GetCurrentHitBody();
+
+        if (_lockedBody != null && currentHitBody != _lockedBody)
         {
-            TryAcquireBody();
+            ReleaseLockedBody();
+        }
+
+        if (_lockedBody == null && currentHitBody != null)
+        {
+            AcquireBody(currentHitBody);
         }
     }
 
@@ -59,26 +68,33 @@ public class MagnetController : MonoBehaviour
         HapticsManager.Instance?.SetMagnetActive(true, load);
     }
 
-    private void TryAcquireBody()
+    private Rigidbody GetCurrentHitBody()
     {
         if (rayOrigin == null)
         {
-            return;
+            return null;
         }
 
         Ray ray = new Ray(rayOrigin.position, rayOrigin.forward);
         if (!Physics.Raycast(ray, out RaycastHit hit, maxLockDistance, magnetizableMask, QueryTriggerInteraction.Ignore))
         {
-            return;
+            return null;
         }
 
         Rigidbody rb = hit.rigidbody;
         if (rb == null)
         {
-            return;
+            return null;
         }
 
+        return rb;
+    }
+
+    private void AcquireBody(Rigidbody rb)
+    {
         _lockedBody = rb;
+        _lockedMagnetizable = _lockedBody.GetComponent<MagnetizableBody>();
+        _lockedMagnetizable?.OnMagnetGrabbed();
         HapticsManager.Instance?.SetMagnetActive(true, 0.2f);
         HapticsManager.Instance?.TriggerMagnetBurst();
     }
@@ -91,6 +107,8 @@ public class MagnetController : MonoBehaviour
         }
 
         _lockedBody = null;
+        _lockedMagnetizable?.OnMagnetReleased();
+        _lockedMagnetizable = null;
         HapticsManager.Instance?.SetMagnetActive(false);
     }
 
@@ -101,4 +119,3 @@ public class MagnetController : MonoBehaviour
         return Mathf.Clamp01(accelT * (0.5f + 0.5f * massT));
     }
 }
-
