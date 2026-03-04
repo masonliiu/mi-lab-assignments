@@ -16,13 +16,17 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private float springForce = 4f;
     [SerializeField] private float dampingForce = 3f;
     [SerializeField] private float maxAcceleration = 6f;
+    [SerializeField] private float transformPullSpeed = 1.2f;
 
     [Header("Load Mapping")]
     [SerializeField] private float expectedMaxMass = 5f;
     [SerializeField] private float expectedMaxAcceleration = 20f;
 
     private Rigidbody _lockedBody;
+    private Transform _lockedTransform;
     private MagnetizableBody _lockedMagnetizable;
+    private bool _forcedDynamic;
+    private bool _forcedDynamicOriginalIsKinematic;
 
     void Update()
     {
@@ -37,22 +41,22 @@ public class MagnetController : MonoBehaviour
             return;
         }
 
-        Rigidbody currentHitBody = GetCurrentHitBody();
+        Transform currentHitTransform = GetCurrentHitTransform();
 
-        if (_lockedBody != null && currentHitBody != _lockedBody)
+        if (_lockedTransform != null && currentHitTransform != _lockedTransform)
         {
             ReleaseLockedBody();
         }
 
-        if (_lockedBody == null && currentHitBody != null)
+        if (_lockedTransform == null && currentHitTransform != null)
         {
-            AcquireBody(currentHitBody);
+            AcquireBody(currentHitTransform);
         }
     }
 
     void FixedUpdate()
     {
-        if (_lockedBody == null)
+        if (_lockedTransform == null)
         {
             return;
         }
@@ -64,16 +68,27 @@ public class MagnetController : MonoBehaviour
         }
 
         Vector3 target = rayOrigin.position + rayOrigin.forward * targetDistanceFromRayOrigin;
-        Vector3 toTarget = target - _lockedBody.worldCenterOfMass;
-        Vector3 acceleration = toTarget * springForce - _lockedBody.linearVelocity * dampingForce;
-        acceleration = Vector3.ClampMagnitude(acceleration, maxAcceleration);
-        _lockedBody.AddForce(acceleration, ForceMode.Acceleration);
+        if (_lockedBody != null && !_lockedBody.isKinematic)
+        {
+            Vector3 toTarget = target - _lockedBody.worldCenterOfMass;
+            Vector3 acceleration = toTarget * springForce - _lockedBody.linearVelocity * dampingForce;
+            acceleration = Vector3.ClampMagnitude(acceleration, maxAcceleration);
+            _lockedBody.AddForce(acceleration, ForceMode.Acceleration);
 
-        float load = ComputeLoad(_lockedBody, acceleration);
-        HapticsManager.Instance?.SetMagnetActive(true, load);
+            float load = ComputeLoad(_lockedBody, acceleration);
+            HapticsManager.Instance?.SetMagnetActive(true, load);
+            return;
+        }
+
+        // Fallback path for non-rigidbody or kinematic objects.
+        _lockedTransform.position = Vector3.MoveTowards(
+            _lockedTransform.position,
+            target,
+            transformPullSpeed * Time.fixedDeltaTime);
+        HapticsManager.Instance?.SetMagnetActive(true, 0.2f);
     }
 
-    private Rigidbody GetCurrentHitBody()
+    private Transform GetCurrentHitTransform()
     {
         if (rayOrigin == null)
         {
@@ -86,34 +101,44 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
-        Rigidbody rb = hit.rigidbody;
-        if (rb == null)
-        {
-            return null;
-        }
-
-        return rb;
+        return hit.transform;
     }
 
-    private void AcquireBody(Rigidbody rb)
+    private void AcquireBody(Transform hitTransform)
     {
-        _lockedBody = rb;
-        _lockedMagnetizable = _lockedBody.GetComponent<MagnetizableBody>();
+        _lockedTransform = hitTransform;
+        _lockedBody = hitTransform.GetComponent<Rigidbody>() ?? hitTransform.GetComponentInParent<Rigidbody>();
+        _lockedMagnetizable = _lockedBody != null ? _lockedBody.GetComponent<MagnetizableBody>() : null;
         _lockedMagnetizable?.OnMagnetGrabbed();
+
+        _forcedDynamic = false;
+        if (_lockedBody != null && _lockedMagnetizable == null && _lockedBody.isKinematic)
+        {
+            _forcedDynamicOriginalIsKinematic = true;
+            _lockedBody.isKinematic = false;
+            _forcedDynamic = true;
+        }
+
         HapticsManager.Instance?.SetMagnetActive(true, 0.2f);
         HapticsManager.Instance?.TriggerMagnetBurst();
     }
 
     private void ReleaseLockedBody()
     {
-        if (_lockedBody == null)
+        if (_lockedTransform == null)
         {
             return;
         }
 
-        _lockedBody = null;
         _lockedMagnetizable?.OnMagnetReleased();
         _lockedMagnetizable = null;
+        if (_forcedDynamic && _lockedBody != null)
+        {
+            _lockedBody.isKinematic = _forcedDynamicOriginalIsKinematic;
+        }
+        _forcedDynamic = false;
+        _lockedBody = null;
+        _lockedTransform = null;
         HapticsManager.Instance?.SetMagnetActive(false);
     }
 
