@@ -1,5 +1,4 @@
 using UnityEngine;
-using Oculus.Interaction;
 
 public class MagnetController : MonoBehaviour
 {
@@ -7,60 +6,57 @@ public class MagnetController : MonoBehaviour
     [SerializeField] private Transform rayOrigin;
     [SerializeField] private LayerMask magnetizableMask = ~0;
     [SerializeField] private float maxLockDistance = 8f;
+
+    [Header("Input (Left Index Trigger Only)")]
     [SerializeField] private OVRInput.Axis1D holdAxis = OVRInput.Axis1D.PrimaryIndexTrigger;
-    [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.25f;
+    [SerializeField] private OVRInput.RawAxis1D holdRawAxis = OVRInput.RawAxis1D.LIndexTrigger;
     [SerializeField] private OVRInput.Controller leftController = OVRInput.Controller.LTouch;
-    [SerializeField] private OVRInput.RawButton holdRawButtonFallback = OVRInput.RawButton.LIndexTrigger;
-    [SerializeField] private OVRInput.Button holdButtonFallback = OVRInput.Button.PrimaryHandTrigger;
-    [SerializeField] private bool preferHoveredInteractable = false;
+    [SerializeField, Range(0.01f, 1f)] private float holdAxisThreshold = 0.55f;
 
     [Header("Floating Pull")]
     [SerializeField] private bool pullToControllerPosition = true;
     [SerializeField] private float targetDistanceFromRayOrigin = 0.05f;
-    [SerializeField] private float basePullSpeed = 2.2f;
-    [SerializeField] private float minPullSpeed = 0.5f;
+    [SerializeField] private float basePullSpeed = 2.4f;
+    [SerializeField] private float minPullSpeed = 0.7f;
     [SerializeField] private float massSlowdownFactor = 0.2f;
-    [SerializeField] private float rotationStabilizeSpeed = 10f;
+    [SerializeField] private float rotationStabilizeSpeed = 12f;
+    [SerializeField] private bool disableCollisionsWhileHeld = true;
 
+    private MagnetizableBody _lockedMagnetizable;
     private Rigidbody _lockedBody;
-    private Transform _lockedTransform;
-    private bool _addedRuntimeBody;
-    private bool _originalUseGravity;
-    private bool _originalIsKinematic;
-    private RigidbodyConstraints _originalConstraints;
     private Quaternion _lockedRotation;
     private float _lockedMass;
 
+    private bool _originalUseGravity;
+    private bool _originalIsKinematic;
+    private bool _originalDetectCollisions;
+    private RigidbodyConstraints _originalConstraints;
+
     void Update()
     {
-        bool heldByAxis = OVRInput.Get(holdAxis, leftController) >= holdAxisThreshold
-            || OVRInput.Get(holdAxis, OVRInput.Controller.Active) >= holdAxisThreshold;
-        bool heldByRawFallback = OVRInput.Get(holdRawButtonFallback);
-        bool heldByButtonFallback = OVRInput.Get(holdButtonFallback);
-        bool held = heldByAxis || heldByRawFallback || heldByButtonFallback;
-
+        bool held = IsLeftIndexHeld();
         if (!held)
         {
             ReleaseLockedBody();
             return;
         }
 
-        Transform currentHitTransform = GetCurrentHitTransform(out Rigidbody hitBody);
+        MagnetizableBody currentTarget = GetCurrentMagnetizableTarget();
 
-        if (_lockedTransform != null && currentHitTransform != _lockedTransform)
+        if (_lockedMagnetizable != null && currentTarget != _lockedMagnetizable)
         {
             ReleaseLockedBody();
         }
 
-        if (_lockedTransform == null && currentHitTransform != null)
+        if (_lockedMagnetizable == null && currentTarget != null)
         {
-            AcquireBody(currentHitTransform, hitBody);
+            AcquireBody(currentTarget);
         }
     }
 
     void FixedUpdate()
     {
-        if (_lockedTransform == null)
+        if (_lockedBody == null || _lockedMagnetizable == null)
         {
             return;
         }
@@ -75,46 +71,30 @@ public class MagnetController : MonoBehaviour
             ? rayOrigin.position
             : rayOrigin.position + rayOrigin.forward * Mathf.Max(0f, targetDistanceFromRayOrigin);
 
-        if (_lockedBody != null)
-        {
-            float speed = ComputePullSpeed(_lockedMass);
-            Vector3 nextPos = Vector3.MoveTowards(_lockedBody.position, target, speed * Time.fixedDeltaTime);
-            _lockedBody.linearVelocity = Vector3.zero;
-            _lockedBody.angularVelocity = Vector3.zero;
-            _lockedBody.MovePosition(nextPos);
+        float speed = ComputePullSpeed(_lockedMass);
+        Vector3 nextPos = Vector3.MoveTowards(_lockedBody.position, target, speed * Time.fixedDeltaTime);
+        _lockedBody.linearVelocity = Vector3.zero;
+        _lockedBody.angularVelocity = Vector3.zero;
+        _lockedBody.MovePosition(nextPos);
 
-            Quaternion nextRot = Quaternion.Slerp(
-                _lockedBody.rotation,
-                _lockedRotation,
-                Mathf.Clamp01(rotationStabilizeSpeed * Time.fixedDeltaTime));
-            _lockedBody.MoveRotation(nextRot);
-        }
-        else
-        {
-            float speed = ComputePullSpeed(1f);
-            _lockedTransform.position = Vector3.MoveTowards(
-                _lockedTransform.position,
-                target,
-                speed * Time.fixedDeltaTime);
-        }
+        Quaternion nextRot = Quaternion.Slerp(
+            _lockedBody.rotation,
+            _lockedRotation,
+            Mathf.Clamp01(rotationStabilizeSpeed * Time.fixedDeltaTime));
+        _lockedBody.MoveRotation(nextRot);
 
         HapticsManager.Instance?.SetMagnetActive(true, 0.2f);
     }
 
-    private Transform GetCurrentHitTransform(out Rigidbody hitBody)
+    private bool IsLeftIndexHeld()
     {
-        hitBody = null;
+        float axis = OVRInput.Get(holdAxis, leftController);
+        float raw = OVRInput.Get(holdRawAxis);
+        return axis >= holdAxisThreshold || raw >= holdAxisThreshold;
+    }
 
-        if (preferHoveredInteractable)
-        {
-            Transform hovered = GetHoveredTarget();
-            if (hovered != null)
-            {
-                hitBody = hovered.GetComponent<Rigidbody>();
-                return hovered;
-            }
-        }
-
+    private MagnetizableBody GetCurrentMagnetizableTarget()
+    {
         if (rayOrigin == null)
         {
             return null;
@@ -126,112 +106,48 @@ public class MagnetController : MonoBehaviour
             return null;
         }
 
-        Transform target = ResolveTargetTransform(hit);
-        if (target == null)
-        {
-            return null;
-        }
-
-        hitBody = target.GetComponent<Rigidbody>();
-        return target;
-    }
-
-    private Transform GetHoveredTarget()
-    {
-        PointHandler[] handlers = FindObjectsByType<PointHandler>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
-        for (int i = 0; i < handlers.Length; i++)
-        {
-            PointHandler ph = handlers[i];
-            if (ph == null || !ph.IsHovered)
-            {
-                continue;
-            }
-
-            InteractableVR iv = ph.GetComponentInParent<InteractableVR>();
-            if (iv != null)
-            {
-                return iv.transform;
-            }
-
-            Rigidbody rb = ph.GetComponentInParent<Rigidbody>();
-            if (rb != null)
-            {
-                return rb.transform;
-            }
-
-            return ph.transform;
-        }
-
-        return null;
-    }
-
-    private Transform ResolveTargetTransform(RaycastHit hit)
-    {
-        if (hit.transform == null)
-        {
-            return null;
-        }
-
-        InteractableVR iv = hit.transform.GetComponentInParent<InteractableVR>();
-        if (iv != null)
-        {
-            return iv.transform;
-        }
-
+        // Hard gate: only explicitly magnetizable objects can be moved.
         MagnetizableBody magnetizable = hit.transform.GetComponentInParent<MagnetizableBody>();
-        if (magnetizable != null)
+        if (magnetizable == null)
         {
-            return magnetizable.transform;
+            return null;
         }
 
-        if (hit.rigidbody != null)
-        {
-            return hit.rigidbody.transform;
-        }
-
-        Rigidbody parentBody = hit.transform.GetComponentInParent<Rigidbody>();
-        if (parentBody != null)
-        {
-            return parentBody.transform;
-        }
-
-        RayInteractable ri = hit.transform.GetComponentInParent<RayInteractable>();
-        if (ri != null)
-        {
-            return ri.transform;
-        }
-
-        PointHandler ph = hit.transform.GetComponentInParent<PointHandler>();
-        if (ph != null)
-        {
-            return ph.transform;
-        }
-
-        return null;
+        return magnetizable;
     }
 
-    private void AcquireBody(Transform targetTransform, Rigidbody existingBody)
+    private void AcquireBody(MagnetizableBody magnetizable)
     {
-        _lockedTransform = targetTransform;
-        _lockedBody = existingBody ?? targetTransform.GetComponent<Rigidbody>() ?? targetTransform.GetComponentInParent<Rigidbody>();
-        _addedRuntimeBody = false;
-
-        if (_lockedBody == null)
+        if (magnetizable == null)
         {
-            _lockedBody = targetTransform.gameObject.AddComponent<Rigidbody>();
-            _lockedBody.mass = 1f;
-            _addedRuntimeBody = true;
+            return;
         }
+
+        Rigidbody rb = magnetizable.GetComponent<Rigidbody>();
+        if (rb == null)
+        {
+            return;
+        }
+
+        _lockedMagnetizable = magnetizable;
+        _lockedBody = rb;
+        _lockedMass = Mathf.Max(0.1f, _lockedBody.mass);
+        _lockedRotation = _lockedBody.rotation;
+
+        _lockedMagnetizable.OnMagnetGrabbed();
 
         _originalUseGravity = _lockedBody.useGravity;
         _originalIsKinematic = _lockedBody.isKinematic;
+        _originalDetectCollisions = _lockedBody.detectCollisions;
         _originalConstraints = _lockedBody.constraints;
-        _lockedMass = Mathf.Max(0.1f, _lockedBody.mass);
-        _lockedRotation = _lockedBody.rotation;
 
         _lockedBody.useGravity = false;
         _lockedBody.isKinematic = true;
         _lockedBody.constraints = RigidbodyConstraints.FreezeRotation;
+        if (disableCollisionsWhileHeld)
+        {
+            _lockedBody.detectCollisions = false;
+        }
 
         HapticsManager.Instance?.SetMagnetActive(true, 0.2f);
         HapticsManager.Instance?.TriggerMagnetBurst();
@@ -239,28 +155,19 @@ public class MagnetController : MonoBehaviour
 
     private void ReleaseLockedBody()
     {
-        if (_lockedTransform == null)
+        if (_lockedBody == null || _lockedMagnetizable == null)
         {
             return;
         }
 
-        if (_lockedBody != null)
-        {
-            if (_addedRuntimeBody)
-            {
-                Destroy(_lockedBody);
-            }
-            else
-            {
-                _lockedBody.useGravity = _originalUseGravity;
-                _lockedBody.isKinematic = _originalIsKinematic;
-                _lockedBody.constraints = _originalConstraints;
-            }
-        }
+        _lockedBody.useGravity = _originalUseGravity;
+        _lockedBody.isKinematic = _originalIsKinematic;
+        _lockedBody.detectCollisions = _originalDetectCollisions;
+        _lockedBody.constraints = _originalConstraints;
 
+        _lockedMagnetizable.OnMagnetReleased();
+        _lockedMagnetizable = null;
         _lockedBody = null;
-        _lockedTransform = null;
-        _addedRuntimeBody = false;
         HapticsManager.Instance?.SetMagnetActive(false);
     }
 
