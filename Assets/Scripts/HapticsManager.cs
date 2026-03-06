@@ -19,7 +19,7 @@ public class HapticsManager : MonoBehaviour
 
     [Header("Magnet Output")]
     [Range(0, 255)]
-    [SerializeField] private int magnetMinPwm = 30;
+    [SerializeField] private int magnetMinPwm = 8;
     [Range(0, 255)]
     [SerializeField] private int magnetMaxPwm = 180;
     [SerializeField] private float magnetPulseDepth = 0.15f;
@@ -63,6 +63,29 @@ public class HapticsManager : MonoBehaviour
         }
 
         Instance = this;
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
+    }
+
+    void OnDisable()
+    {
+        OutputPwm = 0;
+        _magnetActive = false;
+        _magnetLoad = 0f;
+        _proximityLevel = 0f;
+        _burstTimeRemaining = 0f;
+        _proximityPulseOn = false;
+        _proximityPulseTimer = 0f;
+        _phase = 0f;
+        State = HapticState.Idle;
+
+        BLETransport.Instance?.SendIntensity(0);
     }
 
     void Update()
@@ -193,22 +216,21 @@ public class HapticsManager : MonoBehaviour
     void SendToActuator(int pwm)
     {
         BLETransport transport = BLETransport.Instance;
-        int safePwm = transport != null && transport.IsConnected ? Mathf.Clamp(pwm, 0, 255) : 0;
+        int requestedPwm = Mathf.Clamp(pwm, 0, 255);
 
         float now = Time.unscaledTime;
         bool intervalElapsed = now - _lastSendTime >= minSendIntervalSeconds;
-        bool changedEnough = _lastSentPwm < 0 || Mathf.Abs(safePwm - _lastSentPwm) >= minPwmDeltaToSend;
-        bool forceZero = safePwm == 0 && _lastSentPwm != 0;
+        bool changedEnough = _lastSentPwm < 0 || Mathf.Abs(requestedPwm - _lastSentPwm) >= minPwmDeltaToSend;
+        bool forceZero = requestedPwm == 0 && _lastSentPwm != 0;
 
         if ((intervalElapsed && changedEnough) || forceZero)
         {
             if (transport != null)
             {
-                transport.SendIntensity(safePwm);
+                transport.SendIntensity(requestedPwm);
             }
-            _lastSentPwm = safePwm;
+            _lastSentPwm = requestedPwm;
             _lastSendTime = now;
         }
     }
 }
-

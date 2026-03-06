@@ -1,5 +1,4 @@
 using System;
-using System.Text;
 using UnityEngine;
 
 public class BLETransport : MonoBehaviour
@@ -17,22 +16,28 @@ public class BLETransport : MonoBehaviour
     [SerializeField] private float minWriteIntervalSeconds = 0.02f;
 
     public bool IsConnected { get; private set; }
+    public bool IsScanning { get; private set; }
+    public bool IsConnecting { get; private set; }
+    public bool PermissionsGranted => _permissionsGranted;
+    public int PendingPwm => _pendingPwm;
+    public int LastRequestedPwm { get; private set; }
+    public int LastWrittenPwm { get; private set; } = -1;
+    public string DebugLastEvent => _lastEvent;
+    public float DebugLastEventAgeSeconds => _lastEventTime < 0f ? -1f : Time.unscaledTime - _lastEventTime;
+    public string DebugLastError => _lastError;
 
     private float _nextRetryTime;
     private float _lastWriteTime;
+    private float _nextPermissionRequestTime;
     private int _pendingPwm = -1;
-    private int _lastWrittenPwm = -1;
+    private bool _permissionsGranted;
+    private string _lastEvent = "Init";
+    private float _lastEventTime = -1f;
+    private string _lastError = string.Empty;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
     private AndroidJavaObject _activity;
-    private AndroidJavaObject _adapter;
-    private AndroidJavaObject _scanner;
-    private AndroidJavaObject _gatt;
-    private AndroidJavaObject _writeCharacteristic;
-    private AndroidJavaObject _uuidClass;
-
-    private BleScanCallback _scanCallback;
-    private BleGattCallback _gattCallback;
+    private AndroidJavaClass _bridgeClass;
 #endif
 
     void Awake()
@@ -42,20 +47,38 @@ public class BLETransport : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
+        RecordEvent("Awake");
+#if !(UNITY_ANDROID && !UNITY_EDITOR)
+        _permissionsGranted = true;
+#endif
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
 
     void Start()
     {
         if (autoConnectOnStart)
         {
-            StartScanAndConnect();
+            _nextRetryTime = Time.unscaledTime;
+            RecordEvent("AutoConnectQueued");
         }
     }
 
     void Update()
     {
-        if (autoConnectOnStart && !IsConnected && Time.unscaledTime >= _nextRetryTime)
+#if UNITY_ANDROID && !UNITY_EDITOR
+        SyncBridgeState();
+#endif
+
+        if (autoConnectOnStart && !IsConnected && !IsScanning && !IsConnecting && Time.unscaledTime >= _nextRetryTime)
         {
             StartScanAndConnect();
             _nextRetryTime = Time.unscaledTime + retryScanIntervalSeconds;
@@ -80,20 +103,29 @@ public class BLETransport : MonoBehaviour
         try
         {
             EnsureAndroidReady();
-            if (_scanner == null)
+            if (_bridgeClass == null || IsConnected || IsScanning || IsConnecting)
             {
                 return;
             }
 
-            _scanCallback ??= new BleScanCallback(this);
-            _scanner.Call("startScan", _scanCallback);
+            bool started = _bridgeClass.CallStatic<bool>("startScan");
+            if (started)
+            {
+                RecordEvent("ScanRequested");
+                _lastError = string.Empty;
+            }
+
+            SyncBridgeState();
         }
         catch (Exception ex)
         {
+            _lastError = ex.Message;
+            RecordEvent("ScanStartFailed");
             Debug.LogWarning("BLE scan/connect start failed: " + ex.Message);
         }
 #else
         Debug.Log("BLETransport scan skipped (Editor/non-Android). Target=" + targetDeviceName + " Service=" + serviceUuid + " Char=" + characteristicUuid);
+        RecordEvent("ScanSkippedEditor");
 #endif
     }
 
@@ -102,65 +134,89 @@ public class BLETransport : MonoBehaviour
 #if UNITY_ANDROID && !UNITY_EDITOR
         try
         {
-            if (_gatt != null)
+            if (_bridgeClass != null)
             {
-                _gatt.Call("disconnect");
-                _gatt.Call("close");
+                _bridgeClass.CallStatic("disconnect");
             }
         }
         catch (Exception ex)
         {
+            _lastError = ex.Message;
             Debug.LogWarning("BLE disconnect failed: " + ex.Message);
         }
+
+        SyncBridgeState();
 #endif
+
         IsConnected = false;
-#if UNITY_ANDROID && !UNITY_EDITOR
-        _writeCharacteristic = null;
-        _gatt = null;
-#endif
+        IsScanning = false;
+        IsConnecting = false;
+        _pendingPwm = 0;
+        LastWrittenPwm = -1;
+        RecordEvent("Disconnected");
+    }
+
+    void OnDisable()
+    {
+        Disconnect();
     }
 
     public void SendIntensity(int pwm)
     {
-        _pendingPwm = Mathf.Clamp(pwm, 0, 255);
+        LastRequestedPwm = Mathf.Clamp(pwm, 0, 255);
+        _pendingPwm = LastRequestedPwm;
+
+        if (_pendingPwm > 0 && !IsConnected && !IsScanning && !IsConnecting && Time.unscaledTime >= _nextRetryTime)
+        {
+            StartScanAndConnect();
+            _nextRetryTime = Time.unscaledTime + retryScanIntervalSeconds;
+        }
     }
 
     private void WritePendingIfPossible()
     {
-        if (_pendingPwm == _lastWrittenPwm)
+        if (_pendingPwm == LastWrittenPwm)
         {
             _pendingPwm = -1;
             return;
         }
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-        if (!IsConnected || _gatt == null || _writeCharacteristic == null)
+        if (!IsConnected || _bridgeClass == null)
         {
             return;
         }
 
+        int toWrite = _pendingPwm;
+        _pendingPwm = -1;
+
         try
         {
-            int toWrite = _pendingPwm;
-            _pendingPwm = -1;
-
-            byte[] data = Encoding.ASCII.GetBytes(toWrite.ToString());
-            _writeCharacteristic.Call<bool>("setValue", data);
-            bool ok = _gatt.Call<bool>("writeCharacteristic", _writeCharacteristic);
-
+            bool ok = _bridgeClass.CallStatic<bool>("writePwm", toWrite);
             if (ok)
             {
-                _lastWrittenPwm = toWrite;
+                LastWrittenPwm = toWrite;
                 _lastWriteTime = Time.unscaledTime;
+                _lastError = string.Empty;
+                RecordEvent("Write:" + toWrite);
+            }
+            else
+            {
+                // Re-queue so we retry after connection settles.
+                _pendingPwm = toWrite;
+                SyncBridgeState();
             }
         }
         catch (Exception ex)
         {
+            _pendingPwm = toWrite;
+            _lastError = ex.Message;
+            RecordEvent("WriteFailed");
             Debug.LogWarning("BLE write failed: " + ex.Message);
             IsConnected = false;
         }
 #else
-        _lastWrittenPwm = _pendingPwm;
+        LastWrittenPwm = _pendingPwm;
         _pendingPwm = -1;
         _lastWriteTime = Time.unscaledTime;
 #endif
@@ -175,35 +231,26 @@ public class BLETransport : MonoBehaviour
             _activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
         }
 
-        RequestPermissions();
-
-        if (_adapter == null)
+        _permissionsGranted = HasRequiredPermissions();
+        if (!_permissionsGranted && Time.unscaledTime >= _nextPermissionRequestTime)
         {
-            AndroidJavaClass bluetoothAdapter = new AndroidJavaClass("android.bluetooth.BluetoothAdapter");
-            _adapter = bluetoothAdapter.CallStatic<AndroidJavaObject>("getDefaultAdapter");
+            RequestPermissions();
+            _nextPermissionRequestTime = Time.unscaledTime + 2f;
+            RecordEvent("RequestPerm");
         }
 
-        if (_adapter == null)
+        if (_bridgeClass == null)
         {
-            Debug.LogWarning("BLE adapter unavailable.");
-            return;
+            _bridgeClass = new AndroidJavaClass("com.milab.ble.BleBridge");
         }
 
-        if (!_adapter.Call<bool>("isEnabled"))
+        if (_bridgeClass != null && _activity != null)
         {
-            Debug.LogWarning("Bluetooth is disabled on device.");
-            return;
+            _bridgeClass.CallStatic("initialize", _activity);
+            _bridgeClass.CallStatic("setTarget", targetDeviceName, serviceUuid, characteristicUuid);
         }
 
-        if (_scanner == null)
-        {
-            _scanner = _adapter.Call<AndroidJavaObject>("getBluetoothLeScanner");
-        }
-
-        if (_uuidClass == null)
-        {
-            _uuidClass = new AndroidJavaClass("java.util.UUID");
-        }
+        SyncBridgeState();
     }
 
     private void RequestPermissions()
@@ -211,138 +258,78 @@ public class BLETransport : MonoBehaviour
         const string fineLocation = "android.permission.ACCESS_FINE_LOCATION";
         const string bleScan = "android.permission.BLUETOOTH_SCAN";
         const string bleConnect = "android.permission.BLUETOOTH_CONNECT";
+        int sdkInt = GetAndroidSdkInt();
 
-        if (!UnityEngine.Android.Permission.HasUserAuthorizedPermission(fineLocation))
+        if (sdkInt < 31 && !UnityEngine.Android.Permission.HasUserAuthorizedPermission(fineLocation))
         {
             UnityEngine.Android.Permission.RequestUserPermission(fineLocation);
         }
-        if (!UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleScan))
+        if (sdkInt >= 31 && !UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleScan))
         {
             UnityEngine.Android.Permission.RequestUserPermission(bleScan);
         }
-        if (!UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleConnect))
+        if (sdkInt >= 31 && !UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleConnect))
         {
             UnityEngine.Android.Permission.RequestUserPermission(bleConnect);
         }
     }
 
-    private void OnScanResult(AndroidJavaObject result)
+    private bool HasRequiredPermissions()
     {
-        if (result == null)
+        const string fineLocation = "android.permission.ACCESS_FINE_LOCATION";
+        const string bleScan = "android.permission.BLUETOOTH_SCAN";
+        const string bleConnect = "android.permission.BLUETOOTH_CONNECT";
+        int sdkInt = GetAndroidSdkInt();
+
+        if (sdkInt >= 31)
         {
-            return;
+            bool hasScan = UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleScan);
+            bool hasConnect = UnityEngine.Android.Permission.HasUserAuthorizedPermission(bleConnect);
+            return hasScan && hasConnect;
         }
 
-        AndroidJavaObject device = result.Call<AndroidJavaObject>("getDevice");
-        if (device == null)
-        {
-            return;
-        }
+        return UnityEngine.Android.Permission.HasUserAuthorizedPermission(fineLocation);
+    }
 
-        string name = device.Call<string>("getName");
-        if (!string.Equals(name, targetDeviceName, StringComparison.Ordinal))
+    private int GetAndroidSdkInt()
+    {
+        AndroidJavaClass versionClass = new AndroidJavaClass("android.os.Build$VERSION");
+        return versionClass.GetStatic<int>("SDK_INT");
+    }
+
+    private void SyncBridgeState()
+    {
+        if (_bridgeClass == null)
         {
             return;
         }
 
         try
         {
-            _scanner?.Call("stopScan", _scanCallback);
-        }
-        catch (Exception)
-        {
-            //blank
-        }
+            IsConnected = _bridgeClass.CallStatic<bool>("isConnected");
+            IsScanning = _bridgeClass.CallStatic<bool>("isScanning");
+            IsConnecting = _bridgeClass.CallStatic<bool>("isConnecting");
 
-        _gattCallback ??= new BleGattCallback(this);
-        _gatt = device.Call<AndroidJavaObject>("connectGatt", _activity, false, _gattCallback);
-    }
-
-    private void OnConnectionStateChanged(AndroidJavaObject gatt, int newState)
-    {
-        if (newState == 2 && gatt != null)
-        {
-            _gatt = gatt;
-            _gatt.Call<bool>("discoverServices");
-            return;
-        }
-
-        IsConnected = false;
-        _writeCharacteristic = null;
-        _gatt = null;
-    }
-
-    private void OnServicesDiscovered(AndroidJavaObject gatt)
-    {
-        if (gatt == null || _uuidClass == null)
-        {
-            return;
-        }
-
-        try
-        {
-            AndroidJavaObject serviceId = _uuidClass.CallStatic<AndroidJavaObject>("fromString", serviceUuid);
-            AndroidJavaObject charId = _uuidClass.CallStatic<AndroidJavaObject>("fromString", characteristicUuid);
-
-            AndroidJavaObject service = gatt.Call<AndroidJavaObject>("getService", serviceId);
-            if (service == null)
+            string eventText = _bridgeClass.CallStatic<string>("getLastEvent");
+            if (!string.IsNullOrWhiteSpace(eventText) && !string.Equals(eventText, _lastEvent, StringComparison.Ordinal))
             {
-                Debug.LogWarning("BLE service UUID not found: " + serviceUuid);
-                IsConnected = false;
-                return;
+                RecordEvent(eventText);
             }
 
-            _writeCharacteristic = service.Call<AndroidJavaObject>("getCharacteristic", charId);
-            if (_writeCharacteristic == null)
-            {
-                Debug.LogWarning("BLE characteristic UUID not found: " + characteristicUuid);
-                IsConnected = false;
-                return;
-            }
-
-            IsConnected = true;
+            string errorText = _bridgeClass.CallStatic<string>("getLastError");
+            _lastError = errorText ?? string.Empty;
         }
         catch (Exception ex)
         {
-            Debug.LogWarning("BLE service discovery failed: " + ex.Message);
-            IsConnected = false;
-        }
-    }
-
-    private class BleScanCallback : AndroidJavaProxy
-    {
-        private readonly BLETransport _owner;
-
-        public BleScanCallback(BLETransport owner) : base("android.bluetooth.le.ScanCallback")
-        {
-            _owner = owner;
-        }
-
-        void onScanResult(int callbackType, AndroidJavaObject result)
-        {
-            _owner?.OnScanResult(result);
-        }
-    }
-
-    private class BleGattCallback : AndroidJavaProxy
-    {
-        private readonly BLETransport _owner;
-
-        public BleGattCallback(BLETransport owner) : base("android.bluetooth.BluetoothGattCallback")
-        {
-            _owner = owner;
-        }
-
-        void onConnectionStateChange(AndroidJavaObject gatt, int status, int newState)
-        {
-            _owner?.OnConnectionStateChanged(gatt, newState);
-        }
-
-        void onServicesDiscovered(AndroidJavaObject gatt, int status)
-        {
-            _owner?.OnServicesDiscovered(gatt);
+            _lastError = ex.Message;
+            RecordEvent("BridgeSyncFailed");
         }
     }
 #endif
-}
 
+    private void RecordEvent(string message)
+    {
+        _lastEvent = string.IsNullOrWhiteSpace(message) ? "Event" : message;
+        _lastEventTime = Time.unscaledTime;
+    }
+}
